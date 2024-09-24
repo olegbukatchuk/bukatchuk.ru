@@ -1,4 +1,4 @@
-title: Researcher
+title: Oleg Bukatchuk
 url: "https://bukatchuk.com"
 baseurl: "/"
 
@@ -9,15 +9,15 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/olegbukatchuk"
-footer_text: "Page design by Ankit Sultana"
+footer_text: "Design by Oleg Bukatchuk"
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
+ - name: "Home"
+   link: "/"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
