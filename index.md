@@ -8,7 +8,7 @@ layout: default
 
 Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/olegbukatchuk)
 
 ## Research Interest
 
@@ -19,19 +19,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 1. F.Bar, J.Doe: Effects of having a placeholder of a name
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
-## Typography
+## Projects
 
-This is a [link](http://google.com). Something *italics* and something **bold**.
+This is a [my blog](http://bukatch.uk). 
+<!-- Something *italics* and something **bold**. -->
 
-Here is a table
 
-Year | Award | Category
+Start | Site | Description
 -----|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
+2024 | Mailer.bz | E-mail Marketing
+2024 | Uptime.bz | Uptime Monitoring & Status Pages
+2022 | Quickdate.io | Temporaly closed
+2021 | Freelance.im | Temporaly closed
 
-Here is a horizontal rule
+<!-- Here is a horizontal rule
 
 ---
 
@@ -42,4 +43,4 @@ Here is a blockquote
 ## References
 
 * Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+* John Doe: Associate Professor, Department of Computer Science, Ipsum -->
