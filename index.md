@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="olegbukatchuk.png">
 
-Hi! I am a Site Reabilityy Engineer & and technical lead on several high-load web projects.
+Hi! I am a Site Reability Engineer & and technical lead on several high-load web projects. I implement DevOps practices and the IaC approach in teams of different sizes and focus.
 
 You can find my source code on [GitHub](https://github.com/olegbukatchuk)
 
@@ -29,8 +29,10 @@ Start | Site | Description
 -----|-------|--------
 2024 | Mailer.bz | E-mail Marketing (coming soon...)
 2024 | Uptime.bz | Uptime Monitoring & Status Pages
-2022 | Quickdate.io | Temporaly closed
-2021 | Freelance.im | Temporaly closed
+2022 | Quickdate.io | Dating (Temporaly closed)
+2021 | Freelance.im | Freelance marketplace (Temporaly closed)
+2014 | Freshberries.ru | Online store (Closed)
+2008 | Clubtracks.net | Blog about electronic music (Closed)
 
 <!-- Here is a horizontal rule
 
