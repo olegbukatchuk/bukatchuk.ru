@@ -6,9 +6,9 @@ layout: default
 
 <img class="profile-picture" src="olegbukatchuk.png">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+Hi! I am a Site Reabelity Engineer & and technical lead on several high-load web projects.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/olegbukatchuk)
+You can find my source code on [GitHub](https://github.com/olegbukatchuk)
 
 ## Research Interest
 
@@ -27,7 +27,7 @@ This is a [my blog](http://bukatch.uk).
 
 Start | Site | Description
 -----|-------|--------
-2024 | Mailer.bz | E-mail Marketing
+2024 | Mailer.bz | E-mail Marketing (coming soon...)
 2024 | Uptime.bz | Uptime Monitoring & Status Pages
 2022 | Quickdate.io | Temporaly closed
 2021 | Freelance.im | Temporaly closed
