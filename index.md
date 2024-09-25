@@ -30,6 +30,7 @@ Start | Site | Description
 2024 | Mailer.bz | E-mail Marketing (coming soon...)
 2024 | Uptime.bz | Uptime Monitoring & Status Pages
 2022 | Quickdate.io | Dating (Temporaly closed)
+2021 | Yanabe.ru | Video calls (Temporaly closed)
 2021 | Freelance.im | Freelance marketplace (Temporaly closed)
 2014 | Freshberries.ru | Online store (Closed)
 2008 | Clubtracks.net | Blog about electronic music (Closed)
