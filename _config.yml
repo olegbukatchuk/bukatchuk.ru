@@ -7,8 +7,8 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/olegbukatchuk"
-footer_text: "Design by Oleg Bukatchuk"
+footer_url: "https://github.com/olegbukatchuk/bukatchuk.com"
+footer_text: "Hosted by Github Pages"
 
 sass:
     style: compressed
