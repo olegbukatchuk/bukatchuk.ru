@@ -41,10 +41,10 @@ params:
 
   author:
     name: Name
-    url: https://github.com/repo
+    url: https://github.com/bukatchuk.com
 
   home:
     heading: Your next
     headingSegment2: Theme
     description: Description
-    getStartedPath: /docs
+    getStartedPath: /
