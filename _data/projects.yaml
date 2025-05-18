@@ -1,12 +1,12 @@
 ---
-- name: Apollo Midnight theme
-  url: https://marketplace.visualstudio.com/items?itemName=apollographql.apollo-midnight-color-theme
-  role: Creator
-  timeframe: 2020
+- name: Uptime.bz
+  url: https://uptime.bz
+  role: Founder
+  timeframe: 2024
   summary: |
-    A VS Code theme based on the color palette of Apollo Studio's GraphQL Explorer in dark mode.
+    Uptime Monitoring & Status Pages. Easy & reliable monitoring solution.
   project_image: /img/projects/midnight-theme.png
-  downloads: "5,726"
+  users: "2,600+"
 
 - name: HospitalRun
   url: https://hospitalrun.io
