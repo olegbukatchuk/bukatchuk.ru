@@ -1,20 +1,40 @@
-<footer class="footer">
-  <div class="footer__copyright">
-    <div class="top">
-      <span>Designed &amp; Developed by</span>
+<footer class="page-footer overflow-hidden py4 mx2">
+  <section class="max-width-4 mx-auto clearfix center">
+    <nav class="site-nav text-rounded mb2 text-small">
+      {% if page.layout == "home" %}
+      {% else %}
+      <a class="inline-block mr2" href="/">Home</a>
+      {% endif %}
+      <a class="inline-block mr2" href="/#work">Work</a>
+      <a class="inline-block mr2" href="/#projects">Projects</a>
+      <a class="inline-block mr2" href="/process/">Process</a>
+      <a class="inline-block mr2" href="/principles/">Principles</a>
+      <a class="inline-block mr2" href="/about/">About</a>
+      <a class="inline-block" href="/writing/">Writing</a>
+    </nav>
+
+    {% include social-icons.html %}
+
+    <div class="text-small mt3">
+      <p class="mt0 mb2">
+        Content ©{{ site.time | date: "%Y" }} Joel Andrew Glovier. All rights reserved. <br>
+        Design and code (except graphics) are open source <a href="https://github.com/jglovier/jglovier.github.io" target="_blank">on GitHub</a>. Hosted on <a href="https://www.netlify.com/">Netlify</a>.
+      </p>
+
+      <p class="mt0 mb2">
+        See the <a href="https://github.com/jglovier/jglovier.github.io/pull/70" target="_blank">pull request</a> for the current design, or read the <a
+          href="/about#site-credits"
+          class="regular">credits</a>. <br>
+        Have feedback on this site? <a href="https://github.com/jglovier/jglovier.github.io/issues/new" target="_blank">Open an issue</a> (🙇). Or, <a href="https://github.com/jglovier/ama" target="_blank">AMA</a>!‍
+      </p>
+
+      <p class="my0">Older versions:  
+        <a href="https://2009.joelglovier.com/" target="_blank">2009</a> •
+        <a href="https://2011.joelglovier.com/" target="_blank">2011</a> •
+        <a href="https://2013.joelglovier.com/" target="_blank">2013</a> •
+         <a href="https://2015.joelglovier.com/" target="_blank">2015</a>
+      </p>
     </div>
-    <div class="bottom">
-      <span>Oleg Bukatchuk</span>
-      <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
-      <span>2025</span>
-    </div>
-  </div>
-  <div class="footer__links">
-    {% for link in site.social %}
-    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
-      <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
-    </a>
-    {% endfor %}
-  </div>
+
+  </section>
 </footer>

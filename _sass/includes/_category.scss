@@ -1,0 +1,23 @@
+/* @group Category Page Styles -------------------- */
+
+body.category {
+  .page-header {
+    h1 {
+      text-transform: capitalize;
+      font-size: 48px;
+    }
+  }
+}
+
+.categories {
+  .category-list {
+    column-count: 3;
+    column-gap: 24px;
+
+    li {
+      text-transform: capitalize;
+    }
+  }
+}
+
+/* @end Category Page Styles */

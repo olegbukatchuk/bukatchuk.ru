@@ -1,0 +1,269 @@
+// Home styles
+// -------------------------------------
+
+// intro
+.intro-copy {
+  &.intro-copy-container {
+    @media (min-width: 1030px) {
+      width: calc(100% - 512px)
+    }
+    @media (min-width: $mobile) and (max-width: 1030px) {
+      width: 460px;
+    }
+    @media (max-width: 960px) {
+      margin-top: 2rem;
+    }
+    @media (max-width: 900px) {
+      margin-top: 0;
+    }
+  }
+
+  .headline {
+    font-size: 52px;
+    line-height: 1.1;
+
+    @media (max-width: 920px) {
+      margin-top: 3rem;
+      font-size: 46px;
+    }
+    @media (max-width: 890px) {
+      margin-top: 2rem;
+    }
+    @media (max-width: 745px) {
+      font-size: 36px;
+    }
+    @media (max-width: $mobile) {
+      padding-top: 0;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.description {
+  &.primary {
+    max-width: 360px;
+    @media (max-width: $mobile) {
+      max-width: none;
+    }
+  }
+}
+
+.intro-illustration {
+  &.intro-illustration-container {
+    @media (min-width: 1030px) {
+      min-width: 512px;
+    }
+    @media (min-width: $mobile) and (max-width: 1030px) {
+      min-width: auto;
+      width: calc(100% - 460px)
+    }
+  }
+
+  @media (max-width: $mobile) {
+    text-align: center;
+  }
+}
+
+.intro-img-primary {
+  top: -30px;
+  @media (max-width: 920px) {
+    //top: 30px;
+  }
+  @media (max-width: 890px) {
+    //top: 50px;
+  }
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.intro-illustration-banner-sm {
+  @media (min-width: $mobile) {
+    display: none;
+  }
+}
+
+// what I do section
+
+.wid-graphic {
+  @media (max-width: $mobile) {
+    margin-left: 0;
+  }
+}
+
+.wid-content {
+  @media (min-width: $mobile) {
+    max-width: 342px;
+  }
+  @media (min-width: $mobile) and (max-width: 960px) {
+    float: right;
+  }
+}
+
+// how I work section
+
+@media (min-width: $mobile) and (max-width: 1020px) {
+  .pdc-section {
+    .col-4 {
+      width: 317px;
+    }
+    .col-8 {
+      width: calc(100% - 317px);
+    }
+  }
+}
+
+.pdc-content {
+  @media (min-width: $mobile) {
+    max-width: 342px;
+  }
+  @media (min-width: $mobile) and (max-width: 960px) {
+    float: left;
+  }
+}
+
+.pdc-graphic {
+  @media (max-width: 1020px) {
+    margin-right: 0;
+  }
+  @media (max-width: $mobile) {
+    float: none;
+    margin-top: 2rem;
+  }
+}
+
+// work
+
+.home-articles {
+  .employer-external-link {
+    stroke: currentColor;
+    height: 24px;
+    opacity: 0;
+    transition: $transition_value_default;
+  }
+  .work-title:hover {
+    .employer-external-link {
+      opacity: 1;
+      transition: $transition_value_default;
+    }
+  }
+  .dribbble-link {
+    .external-link-icon-svg {
+      height: 12px;
+      margin-bottom: -1px;
+      stroke: currentColor;
+      opacity: .7;
+    }
+  }
+}
+
+// quotes
+
+.quote-wrap.col {
+  float: right;
+
+  .quote {
+    max-width: 448px;
+    border-radius: $radius_lrg;
+  }
+
+  .quote-content {
+    font-size: 14px;
+  }
+
+  .text-sm-subtext {
+    font-size: 13px;
+  }
+}
+
+.quote-right {
+  margin-top: -6rem;
+
+  .quote { float: right; }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.quote-left {
+  margin-top: 6rem;
+
+  .quote { float: left; }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+// personal projects
+
+.projects-illustration {
+  margin-bottom: -8rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+    text-align: center;
+  }
+}
+
+.card-project-wrap.col {
+  float: right;
+}
+
+.card-project {
+  border-radius: 4px 4px $radius_lrg $radius_lrg;
+
+  .project-image {
+    border-radius: 0 0 4px 4px; // round the bottom edges of the images to match the top rounded corder of the cards
+    overflow: hidden; // necessary for the rounding to work on the parent level
+  }
+
+  .project-name {
+    font-size: 22px;
+    line-height: 1.1;
+    transition: $transition_value_default;
+  }
+
+  &:hover .project-name {
+    color: $secondary_color;
+    transition: $transition_value_default;
+  }
+
+  .default-shadow {
+    box-shadow: 0 0px 12px rgba($navy,.30);
+  }
+
+  .icon {
+    vertical-align: middle;
+  }
+
+  .card-project-integer {
+    margin-left: 2px;
+  }
+}
+
+.card-project-right {
+  margin-top: 10rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.card-project-left {
+  margin-top: -10rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+// media queries
+
+@media (max-width: $mobile) {
+  .intro-section {
+    margin-bottom: 0;
+  }
+}

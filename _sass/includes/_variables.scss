@@ -1,0 +1,63 @@
+// Variables --------------------
+
+$white:             #fff;
+$true_black:        #000;
+$blue:              #0099ff;
+$blue_d1:           #2a7ae2;
+$blue_l1:           #3fb2ff;
+$blue_l2:           #7fccff;
+$blue_l3:           #d3edff;
+$blue_l4:           #f3faff;
+$navy:              #004472;
+$gray_1:            #eee;
+$gray_2:            #c7c7c7;
+$gray_3:            #585858;
+$gray_4:            #333;
+$red:               #ff0000;
+$magenta:           #b400ff;
+$purple:            #7653c1;
+$purple_l:          #f3f2ff;
+$green:             #24ac00;
+$salmon:            #ff7e5e;
+$salmon:            #f05947;
+$light_blue:        #d7edfe;
+$dznrblue:          #0067ee;
+$deep_blue:         #28323f;
+$bg_navy:           #3f4956;
+$navy_drk:          #2c4059;
+$navy:              #506888;
+$litenavy_bg:       #F9FBFF;
+$litegray:          #eaf2fe;
+$gray:              #DAE3EF;
+$main_color:        $navy;
+$secondary_color:   $salmon;
+$bg_color:          $bg_navy;
+$black:             $navy_drk;
+$black_light:       rgba($black, .35);
+$text_color:        #4e688b;
+$border_color:      $gray;
+$heading_color:     $black;
+$pink:              #f9cbc7;
+$pink_light:        #fff1f2;
+$main_color_lite:   rgba($main_color, .1);
+$secondary_color_lite: rgba($secondary_color,0.2);
+$light_blue_text:   #7fb3e1;
+$light_blue_icons:  #d1dceb;
+$text_link_color:   $blue;
+$light_blue_bg:     #edf5fb;
+$device_color:      #dae3ef;
+$yellow:            #f6cd06;
+$light_yellow:      #fff8d7;
+$dark_yellow:       #FFBA4A;
+
+
+// Utility variables
+$color_border_lite: 1px solid rgba($secondary_color, .2);
+$color_border_gray: 1px solid $border_color;
+$neg_letter_spacing: -.04em;
+$radius_lrg: 16px;
+$transition_value_default: all .1s ease-in-out;
+
+// Media query vars
+
+$mobile:            860px;

@@ -1,0 +1,244 @@
+/* @group Layout Styles -------------------- */
+
+body {
+  .col {
+    @media (max-width: $mobile) {
+      width: 100%;
+      float: none;
+    }
+  }
+}
+
+.icon {
+  fill: currentColor;
+}
+
+.icon-link {
+  margin-right: 4px;
+
+  .icon {
+    color: $light_blue_icons;
+    transition: color .4s ease;
+
+    &:hover {
+      color: $salmon;
+    }
+  }
+}
+
+// Site nav
+
+.site-nav {
+  z-index: 2;
+
+  .my-name {
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: -1px;
+
+    @media (max-width: 580px) {
+      font-size: 22px;
+    }
+  }
+
+  .statement {
+    @include rounded;
+    font-size: 18px;
+
+    @media (max-width: 700px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 650px) {
+      display: none;
+    }
+  }
+
+  .site-title {
+    @media (max-width: 580px) {
+      line-height: 1.2;
+    }
+  }
+}
+
+.site-nav-menu {
+  @include border-radius(3px);
+  background: $white;
+  top: 12px;
+  right: 30px;
+
+  &:hover {
+    .links { display: block; }
+
+    .nav-trigger {
+      .menu-icon {
+        display: inline-block;
+      }
+    }
+
+  }
+
+  .nav-trigger {
+    @include border-radius(3px);
+    padding: 6px;
+    display: block;
+    text-align: right;
+    line-height: 1;
+
+    .menu-icon {
+      display: block;
+
+      path {
+        fill: rgba($text_color, 1);
+      }
+    }
+  }
+
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px 8px;
+    display: none;
+
+    li {
+      margin: 4px 0;
+
+      a { display: block; }
+    }
+
+    > li:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.page-home {
+  @media (min-width: $mobile) {
+    .site-nav-menu {
+      display: none;
+    }
+  }
+  @media (max-width: $mobile) {
+    .site-nav-for-intro {
+      display: none;
+    }
+    .site-nav-menu {
+      position: absolute;
+      top: 8px;
+      right: 0px;
+    }
+  }
+}
+
+// Page Header
+
+.page-header {
+  padding: 45px 0;
+
+  @media (max-width: $mobile) {
+    padding-bottom: 0;
+  }
+
+  .intro-copy {
+
+    h1 {
+      font-weight: 800;
+      letter-spacing: $neg_letter_spacing;
+      width: auto;
+      font-size: 60px;
+
+      @media (max-width: $mobile) {
+        font-size: 46px;
+      }
+
+      @media (max-width: 570px) {
+        font-size: 38px;
+      }
+    }
+
+    .subhead {
+      font-size: 24px;
+
+      @media (max-width: $mobile) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// Page Content
+
+.headline {
+  letter-spacing: -4px; // fallback for no negative subpixel rendering
+  letter-spacing: -.06em;
+  font-size: 30px;
+  line-height: 36px;
+
+  @media (max-width: $mobile) {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.section-heading {
+  font-size: 22px;
+  text-transform: uppercase;
+  position: relative;
+  color: $main_color;
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+  }
+
+  &::before {
+    content: " ";
+    display: block;
+    width: 140px;
+    position: absolute;
+    top: 14px;
+    left: -155px;
+    border-top: 4px solid $dark_yellow;
+
+    @media (max-width: 1140px) {
+      left: -145px;
+    }
+
+    @media (max-width: $mobile) {
+      top: 11px;
+    }
+  }
+}
+
+
+// Page Footer
+
+.page-footer {
+  margin-top: 160px;
+
+  @media (max-width: $mobile) {
+    margin-top: 0;
+  }
+}
+
+/* Utilities */
+
+.constrained {
+  max-width: 732px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section-heading {
+  h2 {
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: -2px;
+    @media (max-width: 450px) { font-size: 28px; }
+  }
+}
+
+/* @end Layout Styles */
