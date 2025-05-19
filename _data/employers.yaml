@@ -9,12 +9,12 @@
   image: /img/teaching-img-draft.png
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
-- name: X5
+- name: X5 Tech
   url: https://x5.tech/
   role: Senior DevOps Engineer
   timeframe: 2020 – 2021
   summary: |
-    Apollo makes tools for GraphQL developers. I led product design for developer tooling on Apollo Studio, a collaboration platform for graph maintainers and consumers.
+    Приводил в порядок и развивал кластерные базы данных для электронной коммерции и службы доставки.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
   has_case_studies: false
   image: /img/graphql-tooling-illustration.png
@@ -25,27 +25,27 @@
   role: Senior DevOps Engineer
   timeframe: 2019
   summary: |
-    In 2019 I took time away from my career work to focus on restoring balancing to my life, refueling my soul, face my mental health, and re-sync with the rhythm of my family.
+    Приводил в порядок и развивал инфраструктуру для ML/DWH.
   has_case_studies: false
   image: /img/sabbatical-img.png
-  image_alt: Illustration of a sign hanging on a wall that says AWAY
+  image_alt: Marketplace, Big Data
 
 - name: T1 Cloud
   url: https://t1-cloud.ru/
   role: Infrastructure Tech Lead
   timeframe: 2018
   summary: |
-    Netlify lets developers host static websites and hook them up to powerful backend functionality. I helped build it's growing design team, and did product and marketing design for key projects.
+    Строил команду и процессы на L2/L3 уровнях технической поддержки, а также Control Plane и Data Plane для публичного облака.
   has_case_studies: false
   image: /img/case-studies/case-study-netlify.png
-  image_alt: Product illustration for Netlify's core product concept
+  image_alt: Cloud, Compute
 
 - name: CIAN
   url: https://cian.ru/
   role: Senior DevOps Engineer
   timeframe: 2013 – 2018
   summary: |
-    I designed and built experiences for the millions of people who use GitHub every day, including <a href="https://github.blog/2016-12-07-introducing-review-requests/" target="_blank">Code Review Requests</a>, <a href="https://github.blog/2017-07-06-introducing-code-owners/" target="_blank">Code Owners</a>, <a href="https://github.blog/2017-03-06-restrict-review-dismissals-with-protected-branches/" target="_blank">Protected Branches</a>, the <a href="https://github.blog/2019-05-10-introducing-github-package-registry/" target="_blank">Package Registry</a>, and the <a href="https://github.blog/2018-05-07-introducing-checks-api/" target="_blank">Checks API</a>.
+    Внедрял облачный технологии (переносил весь проект с железа в облака). Приводил в порядок и развивал инфраструктуру для ML/DWH.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
   image_alt: workflow illustration of code review collaboration on GitHub
