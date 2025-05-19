@@ -1,12 +1,12 @@
 ---
-- name: DION
-  url: https://dion.vc/
-  role: Infrastructure Tech Lead
-  timeframe: 2022 – Present
+- name: Blum
+  url: https://blum.io/
+  role: Senior DevOps Engineer
+  timeframe: 
   summary: |
     Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group where we build features for for Okta Admins.
   has_case_studies: false
-  image: /img/sso-auth-illustration.png
+  image: /img/teaching-img-draft.png
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
 - name: X5
@@ -82,11 +82,11 @@
   has_case_studies: false
   image: /img/case-studies/case-study-curekids-banner.png
   image_alt: workflow illustration of code review collaboration on GitHub
-  articles_list:
-    - title: Designing a software platform for social impact
-      summary: Using social media integrations to personalize an online giving experience.
-      url: #
-      image: /img/case-studies/case-study-curekids-thumbnail.png
+  # articles_list:
+  #   - title: Designing a software platform for social impact
+  #     summary: Using social media integrations to personalize an online giving experience.
+  #     url: #
+  #     image: /img/case-studies/case-study-curekids-thumbnail.png
 
 - name: JAG Design Ideas
   role: Founder
