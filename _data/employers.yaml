@@ -1,7 +1,7 @@
 ---
-- name: Okta
-  url: https://www.okta.com/
-  role: Staff Product Designer
+- name: DION
+  url: https://dion.vc/
+  role: Infrastructure Tech Lead
   timeframe: 2022 – Present
   summary: |
     Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group where we build features for for Okta Admins.
@@ -9,9 +9,9 @@
   image: /img/sso-auth-illustration.png
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
-- name: Apollo GraphQL
-  url: https://www.apollographql.com/
-  role: Sr. Staff Product Designer
+- name: X5
+  url: https://x5.tech/
+  role: Senior DevOps Engineer
   timeframe: 2020 – 2021
   summary: |
     Apollo makes tools for GraphQL developers. I led product design for developer tooling on Apollo Studio, a collaboration platform for graph maintainers and consumers.
@@ -20,8 +20,9 @@
   image: /img/graphql-tooling-illustration.png
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
 
-- name: Sabbatical
-  role: Human
+- name: AliExpress
+  url: https://aliexpress.ru/
+  role: Senior DevOps Engineer
   timeframe: 2019
   summary: |
     In 2019 I took time away from my career work to focus on restoring balancing to my life, refueling my soul, face my mental health, and re-sync with the rhythm of my family.
@@ -29,8 +30,8 @@
   image: /img/sabbatical-img.png
   image_alt: Illustration of a sign hanging on a wall that says AWAY
 
-- name: Netlify
-  url: https://netlify.com
+- name: T1 Cloud
+  url: https://t1-cloud.ru/
   role: Head of Design
   timeframe: 2018
   summary: |
@@ -39,8 +40,8 @@
   image: /img/case-studies/case-study-netlify.png
   image_alt: Product illustration for Netlify's core product concept
 
-- name: GitHub
-  url: https://github.com/jglovier
+- name: CIAN
+  url: https://cian.ru/
   role: Product Design Lead
   timeframe: 2013 – 2018
   summary: |
