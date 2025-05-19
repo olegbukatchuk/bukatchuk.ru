@@ -32,7 +32,7 @@
 
 - name: T1 Cloud
   url: https://t1-cloud.ru/
-  role: Head of Design
+  role: Infrastructure Tech Lead
   timeframe: 2018
   summary: |
     Netlify lets developers host static websites and hook them up to powerful backend functionality. I helped build it's growing design team, and did product and marketing design for key projects.
@@ -42,7 +42,7 @@
 
 - name: CIAN
   url: https://cian.ru/
-  role: Product Design Lead
+  role: Senior DevOps Engineer
   timeframe: 2013 – 2018
   summary: |
     I designed and built experiences for the millions of people who use GitHub every day, including <a href="https://github.blog/2016-12-07-introducing-review-requests/" target="_blank">Code Review Requests</a>, <a href="https://github.blog/2017-07-06-introducing-code-owners/" target="_blank">Code Owners</a>, <a href="https://github.blog/2017-03-06-restrict-review-dismissals-with-protected-branches/" target="_blank">Protected Branches</a>, the <a href="https://github.blog/2019-05-10-introducing-github-package-registry/" target="_blank">Package Registry</a>, and the <a href="https://github.blog/2018-05-07-introducing-checks-api/" target="_blank">Checks API</a>.
@@ -56,8 +56,8 @@
       url: https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8
       image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
-- name: AppendTo
-  url: https://appendto.com/
+- name: Официальный сайт Мэра Москвы
+  url: https://mos.ru/
   role: Visual Design Engineer, Tech Lead
   timeframe: 2012 – 2013
   summary: |
@@ -82,11 +82,11 @@
   has_case_studies: false
   image: /img/case-studies/case-study-curekids-banner.png
   image_alt: workflow illustration of code review collaboration on GitHub
-#  articles_list:
-#    - title: Designing a software platform for social impact
-#      summary: Using social media integrations to personalize an online giving experience.
-#      url: #
-#      image: /img/case-studies/case-study-curekids-thumbnail.png
+  articles_list:
+    - title: Designing a software platform for social impact
+      summary: Using social media integrations to personalize an online giving experience.
+      url: #
+      image: /img/case-studies/case-study-curekids-thumbnail.png
 
 - name: JAG Design Ideas
   role: Founder
