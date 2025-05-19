@@ -1,7 +1,7 @@
 ---
 - name: Maya Koneval
   linkedinprofile: https://www.linkedin.com/in/mayakoneval/
-  image: /img/quotes/mayakoneval.jpg
+  image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Many times, Joel was able to take a functional existing view and upgrade it to a level I could not have envisioned. All of his work is extremely considered and well presented. In a growing company, Joel was able to establish patterns and principles for our design systems that we still rely on.”
@@ -9,7 +9,7 @@
 
 - name: Chang Wang
   linkedinprofile: https://www.linkedin.com/in/appify/
-  image: /img/quotes/cheapsteak.jpg
+  image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Joel is an incredibly talented designer. He's wowed us time and again with his ability to take a complex set of requirements and constraints and distill them into elegant designs. He's also technically proficient, able to comfortably jump into code to update React components and CSS where needed. As much as our toolings have improved, still nothing beats a trained eye and a skilled hand nudging the final elements into the right place.”
@@ -17,7 +17,7 @@
 
 - name: Tim Hingston
   linkedinprofile: https://www.linkedin.com/in/timhingston/
-  image: /img/quotes/timbotnik.jpg
+  image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Joel brings a rare blend of skills that have been hugely influential at Apollo. He was instrumental in the design of several very complex user experiences, as he took the team on a journey from concept to launch on some of our most popular features. He's also helped us level up our design system and has made a big impact on our ability to scale and collaborate across teams.”
@@ -25,7 +25,7 @@
 
 - name: Kathy Zheng
   linkedinprofile: https://www.linkedin.com/in/kathy-zheng-b1a85828/
-  image: /img/quotes/pifafu.jpg
+  image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     I would emphasize his particular thoughtfulness in producing a collaborative environment for peers to offer influence and feedback in his work. He has produced so much context around user problems that I still work off of, and the output of his time at GitHub will remain a great resource for many projects.”
