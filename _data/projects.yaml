@@ -1,7 +1,7 @@
 ---
 - name: Uptime.bz
   url: https://uptime.bz
-  # role: Founder
+  role: Monitoring as a Service
   timeframe: 2024
   summary: |
     Мониторинг для твоего веб-проекта. Есть бесплатный тариф!
@@ -10,7 +10,7 @@
 
 - name: Followers.vc
   url: https://followers.vc
-  # role: Founder
+  role: Social Network
   timeframe: 2024
   summary: |
     Социальная сеть и кошелёк.
@@ -22,20 +22,16 @@
 
 - name: Only.bz
   url: http://only.bz
-  # role: Founder
+  role: Something as a Service
   timeframe: 2025
-  summary: |
-    В разработке...
-  dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
+  summary: В разработке...
   project_image: /img/projects/love_your_code.jpg
 
 - name: Mailer.bz
   url: https://mailer.bz
-  # role: Founder
+  role: SMTP as a Service
   timeframe: 2025
   status: В разработке...
-  summary: |
-    A job board and job seeker site for connecting remote employees with new opportunities. Acquired by LiftUX, 2015.
   project_image: /img/projects/love_your_code.jpg
 
 # - name: Fizzy syntax theme
