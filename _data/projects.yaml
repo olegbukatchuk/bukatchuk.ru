@@ -20,6 +20,13 @@
   project_image: /img/projects/uptime_bz.png
   users: "2,600+"
 
+- name: Mailer.bz
+  url: https://mailer.bz
+  role: Почтовые рассылки
+  timeframe: 2025
+  status: В разработке...
+  project_image: /img/projects/love_your_code.jpg
+
 - name: Only.bz
   url: http://only.bz
   role: Something as a Service
@@ -27,12 +34,7 @@
   summary: В разработке...
   project_image: /img/projects/love_your_code.jpg
 
-- name: Mailer.bz
-  url: https://mailer.bz
-  role: Почтовые рассылки
-  timeframe: 2025
-  status: В разработке...
-  project_image: /img/projects/love_your_code.jpg
+
 
 # - name: Fizzy syntax theme
 #   url: https://atom.io/themes/fizzy
