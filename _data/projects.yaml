@@ -16,9 +16,9 @@
     Social Media Networks with personal wallet.
   dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
   project_image: /img/projects/followers_vc.png
-  stars: "6.8k"
-  forks: "2.2k"
-  contributors: "240"
+  # stars: "6.8k"
+  # forks: "2.2k"
+  # contributors: "240"
 
 - name: Only.bz
   url: http://only.bz
