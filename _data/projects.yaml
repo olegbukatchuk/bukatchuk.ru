@@ -25,18 +25,18 @@
   role: Founder
   timeframe: 2025
   summary: |
-    A line of t-shirts for developers started with the help of nearly 500 Kickstarter backers in 2013.
+    В разработке...
   dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
-  project_image: /olegbukatchuk.png
+  project_image: /img/projects/love_your_code.jpg
 
 - name: Mailer.bz
   url: https://mailer.bz
   role: Creator
   timeframe: 2025
-  status: Acquired by LiftUX in 2015
+  status: В разработке...
   summary: |
     A job board and job seeker site for connecting remote employees with new opportunities. Acquired by LiftUX, 2015.
-  project_image: /olegbukatchuk.png
+  project_image: /img/projects/love_your_code.jpg
 
 # - name: Fizzy syntax theme
 #   url: https://atom.io/themes/fizzy
