@@ -1,4 +1,16 @@
 ---
+- name: Followers.vc
+  url: https://followers.vc
+  role: Social Network
+  timeframe: 2025
+  summary: |
+    Социальная сеть и кошелёк.
+  # dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
+  project_image: /img/projects/followers_vc.png
+  # stars: "6.8k"
+  # forks: "2.2k"
+  # contributors: "240"
+
 - name: Uptime.bz
   url: https://uptime.bz
   role: Monitoring as a Service
@@ -7,18 +19,6 @@
     Мониторинг для твоего веб-проекта. Есть бесплатный тариф!
   project_image: /img/projects/uptime_bz.png
   users: "2,600+"
-
-- name: Followers.vc
-  url: https://followers.vc
-  role: Social Network
-  timeframe: 2024
-  summary: |
-    Социальная сеть и кошелёк.
-  # dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
-  project_image: /img/projects/followers_vc.png
-  # stars: "6.8k"
-  # forks: "2.2k"
-  # contributors: "240"
 
 - name: Only.bz
   url: http://only.bz
