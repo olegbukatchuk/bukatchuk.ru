@@ -1,20 +1,20 @@
 ---
 - name: Uptime.bz
   url: https://uptime.bz
-  role: Founder
+  # role: Founder
   timeframe: 2024
   summary: |
-    Uptime Monitoring & Status Pages. Easy & reliable monitoring solution.
+    Мониторинг для твоего веб-проекта. Есть бесплатный тариф!
   project_image: /img/projects/uptime_bz.png
   users: "2,600+"
 
 - name: Followers.vc
   url: https://followers.vc
-  role: Founder
+  # role: Founder
   timeframe: 2024
   summary: |
-    Social Media Networks with personal wallet.
-  dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
+    Социальная сеть и кошелёк.
+  # dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
   project_image: /img/projects/followers_vc.png
   # stars: "6.8k"
   # forks: "2.2k"
@@ -22,7 +22,7 @@
 
 - name: Only.bz
   url: http://only.bz
-  role: Founder
+  # role: Founder
   timeframe: 2025
   summary: |
     В разработке...
@@ -31,7 +31,7 @@
 
 - name: Mailer.bz
   url: https://mailer.bz
-  role: Creator
+  # role: Founder
   timeframe: 2025
   status: В разработке...
   summary: |
