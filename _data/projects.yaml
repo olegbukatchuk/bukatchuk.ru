@@ -9,11 +9,11 @@
   users: "2,600+"
 
 - name: Followers.vc
-  url: https://hospitalrun.io
-  role: Co-founder
-  timeframe: 2014 – 2019
+  url: https://followers.vc
+  role: Founder
+  timeframe: 2024
   summary: |
-    An open source, offline first EMR designed for hospitals in resource constrained locations using Ember.js, Couch, Pouch, and Node.
+    Social Media Networks with personal wallet.
   dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
   project_image: /olegbukatchuk.png
   stars: "6.8k"
@@ -21,18 +21,18 @@
   contributors: "240"
 
 - name: Only.bz
-  url: http://devtees.com
-  role: Creator
-  timeframe: 2012 – Present
+  url: http://only.bz
+  role: Founder
+  timeframe: 2025
   summary: |
     A line of t-shirts for developers started with the help of nearly 500 Kickstarter backers in 2013.
   dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
   project_image: /olegbukatchuk.png
 
 - name: Mailer.bz
-  url: http://remotejobs.io
+  url: https://mailer.bz
   role: Creator
-  timeframe: 2012-2015
+  timeframe: 2025
   status: Acquired by LiftUX in 2015
   summary: |
     A job board and job seeker site for connecting remote employees with new opportunities. Acquired by LiftUX, 2015.
