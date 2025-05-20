@@ -1,10 +1,10 @@
 ---
 - name: Followers.vc
   url: https://followers.vc
-  role: Social Network
+  role: Социальная сеть
   timeframe: 2025
   summary: |
-    Социальная сеть и кошелёк.
+    Социальная сеть а-ля Х и кошелёк.
   # dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
   project_image: /img/projects/followers_vc.png
   # stars: "6.8k"
@@ -13,7 +13,7 @@
 
 - name: Uptime.bz
   url: https://uptime.bz
-  role: Monitoring as a Service
+  role: Мониторинг сайтов
   timeframe: 2024
   summary: |
     Мониторинг для твоего веб-проекта. Есть бесплатный тариф!
@@ -29,7 +29,7 @@
 
 - name: Mailer.bz
   url: https://mailer.bz
-  role: SMTP as a Service
+  role: Почтовые рассылки
   timeframe: 2025
   status: В разработке...
   project_image: /img/projects/love_your_code.jpg
