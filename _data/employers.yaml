@@ -6,7 +6,7 @@
   summary: |
     Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group where we build features for for Okta Admins.
   has_case_studies: false
-  image: /img/teaching-img-draft.png
+  image: /img/project.jpg
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
 - name: X5 Tech
@@ -17,7 +17,7 @@
     Приводил в порядок и развивал кластерные базы данных для электронной коммерции и службы доставки.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
   has_case_studies: false
-  image: /img/graphql-tooling-illustration.png
+  image: /img/project.jpg
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
 
 - name: AliExpress
