@@ -1,54 +1,54 @@
 ---
-- name: Тема
+- name: Программирование
   url: https://bukatchuk.com/
-  role: Senior DevOps Engineer
+  role: "#php #c/c++ #bash"
   timeframe: 
   summary: |
-    Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group where we build features for for Okta Admins.
+     Linux
   has_case_studies: false
   image: /img/project.png
-  image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
+  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Тема
+- name: Музыка
   url: https://bukatchuk.com/
-  role: Senior DevOps Engineer
+  role: "#dj #vinyl"
   timeframe: 2020 – 2021
   summary: |
-    Приводил в порядок и развивал кластерные базы данных для электронной коммерции и службы доставки.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
   has_case_studies: false
   image: /img/project.png
-  image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
+  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Тема
+- name: Машины
   url: https://bukatchuk.com/
-  role: Senior DevOps Engineer
+  role: "#4x4 #coupe"
   timeframe: 2019
   summary: |
-    Приводил в порядок и развивал инфраструктуру для ML/DWH.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   has_case_studies: false
   image: /img/project.png
-  image_alt: Marketplace, Big Data
+  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Тема
+- name: Путешествия
   url: https://bukatchuk.com/
-  role: Infrastructure Tech Lead
+  role: "#1 #2"
   timeframe: 2018
   summary: |
-    Строил команду и процессы на L2/L3 уровнях технической поддержки, а также Control Plane и Data Plane для публичного облака.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   has_case_studies: false
   image: /img/project.png
-  image_alt: Cloud, Compute
+  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Тема
+- name: Спорт
   url: https://bukatchuk.com/
-  role: Senior DevOps Engineer
+  role: "#crossfit #run"
   timeframe: 2013 – 2018
   summary: |
-    Внедрял облачный технологии (переносил весь проект с железа в облака). Приводил в порядок и развивал инфраструктуру для ML/DWH.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   has_case_studies: false
   image: /img/project.png
-  image_alt: Cloud, Compute
+  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   # dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   # image: /img/project.png
   # image_alt: workflow illustration of code review collaboration on GitHub
