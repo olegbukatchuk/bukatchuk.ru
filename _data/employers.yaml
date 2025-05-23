@@ -17,7 +17,7 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
   has_case_studies: false
-  image: /img/music.png
+  image: /img/temp.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
 - name: Машины
@@ -27,7 +27,7 @@
   summary: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   has_case_studies: false
-  image: /img/project.png
+  image: /img/temp.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
 - name: Путешествия
@@ -37,7 +37,7 @@
   summary: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   has_case_studies: false
-  image: /img/project.png
+  image: /img/temp.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
 - name: Спорт
@@ -47,7 +47,7 @@
   summary: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   has_case_studies: false
-  image: /img/project.png
+  image: /img/temp.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   # dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   # image: /img/project.png
