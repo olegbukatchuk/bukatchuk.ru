@@ -6,7 +6,7 @@
   summary: |
      Linux
   has_case_studies: false
-  image: /img/project.png
+  image: /img/hello_world.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
 - name: Музыка
