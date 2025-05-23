@@ -46,15 +46,17 @@
   timeframe: 2013 – 2018
   summary: |
     Внедрял облачный технологии (переносил весь проект с железа в облака). Приводил в порядок и развивал инфраструктуру для ML/DWH.
-  dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   image: /img/project.png
-  image_alt: workflow illustration of code review collaboration on GitHub
-  articles_layout: l_1_up
-  articles_list:
-    - title: Improving code review on GitHub
-      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
-      url: https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8
-      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+  image_alt: Cloud, Compute
+  # dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
+  # image: /img/project.png
+  # image_alt: workflow illustration of code review collaboration on GitHub
+  # articles_layout: l_1_up
+  # articles_list:
+  #   - title: Improving code review on GitHub
+  #     summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
+  #     url: https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8
+  #     image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
 - name: Официальный сайт Мэра Москвы
   url: https://mos.ru/
@@ -62,13 +64,15 @@
   timeframe: 2012 – 2013
   summary: |
     I was a front-end developer focused on implementing designs for client projects such as <a href="/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/" target="_blank">the responsive redesign of TIME.com</a>, <a href="http://www.bloomberg.com/">Bloomberg.com</a>, and others.
-  dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
-  articles_layout: l_1_up
-  articles_list:
-    - title: Implementing the responsive redesign of Time.com
-      summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
-      url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
-      image: /img/project.png
+  image: /img/project.png
+  image_alt: Cloud, Compute
+  # dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
+  # articles_layout: l_1_up
+  # articles_list:
+  #   - title: Implementing the responsive redesign of Time.com
+  #     summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
+  #     url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
+  #     image: /img/project.png
 
 # - name: CURE International
 #   url: https://cure.org/
