@@ -1,6 +1,6 @@
 ---
-- name: Blum
-  url: https://blum.io/
+- name: Тема
+  url: https://bukatchuk.com/
   role: Senior DevOps Engineer
   timeframe: 
   summary: |
@@ -9,8 +9,8 @@
   image: /img/current.jpg
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
-- name: X5 Tech
-  url: https://x5.tech/
+- name: Тема
+  url: https://bukatchuk.com/
   role: Senior DevOps Engineer
   timeframe: 2020 – 2021
   summary: |
@@ -20,8 +20,8 @@
   image: /img/project.png
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
 
-- name: AliExpress
-  url: https://aliexpress.ru/
+- name: Тема
+  url: https://bukatchuk.com/
   role: Senior DevOps Engineer
   timeframe: 2019
   summary: |
@@ -30,8 +30,8 @@
   image: /img/project.png
   image_alt: Marketplace, Big Data
 
-- name: T1 Cloud
-  url: https://t1-cloud.ru/
+- name: Тема
+  url: https://bukatchuk.com/
   role: Infrastructure Tech Lead
   timeframe: 2018
   summary: |
@@ -40,8 +40,8 @@
   image: /img/project.png
   image_alt: Cloud, Compute
 
-- name: CIAN
-  url: https://cian.ru/
+- name: Тема
+  url: https://bukatchuk.com/
   role: Senior DevOps Engineer
   timeframe: 2013 – 2018
   summary: |
@@ -59,8 +59,8 @@
   #     url: https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8
   #     image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
-- name: Официальный сайт Мэра Москвы
-  url: https://mos.ru/
+- name: Тема
+  url: https://bukatchuk.com/
   role: Visual Design Engineer, Tech Lead
   timeframe: 2012 – 2013
   summary: |
