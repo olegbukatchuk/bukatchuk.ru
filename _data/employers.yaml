@@ -6,7 +6,7 @@
   summary: |
     Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group where we build features for for Okta Admins.
   has_case_studies: false
-  image: /img/project.png
+  image: /img/current.jpg
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
 - name: X5 Tech
