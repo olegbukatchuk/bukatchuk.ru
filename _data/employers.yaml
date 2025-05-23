@@ -46,6 +46,7 @@
   timeframe: 2013 – 2018
   summary: |
     Внедрял облачный технологии (переносил весь проект с железа в облака). Приводил в порядок и развивал инфраструктуру для ML/DWH.
+  has_case_studies: false
   image: /img/project.png
   image_alt: Cloud, Compute
   # dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
@@ -64,6 +65,7 @@
   timeframe: 2012 – 2013
   summary: |
     I was a front-end developer focused on implementing designs for client projects such as <a href="/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/" target="_blank">the responsive redesign of TIME.com</a>, <a href="http://www.bloomberg.com/">Bloomberg.com</a>, and others.
+  has_case_studies: false
   image: /img/project.png
   image_alt: Cloud, Compute
   # dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
