@@ -6,7 +6,7 @@
   summary: |
     Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group where we build features for for Okta Admins.
   has_case_studies: false
-  image: /img/project.jpg
+  image: /img/project.png
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
 - name: X5 Tech
@@ -17,7 +17,7 @@
     Приводил в порядок и развивал кластерные базы данных для электронной коммерции и службы доставки.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
   has_case_studies: false
-  image: /img/project.jpg
+  image: /img/project.png
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
 
 - name: AliExpress
@@ -27,7 +27,7 @@
   summary: |
     Приводил в порядок и развивал инфраструктуру для ML/DWH.
   has_case_studies: false
-  image: /img/sabbatical-img.png
+  image: /img/project.png
   image_alt: Marketplace, Big Data
 
 - name: T1 Cloud
@@ -37,7 +37,7 @@
   summary: |
     Строил команду и процессы на L2/L3 уровнях технической поддержки, а также Control Plane и Data Plane для публичного облака.
   has_case_studies: false
-  image: /img/case-studies/case-study-netlify.png
+  image: /img/project.png
   image_alt: Cloud, Compute
 
 - name: CIAN
@@ -47,7 +47,7 @@
   summary: |
     Внедрял облачный технологии (переносил весь проект с железа в облака). Приводил в порядок и развивал инфраструктуру для ML/DWH.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
-  image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+  image: /img/project.png
   image_alt: workflow illustration of code review collaboration on GitHub
   articles_layout: l_1_up
   articles_list:
@@ -68,43 +68,43 @@
     - title: Implementing the responsive redesign of Time.com
       summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
       url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
-      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
+      image: /img/project.png
 
-- name: CURE International
-  url: https://cure.org/
-  role: Principal Designer
-  timeframe: 2011 – 2012
-  role_2: Web & Graphic Designer
-  timeframe_2: 2009 – 2011
-  summary: |
-    Responsible for design across all mediums including print, web, UX, and brand for a global network of charitable hospitals.
-  dribbble: https://dribbble.com/jag/projects/560305-CURE-International-work
-  has_case_studies: false
-  image: /img/case-studies/case-study-curekids-banner.png
-  image_alt: workflow illustration of code review collaboration on GitHub
-  # articles_list:
-  #   - title: Designing a software platform for social impact
-  #     summary: Using social media integrations to personalize an online giving experience.
-  #     url: #
-  #     image: /img/case-studies/case-study-curekids-thumbnail.png
+# - name: CURE International
+#   url: https://cure.org/
+#   role: Principal Designer
+#   timeframe: 2011 – 2012
+#   role_2: Web & Graphic Designer
+#   timeframe_2: 2009 – 2011
+#   summary: |
+#     Responsible for design across all mediums including print, web, UX, and brand for a global network of charitable hospitals.
+#   dribbble: https://dribbble.com/jag/projects/560305-CURE-International-work
+#   has_case_studies: false
+#   image: /img/project.png
+#   image_alt: workflow illustration of code review collaboration on GitHub
+#   # articles_list:
+#   #   - title: Designing a software platform for social impact
+#   #     summary: Using social media integrations to personalize an online giving experience.
+#   #     url: #
+#   #     image: /img/case-studies/case-study-curekids-thumbnail.png
 
-- name: JAG Design Ideas
-  role: Founder
-  timeframe: 2004 – 2016
-  summary: |
-    Provided contract design and development services for NGOs, startups, and agencies.
-  dribbble: https://dribbble.com/jag/projects
-  learned: #
-  has_case_studies: false
-  image: /img/freelance-client-logos.png
-  image_alt: My clients have included organizations such as StackOverflow, AndCulture, CURE International, Spreadshirt, Papertrail, and many more.
+# - name: JAG Design Ideas
+#   role: Founder
+#   timeframe: 2004 – 2016
+#   summary: |
+#     Provided contract design and development services for NGOs, startups, and agencies.
+#   dribbble: https://dribbble.com/jag/projects
+#   learned: #
+#   has_case_studies: false
+#   image: /img/freelance-client-logos.png
+#   image_alt: My clients have included organizations such as StackOverflow, AndCulture, CURE International, Spreadshirt, Papertrail, and many more.
 
-- name: HACC
-  url: https://www.hacc.edu/
-  role: Adjunct Professor
-  timeframe: 2008-2012
-  summary: |
-    Taught non-credit technology courses to continuing education students, including Intro to Web Development, Photoshop, Illustrator, Computer Basics, and Digital Photography.
-  has_case_studies: false
-  image: /img/teaching-img-draft.png
-  image_alt: Illustration of a book and an apple.
+# - name: HACC
+#   url: https://www.hacc.edu/
+#   role: Adjunct Professor
+#   timeframe: 2008-2012
+#   summary: |
+#     Taught non-credit technology courses to continuing education students, including Intro to Web Development, Photoshop, Illustrator, Computer Basics, and Digital Photography.
+#   has_case_studies: false
+#   image: /img/teaching-img-draft.png
+#   image_alt: Illustration of a book and an apple.
