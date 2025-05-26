@@ -1,18 +1,18 @@
 ---
 - name: Программирование
-  url: https://bukatchuk.com/
-  role: "#php #c/c++ #bash"
-  timeframe: 
+  url: https://bukatchuk.com/it
+  role: frontend, backend, os, db, cache, networks
+  timeframe: опыт более 16 лет
   summary: |
-     Linux
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros
   has_case_studies: false
   image: /img/hello_world.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
 - name: Музыка
   url: https://bukatchuk.com/
-  role: "#dj #vinyl"
-  timeframe: 2020 – 2021
+  role: dj, beatmaker
+  timeframe: опыт более 7 лет
   summary: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
