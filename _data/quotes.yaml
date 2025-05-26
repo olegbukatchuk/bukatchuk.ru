@@ -5,43 +5,45 @@
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
      <h3>Умею наводить порядок там, где его никогда не было...</h3>
-  title: ...кайфую от красивой архитектуры ит систем
-
+  title: ...кайфую от красивой архитектуры ит-систем
+  
 - name: Олег Букатчук
-  linkedinprofile: https://www.linkedin.com/in/appify/
+  linkedinprofile: https://www.linkedin.com/in/olegbukatchuk/
   image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
+     <h3>Умею наводить порядок там, где его никогда не было...</h3>
+  title: ...кайфую от красивой архитектуры ит-систем
 
-- name: Олег Букатчук
-  linkedinprofile: https://www.linkedin.com/in/timhingston/
-  image: /olegbukatchuk.png
-  url: https://www.linkedin.com/in/jglovier/details/recommendations/
-  quote: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
-  title: 
 
-- name: Олег Букатчук
-  linkedinprofile: https://www.linkedin.com/in/kathy-zheng-b1a85828/
-  image: /olegbukatchuk.png
-  url: https://www.linkedin.com/in/jglovier/details/recommendations/
-  quote: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
-  title: 
+# - name: Олег Букатчук
+#   linkedinprofile: https://www.linkedin.com/in/timhingston/
+#   image: /olegbukatchuk.png
+#   url: https://www.linkedin.com/in/jglovier/details/recommendations/
+#   quote: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
+#   title: 
 
-- name: Олег Букатчук
-  linkedinprofile: https://www.linkedin.com/in/elizabethn/
-  image: /olegbukatchuk.png
-  url: https://www.linkedin.com/in/jglovier/details/recommendations/
-  quote: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
-  title: 
+# - name: Олег Букатчук
+#   linkedinprofile: https://www.linkedin.com/in/kathy-zheng-b1a85828/
+#   image: /olegbukatchuk.png
+#   url: https://www.linkedin.com/in/jglovier/details/recommendations/
+#   quote: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
+#   title: 
 
-- name: Олег Букатчук
-  linkedinprofile: https://www.linkedin.com/in/cameronmcefee/
-  image: /olegbukatchuk.png
-  url: https://www.linkedin.com/in/jglovier/details/recommendations/
-  quote: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
-  title: 
+# - name: Олег Букатчук
+#   linkedinprofile: https://www.linkedin.com/in/elizabethn/
+#   image: /olegbukatchuk.png
+#   url: https://www.linkedin.com/in/jglovier/details/recommendations/
+#   quote: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
+#   title: 
+
+# - name: Олег Букатчук
+#   linkedinprofile: https://www.linkedin.com/in/cameronmcefee/
+#   image: /olegbukatchuk.png
+#   url: https://www.linkedin.com/in/jglovier/details/recommendations/
+#   quote: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
+#   title: 
