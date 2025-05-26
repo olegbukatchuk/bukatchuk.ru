@@ -2,7 +2,7 @@
 - name: 
   linkedinprofile: https://www.linkedin.com/in/olegbukatchuk/
   image: /olegbukatchuk.png
-  url: https://www.linkedin.com/in/jglovier/details/recommendations/
+  url: https://bukatchuk.com/
   quote: |
      <h3>Мне, 41</h3>
   title: <h4>Кайфую от себя и мира вокруг</h4>
@@ -10,19 +10,19 @@
 - name: 
   linkedinprofile: https://www.linkedin.com/in/olegbukatchuk/
   image: /olegbukatchuk.png
-  url: https://www.linkedin.com/in/jglovier/details/recommendations/
+  url: https://bukatchuk.com/
   quote: |
      <h3>Умею наводить порядок там, где его никогда не было.</h3>
   title: <h4>Кайфую от красивой архитектуры ит-систем</h4>
 
 
-# - name: Олег Букатчук
-#   linkedinprofile: https://www.linkedin.com/in/timhingston/
-#   image: /olegbukatchuk.png
-#   url: https://www.linkedin.com/in/jglovier/details/recommendations/
-#   quote: |
-#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
-#   title: 
+- name: 
+  linkedinprofile: https://www.linkedin.com/in/timhingston/
+  image: /olegbukatchuk.png
+  url: https://bukatchuk.com/
+  quote: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros. Fusce eu turpis nec libero congue convallis. Suspendisse sodales ultricies metus, at accumsan lectus. Mauris tristique neque vitae pretium maximus. Nullam hendrerit nunc non nunc pulvinar efficitur ac.
+  title: 
 
 # - name: Олег Букатчук
 #   linkedinprofile: https://www.linkedin.com/in/kathy-zheng-b1a85828/
