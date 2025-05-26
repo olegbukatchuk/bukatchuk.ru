@@ -1,12 +1,13 @@
 ---
-- name: <h3>Умею наводить порядок там, где его никогда не было...</h3>
+- name: 
   linkedinprofile: https://www.linkedin.com/in/olegbukatchuk/
   image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
-  # quote: |
+  quote: |
+     <h3>Умею наводить порядок там, где его никогда не было...</h3>
   title: ...кайфую от красивой архитектуры ит-систем
-
-- name: Олег Букатчук
+  
+- name: 
   linkedinprofile: https://www.linkedin.com/in/olegbukatchuk/
   image: /olegbukatchuk.png
   url: https://www.linkedin.com/in/jglovier/details/recommendations/
