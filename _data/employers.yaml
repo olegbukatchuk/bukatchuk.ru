@@ -17,38 +17,38 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   dribbble: https://dribbble.com/jag/projects/5494386-Apollo-GraphQL
   has_case_studies: false
-  image: /img/temp.png
+  image: /img/music.png
   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Машины
-  url: https://bukatchuk.com/
-  role: "#4x4 #coupe"
-  timeframe: 2019
-  summary: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
-  has_case_studies: false
-  image: /img/temp.png
-  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
+# - name: Машины
+#   url: https://bukatchuk.com/
+#   role: "#4x4 #coupe"
+#   timeframe: 2019
+#   summary: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
+#   has_case_studies: false
+#   image: /img/temp.png
+#   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Путешествия
-  url: https://bukatchuk.com/
-  role: "#1 #2"
-  timeframe: 2018
-  summary: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
-  has_case_studies: false
-  image: /img/temp.png
-  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
+# - name: Путешествия
+#   url: https://bukatchuk.com/
+#   role: "#1 #2"
+#   timeframe: 2018
+#   summary: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
+#   has_case_studies: false
+#   image: /img/temp.png
+#   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
 
-- name: Спорт
-  url: https://bukatchuk.com/
-  role: "#crossfit #run"
-  timeframe: 2013 – 2018
-  summary: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
-  has_case_studies: false
-  image: /img/temp.png
-  image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
+# - name: Спорт
+#   url: https://bukatchuk.com/
+#   role: "#crossfit #run"
+#   timeframe: 2013 – 2018
+#   summary: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
+#   has_case_studies: false
+#   image: /img/temp.png
+#   image_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, sagittis nec dui quis, pellentesque pretium arcu. Nunc vel laoreet eros.
   # dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   # image: /img/project.png
   # image_alt: workflow illustration of code review collaboration on GitHub
@@ -59,22 +59,22 @@
   #     url: https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8
   #     image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
-- name: Тема
-  url: https://bukatchuk.com/
-  role: Visual Design Engineer, Tech Lead
-  timeframe: 2012 – 2013
-  summary: |
-    I was a front-end developer focused on implementing designs for client projects such as <a href="/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/" target="_blank">the responsive redesign of TIME.com</a>, <a href="http://www.bloomberg.com/">Bloomberg.com</a>, and others.
-  has_case_studies: false
-  image: /img/project.png
-  image_alt: Cloud, Compute
-  # dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
-  # articles_layout: l_1_up
-  # articles_list:
-  #   - title: Implementing the responsive redesign of Time.com
-  #     summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
-  #     url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
-  #     image: /img/project.png
+# - name: Тема
+#   url: https://bukatchuk.com/
+#   role: Visual Design Engineer, Tech Lead
+#   timeframe: 2012 – 2013
+#   summary: |
+#     I was a front-end developer focused on implementing designs for client projects such as <a href="/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/" target="_blank">the responsive redesign of TIME.com</a>, <a href="http://www.bloomberg.com/">Bloomberg.com</a>, and others.
+#   has_case_studies: false
+#   image: /img/project.png
+#   image_alt: Cloud, Compute
+#   dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
+#   articles_layout: l_1_up
+#   articles_list:
+#     - title: Implementing the responsive redesign of Time.com
+#       summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
+#       url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
+#       image: /img/project.png
 
 # - name: CURE International
 #   url: https://cure.org/
