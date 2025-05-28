@@ -5,7 +5,7 @@
   url: https://bukatchuk.com/
   quote: |
      <h3>Мне, 41</h3>
-  title: <h6>Кайфую от себя и мира вокруг</h6>
+  title: <h5>Кайфую от себя и мира вокруг</h5>
   
 - name: 
   linkedinprofile: https://www.linkedin.com/in/olegbukatchuk/
@@ -13,7 +13,7 @@
   url: https://bukatchuk.com/
   quote: |
      <h3>Умею наводить порядок там, где его никогда не было.</h3>
-  title: <h6>Кайфую от красивой архитектуры ит-систем</h6>
+  title: <h5>Кайфую от красивой архитектуры ит-систем</h5>
 
 
 - name: 
@@ -22,7 +22,15 @@
   url: https://bukatchuk.com/
   quote: |
     <h3>Коллекционирую музыку на виниле.</h3>
-  title: <h6>Кайфую от качественного звука</h6>
+  title: <h5>Кайфую от качественного звука</h5>
+
+- name: 
+  linkedinprofile: https://www.linkedin.com/in/timhingston/
+  image: /olegbukatchuk.png
+  url: https://bukatchuk.com/
+  quote: |
+    <h3>.</h3>
+  title: <h5>Кайфую от качественного звука</h5>  
 
 # - name: Олег Букатчук
 #   linkedinprofile: https://www.linkedin.com/in/kathy-zheng-b1a85828/
