@@ -1,7 +1,7 @@
 ---
-title: "Lorem ipsum te"
+title: "Первый пост"
 description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
-date: "2014-09-08"
+date: "2025-09-06"
 tags:
 - Lorem
 - Ipsum
