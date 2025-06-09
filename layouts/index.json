@@ -8,8 +8,8 @@
   "favicon": "https://ronaldsvilcins.com/assets/favicon.ico",
   "expired": false,
   "author": {
-    "name": "Ronalds Vilcins",
-    "url": "https://ronaldsvilcins.com/"
+    "name": "Олег Букатчук",
+    "url": "https://bukatchuk.com/"
   },
   "items": [
     {{ $list := (where .Site.RegularPages "Section" "posts") }}
@@ -28,8 +28,8 @@
       "date_published": "{{ .Date.Format `2016-02-09T14:22:00-07:00` | safeHTML }}",
       "date_modified": "{{ .Date.Format `2016-02-09T14:22:00-07:00` | safeHTML }}",
       "author": {
-        "name": "Ronalds Vilcins",
-        "url": "https://ronaldsvilcins.com/"
+        "name": "Олег Букатчук",
+        "url": "https://bukatchuk.com/"
       }
     }{{ if ne (add $index 1) $len }},{{ end }}
     {{ end }}
