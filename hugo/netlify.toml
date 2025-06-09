@@ -5,7 +5,7 @@
   HUGO_VERSION = "0.68.1"
 
 [build]
-  publish = "root"
+  publish = ""
   command = "hugo --gc --minify"
 
 [[headers]]
