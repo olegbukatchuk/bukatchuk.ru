@@ -1,4 +1,10 @@
-# bukatchuk.com
+---
+title: About
+---
+
+# Lines
+
+Lines is a minimalistic Hugo blogging theme.
 
 ### Features
 
@@ -7,7 +13,6 @@
 - Inline CSS
 - Anchor headings
 - Tags
-- Security headers (for Netlify hosting)
 - 404 page
 - Compressed CSS and HTML
 - 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
@@ -16,4 +21,3 @@
 - Sass
 - Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
 - Ultra fast (Only ~2kb of CSS)
-

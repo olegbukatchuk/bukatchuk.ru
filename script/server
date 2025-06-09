@@ -1,6 +1,0 @@
-#!/bin/sh
-# build site locally and run
-
-set -e
-
-bundle exec jekyll serve
