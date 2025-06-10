@@ -22,31 +22,7 @@ title: News
 </style>
 
 <div class="news-item">
-<p><span class="date">**May 2025**</span>: Excited to share that I have three first & co-first author papers accepted at [ACL Main](https://2025.aclweb.org/): [HyPER](https://arxiv.org/abs/2410.19133), [M-RewardBench](https://arxiv.org/abs/2410.15522), and [UD-NewsCrawl](https://arxiv.org/abs/2505.20428). A large collab project, [SEA-VL](https://arxiv.org/abs/2503.07920), also got into Main!</p>
-</div>
-
-<div class="news-item">
-<p><span class="date">**Nov 2024**</span>: Happy to have been part of the exciting [T&uuml;lu 3](https://allenai.org/papers/tulu-3-report.pdf) and [OLMo 2](https://allenai.org/olmo) releases! My primary contribution is scaling-up our preference data using a synthetic on-policy pipeline that led to improvements in our DPO models.</p>
-</div>
-
-<div class="news-item">
-<p><span class="date">**Oct 2024**</span>: Our paper on routing preference instances to human or LM annotators, [Hybrid Preferences](https://arxiv.org/abs/2410.19133), is now available. This is the first work I co-led (with Yizhong Wang) at Ai2!</p>
-</div>
-
-<div class="news-item">
-<p><span class="date">**Oct 2024**</span>: Our paper on evaluating reward models in multilingual settings, [M-RewardBench](https://arxiv.org/abs/2410.15522), is now available. This was a fun collab with folks from Cohere for AI!</p>
-</div>
-
-<div class="news-item">
-<p><span class="date">**Sep 2024**</span>: My cross-institutional collabs, [Consent in Crisis](https://arxiv.org/abs/2407.14933) and [SEACrowd](https://arxiv.org/abs/2406.10118), were accepted to NeurIPS D&B and EMNLP 2024, respectively.</p>
-</div>
-
-<div class="news-item">
-<p><span class="date">**Aug 2024**</span>: 🏆 Our work on evaluating reward models in multilingual settings won Silver Prize in [Cohere for AI's Aya Expedition](https://cohere.com/blog/empowering-others-to-explore-the-next-frontier-expedition-aya)!</p>
-</div>
-
-<div class="news-item">
-<p><span class="date">**Jul 2024**</span>: I gave a [guest lecture](/notebook/2024/07/02/talk-dlsu/) at DLSU about building Filipino NLP resources. Thanks to Dr. Charibeth Cheng for inviting me!</p>
+<p><span class="date">**Май 2025 **</span>: Жирная черта проведена в конце месяца под тем, что было важно для меня последние 5 лет. </p>
 </div>
 
 <!-- <div class="news-item">
