@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<style>
+  @media screen and (min-width: 769px) {
+    .column {
+      width: 50%;
+      float: left;
+      max-width: 50%;
+      padding: 5px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+</style>
+
+
+<div class="home">
+
+  <div class="divider">
+    <div class="left">
+      <a href="https://ljvmiranda921.github.io/gallery/"><img id="profilepic" width="200" height="200" src="assets/profile.jpg" alt="Profile"></a>
+    </div>
+    <div class="right">
+      <p>Hi! I'm Lj Miranda, and welcome to my website!</p>
+      <p>
+        I'm currently a <a href="https://allenai.org/predoctoral-young-investigators">predoctoral
+          researcher</a> at the <a href="https://allenai.org/allennlp">AllenNLP
+          team</a> at <a href="https://allenai.org/">Ai2</a>. In the past, I've worked as an <a
+          href="https://storage.googleapis.com/ljvmiranda/cv.pdf">engineer, consultant, and
+          researcher</a>, mostly in the fields of NLP and AI.
+      </p>
+      <p>
+        I'm broadly interested in data-centric approaches to building language technologies at scale.
+        <!-- My research interests include efficient NLP, low-resource languages, and corpus linguistics. -->
+        I'm happy to discuss <a href="/research">research</a> and collaborate, so feel free to <a
+          href="mailto:ljvmiranda@gmail.com">reach
+          out</a>!
+      </p>
+      <!-- <p>
+        <i>I'm happy to discuss research, so feel free to <a href="mailto:ljvmiranda@gmail.com">reach out</a>!</i>
+      </p> -->
+    </div>
+  </div>
+
+
+  <!--
+  <div style="display:flex;justify-content:center;">
+    <iframe src="https://ljvmiranda.substack.com/embed" width="480" height="100"
+      style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
+  </div>
+  -->
+
+  &nbsp;
+
+  <hr>
+
+  &nbsp;
+  <div class="row">
+    <div class="column" style="width:100%; float:left;">
+      <h2 style="font-size: 1.5em;">Recent Posts</h2>
+
+      <ul class="post-list">
+        {% assign mainPosts = site.posts | where: 'type', 'post' %}
+        {% for post in mainPosts limit:3 %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta" style="font-size: 0.9em;">{{ post.date | date: date_format }} &verbar; {{
+            post.category | capitalize }}</span>
+
+          <h3 style="font-size: 1.2em;"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          <p style="font-size: 0.9em;">{{ post.description }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="column" style="width:100%; float:right;">
+      <h2 style="font-size: 1.5em;">What's New?</h2>
+      <ul class="post-list">
+        {% assign news_content = site.pages | where: "path", "news.md" | first %}
+        {{ news_content.content | markdownify }}
+      </ul>
+    </div>
+  </div>
+
+</div>
