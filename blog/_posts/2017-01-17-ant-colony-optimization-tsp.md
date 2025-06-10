@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Solving the travelling salesman problem using ant colony optimization"
-date: 2017-01-18
-category: notebook
+title: "Первый пост"
+date: 20257-01-18
+category: blog
 comments: true
-author: "LJ MIRANDA"
+author: "Олег Букатчук"
 description: "Solution for the berlin52 travelling salesman problem using ant colony optimization"
 ---
 
