@@ -25,9 +25,9 @@ title: News
 <p><span class="date">**Май 2025 **</span>: Жирная черта проведена в конце месяца под тем, что было важно для меня последние 5 лет. </p>
 </div>
 
-<!-- <div class="news-item">
+<div class="news-item">
 <p><span class="date">**Mar 2024**</span>: [Universal NER](https://arxiv.org/abs/2311.09122) was accepted to NAACL 2024. I hope to still work on linguistic aspects of NLP in the future!</p>
-</div> -->
+</div>
 
 <!-- <div class="news-item">
 <p><span class="date">**Mar 2024**</span>: We released [RewardBench](https://arxiv.org/abs/2403.13787), the first benchmark for evaluating reward models.</p>
