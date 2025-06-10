@@ -7,6 +7,7 @@ pygmentsCodeFences = false
 pygmentsUseClasses = false
 paginate = 999
 minify = true
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [taxonomies]
   tag = "tags"
