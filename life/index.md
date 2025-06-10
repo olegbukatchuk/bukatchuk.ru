@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Life
+title: Жизнь
 description: Thoughts about the researcher and developer life
 permalink: /life/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Проекты
 description: Projects of Lester James V. Miranda
 permalink: /projects/
 ---

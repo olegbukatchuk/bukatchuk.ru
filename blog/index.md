@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Notebook
+title: <Блог>
 description: Notes of Lester James V. Miranda
-permalink: /notebook/
+permalink: /blog/
 ---
 
 Here I document my experiments, thoughts, and analyses on a variety of topics.
