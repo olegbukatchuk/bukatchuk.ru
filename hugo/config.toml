@@ -26,11 +26,11 @@ minify = true
     disable = true
 
 [Author]
-  name = ""
+  name = "Oleg Bukatchuk"
 
 [params]
-  description = ""
-  author = ""
+  description = "Блог Олега Букатчука"
+  author = "Oleg Bukatchuk"
   copyright = ""
   logo = ""
 
