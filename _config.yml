@@ -26,10 +26,7 @@ permalink: pretty
 # Social settings
 social_sites:
   github: olegbukatchuk
-  # twitter: ljvmiranda921
-  # mastodon:
-  #   server: fosstodon.org
-  #   username: ljvmiranda
+  # twitter: 
 
 rss: rss
 
@@ -50,10 +47,10 @@ highlighter: rouge
 
 # Disqus
 # disqus:
-#  shortname: ljvmiranda921-github-io-1
+#  shortname: 
 
 # Google analytics
-# google_analytics: UA-106021948-1
+# google_analytics: 
 
 # Publish future
 future: false

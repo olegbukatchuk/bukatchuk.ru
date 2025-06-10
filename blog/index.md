@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <Блог>
+title: Блог
 description: Notes of Lester James V. Miranda
 permalink: /blog/
 ---
