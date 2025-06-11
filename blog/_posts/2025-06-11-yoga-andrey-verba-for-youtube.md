@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: "Первый пост"
+title: ""
 date: 2025-06-11
 category: блог
 comments: true
