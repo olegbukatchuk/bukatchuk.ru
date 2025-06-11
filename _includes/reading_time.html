@@ -14,17 +14,17 @@
 {%- if words %}
   {%- comment -%}### TOTAL_WORDS ###{%- endcomment -%}
   {%- if words <= 1 -%}
-    {%- assign total_words = 1 | append: ' word' -%}
+    {%- assign total_words = 1 | append: ' слово' -%}
   {%- else -%}
-    {%- assign total_words = words | append: ' words' -%}
+    {%- assign total_words = words | append: ' слов' -%}
   {%- endif -%}
 
   {%- comment -%}### READING_TIME ###{%- endcomment -%}
   {%- assign wpm = words_per_minute | times: 1.0 -%}
   {%- assign read_time = words | divided_by: wpm | round -%}
   {%- if read_time <= 1 -%}
-    {%- assign reading_time = 1 | append: ' min read' -%}
+    {%- assign reading_time = 1 | append: ' минут на чтение' -%}
   {%- else -%}
-    {%- assign reading_time = read_time | append: ' min read' -%}
+    {%- assign reading_time = read_time | append: ' минут на чтение' -%}
   {%- endif -%}
 {%- endif -%}
