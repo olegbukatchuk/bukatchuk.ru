@@ -12,3 +12,5 @@
 @media screen and (max-width:800px) {
     iframe[src*="youtube"] {
         width: 100% !important;
+    }
+}
