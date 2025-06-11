@@ -20,12 +20,12 @@ description: |
 excerpt: |
 ---
 
-<span class="firstcharacter">W</span>orkflow – это высокоуровневый набор правил для того, чтобы делать какие-то действия при определенных условиях.
+<span class="firstcharacter">W</span>orkflow – это высокоуровневый набор правил для того, чтобы делать какие-то действия при определенных условиях.</br>
 
-<span class="firstcharacter">J</span>ob – это сущность, которая запускает какую-то задачу в рамках вашего workflow.
+<span class="firstcharacter">J</span>ob – это сущность, которая запускает какую-то задачу в рамках вашего workflow.</br>
 
-<span class="firstcharacter">S</span>tep – это шаг. Т. е. один job может состоять из нескольких шагов.
+<span class="firstcharacter">S</span>tep – это шаг. Т. е. один job может состоять из нескольких шагов.</br>
 
-<span class="firstcharacter">A</span>ction – это тот переиспользуемый unit, который попал в название GitHub Actions, т. е. это самая минимальная часть, которую можно переиспользовать в нашем CI.
+<span class="firstcharacter">A</span>ction – это тот переиспользуемый unit, который попал в название GitHub Actions, т. е. это самая минимальная часть, которую можно переиспользовать в нашем CI.</br>
 
 <span class="firstcharacter">E</span>vent – это термин, который обозначает, что случилось какое-то действие. А если действие случилось, то мы запускаем какой-то конкретный workflow.
