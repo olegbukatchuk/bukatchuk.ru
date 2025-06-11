@@ -60,7 +60,7 @@ future: false
 header_pages:
   - about.html
   - /cv/index.md
-  - /notebook/index.md
+  - /blog/index.md
   - /projects/index.md
 
 # Include this line so that travis will not explode
