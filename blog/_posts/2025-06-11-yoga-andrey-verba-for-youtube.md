@@ -16,4 +16,4 @@ excerpt: |
 
 <span class="firstcharacter">С</span> огромной радостью делюсь с вами этим интервью потрясающего практика йоги. Не помешает пересмотреть несколько раз, чтобы вся информация усвоилась правильно.
 
-<iframe width="800" height="" src="https://www.youtube.com/embed/8j-zbilH2nU?si=mgH3Dr2bX8gGaNSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/8j-zbilH2nU?si=mgH3Dr2bX8gGaNSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
