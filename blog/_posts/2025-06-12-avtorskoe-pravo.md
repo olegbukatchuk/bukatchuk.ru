@@ -10,10 +10,7 @@ published: true
 header-img: /assets/png/talk-dlsu/header.png
 tags:
   [
-    github,
-    actions,
-    ci,
-    cd,
+    law,
   ]
 description: |
   Workflow – это высокоуровневый набор правил для того, чтобы делать какие-то действия при определенных условиях.
