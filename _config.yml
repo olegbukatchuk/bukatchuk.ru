@@ -16,7 +16,7 @@
 title: Блог Олега Букатчука
 email: oleg@bukatchuk.com
 description: > # this means to ignore newlines until "baseurl:"
-  A collection of notes, projects, and essays.
+  Коллекция статей, заметок, проектов и т.д.
 timezone: Europe/Moscow
 # Link settings
 baseurl: "" # the subpath of your site, e.g. /blog
