@@ -5,9 +5,7 @@ description: Notes of Lester James V. Miranda
 permalink: /blog/
 ---
 
-Here I document my experiments, thoughts, and analyses on a variety of topics.
-This page also includes my study notes on books I read or courses I follow. I
-hope my notebook helps you as much as it has helped me.
+Здесь я документирую свои эксперименты, мысли по различным темам. На этой странице также размещены мои учебные заметки по прочитанным книгам или курсам, которые я посещаю. Надеюсь, мой блокнот поможет вам так же, как он помог мне.
 
 <ul>
   {% for post in site.categories.blog %}
