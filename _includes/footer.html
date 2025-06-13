@@ -8,6 +8,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
+            <a class="site-title" href="{{ "/" | relative_url }}"><img width="25" height="25" src="assets/logo.png" alt="bukatchuk.com"></a>
              <p>По всем вопросам:</br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             <!-- {% if site.author %}
               {{ site.author | escape }}
@@ -27,6 +28,7 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
+        <p>По всем вопросам:</br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
     </div>
 
