@@ -5,7 +5,7 @@ description: Коллекция статей, заметок и проектов
 permalink: /blog/
 ---
 
-Здесь я документирую свои эксперименты, мысли по различным темам. Также здесь размещены мои учебные заметки по прочитанным книгам или курсам, которые я посещаю. Надеюсь, мой блог поможет вам так же, как он помогает мне.
+Здесь я документирую свои мысли по различным темам. Обзоры по прочитанным книгам или пройденным курсам. Надеюсь, мой блог поможет вам так же, как он помогает мне .
 
 <ul>
   {% for post in site.categories.blog %}
@@ -15,7 +15,7 @@ permalink: /blog/
   {% endfor %}
 </ul>
 
-<!-- {% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 {% for year in posts_by_year %}
 <h2>{{ year.name }}</h2>
@@ -30,4 +30,4 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
-{% endfor %} -->
+{% endfor %}
