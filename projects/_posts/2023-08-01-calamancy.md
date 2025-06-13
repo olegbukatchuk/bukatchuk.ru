@@ -2,7 +2,7 @@
 layout: post
 type: post
 title: "calamanCy: NLP pipelines for Tagalog"
-date: 2023-08-01
+date: 2020-08-01
 category: projects
 comments: true
 author: "LJ MIRANDA"
