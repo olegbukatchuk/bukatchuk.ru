@@ -5,22 +5,21 @@ description: Get a monthly newsletter straight to your inbox!
 permalink: /subscribe/
 ---
 
-Hi friends, I started a *monthly* newsletter&mdash; [**the Purveyor of Curiosities!**](https://olegbukatchuk.substack.com/)
+Привет, друзья! Я начал выпускать **ежемесячную** рассылку &mdash; [**Поставщик диковинок»!**](https://olegbukatchuk.substack.com/)
 
-Here, you will receive:
+Здесь вы получите:
 
-* Updates on new blog posts for that month with short commentaries.
-* Random wonders and interesting curiosities that you'll like!
-* Things I've listened, watched, and read that you'll definitely adore!
+* Обновления новых записей в блоге за этот месяц с краткими комментариями.
+* Случайные чудеса и интересные факты, которые вам понравятся!
+* То, что я слушал, смотрел и читал, и что вам определенно понравится!
 
-<iframe src="https://olegbukatchuk.substack.com/embed" width="480" height="100" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
 
-## Frequently Asked Questions
+<iframe src="https://olegbukatchuk.substack.com/embed" width="480" height="150" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
 
-* **Why start a newsletter?** I like to keep my blog focused on technology,
- machine learning, and open source. I occasionally talk about games, but that's
- just mostly it. A newsletter allows me to share you other wonders and trinkets
- I've found in the interwebs!
+## Часто Задаваемые Вопросы
+
+* **Зачем веду рассылку?** Мне нравится, чтобы мой блог посвящен технологиям, музыке и много что меня интересует. Иногда я говорю о не материальных вещах. 
+Рассылка позволяет мне делиться с вами интересностями, которые я нашел в Интернете!
 
 * **Why Purveyor of Curiosities?** I've been fascinated with [nostalgia
     shops](https://www.atlasobscura.com/categories/purveyors-of-curiosities)
@@ -36,6 +35,9 @@ Here, you will receive:
  Mailchimp but it's complicated. I checked tinyletter but it's not being
  updated. Substack is simple and clean. I'll only use Substack as a newsletter,
  and I'll still keep writing content here.
+
+* **Контент переносится в Substack?** Нет! Мне нравится ощущение домашнего блога, поэтому я всегда буду хранить свой контент [бесплатно и с открытым исходным кодом](https://github.com/olegbukatchuk/bukatchuk.com). 
+Я пробовал Mailchimp, но он сложный. Substack прост и понятен. Я буду использовать Substack только как новостную рассылку, и я все равно продолжу писать здесь контент.
 
 * **So I am just going to hear from you monthly, right?** Yes! I'd like to keep
     the pace slow for a bit so that I can give you high-quality content. In
