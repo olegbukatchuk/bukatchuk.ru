@@ -2,7 +2,7 @@
 layout: post
 type: post
 title: "Как хорошо больше не писать код — куда уходит айтишность — Мы обречены"
-date: 2025-06-13
+date: 2023-05-03
 category: блог
 comments: true
 author: "Олег Букатчук"
