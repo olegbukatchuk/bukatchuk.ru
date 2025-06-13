@@ -5,9 +5,7 @@ description: Thoughts about the researcher and developer life
 permalink: /life/
 ---
 
-Some reflections on the developer and researcher life, plus stories of my
-journey. Trying to add a personal touch to code. Opinions are solely my own and do not
-reflect those of my institution or affiliation.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 <ul>
   {% for post in site.categories.life %}

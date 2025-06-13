@@ -6,9 +6,7 @@ permalink: /projects/
 ---
 
 
-Here are some of the non-trivial projects I built for the past few years.  My
-definition of a *project* is a bit fuzzy; for now, these are things that I have
-worked on with a tangible outcome like a library, website, or a game.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 <ul>
   {% for post in site.categories.projects %}

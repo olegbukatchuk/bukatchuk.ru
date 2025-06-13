@@ -5,7 +5,7 @@ description: Get a monthly newsletter straight to your inbox!
 permalink: /subscribe/
 ---
 
-Hi friends, I started a *monthly* newsletter&mdash; [**the Purveyor of Curiosities!**](https://ljvmiranda.substack.com/)
+Hi friends, I started a *monthly* newsletter&mdash; [**the Purveyor of Curiosities!**](https://olegbukatchuk.substack.com/)
 
 Here, you will receive:
 
@@ -13,7 +13,7 @@ Here, you will receive:
 * Random wonders and interesting curiosities that you'll like!
 * Things I've listened, watched, and read that you'll definitely adore!
 
-<iframe src="https://ljvmiranda.substack.com/embed" width="480" height="100" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://olegbukatchuk.substack.com/embed" width="480" height="100" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
 
 ## Frequently Asked Questions
 
