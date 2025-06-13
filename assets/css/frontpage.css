@@ -17,15 +17,15 @@
 
 #profilepic {
     border-radius: 50%;
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
     text-align: center;
 }
 
 #logo {
     /* border-radius: 50%; */
-    width: 50;
-    height: 50;
+    width: 25px;
+    height: 25px;
     text-align: center;
 }
 
