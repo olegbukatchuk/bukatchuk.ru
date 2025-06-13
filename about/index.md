@@ -5,12 +5,14 @@ description: Олег Букатчук
 permalink: /about/
 ---
 
-<p>Привет! Меня зовут Олег Букатчук. Мне, 41. Занимаюсь ИТ. Интересуюсь музыкой на виниле. Читаю по настроению. Пишу статьи. Преподаю. </p>
-<p>На текущий момент погружен в работу над социальной сетью <a href="https://followers.vc">followers.vc</a> и сервисом мониторига <a href="https://uptime.bz">uptime.bz</a>, а также в планах запуск сервиса e-mail рассылок <a href="https://mailer.bz/">mailer.bz</a>.</p>
+<p>Привет! Меня зовут Олег Букатчук. Мне, 41.</p>
+<p>Занимаюсь ИТ. Интересуюсь музыкой на виниле. Читаю по настроению. Пишу статьи. Преподаю. </p>
 
-I [build things](https://github.com/olegbukatchuk).
+<p style="border:3px; border-style:solid; border-color:#a00000; padding: 1em;">
+Вы можете меня найти во всех социальных сетях по никнейму **olegbukatchuk**, например на [Github], (https://github.com/olegbukatchuk).
+</p>
 
-I started this site to tell the story of my tech journey. I believe in
+<!-- I started this site to tell the story of my tech journey. I believe in
 **technology that is open, enabling, and life-giving**. I aspire to usher that
 potential&mdash;even for just a tiny bit. But, there is still a long way to go,
 and this site records my progress.
@@ -25,19 +27,19 @@ Lj Miranda specializes in natural language processing with over five years of
 experience in consulting, open-source development, and research. He helped
 maintain notable open-source libraries such as spaCy and Pyswarms. He dabbles
 in game development during his free time.
-</p>
+</p> -->
 
 ## Проекты
 
-- [Game Dev](https://ljvmiranda921.itch.io): games I developed using Godot and PICO-8.
-- [Game Boy Camera Photos](https://ljvmiranda921.github.io/gallery): photos taken using a Game Boy Camera.
-- [Micro Blog](https://ljvmiranda.micro.blog): micro-blog for "today I learned" (TIL) posts and tweets.
+- [Uptime.bz](https://uptime.bz): games I developed using Godot and PICO-8.
+- [Followers.vc](https://followers.vc): photos taken using a Game Boy Camera.
+- [Mailer.bz](https://mailer.bz): micro-blog for "today I learned" (TIL) posts and tweets.
 
 ## Контакты
 
 **Олег Букатчук**  
-моб. +7 903 726-10-16
-Email: oleg@bukatchuk.com
+моб. +7 903 726-10-16<br>
+Email: oleg@bukatchuk.com<br>
 [Резюме (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf)
 
 
