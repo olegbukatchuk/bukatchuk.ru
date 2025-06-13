@@ -22,8 +22,8 @@ gem install bundler
 Then, build the dependencies and call `jekyll serve`
 
 ```shell
-git clone https://github.com/ljvmiranda921/ljvmiranda921.github.io.git 
-cd ljvmiranda921.github.io/
+git clone https://github.com/olegbukatchuk/bukatchuk.com.git 
+cd bukatchuk.com/
 bundle install
 bundle exec jekyll serve --livereload
 ```

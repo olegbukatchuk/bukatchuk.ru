@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Research Work
-description: Research work of Lester James V. Miranda
-permalink: /research/
+title: Услуги
+description: Услиги
+permalink: /services/
 ---
 
 <!-- 【[🎓 Google Scholar](https://scholar.google.co.jp/citations?user=2RtnNKEAAAAJ&hl=en)】
