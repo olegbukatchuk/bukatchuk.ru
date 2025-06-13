@@ -14,7 +14,7 @@ permalink: /blog/
   {% endfor %}
 </ul>
 
-<!-- {% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 {% for year in posts_by_year %}
 <h2>{{ year.name }}</h2>
@@ -29,4 +29,4 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
-{% endfor %} -->
+{% endfor %}
