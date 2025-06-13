@@ -16,7 +16,9 @@ excerpt: |
 
 <span class="firstcharacter">Н</span>ашел в личном архиве интервью в подкасте "Мы обречены"!
 
-* Музыкальный релиз Олега из КРОК: [djsaharovofficial](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEU5bzNHTFBHZHhhVFpadHZuRm9LMEc3VFV0QXxBQ3Jtc0trVGZ3aE1qb0ZmRmVtaWpRekRPUEpRdlB0YmFLVTNOaXl3VDN4MGljSFFIODZjTmkxU0tWai1YZkxENThqMUo5NmUxdEgxMGp3d1dQNGtzaFJTdVVmd3EzY01Tc0JvdWZCankyTmE4bzdfaGFGYlNZYw&q=https%3A%2F%2Fsoundcloud.com%2Fdjsaharovofficial&v=UruvjXoRFZw)
+<br>
+
+* Музыкальный релиз упомянутый в интревью: [@djsaharovofficial on SoundCloud](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEU5bzNHTFBHZHhhVFpadHZuRm9LMEc3VFV0QXxBQ3Jtc0trVGZ3aE1qb0ZmRmVtaWpRekRPUEpRdlB0YmFLVTNOaXl3VDN4MGljSFFIODZjTmkxU0tWai1YZkxENThqMUo5NmUxdEgxMGp3d1dQNGtzaFJTdVVmd3EzY01Tc0JvdWZCankyTmE4bzdfaGFGYlNZYw&q=https%3A%2F%2Fsoundcloud.com%2Fdjsaharovofficial&v=UruvjXoRFZw)
 * Все материалы из выпуска можно найти в посте в нашем тг-канале https://t.me/myobrechenychannel
 * Телеграм канал — https://t.me/myobrechenychannel
 * Твиттер —   / myobrecheny  
