@@ -39,12 +39,12 @@ in game development during his free time.
 - [Followers.vc](https://followers.vc): photos taken using a Game Boy Camera.
 - [Mailer.bz](https://mailer.bz): micro-blog for "today I learned" (TIL) posts and tweets.
 
-## Контакты
+<!-- ## Контакты
 
 **Олег Букатчук**<br>
 Мск. +7 495 726-10-16<br> 
 Моб. +7 903 726-10-16<br>
-Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br> -->
 <!-- [Резюме (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf) -->
 
 
