@@ -20,7 +20,7 @@ excerpt: |
 
 <br>
 
-* Телеграм канал — [myobrechenychannel](https://t.me/myobrechenychannel)
-* Твиттер — [myobrecheny](x.com/myobrecheny) 
-* VK — [myobrecheny](https://vk.com/myobrecheny)
+* Telegram: [myobrechenychannel](https://t.me/myobrechenychannel)
+* Twitter aka X: [myobrecheny](x.com/myobrecheny) 
+* VK: [myobrecheny](https://vk.com/myobrecheny)
 * По вопросам сотрудничества:  <a href="mailto:myobrecheny@gmail.com">myobrecheny@gmail.com</a>
