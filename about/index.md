@@ -9,7 +9,7 @@ permalink: /about/
 <p>Занимаюсь ИТ. Интересуюсь музыкой на виниле. Читаю по настроению. Пишу статьи. Преподаю. </p>
 
 <p style="border:3px; border-style:solid; border-color:#a00000; padding: 1em;">
-Вы можете меня найти во всех социальных сетях по никнейму **olegbukatchuk**, например на [Github], (https://github.com/olegbukatchuk).
+Вы можете меня найти во всех социальных сетях по никнейму **olegbukatchuk**, например на <a href="https://github.com/olegbukatchuk">Github</a>.
 </p>
 
 <!-- I started this site to tell the story of my tech journey. I believe in
