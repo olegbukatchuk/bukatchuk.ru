@@ -37,7 +37,7 @@ in game development during his free time.
 
 ## Контакты
 
-**Олег Букатчук**
+**Олег Букатчук**<br>
 Мск. +7 495 726-10-16<br> 
 Моб. +7 903 726-10-16<br>
 Email: oleg@bukatchuk.com<br>
