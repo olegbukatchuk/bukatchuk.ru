@@ -5,7 +5,8 @@ description: Олег Букатчук
 permalink: /about/
 ---
 
-Hi friends! My name is Lj Miranda, and welcome to my website!
+<p>Привет! Меня зовут Олег Букатчук. Мне, 41. Занимаюсь ИТ. Интересуюсь музыкой на виниле. Читаю по настроению. Пишу статьи. Преподаю. </p>
+<p>На текущий момент погружен в работу над социальной сетью <a href="https://followers.vc">followers.vc</a> и сервисом мониторига <a href="https://uptime.bz">uptime.bz</a>, а также в планах запуск сервиса e-mail рассылок <a href="https://mailer.bz/">mailer.bz</a>.</p>
 
 I [build things](https://github.com/olegbukatchuk).
 
@@ -26,17 +27,17 @@ maintain notable open-source libraries such as spaCy and Pyswarms. He dabbles
 in game development during his free time.
 </p>
 
-## Other links
+## Проекты
 
 - [Game Dev](https://ljvmiranda921.itch.io): games I developed using Godot and PICO-8.
 - [Game Boy Camera Photos](https://ljvmiranda921.github.io/gallery): photos taken using a Game Boy Camera.
 - [Micro Blog](https://ljvmiranda.micro.blog): micro-blog for "today I learned" (TIL) posts and tweets.
 
-## Contact
+## Контакты
 
-**Lester James V. Miranda**  
-Seattle, WA  
-Email: ljvmiranda [at] gmail [dot] com  
-[Curriculum Vitae (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf)
+**Олег Букатчук**  
+моб. +7 903 726-10-16
+Email: oleg@bukatchuk.com
+[Резюме (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf)
 
 
