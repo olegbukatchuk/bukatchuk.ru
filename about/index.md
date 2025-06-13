@@ -41,6 +41,6 @@ in game development during his free time.
 Мск. +7 495 726-10-16<br> 
 Моб. +7 903 726-10-16<br>
 Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
-[Резюме (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf)
+<!-- [Резюме (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf) -->
 
 
