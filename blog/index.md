@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Блог
-description: Notes of Lester James V. Miranda
+description: Коллекция статей, заметок и проектов. 
 permalink: /blog/
 ---
 
-Здесь я документирую свои эксперименты, мысли по различным темам. 
-На этой странице также размещены мои учебные заметки по прочитанным книгам или курсам, которые я посещаю. 
-Надеюсь, мой блокнот поможет вам так же, как он помог мне.
+Здесь я документирую свои эксперименты, мысли по различным темам. Также здесь размещены мои учебные заметки по прочитанным книгам или курсам, которые я посещаю. Надеюсь, мой блог поможет вам так же, как он помогает мне.
 
 <ul>
   {% for post in site.categories.blog %}
@@ -17,7 +15,7 @@ permalink: /blog/
   {% endfor %}
 </ul>
 
-<!-- {% assign posts_by_year = site.categories.notebook | group_by_exp:"post", "post.date | date: '%Y'" %}
+<!-- {% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 {% for year in posts_by_year %}
 <h2>{{ year.name }}</h2>
