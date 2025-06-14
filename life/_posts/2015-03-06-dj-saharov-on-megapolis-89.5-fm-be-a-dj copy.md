@@ -1,20 +1,20 @@
 ---
 layout: post
 type: post
-title: "Радиостанция Record Breaks. Enjoy the Music Podcast #001"
+title: "Enjoy the Music Podcast #001 на Record Breaks"
 date: 2015-03-13
 category: life
 comments: true
 author: "DJ Saharov"
-summary: "Радиостанция Record Breaks. Enjoy the Music Podcast #001"
+summary: "Enjoy the Music Podcast #001 на Record Breaks"
 header-img: /assets/png/six-years/header.png
 excerpt: |
-    Радиостанция Record Breaks. Enjoy the Music Podcast #001
+    Enjoy the Music Podcast #001 на Record Breaks
 description: |
-    Радиостанция Record Breaks. Enjoy the Music Podcast #001
+    Enjoy the Music Podcast #001 на Record Breaks
 ---
 
-<p><span class="firstcharacter">Р</span>адиостанция Record Breaks. Enjoy the Music Podcast #001. Подкаст появился, как потребность в миксах, которые мне бы хотелось слушать от начала до конца, не перематывая и не переключая. В какой-то момент меня пригласили с этим подкастом на Рекорд, чему я тогда был безкумно рад...</p>
+<p><span class="firstcharacter">E</span>njoy the Music Podcast #001 на Record Breaks. Подкаст появился, как потребность в миксах, которые мне бы хотелось слушать от начала до конца, не перематывая и не переключая. В какой-то момент меня пригласили с этим подкастом на Рекорд, чему я тогда был безкумно рад...</p>
 <br>
 <p>Треки:</p>
 1. 00:01 The Prodigy - Funky Shit OMG (C&Z Re-Rub)
