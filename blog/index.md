@@ -7,7 +7,15 @@ permalink: /blog/
 
 Здесь я документирую свои мысли по различным темам, а также обзоры по прочитанным книгам или пройденным курсам. Надеюсь, мой блог поможет вам узнать, что-то новое и полезное...
 
-{% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
+<ul>
+  {% for post in site.categories.blog %}
+    <li>
+        <span>{{ post.date | date_to_string }}</span> » {% if post.highlight %}&starf; {% endif %}<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | truncate:72 }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- {% assign posts_by_year = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 {% for year in posts_by_year %}
 <h2>{{ year.name }}</h2>
@@ -22,4 +30,4 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
-{% endfor %}
+{% endfor %} -->
