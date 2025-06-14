@@ -7,7 +7,7 @@ permalink: /life/
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-<ul>
+<!-- <ul>
   {% for post in site.categories.life %}
   {% if post.type == "post" %}
     <li>
@@ -17,7 +17,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     </li>
   {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
 
 {% assign posts_by_year = site.categories.life | group_by_exp:"post", "post.date | date: '%Y'" %}
 
