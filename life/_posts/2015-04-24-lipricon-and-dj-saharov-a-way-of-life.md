@@ -17,6 +17,6 @@ description: |
 <p>
 <span class="firstcharacter">С</span>овместрная коллаборация с Lipricon! Антон спасибо тебе за визит в Москву и за всё что мы делали вместе!</p>
 
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjsaharovofficial%2Fdj-saharov-enjoy-the-music-podcast-007%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjsaharovofficial%2Flipricon-dj-saharov-a-way-of-life%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
 <p>Треклист утерян.</p>
