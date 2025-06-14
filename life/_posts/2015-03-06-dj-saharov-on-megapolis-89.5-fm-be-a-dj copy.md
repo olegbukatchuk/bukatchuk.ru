@@ -31,4 +31,3 @@ description: |
 11. 46:39 Figure & Helicopter Showdown - Center of Hell (Davip Breaks Re-Rub)
 12. 50:31 Tritonal & M35 - Anchor (Mizzo Re-Rub)
 13. 54:17 Wolfgang Gartner - Funk Nasty (V3 KK Re-Rub)
-<br>
