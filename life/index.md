@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Жизнь
+title: Творчество
 description: Здесь будут моменты из моей жизни, которыми хочется поделится.
 permalink: /life/
 ---
