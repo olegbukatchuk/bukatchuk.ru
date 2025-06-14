@@ -7,7 +7,7 @@ permalink: /projects/
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-<!-- <ul>
+<ul>
   {% for post in site.categories.projects %}
     <li>
         <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -15,7 +15,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         <meta name="keywords" content="{{ post.tags | join: ', ' | escape }}"/>
     </li>
   {% endfor %}
-</ul> -->
+</ul>
 
 <style>
   @media screen and (min-width: 769px) {
