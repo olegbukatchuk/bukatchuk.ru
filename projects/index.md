@@ -34,20 +34,16 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   }
 </style>
 
+<div class="left">
+  <a href="https://bukatchuk.com/gallery/"><img id="profilepic" width="200" height="200" src="assets/olegbukatchuk.png" alt="Profile"></a>
+</div>
+<div class="right">
+  <p>Привет! Меня зовут Олег Букатчук. Мне, 41. Занимаюсь ИТ. Интересуюсь музыкой на виниле. Читаю по настроению. Пишу статьи. Преподаю. </p>
+  <p>
+    На текущий момент погружен в работу над социальной сетью <a href="https://followers.vc">followers.vc</a> и сервисом мониторига <a href="https://uptime.bz">uptime.bz</a>, а также в планах запуск сервиса e-mail рассылок <a href="https://mailer.bz/">mailer.bz</a>.
+  </p>
+</div>
 
-<div class="home">
-
-  <div class="divider">
-    <div class="left">
-      <a href="https://bukatchuk.com/gallery/"><img id="profilepic" width="200" height="200" src="assets/olegbukatchuk.png" alt="Profile"></a>
-    </div>
-    <div class="right">
-      <p>Привет! Меня зовут Олег Букатчук. Мне, 41. Занимаюсь ИТ. Интересуюсь музыкой на виниле. Читаю по настроению. Пишу статьи. Преподаю. </p>
-      <p>
-        На текущий момент погружен в работу над социальной сетью <a href="https://followers.vc">followers.vc</a> и сервисом мониторига <a href="https://uptime.bz">uptime.bz</a>, а также в планах запуск сервиса e-mail рассылок <a href="https://mailer.bz/">mailer.bz</a>.
-      </p>
-    </div>
-  </div>
 
   <!-- <div style="display:flex;justify-content:center;">
     <iframe src="https://olegbukatchuk.substack.com/embed" width="480" height="100"
