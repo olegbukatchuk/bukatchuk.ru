@@ -1,17 +1,17 @@
 ---
 layout: post
 type: post
-title: "Enjoy the Music Podcast #003 на Record Breaks"
+title: "Enjoy The Music Podcast #003 на Record Breaks"
 date: 2015-03-25
 category: life
 comments: true
 author: "DJ Saharov"
-summary: "Enjoy the Music Podcast #003 на Record Breaks"
+summary: "Enjoy The Music Podcast #003 на Record Breaks"
 header-img: /assets/png/six-years/header.png
 excerpt: |
-    Enjoy the Music Podcast #003 на Record Breaks
+    Enjoy The Music Podcast #003 на Record Breaks
 description: |
-    Enjoy the Music Podcast #003 на Record Breaks
+    Enjoy The Music Podcast #003 на Record Breaks
 ---
 
 <p>
