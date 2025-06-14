@@ -33,4 +33,4 @@ description: |
 10. 50:25 Abstraction - Unit Memories (Original Mix)
 11. 56:45 Parallax Breakz - Abyss (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>

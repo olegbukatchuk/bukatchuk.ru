@@ -36,4 +36,4 @@ description: |
 13. 51:41 Red Hot Chili Peppers - Californication (Raggapop Inc & Elevate Remix)
 14. 57:55 The Chainsmokers Vs. Tove Lo - Habits (3 Breaks Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
