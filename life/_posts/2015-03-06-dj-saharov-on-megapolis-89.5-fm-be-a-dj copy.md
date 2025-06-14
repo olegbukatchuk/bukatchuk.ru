@@ -14,7 +14,7 @@ description: |
     Радиостанция Record Breaks. Enjoy the Music Podcast #001
 ---
 
-<p><span class="firstcharacter">Р</span>адиостанция Record Breaks. Enjoy the Music Podcast #001.</p>
+<p><span class="firstcharacter">Р</span>адиостанция Record Breaks. Enjoy the Music Podcast #001. Подкаст появился, как потребность в миксах, которые мне бы хотелось слушать от начала до конца, не перематывая и не переключая. В какой-то момент меня пригласили с этим подкастом на Рекорд, чему я тогда был безкумно рад...</p>
 <br>
 <p>Треки:</p>
 1. 00:01 The Prodigy - Funky Shit OMG (C&Z Re-Rub)
