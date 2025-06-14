@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Творчество
+title: Вайб
 description: Здесь будут моменты из моей жизни, которыми хочется поделится.
 permalink: /life/
 ---
