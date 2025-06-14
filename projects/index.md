@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Проекты
 description: Проекты
 permalink: /projects/
