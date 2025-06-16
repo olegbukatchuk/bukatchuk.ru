@@ -22,13 +22,6 @@ title: News
 </style>
 
 <div class="news-item">
-  <ul>
-  {% for post in site.categories.life%}
-    <li>
-        <span>{{ post.date | date_to_string }}</span> » {% if post.highlight %}&starf; {% endif %}<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | truncate:72 }}</a>
-    </li>
-  {% endfor %}
-  </ul>
   <p><span class="date">**16-06-2025**</span>: Идеальная погода, идеальный день...</p>
   <p><span class="date">**13-06-2025**</span>: Внутренний перфекционист ликует от нового дизайна проекта.</p>
   <p><span class="date">**12-06-2025**</span>: Погода вносит коррективы в стройку и в этом есть плюсы. Остаётся время для отдыха!</p>
