@@ -19,5 +19,4 @@ description: |
 
 <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjsaharovofficial%2Fvalhalla%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
-<p>Треки использованные в выпуске:</p>
-Треклист утерян.
+<p>Треклист утерян.</p>
