@@ -38,4 +38,4 @@ description: |
 15. 52:38 Hankook – Thyphon (Original Mix)
 16. 56:50 Xpander – Walk Away (Perfect Kombo Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

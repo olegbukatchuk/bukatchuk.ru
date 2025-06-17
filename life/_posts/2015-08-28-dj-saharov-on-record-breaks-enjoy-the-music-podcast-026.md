@@ -36,4 +36,4 @@ description: |
 13. 49:56 Neurodriver – Sidewinder (Martopeter Remix)
 14. 55:17 Genuss – Express Service (Forufreezer Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -36,4 +36,4 @@ description: |
 13. 52:37 NoiseRippers - Destroy Your Neighbours! (REL1 Re-Rub)
 14. 55:17 Sub Focus - RockIt (Stanton Warriors Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

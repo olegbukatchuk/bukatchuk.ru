@@ -37,4 +37,4 @@ description: |
 14. 52:41 N'Gwa – The Truth (Original Mix)
 15. 57:52 Genuss – Like This (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

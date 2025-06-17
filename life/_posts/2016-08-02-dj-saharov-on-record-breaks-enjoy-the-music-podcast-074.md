@@ -37,4 +37,4 @@ description: |
 14. 54:45 WDJ – Travelling (Perfect Kombo Remix)
 15. 58:04 ElectroGorilla – Redsome (ilLegal Content Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

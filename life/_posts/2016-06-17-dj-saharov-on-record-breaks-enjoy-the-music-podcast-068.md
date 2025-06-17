@@ -37,4 +37,4 @@ description: |
 14. 54:35 Ondamike – Rock Tha Place (Original Mix)
 15. 59:19 LeJack – Rockin' (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -38,4 +38,4 @@ description: |
 15. 54:36 Hankook – Rabat (VIP Short Mix)
 16. 57:26 Hoffman – Jay-Step (Mo'Saik Refix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -36,4 +36,4 @@ description: |
 13. 51:21 Retropolis – HFDU (Original Mix)
 14. 56:27 Fort Knox Five – Keep It Poppin (Wes Smith Instrumental Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

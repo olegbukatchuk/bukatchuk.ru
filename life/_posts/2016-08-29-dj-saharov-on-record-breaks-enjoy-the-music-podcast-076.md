@@ -36,4 +36,4 @@ description: |
 13. 53:41 DeeRiVee & Gabriell – Precious Love (Deakaluka Lectro Edit)
 14. 56:17 Robert Miles – Children (LeJack Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

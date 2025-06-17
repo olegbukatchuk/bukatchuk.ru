@@ -36,4 +36,4 @@ description: |
 13. 53:41 Subconxious – Hieroglyphs On The Sun (Keith MacKenzie Remix)
 14. 56:48 ilLegal Content – Trap My Guitar (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

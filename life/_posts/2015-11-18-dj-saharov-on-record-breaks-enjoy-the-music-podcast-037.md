@@ -36,4 +36,4 @@ description: |
 13. 51:18 Smookie Illson – India Jones (Keith MacKenzie & Fixx Remix)
 14. 54:12 Vpasqal – Illusion (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

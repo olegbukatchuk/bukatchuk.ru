@@ -35,4 +35,4 @@ description: |
 12. 52:14 Break Mafia, iPlay, Thanx – Universal Funk (Original Mix)
 13. 56:30 Crazy Dream – Ouh Yes (DJ Wislov Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

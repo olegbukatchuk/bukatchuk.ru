@@ -36,4 +36,4 @@ description: |
 13. 50:06 Obscene Frequenzy – Party Baby (Original Mix)
 14. 55:25 Martin Flex – Oh Kay (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

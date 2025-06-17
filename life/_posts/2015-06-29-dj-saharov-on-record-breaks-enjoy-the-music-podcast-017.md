@@ -37,4 +37,4 @@ description: |
 14. 52:28 Funk U - Void (Mutantbreakz Remix)
 15. 55:07 Funk U - Void (The Flea Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

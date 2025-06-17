@@ -35,4 +35,4 @@ description: |
 12. 51:40 Neurygma - Andromeda (Disperto Certain Remix)
 13. 56:48 Kid Digital – Krush Groovin (Freerange DJ's Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

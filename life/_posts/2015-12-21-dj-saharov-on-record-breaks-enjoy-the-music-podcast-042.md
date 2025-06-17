@@ -36,4 +36,4 @@ description: |
 13. 51:31 MFAA – Love4Music (Original Mix)
 14. 56:48 Miss Mants Feat. Ellie Goulding – I Need Your Love (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

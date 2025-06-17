@@ -36,4 +36,4 @@ description: |
 13. 53:00 Daft Punk Feat. Ragga Twins – Around The World (Juxtapose Remix)
 14. 57:02 DJ Saharov - Go (Bassline Moscow Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

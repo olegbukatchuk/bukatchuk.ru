@@ -35,4 +35,4 @@ description: |
 12. 47:32 Plu-Ton - The Void (Original Mix)
 13. 56:00 Wes Smith, White Boy Awesome - Everybody Git Down (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

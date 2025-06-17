@@ -35,4 +35,4 @@ description: |
 12. 51:05 Dr Beats - Chicago (Original Mix)
 13. 56:06 Deekline - Deepa (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

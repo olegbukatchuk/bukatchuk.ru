@@ -34,4 +34,4 @@ description: |
 11. 53:16 Under Break - Cmon Go Go (Original Mix)
 12. 57:21 The Crystal Method - Sling The Decks (Kennedy Jones Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -37,4 +37,4 @@ description: |
 14. 54:58 DestiluX – Scort (Joe C Remix)
 15. 58:44 DJ Icey – X-Files (Bradley Drop Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

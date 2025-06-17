@@ -36,4 +36,4 @@ description: |
 13. 53:25 Eltech – Don't Stop (Jiro Remix)
 14. 58:54 Ian Van Dahl – Inspiration (Breakfastaz Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

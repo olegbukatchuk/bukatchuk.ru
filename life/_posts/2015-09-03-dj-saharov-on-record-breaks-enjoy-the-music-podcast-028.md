@@ -20,4 +20,4 @@ description: |
 
 <p>В 28-м выпуске звучал микс <a href="https://bukatchuk.com/life/2015/08/30/dj-saharov-rythms/">DJ Saharov - Rythms</a></p>
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

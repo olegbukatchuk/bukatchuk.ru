@@ -36,4 +36,4 @@ description: |
 13. 52:19 Kollier – Samsara (Original Mix)
 14. 58:41 Lady Waks Feat. MC Manic – Round The Globe (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

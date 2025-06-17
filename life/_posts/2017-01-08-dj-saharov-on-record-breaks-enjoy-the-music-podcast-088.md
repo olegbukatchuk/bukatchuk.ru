@@ -36,4 +36,4 @@ description: |
 56:19 601 Feat. Ragga Twins & RTC – Dutty Bass (VIP Instrumental Mix)
 59:50 Elskemp – FD Revival (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

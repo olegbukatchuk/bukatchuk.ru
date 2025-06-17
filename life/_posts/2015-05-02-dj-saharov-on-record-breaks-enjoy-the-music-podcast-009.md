@@ -35,4 +35,4 @@ description: |
 12. 47:33 Breaking News Feat. Ragga Twins - Ya Booty (Gaspromo Funky Breaks Mix)
 13. 53:12 Elite Force - Laserlights & Strobes (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

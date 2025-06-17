@@ -36,4 +36,4 @@ description: |
 13. 55:10 Chevy One, Stanley Knife – Be King Booty (Original Mix)
 14. 58:32 Flip5ide Feat. MC Intimidator – Bad Boys (Breaking News Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

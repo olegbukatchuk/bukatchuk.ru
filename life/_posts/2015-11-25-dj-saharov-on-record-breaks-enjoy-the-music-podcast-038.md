@@ -34,4 +34,4 @@ description: |
 11. 51:05 Mutantbreakz – I Need Your Love (Original Mix)
 12. 54:56 9Trane – Hold It (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

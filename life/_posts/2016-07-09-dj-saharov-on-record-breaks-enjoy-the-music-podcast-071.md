@@ -36,4 +36,4 @@ description: |
 13. 51:44 Breaking News – Blaster (Original Mix)
 14. 56:32 Destilux – Sometimes (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

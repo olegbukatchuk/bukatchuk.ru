@@ -38,4 +38,4 @@ description: |
 15. 49:41 Retropolis – Krator (Original Mix)
 16. 55:24 DJ Icey Feat. Melani Rev – Searching (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

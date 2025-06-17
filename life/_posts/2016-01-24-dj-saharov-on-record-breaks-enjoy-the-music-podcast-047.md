@@ -34,4 +34,4 @@ description: |
 11. 49:45 Mimic VS Awal – Acid Rain (Bass Mix)
 12. 55:03 Outlander – System Dust (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

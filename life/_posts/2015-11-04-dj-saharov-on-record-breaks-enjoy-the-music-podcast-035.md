@@ -37,4 +37,4 @@ description: |
 14. 52:30 Bella – Dripped Out (DJ Hero Remix)
 15. 56:20 Lunathics - Tonight (Thec4 Reverse Mode Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

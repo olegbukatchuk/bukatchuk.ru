@@ -34,4 +34,4 @@ description: |
 11. 51:32 Deepfreakx – Lowdown (Peter Paul Remix)
 12. 56:25 Freeflow 45 – Spook Busted (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

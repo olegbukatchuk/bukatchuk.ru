@@ -35,4 +35,4 @@ description: |
 12. 50:10 D. Ramirez – Venus & Mars (Meat Katie & D.Ramirez Remix)
 13. 56:50 Dylan Rhymes – The Way (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

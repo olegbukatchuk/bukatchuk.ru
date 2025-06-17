@@ -36,4 +36,4 @@ description: |
 13. 53:04 Aggresivnes - Tooby (Original Mix)
 14. 56:52 Crookers - Dr.Gonzo Anthem (Waxlife Presents Gonzo Breaks Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

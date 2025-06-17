@@ -36,4 +36,4 @@ description: |
 13. 51:19 Ragga Twins Feat. Aquasky – Let Me See Your Hands (Original Mix)
 14. 54:25 Plastic Shell – Infratest (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -33,4 +33,4 @@ description: |
 10. 52:17 Special Request – Tractor Beam (Original Mix)
 11. 57:13 Taishan Feat. Scruffy D – Bring de Bongo (Future Funk Squad Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

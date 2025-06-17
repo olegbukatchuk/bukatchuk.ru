@@ -36,4 +36,4 @@ description: |
 13. 50:08 Kayshan – Be The Pain (Cube Project Remix)
 14. 54:32 Breakneck – BigSlick (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

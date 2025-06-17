@@ -36,4 +36,4 @@ description: |
 13. 51:33 Cellardore – No Trace (Original Mix)
 14. 55:55 Frosun – Endless Road (Sistema Limbico Classic Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

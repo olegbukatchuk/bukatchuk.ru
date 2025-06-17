@@ -39,4 +39,4 @@ description: |
 16. 52:38 WDJ – Travelling (Dr.Beats Remix)
 17. 55:47 DJ Hero – Corpus Callosum (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

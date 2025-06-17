@@ -36,4 +36,4 @@ description: |
 13. 53:24 Acidova – Cosmic Flow (Blazer Remix)
 14. 58:22 FM-3 – Growing Up (Audio Dropout Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

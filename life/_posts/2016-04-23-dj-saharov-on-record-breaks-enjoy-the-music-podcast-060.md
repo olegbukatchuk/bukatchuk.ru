@@ -37,4 +37,4 @@ description: |
 14. 54:55 Touris & Second Section – Degrees (Original Mix)
 15. 57:18 Krafty Kuts – The Wasp (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

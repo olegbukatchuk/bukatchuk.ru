@@ -36,4 +36,4 @@ description: |
 13. 50:34 JayKode – Whoop! (Voltage Retwerk)
 14. 53:28 Cellardore – Power To The People (DJ Saharov Long Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

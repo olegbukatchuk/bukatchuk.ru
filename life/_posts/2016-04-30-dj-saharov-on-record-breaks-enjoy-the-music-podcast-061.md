@@ -36,4 +36,4 @@ description: |
 13. 53:10 Aeroshock – System (Original Mix)
 14. 56:10 AC Slater Feat. Dell Harris – Booty Free (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -34,4 +34,4 @@ description: |
 11. 50:28 Westbam – Mayday Anthem (Barbitura Remix)
 12. 54:45 Paul Oakenfold – Toca Me (Eshericks Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

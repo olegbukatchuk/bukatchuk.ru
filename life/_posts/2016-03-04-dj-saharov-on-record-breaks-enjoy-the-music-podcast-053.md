@@ -36,4 +36,4 @@ description: |
 13. 54:25 Simian Frenzy Feat. Rodney P – Ill Not Sick (Deekline Remix)
 14. 58:24 Sir Wynn Vega – Bryan's Boot (Jaco Garner's Bass Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

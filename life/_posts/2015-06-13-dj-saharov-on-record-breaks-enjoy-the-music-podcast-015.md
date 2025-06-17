@@ -37,4 +37,4 @@ description: |
 14. 50:42 Dee - Uk Funky Feat. Rubi Dan, Dub FX (Breaking News Remix)
 15. 53:35 Justin Oh Feat. Jonny Rose - City Lights (Rick Tedesco’s Broken Beats Bootleg)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

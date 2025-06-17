@@ -36,4 +36,4 @@ description: |
 13. 55:24 Deenk & SevenG – Children (Original Mix)
 14. 59:18 Dubaxface – Utopia (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

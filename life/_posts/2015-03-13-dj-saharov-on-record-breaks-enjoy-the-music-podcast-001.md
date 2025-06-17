@@ -35,4 +35,4 @@ description: |
 12. 50:31 Tritonal & M35 - Anchor (Mizzo Re-Rub)
 13. 54:17 Wolfgang Gartner - Funk Nasty (V3 KK Re-Rub)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

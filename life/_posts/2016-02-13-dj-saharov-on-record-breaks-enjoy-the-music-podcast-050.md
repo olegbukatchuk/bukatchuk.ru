@@ -37,4 +37,4 @@ description: |
 14. 52:09 Anonyms – Mental Hospital (Original Mix)
 15. 55:46 Crazy Town – Butterfly (Wicked Wes Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

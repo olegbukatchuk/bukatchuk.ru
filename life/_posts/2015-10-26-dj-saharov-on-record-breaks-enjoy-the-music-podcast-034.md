@@ -39,4 +39,4 @@ description: |
 16. 52:41 Dual Base - Kala (Knox! Remix)
 17. 54:46 Electric Soulside – Lick My Dancefloor (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

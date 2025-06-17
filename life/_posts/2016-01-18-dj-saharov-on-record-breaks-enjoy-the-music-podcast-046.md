@@ -37,4 +37,4 @@ description: |
 14. 52:36 UFO Project – I Believe (Original Mix)
 15. 56:45 Defkline – Made Ya Look (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

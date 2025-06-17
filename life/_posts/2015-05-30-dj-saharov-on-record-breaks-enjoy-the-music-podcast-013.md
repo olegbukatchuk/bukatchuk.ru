@@ -35,4 +35,4 @@ description: |
 12. 48:09 The Freestylers - Over You (Vocal Club Mix)
 13. 54:18 Cut & Run - Out A Space (Breaks Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

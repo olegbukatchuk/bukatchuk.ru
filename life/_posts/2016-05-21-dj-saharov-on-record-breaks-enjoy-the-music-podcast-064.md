@@ -34,4 +34,4 @@ description: |
 11. 52:09 Lee Coombs – Lilly In The Sky (Original MIx)
 12. 56:17 K4DJ – Miami Bass (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

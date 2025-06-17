@@ -35,4 +35,4 @@ description: |
 12. 55:30 Transmitter – Pull the Trigger (Original Mix)
 13. 57:45 Yreane – Way Back Home (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

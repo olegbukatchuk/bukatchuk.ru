@@ -33,4 +33,4 @@ description: |
 10. 49:26 Evil Nine – For Lovers Not Fighters (Original Mix)
 11. 52:54 Parallax Breakz – Mantis (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

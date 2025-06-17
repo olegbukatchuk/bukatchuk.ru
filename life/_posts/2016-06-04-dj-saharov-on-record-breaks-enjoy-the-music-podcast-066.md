@@ -35,4 +35,4 @@ description: |
 12. 50:23 Vectrix – Awake Too Long (Martopeter Remix)
 13. 55:45 Slugware – Pump It Up (Vectrix Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -35,4 +35,4 @@ description: |
 12. 51:20 Joe C, Anonyms - Hands In The Air (Joe C Remix)
 13. 55:11 Phat Kidz - Bass Face (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

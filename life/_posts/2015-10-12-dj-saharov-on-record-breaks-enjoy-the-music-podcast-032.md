@@ -35,4 +35,4 @@ description: |
 12. 48:29 Gustolabs, BreaksMafia Feat. Andre Jalil - Get Louder (Quadrant Remix)
 13. 52:41 ILS Feat. Jewels Lindt – Still Crazy (Hexadecimal Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

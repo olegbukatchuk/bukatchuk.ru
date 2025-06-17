@@ -37,4 +37,4 @@ description: |
 14. 53:16 In Progress, Runa – Saam (Under This Remix)
 15. 59:22 Barbitura – Flight Of The Navigator (Retroid Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

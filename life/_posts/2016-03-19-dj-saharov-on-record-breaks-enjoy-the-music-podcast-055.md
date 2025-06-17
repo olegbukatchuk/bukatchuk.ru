@@ -36,4 +36,4 @@ description: |
 13. 56:09 Ultra Pride – Phobos (Breakbeat Version)
 14. 58:12 Xirallic  – Breakin Beat (Korolev From Majesty Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

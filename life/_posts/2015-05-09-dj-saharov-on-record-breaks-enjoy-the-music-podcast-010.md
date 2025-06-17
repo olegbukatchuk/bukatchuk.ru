@@ -36,4 +36,4 @@ description: |
 13. 54:36 Leave - Home (Underworld Remix Eshericks Re-Rub)
 14. 58:18 The Prodigy & Botnek - Warriors Feel It (The Loops Of Fury Bootleg, DJ Hero Re-Rub)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

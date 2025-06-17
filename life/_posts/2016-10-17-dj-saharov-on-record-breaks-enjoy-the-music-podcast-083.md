@@ -36,4 +36,4 @@ description: |
 13. 50:11 Alter Form – Rise Of The Machines (Original Mix)
 14. 55:26 Colombo – Robotronik (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

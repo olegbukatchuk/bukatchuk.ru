@@ -36,4 +36,4 @@ description: |
 13. 53:48 Zaneti – Liquid Fare (Original Mix)
 14. 59:18 Electric Soulside – Venusia (Anarchy Rice Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

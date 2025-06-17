@@ -36,4 +36,4 @@ description: |
 13. 53:25 Colombo - Clap Yah Hands! (Original Mix)
 14. 59:13 Stonewash - iSynth (Vocal Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

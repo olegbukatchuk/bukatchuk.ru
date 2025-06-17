@@ -39,4 +39,4 @@ description: |
 16. 55:08 Luke Da Duke – Get Em Up (FM-3 ReTwerk)
 17. 57:11 Fifth Harmony Feat. Kid Ink – Worth It (FM-3 ReTwerk)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

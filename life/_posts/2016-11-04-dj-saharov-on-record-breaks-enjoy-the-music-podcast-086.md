@@ -37,4 +37,4 @@ description: |
 14. 55:40 Mr Belt & Wezol & Freejak – Somebody To Love (Bass Station Edit)
 15. 59:48 Anton Triplet – My Gospel (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -34,4 +34,4 @@ description: |
 11. 52:10 Axwell, Sebastian Ingrosso – It's True (Dabruk & Klein Remix)
 12. 56:18 Prato – No Way (Lady Packa Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

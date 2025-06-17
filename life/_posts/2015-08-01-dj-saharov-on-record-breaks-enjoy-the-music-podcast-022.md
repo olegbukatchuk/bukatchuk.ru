@@ -38,4 +38,4 @@ description: |
 15. 51:51 Vinyl Junkie & Sanxion Feat. Dijilirium - Feed Them (Breaks Mix)
 16. 56:11 Libra - I Need Your Love (Archive UK Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

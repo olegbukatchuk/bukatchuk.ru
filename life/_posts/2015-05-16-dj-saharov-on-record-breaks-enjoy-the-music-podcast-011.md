@@ -33,4 +33,4 @@ description: |
 10. 47:50 Backdraft & Ebere - Falling (LeftRight & Digital Pizza Remix)
 11. 51:37 Yanix - Derecho (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

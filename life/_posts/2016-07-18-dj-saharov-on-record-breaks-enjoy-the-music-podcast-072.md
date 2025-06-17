@@ -35,4 +35,4 @@ description: |
 12. 52:05 Ed209 – Infectious (Original Mix)
 13. 58:26 Oakenfold – Starry Eyed Surprise (Stir Fry Dub Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

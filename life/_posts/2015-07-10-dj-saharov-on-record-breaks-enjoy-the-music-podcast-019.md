@@ -36,4 +36,4 @@ description: |
 13. 51:50 NLP – Rhythm of Life (Thec4 Remix)
 14. 56:37 Joe C & Ludacris – Junk In The Trunk (Original Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -36,4 +36,4 @@ description: |
 13. 52:56 Underground Traffic – Thuggish (Deekline Remix)
 14. 56:04 Janette Slack – Lost (BreaksMafia Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

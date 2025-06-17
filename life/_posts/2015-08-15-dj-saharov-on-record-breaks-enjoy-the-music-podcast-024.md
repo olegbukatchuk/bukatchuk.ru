@@ -37,4 +37,4 @@ description: |
 14. 51:16 The Flea - Knight Rider (Original Mix)
 15. 56:30 Showtek Feat. Mc Ambush - 90s By Nature (FM-3 Breaks Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

@@ -37,4 +37,4 @@ description: |
 14. 53:56 Ice MC – Think About The Way (Perfect Kombo Remix)
 15. 58:24 Jack Beats – Get Down (Perfect Kombo VIP Mix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

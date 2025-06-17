@@ -35,4 +35,4 @@ description: |
 12. 50:29 DJ Sharaz - Circuit Breaker (Original Mix)
 13. 58:44 Far East Movement Feat. Sidney Samson – Bang It To The Curb (Muff Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

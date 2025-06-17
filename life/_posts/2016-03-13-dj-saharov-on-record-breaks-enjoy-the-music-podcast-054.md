@@ -38,4 +38,4 @@ description: |
 15. 55:47 SevenG – Star Wars (Bass Vader Remix)
 16. 58:32 Sketi – Let's Bounce (DJ Saharov Cut)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>

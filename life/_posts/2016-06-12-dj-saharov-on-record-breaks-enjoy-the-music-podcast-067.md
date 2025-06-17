@@ -32,4 +32,4 @@ description: |
 9. 48:34 Chris Voro – Mona Lisa Overdrive (Bl1tz Remix)
 10. 55:29 Dusky – Skin Deep (Global Communication Remix)
 
-<p>Всего в данном формате было выпущено &mdash; 90 выпусков.</p>
+<p>Всего в данном формате было выпущено &mdash; 88 выпусков.</p>
