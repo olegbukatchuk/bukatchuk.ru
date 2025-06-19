@@ -17,7 +17,7 @@ permalink: /blog/
       {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
       {{ post.date | date: date_format }} »
       <!-- &verbar; {{ post.category | capitalize }} -->
-      % if post.highlight %}&starf; {% endif %}
+      {% if post.highlight %}&starf; {% endif %}
       <a href="{{ post.url }}" title="{{ post.title }}">
         {{ post.title | truncate: 72 }}
       </a>
