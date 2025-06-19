@@ -4,6 +4,7 @@ title: "Geomancer: automate extraction of geospatial features"
 date: 2019-06-25
 category: projects
 comments: true
+published: false
 author: "LJ MIRANDA"
 tags: [geospatial data, geomancer, gis, data science, bigquery, gcp, google cloud]
 header-img: /assets/png/geomancer/header.jpg
