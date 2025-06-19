@@ -13,13 +13,20 @@ permalink: /blog/
 <h2>{{ year.name }}</h2>
 <ul>
   {% for post in year.items %}
-    <li>
-      {{ post.date | date_to_string  | split: " " | slice: 0, 1, 2 | join: " " }} » 
+     <li>
+        {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
+        <span class="post-meta" style="font-size: 0.9em;">{{ post.date | date: date_format }}</span>
+        <!-- &verbar; {{ post.category | capitalize }} -->
+        <h3 style="font-size: 1.2em;"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        <p style="font-size: 0.9em;">{{ post.description }}</p>
+      </li>
+    <!-- <li>
+      {{ post.date | date_to_string  | split: " " | slice: 0, 2 | join: " " }} » 
       {% if post.highlight %}&starf; {% endif %}
       <a href="{{ post.url }}" title="{{ post.title }}">
         {{ post.title | truncate: 72 }}
       </a>
-    </li>
+    </li> -->
   {% endfor %}
 </ul>
 {% endfor %}
