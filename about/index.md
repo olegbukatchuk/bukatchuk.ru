@@ -35,9 +35,9 @@ in game development during his free time.
 
 ## Проекты
 
-- [Uptime.bz](https://uptime.bz): games I developed using Godot and PICO-8.
-- [Followers.vc](https://followers.vc): photos taken using a Game Boy Camera.
-- [Mailer.bz](https://mailer.bz): micro-blog for "today I learned" (TIL) posts and tweets.
+- [Uptime.bz](https://uptime.bz): Мониторинг работоспособности сайтов и страницы состояния. Простое и надежное решение для мониторинга интернет ресурсов.
+- [Followers.vc](https://followers.vc): Платформа фан-сообществ с кошельком для платежей и пожертвований.
+- [Mailer.bz](https://mailer.bz): в разработке...
 
 ## Контакты
 
