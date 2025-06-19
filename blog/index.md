@@ -14,7 +14,7 @@ permalink: /blog/
 <ul>
   {% for post in year.items %}
     <li>
-      {{ post.date | date_to_string  | split: " " | slice: 0, 2 | join: " " }} » 
+      {{ post.date | date_to_string  | split: " " | slice: 0, 1, 2 | join: " " }} » 
       {% if post.highlight %}&starf; {% endif %}
       <a href="{{ post.url }}" title="{{ post.title }}">
         {{ post.title | truncate: 72 }}
