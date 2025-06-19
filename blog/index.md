@@ -14,8 +14,8 @@ permalink: /blog/
 <ul>
   {% for post in year.items %}
      <li>
-        {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %} »
-        {{ post.date | date: date_format }}
+        {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
+        {{ post.date | date: date_format }} »
         <!-- &verbar; {{ post.category | capitalize }} -->
         <h3 style="font-size: 1.2em;"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
         <p style="font-size: 0.9em;">{{ post.description }}</p>
