@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Статьи
+title: Блог
 description: Коллекция статей, заметок и проектов. 
 permalink: /blog/
 ---
