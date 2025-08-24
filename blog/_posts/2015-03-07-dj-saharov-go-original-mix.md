@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "DJ Saharov - Go (Original Mix)"
 date: 2015-03-07
-category: life
+category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Go (Original Mix)"

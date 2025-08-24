@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "Enjoy The Music Podcast #001 на Record Breaks"
 date: 2015-03-13
-category: life
+category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Enjoy The Music Podcast #001 на Record Breaks"
