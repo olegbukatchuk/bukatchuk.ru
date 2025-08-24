@@ -25,4 +25,8 @@ title: News
   <p><span class="date">**Followers**</span>: <a href="https://followers.vc/olegbukatchuk">olegbukatchuk</a></p>
   <p><span class="date">**Instagram**</span>: <a href="https://instagram.com/olegbukatchuk">olegbukatchuk</a></p>
   <p><span class="date">**Github**</span>: <a href="https://github.com/olegbukatchuk">olegbukatchuk</a></p>
+  <p><span class="date">**LinkedIn**</span>: <a href="https://www.linkedin.com/in/olegbukatchuk">olegbukatchuk</a></p>
+  <p><span class="date">**Pinterest**</span>: <a href="https://www.pinterest.com/olegbukatchuk">olegbukatchuk</a></p>
+  <p><span class="date">**VK**</span>: <a href="https://vk.com/olegbukatchuk">olegbukatchuk</a></p>
+  <p><span class="date">**X**</span>: <a href="https://www.twitter.com/olegbukatchuk">olegbukatchuk</a></p>
 </div>
