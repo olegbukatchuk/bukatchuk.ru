@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "Цель саморазвития. Как отдать все кармические долги? Андрей Верба"
 date: 2025-06-11
-category: блог
+category: blog
 comments: true
 author: "Олег Букатчук"
 published: true

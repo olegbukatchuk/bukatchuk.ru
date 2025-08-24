@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "Выступление на радиостанции Megapolis 89,5 FM"
 date: 2015-03-06
-category: life
+category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Выступление на радиостанции Megapolis 89,5 FM"
