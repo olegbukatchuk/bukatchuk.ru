@@ -22,8 +22,8 @@ title: News
 </style>
 
 <div class="news-item">
-  <p><span class="date">**16-06-2025**</span>: Идеальная погода, идеальный день...</p>
-  <p><span class="date">**13-06-2025**</span>: Внутренний перфекционист ликует от нового дизайна проекта.</p>
+  <p><span class="date">**Followers**</span>: <a href="https://followers.vc/olegbukatchuk">@olegbukatchuk</a></p>
+  <p><span class="date">**X aka Twitter**</span>: <a href="https://x.com/olegbukatchuk">@olegbukatchuk</a></p>
   <p><span class="date">**12-06-2025**</span>: Погода вносит коррективы в стройку и в этом есть плюсы. Остаётся время для отдыха!<p>
   <p><span class="date">**11-06-2025**</span>: Продолжаю достраивать дом...</p>
   <p><span class="date">**08-06-2025**</span>: Попал под грозу! Промок, но эмоцию получил.</p>
