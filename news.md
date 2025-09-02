@@ -24,5 +24,4 @@ title: News
 <div class="news-item">
   <p><span class="date">**Социальная сеть**</span>: <a href="https://followers.vc">followers.vc</a></p>
   <p><span class="date">**Сервис мониторинга**</span>: <a href="https://uptime.bz">uptime.bz</a></p>
-  <p><span class="date">**Сервис e-mail иаркетинга**</span>: <a href="https://swiftsend.ru">swiftsend.ru</a></p>
 </div>
