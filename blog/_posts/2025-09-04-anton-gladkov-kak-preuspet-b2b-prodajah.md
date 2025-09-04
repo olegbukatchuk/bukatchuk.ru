@@ -23,7 +23,7 @@ excerpt: |
 </br>
 Треклист:
 <ul>
-<li>Stooki Sound, Mr Carmack - Uppers - </li>
+<li>Stooki Sound, Mr Carmack - Uppers</li>
 <li>Kylie Auldist - No Use</li>
 <li>FERG - Plain Jane REMIX (Official Audio) ft. Nicki Minaj</li>
 <li>Awon & Phoniks, Dephlow - As Live As It Gets - </li>
