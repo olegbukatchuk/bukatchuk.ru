@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: "Чёрные лебеди aka Риски и возможности"
+title: "Чёрные лебеди от Нассима Талеба"
 date: 2019-12-24
 category: blog
 comments: true
