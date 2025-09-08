@@ -6,7 +6,7 @@ date: 2019-12-24
 category: blog
 comments: true
 author: "Олег Букатчук"
-published: false
+published: true
 header-img: /assets/png/talk-dlsu/header.png
 tags:
   [
