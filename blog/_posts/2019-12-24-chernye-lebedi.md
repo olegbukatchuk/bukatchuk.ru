@@ -10,7 +10,7 @@ published: true
 header-img: /assets/png/talk-dlsu/header.png
 tags:
   [
-    sales, b2b,
+    black, swan,
   ]
 description: |
   Как заметка для самого себя, чтобы потом было на что сослаться в дисскусиях.
