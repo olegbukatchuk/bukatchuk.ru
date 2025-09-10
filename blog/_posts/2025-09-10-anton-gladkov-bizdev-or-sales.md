@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: "Антон Гладков: BizDev VS Sales?"
+title: "Антон Гладков: BizDev or Sales?"
 date: 2025-09-10
 category: blog
 comments: true
