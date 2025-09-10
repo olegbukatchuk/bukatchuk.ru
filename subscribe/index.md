@@ -13,7 +13,7 @@ permalink: /subscribe/
 * Интересные факты, которые я слушал, смотрел и читал и что вам определенно понравится!
 
 
-<iframe src="https://olegbukatchuk.substack.com/embed" width="480" height="320" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://olegbukatchuk.substack.com/embed" width="780" height="320" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
 
 ## Часто Задаваемые Вопросы
 
