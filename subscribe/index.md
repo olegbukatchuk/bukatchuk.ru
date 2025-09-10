@@ -15,7 +15,7 @@ permalink: /subscribe/
 
 <!-- <iframe src="https://olegbukatchuk.substack.com/embed" width="780" height="320" style="border:0px solid #EEE; background:none;" frameborder="0" scrolling="no"></iframe> -->
 
-<iframe src="https://olegbukatchuk.substack.com/embed" width="740" height="320" style="border:3px; border-style:solid; border-color:#a00000; padding: 1em; background: transparent;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://olegbukatchuk.substack.com/embed" width="740" height="320" style="border:3px; border-style:solid; border-color:#a00000;background: transparent;" frameborder="0" scrolling="no"></iframe>
 
 
 ## Часто Задаваемые Вопросы
