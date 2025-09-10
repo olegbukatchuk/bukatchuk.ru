@@ -45,7 +45,7 @@ layout: default
 
       <ul class="post-list">
         {% assign mainPosts = site.posts | where: 'type', 'post' %}
-        {% for post in mainPosts limit:5 %}
+        {% for post in mainPosts limit:10 %}
         <li>
           {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
           <span class="post-meta" style="font-size: 0.9em;">{{ post.date | date: date_format }}</span>
