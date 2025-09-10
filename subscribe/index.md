@@ -10,11 +10,10 @@ permalink: /subscribe/
 Здесь вы получите:
 
 * Обновления новых записей в блоге за этот месяц с краткими комментариями.
-* Случайные чудеса и интересные факты, которые вам понравятся!
-* То, что я слушал, смотрел и читал и что вам определенно понравится!
+* Интересные факты, которые я слушал, смотрел и читал и что вам определенно понравится!
 
 
-<iframe src="https://olegbukatchuk.substack.com/embed" width="480" height="150" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://olegbukatchuk.substack.com/embed" width="740" height="150" style="border:0px solid #EEE; background:fffff8;" frameborder="0" scrolling="no"></iframe>
 
 ## Часто Задаваемые Вопросы
 
