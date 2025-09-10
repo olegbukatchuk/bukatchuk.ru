@@ -19,7 +19,7 @@ excerpt: |
 
 Слушается и смотриться на одном дыхании. С уверенностью могу сказать, что буду пересматривать ещё несколько раз чтобы всё отложилось в уме - "по полочкам".
  
-<iframe width="740" height="400" src="https://www.youtube.com/live/I3E6vWH-u_0?si=JJhrLoeA6AE6Rk8q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="740" height="400" src="https://www.youtube.com/embed/I3E6vWH-u_0?si=2bH7R2jg95WrjdUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 Треклист:
 <ul>
