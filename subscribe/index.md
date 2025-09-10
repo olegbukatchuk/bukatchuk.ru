@@ -14,7 +14,7 @@ permalink: /subscribe/
 * Лучшее из того, что я смотрел.
 * А также многое другое и тебе определенно это понравится!
 
-<iframe src="https://olegbukatchuk.substack.com/embed" width="740" height="320" style="border:3px; border-style:solid; border-color:#a00000;background-color:#fffff8;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://olegbukatchuk.substack.com/embed" width="740" height="320" style="border:3px; border-style:dashed; border-color:#a00000;background-color:#fffff8;" frameborder="0" scrolling="no"></iframe>
 
 ## Часто задаваемые вопросы
 
