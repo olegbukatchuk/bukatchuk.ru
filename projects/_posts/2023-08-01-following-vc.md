@@ -1,13 +1,13 @@
 ---
 layout: post
 type: post
-title: "calamanCy: NLP pipelines for Tagalog"
-date: 2020-08-01
+title: "Followers.vc"
+date: 2025-06-01
 category: projects
 comments: true
-author: "LJ MIRANDA"
-published: false
-tags: [nlp, language technology, natural language processing, tagalog, low resource, spacy, machine learning]
+author: "Oleg Bukatchuk"
+published: true
+tags: [social, network,]
 header-img: /assets/png/calamancy/header.png
 description: |
     I am excited to introduce calamanCy, an open-source toolkit for constructing natural language processing pipelines for Tagalog.
