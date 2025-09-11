@@ -17,7 +17,7 @@ description: |
 excerpt: |
 ---
 
-Слушается и смотриться на одном дыхании. С уверенностью могу сказать, что буду пересматривать ещё несколько раз чтобы всё отложилось в уме - "по полочкам".
+<span class="firstcharacter">С</span>лушается и смотриться на одном дыхании. С уверенностью могу сказать, что буду пересматривать ещё несколько раз чтобы всё отложилось в уме - "по полочкам".
  
 <iframe width="740" height="400" src="https://www.youtube.com/embed/I3E6vWH-u_0?si=2bH7R2jg95WrjdUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
