@@ -6,7 +6,7 @@ date: 2025-06-01
 category: projects
 comments: true
 author: "Oleg Bukatchuk"
-published: true
+published: false
 tags: [social, network,]
 header-img: /assets/png/calamancy/header.png
 description: |
