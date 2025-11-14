@@ -1,0 +1,62 @@
+services:
+  backend:
+    container_name: ${BACKEND}
+    hostname: ${BACKEND}
+    restart: ${RESTART_MODE}
+    env_file:
+      - .env
+    volumes:
+      - "${VOLUMES_DIR}/php:/var/www/html"
+    image: ${BACKEND}:php-fpm-8.4.12
+    build:
+      context: ${BUILD_DIR}/${BACKEND}/
+
+  balancer:
+    container_name: ${BALANCER}
+    hostname: ${BALANCER}
+    restart:  ${RESTART_MODE}
+    env_file:
+      - .env
+    volumes:
+      - "${VOLUMES_DIR}/letsencrypt:/etc/nginx/ssl"
+    ports:
+      - "${HTTP}:${HTTP}"
+      - "${HTTPS}:${HTTPS}"
+    environment:
+      - TZ=${TZ}
+      - LETSENCRYPT=${LETSENCRYPT}
+      - LE_EMAIL=${LE_EMAIL}
+      - LE_FQDN=${LE_FQDN}
+    image: balancer:nginx-1.27.3
+    build:
+      context: ${BUILD_DIR}/${BALANCER}/
+
+  database:
+    container_name: ${DATABASE}
+    hostname: ${DATABASE}
+    restart:  ${RESTART_MODE}
+    env_file:
+      - .env
+    volumes:
+      - "${VOLUMES_DIR}/mysql:/var/lib/mysql"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    image: ${DATABASE}:mysql-8.0.43
+    build:
+      context: ${BUILD_DIR}/${DATABASE}/
+
+  frontend:
+    container_name: ${FRONTEND}
+    hostname: ${FRONTEND}
+    restart:  ${RESTART_MODE}
+    env_file:
+      - .env
+    volumes:
+      - "${VOLUMES_DIR}/php:/var/www/html"
+    image: ${FRONTEND}:nginx-1.29.1
+    build:
+      context: ${BUILD_DIR}/${FRONTEND}/
