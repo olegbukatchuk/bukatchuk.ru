@@ -4,7 +4,7 @@ services:
     hostname: ${BACKEND}
     restart: ${RESTART_MODE}
     env_file:
-      - .env
+      - .env.production
     volumes:
       - "${VOLUMES_DIR}/php:/var/www/html"
     image: ${BACKEND}:php-fpm-8.4.12
@@ -16,7 +16,7 @@ services:
     hostname: ${BALANCER}
     restart:  ${RESTART_MODE}
     env_file:
-      - .env
+      - .env.production
     volumes:
       - "${VOLUMES_DIR}/letsencrypt:/etc/nginx/ssl"
     ports:
@@ -36,7 +36,7 @@ services:
     hostname: ${DATABASE}
     restart:  ${RESTART_MODE}
     env_file:
-      - .env
+      - .env.production
     volumes:
       - "${VOLUMES_DIR}/mysql:/var/lib/mysql"
     restart: always
@@ -54,7 +54,7 @@ services:
     hostname: ${FRONTEND}
     restart:  ${RESTART_MODE}
     env_file:
-      - .env
+      - .env.production
     volumes:
       - "${VOLUMES_DIR}/php:/var/www/html"
     image: ${FRONTEND}:nginx-1.29.1
