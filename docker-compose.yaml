@@ -15,6 +15,9 @@ services:
     image: ${BACKEND}:${TAG}
     build:
       context: ${BUILD_DIR}/${BACKEND}/
+    networks:
+      default:
+        name: bukatchuk
 
   balancer:
     container_name: ${BALANCER}
@@ -30,8 +33,14 @@ services:
         bind:
           create_host_path: true
     ports:
-      - "${HTTP}:${HTTP}"
-      - "${HTTPS}:${HTTPS}"
+      - mode: ingress
+        target: "${HTTP}""
+        published: "${HTTP}"
+        protocol: tcp
+      - mode: ingress
+        target: "${HTTPS}"
+        published: "${HTTPS}"
+        protocol: tcp
     environment:
       - TZ=${TZ}
       - LETSENCRYPT=${LETSENCRYPT}
@@ -40,6 +49,9 @@ services:
     image: ${BALANCER}:${TAG}
     build:
       context: ${BUILD_DIR}/${BALANCER}/
+    networks:
+      default:
+        name: bukatchuk
 
   database:
     container_name: ${DATABASE}
@@ -62,6 +74,9 @@ services:
     image: ${DATABASE}:${TAG}
     build:
       context: ${BUILD_DIR}/${DATABASE}/
+    networks:
+      default:
+        name: bukatchuk
 
   frontend:
     container_name: ${FRONTEND}
@@ -79,3 +94,10 @@ services:
     image: ${FRONTEND}:${TAG}
     build:
       context: ${BUILD_DIR}/${FRONTEND}/
+    networks:
+      default:
+        name: bukatchuk
+
+networks:
+  default:
+    name: bukatchuk
