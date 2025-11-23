@@ -2,6 +2,7 @@
 
 Посмотреть конфигурацию
 ```bash
+cd /srv/bukatchuk/; \
 docker compose \
     --env-file .env.production.common \
     --env-file .env.production.backend \
