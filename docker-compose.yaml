@@ -12,7 +12,7 @@ services:
         target: /var/www/html
         bind:
           create_host_path: true
-    image: ${BACKEND}:php-fpm-8.4.12
+    image: ${BACKEND}:${TAG}
     build:
       context: ${BUILD_DIR}/${BACKEND}/
 
@@ -37,7 +37,7 @@ services:
       - LETSENCRYPT=${LETSENCRYPT}
       - LE_EMAIL=${LE_EMAIL}
       - LE_FQDN=${LE_FQDN}
-    image: ${BALANCER}:nginx-1.27.3
+    image: ${BALANCER}:${TAG}
     build:
       context: ${BUILD_DIR}/${BALANCER}/
 
@@ -59,7 +59,7 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-    image: ${DATABASE}:mysql-8.0.43
+    image: ${DATABASE}:${TAG}
     build:
       context: ${BUILD_DIR}/${DATABASE}/
 
@@ -76,6 +76,6 @@ services:
         target: /var/www/html
         bind:
           create_host_path: true
-    image: ${FRONTEND}:nginx-1.29.1
+    image: ${FRONTEND}:${TAG}
     build:
       context: ${BUILD_DIR}/${FRONTEND}/
