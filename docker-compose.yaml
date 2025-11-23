@@ -4,8 +4,8 @@ services:
     hostname: ${BACKEND}
     restart: ${RESTART_MODE}
     env_file:
-      - ./env/.env.production.common
-      - ./env/.env.production.backend
+      - .env.production.common
+      - .env.production.backend
     volumes:
       - type: bind
         source: ${VOLUMES_DIR}/php
@@ -21,8 +21,8 @@ services:
     hostname: ${BALANCER}
     restart:  ${RESTART_MODE}
     env_file:
-      - ./env/.env.production.common
-      - ./env/.env.production.balancer
+      - .env.production.common
+      - .env.production.balancer
     volumes:
       - type: bind
         source: ${VOLUMES_DIR}/letsencrypt
@@ -46,8 +46,8 @@ services:
     hostname: ${DATABASE}
     restart:  ${RESTART_MODE}
     env_file:
-      - ./env/.env.production.common
-      - ./env/.env.production.database
+      - .env.production.common
+      - .env.production.database
     volumes:
       - type: bind
         source: ${VOLUMES_DIR}/mysql
@@ -68,8 +68,8 @@ services:
     hostname: ${FRONTEND}
     restart:  ${RESTART_MODE}
     env_file:
-      - ./env/.env.production.common
-      - ./env/.env.production.frontend
+      - .env.production.common
+      - .env.production.frontend
     volumes:
       - type: bind
         source: ${VOLUMES_DIR}/php
