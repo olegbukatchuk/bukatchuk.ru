@@ -95,6 +95,6 @@ services:
       - "${NETWORK}"
 
 networks:
-  app:
+  "${NETWORK}":
     name: "${NETWORK}"
     driver: bridge
