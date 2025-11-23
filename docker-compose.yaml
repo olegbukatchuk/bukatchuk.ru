@@ -15,8 +15,6 @@ services:
     image: ${BACKEND}:${TAG}
     build:
       context: ${BUILD_DIR}/${BACKEND}/
-    networks:
-      - "${NETWORK}"
 
   balancer:
     container_name: ${BALANCER}
@@ -48,8 +46,6 @@ services:
     image: ${BALANCER}:${TAG}
     build:
       context: ${BUILD_DIR}/${BALANCER}/
-    networks:
-      - "${NETWORK}"
 
   database:
     container_name: ${DATABASE}
@@ -72,8 +68,6 @@ services:
     image: ${DATABASE}:${TAG}
     build:
       context: ${BUILD_DIR}/${DATABASE}/
-    networks:
-      - "${NETWORK}"
 
   frontend:
     container_name: ${FRONTEND}
@@ -91,10 +85,4 @@ services:
     image: ${FRONTEND}:${TAG}
     build:
       context: ${BUILD_DIR}/${FRONTEND}/
-    networks:
-      - "${NETWORK}"
 
-networks:
-  "${NETWORK}":
-    name: "${NETWORK}"
-    driver: bridge
