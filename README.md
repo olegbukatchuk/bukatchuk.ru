@@ -32,7 +32,7 @@ docker compose \
     --env-file .env.production.balancer \
     --env-file .env.production.database \
     --env-file .env.production.frontend \
-    вщцт
+    down
 ```
 
 Логи
