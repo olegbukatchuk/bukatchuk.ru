@@ -16,8 +16,7 @@ services:
     build:
       context: ${BUILD_DIR}/${BACKEND}/
     networks:
-      default:
-        name: bukatchuk
+      - "${NETWORK}"
 
   balancer:
     container_name: ${BALANCER}
@@ -50,8 +49,7 @@ services:
     build:
       context: ${BUILD_DIR}/${BALANCER}/
     networks:
-      default:
-        name: bukatchuk
+      - "${NETWORK}"
 
   database:
     container_name: ${DATABASE}
@@ -75,8 +73,7 @@ services:
     build:
       context: ${BUILD_DIR}/${DATABASE}/
     networks:
-      default:
-        name: bukatchuk
+      - "${NETWORK}"
 
   frontend:
     container_name: ${FRONTEND}
@@ -95,9 +92,8 @@ services:
     build:
       context: ${BUILD_DIR}/${FRONTEND}/
     networks:
-      default:
-        name: bukatchuk
+      - "${NETWORK}"
 
 networks:
   default:
-    name: bukatchuk
+    name: "${NETWORK}"
