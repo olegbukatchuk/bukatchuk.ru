@@ -34,7 +34,7 @@ services:
           create_host_path: true
     ports:
       - mode: ingress
-        target: "${HTTP}""
+        target: "${HTTP}"
         published: "${HTTP}"
         protocol: tcp
       - mode: ingress
