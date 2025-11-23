@@ -6,7 +6,11 @@ services:
     env_file:
       - .env.production
     volumes:
-      - "${VOLUMES_DIR}/php:/var/www/html"
+      - type: bind
+        source: ${VOLUMES_DIR}/php
+        target: /var/www/html
+        bind:
+          create_host_path: true
     image: ${BACKEND}:php-fpm-8.4.12
     build:
       context: ${BUILD_DIR}/${BACKEND}/
@@ -18,7 +22,11 @@ services:
     env_file:
       - .env.production
     volumes:
-      - "${VOLUMES_DIR}/letsencrypt:/etc/nginx/ssl"
+      - type: bind
+        source: ${VOLUMES_DIR}/letsencrypt
+        target: /etc/nginx/ssl
+        bind:
+          create_host_path: true
     ports:
       - "${HTTP}:${HTTP}"
       - "${HTTPS}:${HTTPS}"
@@ -38,7 +46,11 @@ services:
     env_file:
       - .env.production
     volumes:
-      - "${VOLUMES_DIR}/mysql:/var/lib/mysql"
+      - type: bind
+        source: ${VOLUMES_DIR}/mysql
+        target: /var/lib/mysql
+        bind:
+          create_host_path: true
     environment:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
@@ -55,7 +67,11 @@ services:
     env_file:
       - .env.production
     volumes:
-      - "${VOLUMES_DIR}/php:/var/www/html"
+      - type: bind
+        source: ${VOLUMES_DIR}/php
+        target: /var/www/html
+        bind:
+          create_host_path: true
     image: ${FRONTEND}:nginx-1.29.1
     build:
       context: ${BUILD_DIR}/${FRONTEND}/
