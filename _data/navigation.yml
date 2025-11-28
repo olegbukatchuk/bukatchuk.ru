@@ -17,13 +17,13 @@ main:
     button: 0
   
   # Vinyl
-  - title: "Пластинки"
+  - title: "Винил"
     url: "vinyl/"
     button: 0
 
   # Portfolio
   - title: "Проекты"
-    url: "portfolio/"
+    url: "projects/"
     button: 0
 
   # Blog
