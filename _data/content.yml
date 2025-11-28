@@ -5,7 +5,7 @@
 
 ### About [ about ]
 about:
-  title: "About Me"
+  title: "Об авторе"
   image: "assets/img/man1.jpg"
   text: "
         <p>
@@ -17,19 +17,19 @@ about:
       value: "24"
 
     - label: "Age"
-      value: "22 Years"
+      value: "42 года"
 
     - label: "Job"
       value: "Web Developer"
 
     - label: "Citizenship"
-      value: "Ukraine"
+      value: "Russia"
 
     - label: "Residence"
-      value: "Kiev"
+      value: "Moscow"
 
     - label: "E-mail"
-      value: "johndoe@domain.com"
+      value: "oleg@bukatchuk.com"
 
   download:
     text: "Download CV"
