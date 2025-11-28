@@ -13,7 +13,7 @@ about:
         </p>
         "
   list:
-    - label: "Name"
+    - label: ""
       value: "24"
 
     - label: "Age"
