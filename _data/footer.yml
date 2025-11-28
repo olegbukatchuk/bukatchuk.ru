@@ -5,16 +5,16 @@
 
 main:
   social:
-    - title: "Dribbble"
-      icon: "social-dribbble"
-      url: "https://dribbble.com/"
+    - title: "vk"
+      icon: "social-vk"
+      url: "https://vk.com/olegbukatchuk"
     - title: "Twitter"
       icon: "social-twitter"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/olegbukatchuk"
     - title: "GitHub"
       icon: "social-github"
-      url: "https://github.com/"
+      url: "https://github.com/olegbukatchuk"
     - title: "Instagram"
       icon: "social-instagram-outline"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/olegbukatchuk"
   copy: "© 2025"

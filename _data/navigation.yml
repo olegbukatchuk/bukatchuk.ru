@@ -34,4 +34,4 @@ main:
   # Contacts
   - title: "Контакты"
     url: "contacts/"
-    button: 1
+    button: 0
