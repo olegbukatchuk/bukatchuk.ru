@@ -21,7 +21,7 @@ ui_text:
   view_project:   "Просмотр"
   new:            "new"
   search:         "Поиск ..."
-  recent_posts:   "Новое в блоге"
-  latest_posts:   "Последние статьи"
+  recent_posts:   "Последние статьи"
+  latest_posts:   "Новое в блоге"
   categories:     "Категории"
   
