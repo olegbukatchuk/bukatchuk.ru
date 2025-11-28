@@ -1,8 +1,8 @@
 # basic settings
 title: "Букатчук Точка Ар Ю"
 email: "oleg@bukatchuk.com"
-description: "Блог Олега Букатчука"
-author: "Олег Букатчу"
+description: "Букатчук Точка Ар Ю"
+author: "Олег Букатчук"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bukatchuk.ru" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
