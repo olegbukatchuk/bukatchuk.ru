@@ -1,6 +1,2 @@
 # files
 .DS_Store
-.env.production.*
-
-# folders
-volumes/*
