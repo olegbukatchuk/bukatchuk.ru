@@ -13,7 +13,7 @@ paginate_path: "/blog/page:num/"
 permalink: pretty
 
 # disqus comments
-disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
+disqus_comments: "no" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "glitche-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # formsubmit.io
@@ -22,6 +22,7 @@ formsubmit_email: "oleg@bukatchuk.com" # sign up on https://formsubmit.io/ and c
 # collections
 collections:
   - works
+  - vinyl
 
 # archives
 jekyll-archives:

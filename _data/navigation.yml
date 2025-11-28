@@ -10,7 +10,12 @@ main:
   - title: "Главная"
     url: "/"
     button: 0
-    
+  
+  # About
+  - title: "Обо мне"
+    url: "about/"
+    button: 0
+
   # Resume
   - title: "Об авторе"
     url: "resume/"

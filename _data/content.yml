@@ -5,18 +5,18 @@
 
 ### About [ about ]
 about:
-  title: "Об авторе"
+  title: "Резюме"
   image: "assets/img/man1.jpg"
   text: "
         <p>
-          <strong>Hello! I’m John Doe.</strong><br> Web designer from Ukraine, Kiev. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+          <strong>Привет, меня зовут Олег Букатчук!</strong><br> Web designer from Ukraine, Kiev. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
         </p>
         "
   list:
-    - label: ""
-      value: "24"
+    - label: "Опыт в ИТ"
+      value: "18 лет"
 
-    - label: "Age"
+    - label: "Возраст"
       value: "42 года"
 
     - label: "Job"
@@ -28,17 +28,17 @@ about:
     - label: "Residence"
       value: "Moscow"
 
-    - label: "E-mail"
+    - label: "Эл.почта"
       value: "oleg@bukatchuk.com"
 
   download:
-    text: "Download CV"
+    text: "Скачать резюме"
     link: "https://drive.google.com/"
 
 ### Resume [ resume ]
 resume:
   experience:
-    title: "Experience"
+    title: "Опыт"
     items:
       - year: "2013 - Present"
         name: "Art Director - Facebook Inc"
@@ -53,7 +53,7 @@ resume:
         text: "Optimize website performance using latest technology."
         
   education:
-    title: "Education"
+    title: "Проекты"
     items:
       - year: "2006 - 2008"
         name: "Art University of New York"
