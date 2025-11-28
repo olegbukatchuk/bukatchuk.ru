@@ -17,7 +17,7 @@ main:
     button: 0
 
   # Resume
-  - title: "Об авторе"
+  - title: "Резюме"
     url: "resume/"
     button: 0
   
