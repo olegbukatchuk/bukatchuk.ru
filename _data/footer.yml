@@ -5,16 +5,7 @@
 
 main:
   social:
-    - title: "vk"
-      icon: "social-vk"
-      url: "https://vk.com/olegbukatchuk"
-    - title: "Twitter"
-      icon: "social-twitter"
-      url: "https://twitter.com/olegbukatchuk"
     - title: "GitHub"
       icon: "social-github"
       url: "https://github.com/olegbukatchuk"
-    - title: "Instagram"
-      icon: "social-instagram-outline"
-      url: "https://instagram.com/olegbukatchuk"
   copy: "© 2025"
