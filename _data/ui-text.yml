@@ -7,7 +7,7 @@ ui_text:
   blog:           "Блог"
   archive:        "Архив"
   blog_post:      "Статья"
-  by:             "by"
+  by:             "Автор"
   share:          "Поделиться"
   share_on:       "Поделиться в"
   tags:           "Теги"
