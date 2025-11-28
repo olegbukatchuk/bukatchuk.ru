@@ -9,7 +9,7 @@ about:
   image: "assets/img/man1.jpg"
   text: "
         <p>
-          <strong>Привет, меня зовут Олег Букатчук!</strong><br> Web designer from Ukraine, Kiev. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+          <strong>Привет!</strong><br>Меня зовут, Олег Букатчук! У меня богатый опыт в создании, эксплуатации и автоматизации инфраструктуры IT-проектов. Постороении команд и управлении проектами.
         </p>
         "
   list:
@@ -19,14 +19,14 @@ about:
     - label: "Возраст"
       value: "42 года"
 
-    - label: "Job"
-      value: "Web Developer"
+    - label: "Проффесия"
+      value: "ИТ эксперт"
 
-    - label: "Citizenship"
-      value: "Russia"
+    - label: "Страна"
+      value: "Россия"
 
-    - label: "Residence"
-      value: "Moscow"
+    - label: "Город"
+      value: "Калуга"
 
     - label: "Эл.почта"
       value: "oleg@bukatchuk.com"
