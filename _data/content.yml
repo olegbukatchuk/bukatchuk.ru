@@ -40,13 +40,13 @@ resume:
   experience:
     title: "Опыт"
     items:
-      - year: "Декабрь 2023 - Май 2025"
-        name: "SRE Team Lead"
-        text: "Тех.стек:<br>Kubernetes, Docker/Docker Compose.<br>Terraform, Packer, Ansible.<br>OpenStack, VMWare, Ceph.<br>Gitlab CI, Jenkins.<br>PostgreSQL, Clickhouse, OpenSearch, Redis, RabbitMQ, Cassandra.<br>Victoria Metrics (aka Prometheus), Alert Manager, Grafana, Zabbix, Graphite (Carbon), InfluxDB.<br>Bind, PowerDNS, DNSdist.<br>Вся инфра описана в виде Infrastructure as a Code! Методология Kanban. Инструменты Jira, Confluence."
+      - year: "Июнь 2022 - Май 2025"
+        name: "T1 Group. SRE Team Lead"
+        text: "- Kubernetes, Docker/Docker Compose.<br>- Terraform, Packer, Ansible.<br>- OpenStack, VMWare, Ceph.<br>- Gitlab CI, Jenkins.<br>- PostgreSQL, Clickhouse, OpenSearch, Redis, RabbitMQ, Cassandra.<br>- Victoria Metrics (aka Prometheus), Alert Manager, Grafana, Zabbix, Graphite (Carbon), InfluxDB.<br>- Bind, PowerDNS, DNSdist.<br>- Вся инфраструктура описана в виде IaC."
 
-      - year: "2011 - 2012"
-        name: "Front-end Developer - Google Inc"
-        text: "Monitored technical aspects of the front-end delivery for several projects."
+      - year: "Август 2021 - Май 2012"
+        name: "CRIF. DevOps Architect"
+        text: "- Docker, Terraform, Packer.<br>- Nginx, Haproxy.<br>- PostgreSQL, MSSQL.<br>- IBMMQ, Kafka, Redis<br>- Prometheus, Grafana, AlertManager.<br>- Ansible, Nexus."
 
       - year: "2009 - 2010"
         name: "Senior Developer - Abc Inc"
