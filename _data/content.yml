@@ -13,14 +13,14 @@ about:
         </p>
         "
   list:
-    - label: "Опыт в ИТ"
+    - label: "Опыт"
       value: "18 лет"
 
     - label: "Возраст"
       value: "42 года"
 
-    - label: "Проффесия"
-      value: "ИТ эксперт"
+    - label: "Специализация"
+      value: " DevOps/SRE"
 
     - label: "Страна"
       value: "Россия"
@@ -55,17 +55,21 @@ resume:
   education:
     title: "Проекты"
     items:
-      - year: "2006 - 2008"
-        name: "Art University of New York"
-        text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      - year: "2025"
+        name: \"<a href="https://followers.vc">Followers.vc</a>"
+        text: "Мощная платформа для управления социальными сетями, которая позволяет автоматизировать и контролировать несколько аккаунтов в социальных сетях через централизованную панель управления."
 
-      - year: "2005 - 2006"
-        name: "Programming Course"
-        text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      - year: "2024"
+        name: "Pixman.io"
+        text: "FOMO-платформа для ретаргетинга пользователей. Проект закрыт."
 
-      - year: "2004 - 2005"
-        name: "Web Design Course"
-        text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      - year: "2023"
+        name: "Yanabe.ru"
+        text: "Сервис видеоконференций. Проект закрыт."
+
+      - year: "2020"
+        name: "Freelance.im"
+        text: "Фриланс биржа. Проект закрыт."
 
 # Skills [ skills ]
 skills:
