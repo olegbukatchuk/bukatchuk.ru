@@ -41,17 +41,28 @@ resume:
     title: "Опыт"
     items:
       - year: "Июнь 2022 - Май 2025"
-        name: "T1 Group. SRE Team Lead"
+        name: "T1 Group | SRE Team Lead"
         text: "- Kubernetes, Docker/Docker Compose.<br>- Terraform, Packer, Ansible.<br>- OpenStack, VMWare, Ceph.<br>- Gitlab CI, Jenkins.<br>- PostgreSQL, Clickhouse, OpenSearch, Redis, RabbitMQ, Cassandra.<br>- Victoria Metrics (aka Prometheus), Alert Manager, Grafana, Zabbix, Graphite (Carbon), InfluxDB.<br>- Bind, PowerDNS, DNSdist.<br>- Вся инфраструктура описана в виде IaC."
 
       - year: "Август 2021 - Май 2012"
-        name: "CRIF. DevOps Architect"
+        name: "CRIF | DevOps Architect"
         text: "- Docker, Terraform, Packer.<br>- Nginx, Haproxy.<br>- PostgreSQL, MSSQL.<br>- IBMMQ, Kafka, Redis<br>- Prometheus, Grafana, AlertManager.<br>- Ansible, Nexus."
 
       - year: "Май 2019 - Июль 2021"
-        name: "ЦИАН. Senior DevOps Engineer"
+        name: "ЦИАН | Senior DevOps Engineer"
         text: "- Docker, Kubernetes<br>- Nomad, Consul, Terraform, Packer, Vault.<br>- Nginx, Haproxy.<br>- Cassandra, PostgreSQL (Patroni + PoWA), MySQL, MSSQL.<br>- Hadoop v2/v3.<br>- RabbitMQ, Kafka, Redis.<br>- Prometheus, Graphite, Elasticsearch, Kibana.<br>- Grafana, AlertManager, Sentry.<br>- SaltStack, Ansible, Nexus."
 
+      - year: "Апрель 2018 - Май 2019"
+        name: "CUSTIS | DevOps Team Lead"
+        text: "- Поддержка множества команд разработчиков в вопросах автоматизации сборки, тестирования и доставки приложений.<br>- Сопровождение, развитие CI/CD продуктов.<br>- Автоматизация мониторинга и оповещении об инцидентах в инфраструктуре проектов.<br>- Внедрение DevOps правктик в процессы разработки продуктов.<br>Найм и управление командой DevOps-инженеров."
+
+      - year: "Декабрь 2017 - Апрель 2018"
+        name: "MOS.RU | DevOps Team Lead"
+        text: "- Автоматизация процессов разработки: сборка, развертывание, оркестрация.<br>- Конфигурирование и сопровождение: тестовых и production окружений.<br>- Управление инцидентами.<br>- Поддержка: production сред в режиме 24х7."
+        
+      - year: "Июнь 2005 - Ноябрь 2017"
+        name: "Системный (и сетевой) администратор"
+        text: "В разных noname компаниях."
   education:
     title: "Проекты"
     items:
