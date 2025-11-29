@@ -48,9 +48,9 @@ resume:
         name: "CRIF. DevOps Architect"
         text: "- Docker, Terraform, Packer.<br>- Nginx, Haproxy.<br>- PostgreSQL, MSSQL.<br>- IBMMQ, Kafka, Redis<br>- Prometheus, Grafana, AlertManager.<br>- Ansible, Nexus."
 
-      - year: "2009 - 2010"
-        name: "Senior Developer - Abc Inc"
-        text: "Optimize website performance using latest technology."
+      - year: "Май 2019 - Июль 2021"
+        name: "ЦИАН. Senior DevOps Engineer"
+        text: "- Docker, Kubernetes<br>- Nomad, Consul, Terraform, Packer, Vault.<br>- Nginx, Haproxy.<br>- Cassandra, PostgreSQL (Patroni + PoWA), MySQL, MSSQL.<br>- Hadoop v2/v3.<br>- RabbitMQ, Kafka, Redis.<br>- Prometheus, Graphite, Elasticsearch, Kibana.<br>- Grafana, AlertManager, Sentry.<br>- SaltStack, Ansible, Nexus."
         
   education:
     title: "Проекты"
