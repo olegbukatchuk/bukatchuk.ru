@@ -48,30 +48,6 @@ vinyl:
       slug: "box-item"
       active: 1
 
-    - name: "Video"
-      slug: "f-video"
-      active: 0
-
-    - name: "Music"
-      slug: "f-music"
-      active: 0
-
-    - name: "Links"
-      slug: "f-link"
-      active: 0
-
-    - name: "Image"
-      slug: "f-image"
-      active: 0
-
-    - name: "Gallery"
-      slug: "f-gallery"
-      active: 0
-
-    - name: "Content"
-      slug: "f-content"
-      active: 0
-
     - name: "Techno"
       slug: "f-content"
       active: 0
