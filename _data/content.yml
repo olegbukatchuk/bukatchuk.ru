@@ -33,7 +33,7 @@ about:
 
   download:
     text: "Скачать резюме"
-    link: "https://drive.google.com/"
+    link: "https://hh.ru/resume/100b545fff0261e8980039ed1f33574c37326d"
 
 # Resume [ resume ]
 resume:
@@ -163,53 +163,53 @@ resume:
 
 # Services [ services ]
 services:
-  title: "My Services"
+  title: "Услуги"
   items:
-    - icon: "social-html5"
-      name: "Front-end"
-      text: "Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript."
+    # - icon: "social-html5"
+    #   name: "Создание сайтов"
+    #   text: "Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript."
 
-    - icon: "ipad"
-      name: "Mobile Application"
-      text: "A mobile application, most commonly referred to as an app, is a type of application software designed to run on a mobile."
+    # - icon: "ipad"
+    #   name: "Mobile Application"
+    #   text: "A mobile application, most commonly referred to as an app, is a type of application software designed to run on a mobile."
 
     - icon: "ios-search-strong"
-      name: "Investigation"
+      name: "Аудит процессов"
       text: "Investigation, examination, inquiry, research express the idea of an active effort to find out something."
 
     - icon: "code"
-      name: "Programming"
+      name: "Разработка IaC"
       text: "Computer programming is the process of designing and building an executable computer program to accomplish a specific."
 
     - icon: "help-buoy"
-      name: "Awesome Supports"
+      name: "Поддержка проектов"
       text: "Awesome Support is the most versatile and feature-rich. Get started for free and add premium features as your business grows."
 
-    - icon: "social-chrome"
-      name: "Web Development"
-      text: "Web development is the work involved in developing a Web site for the Internet or an intranet and social network services."
+    # - icon: "social-chrome"
+    #   name: "Web Development"
+    #   text: "Web development is the work involved in developing a Web site for the Internet or an intranet and social network services."
 
-# Clients [ clients ]
-clients:
-  title: "Clients"
-  items:
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_1.png"
+# # Clients [ clients ]
+# clients:
+#   title: "Clients"
+#   items:
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_1.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_2.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_2.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_3.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_3.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_1.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_1.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_2.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_2.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_3.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_3.png"
 
 # Contact Info [ contacts-info ]
 contacts_info:
