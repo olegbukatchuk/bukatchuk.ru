@@ -75,80 +75,80 @@ resume:
         name: "Freelance.im"
         text: "Фриланс биржа.<br>Проект закрыт."
 
-# Skills [ skills ]
-skills:
-  columns:
-    - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Design Skills"
-      items:
-        - label: "Web Design"
-          value: "70" #0-100 progress in %
+# # Skills [ skills ]
+# skills:
+#   columns:
+#     - type: "default" #skills progress type - default, dotted, circles, list
+#       title: "Design Skills"
+#       items:
+#         - label: "Web Design"
+#           value: "70" #0-100 progress in %
 
-        - label: "Illustrations"
-          value: "90" #0-100 progress in %
+#         - label: "Illustrations"
+#           value: "90" #0-100 progress in %
 
-        - label: "Photoshop"
-          value: "75" #0-100 progress in %
+#         - label: "Photoshop"
+#           value: "75" #0-100 progress in %
 
-        - label: "Graphic Design"
-          value: "80" #0-100 progress in %
+#         - label: "Graphic Design"
+#           value: "80" #0-100 progress in %
 
-    - type: "dotted" #skills progress type - default, dotted, circles, list
-      title: "Languages Skills"
-      items:
-        - label: "English"
-          value: "90" #0-100 progress in %
+#     - type: "dotted" #skills progress type - default, dotted, circles, list
+#       title: "Languages Skills"
+#       items:
+#         - label: "English"
+#           value: "90" #0-100 progress in %
 
-        - label: "German"
-          value: "70" #0-100 progress in %
+#         - label: "German"
+#           value: "70" #0-100 progress in %
 
-        - label: "Italian"
-          value: "55" #0-100 progress in %
+#         - label: "Italian"
+#           value: "55" #0-100 progress in %
 
-        - label: "French"
-          value: "85" #0-100 progress in %
+#         - label: "French"
+#           value: "85" #0-100 progress in %
 
-    - type: "circles" #skills progress type - default, dotted, circles, list
-      title: "Coding Skills"
-      items:
-        - label: "WordPress"
-          value: "95" #0-100 progress in %
+#     - type: "circles" #skills progress type - default, dotted, circles, list
+#       title: "Coding Skills"
+#       items:
+#         - label: "WordPress"
+#           value: "95" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
-          value: "75" #0-100 progress in %
+#         - label: "PHP / MYSQL"
+#           value: "75" #0-100 progress in %
 
-        - label: "Angular / JavaScript"
-          value: "85" #0-100 progress in %
+#         - label: "Angular / JavaScript"
+#           value: "85" #0-100 progress in %
 
-        - label: "HTML / CSS"
-          value: "90" #0-100 progress in %
+#         - label: "HTML / CSS"
+#           value: "90" #0-100 progress in %
 
-    - type: "list" #skills progress type - default, dotted, circles, list
-      title: "Knowledge"
-      items:
-        - label: "Website hosting"
-          value: "" #0-100 progress in %
+#     - type: "list" #skills progress type - default, dotted, circles, list
+#       title: "Knowledge"
+#       items:
+#         - label: "Website hosting"
+#           value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
-          value: "" #0-100 progress in %
+#         - label: "iOS and android apps"
+#           value: "" #0-100 progress in %
 
-        - label: "Create logo design"
-          value: "" #0-100 progress in %
+#         - label: "Create logo design"
+#           value: "" #0-100 progress in %
 
-        - label: "Design for print"
-          value: "" #0-100 progress in %
+#         - label: "Design for print"
+#           value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
-          value: "" #0-100 progress in %
+#         - label: "Modern and mobile-ready"
+#           value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
-          value: "" #0-100 progress in %
+#         - label: "Advertising services include"
+#           value: "" #0-100 progress in %
 
-        - label: "Graphics and animations"
-          value: "" #0-100 progress in %
+#         - label: "Graphics and animations"
+#           value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
-          value: "" #0-100 progress in %
+#         - label: "Search engine marketing"
+#           value: "" #0-100 progress in %
 
 # Services [ services ]
 services:
