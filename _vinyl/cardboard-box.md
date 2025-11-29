@@ -1,6 +1,6 @@
 ---
-title: Cardboard Box
-category: Content
+title: Moby - Moby
+category: Techno
 category_slug: f-content
 type: content
 image: assets/img/works/work3.jpg
