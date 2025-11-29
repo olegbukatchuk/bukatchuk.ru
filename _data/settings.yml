@@ -71,3 +71,7 @@ vinyl:
     - name: "Content"
       slug: "f-content"
       active: 0
+
+    - name: "Techno"
+      slug: "f-content"
+      active: 0
