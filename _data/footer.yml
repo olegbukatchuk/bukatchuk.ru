@@ -1,7 +1,7 @@
 # Footer configuration file
-##
-### param "social" - Social Links, icon class name you can find here https://ionicons.com/v2/
-### param "copy" - Copyright text
+
+# param "social" - Social Links, icon class name you can find here https://ionicons.com/v2/
+# param "copy" - Copyright text
 
 main:
   social:

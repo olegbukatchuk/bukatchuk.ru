@@ -1,9 +1,9 @@
 # Navigation configuration file
-##
-### to add or remove menu item
-### param "title" - Menu item name
-### param "url" - Menu item url
-### param "button" - if "1" activated button style for menu item
+
+# to add or remove menu item
+# param "title" - Menu item name
+# param "url" - Menu item url
+# param "button" - if "1" activated button style for menu item
 
 main:
   # Home
@@ -16,17 +16,12 @@ main:
     url: "about/"
     button: 0
 
-  # Resume
-  - title: "Резюме"
-    url: "resume/"
-    button: 0
-  
   # Vinyl
   - title: "Винил"
     url: "vinyl/"
     button: 0
 
-  # # Portfolio
+  # # Projects
   # - title: "Проекты"
   #   url: "projects/"
   #   button: 0
@@ -35,8 +30,13 @@ main:
   - title: "Блог"
     url: "blog/"
     button: 0
-  
-  # Contacts
-  - title: "Контакты"
-    url: "contacts/"
+
+    # Resume
+  - title: "Резюме"
+    url: "resume/"
     button: 1
+  
+  # # Contacts
+  # - title: "Контакты"
+  #   url: "contacts/"
+  #   button: 1

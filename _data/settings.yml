@@ -1,8 +1,8 @@
 # Theme Settings Configuration File
-##
-### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
 
-### Main Settings
+# use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+# Main Settings
 settings:
   quick_colors: "" # select quick color schemes: "blue", "green", "orange", "pink", "purple", "red". If empty colors taken from _sass/ryancv/settings.scss
   dark_ui: 0 # activated dark ui styles
@@ -10,7 +10,7 @@ settings:
   sidebar: 1 # for disable sidebar and sidebar button change to 0
   preloader: "Загрузка..." # preloader loading text
 
-### Portfolio Filters Settings
+# Portfolio Filters Settings
 portfolio:
   filters:
     - name: "Все"
@@ -41,7 +41,7 @@ portfolio:
       slug: "f-content"
       active: 0
 
-### Vinyl Filters Settings
+# Vinyl Filters Settings
 vinyl:
   filters:
     - name: "Все"
