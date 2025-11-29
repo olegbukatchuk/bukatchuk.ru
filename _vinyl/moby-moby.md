@@ -3,8 +3,8 @@ title: Moby - Moby
 category: Techno
 category_slug: f-content
 type: content
-image: assets/img/works/work3.jpg
-button_url: https://bslthemes.com/
+image: assets/img/vinyl/moby/moby-moby-01.jpg,assets/img/vinyl/moby/moby-moby-02.jpg
+# button_url: https://bslthemes.com/
 ---
 
 So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
