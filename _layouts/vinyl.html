@@ -40,7 +40,7 @@ layout: default
 		<div class="box-items portfolio-items">	
 			{% for work in site.vinyl %}
 
-			{% if work.type == 'image' or work.type == '' %}
+			<!-- {% if work.type == 'image' or work.type == '' %}
 			<div class="box-item {{ work.category_slug }}">
 				<div class="image">
 					<a href="{{ work.image | relative_url }}" class="has-popup-image">
@@ -59,9 +59,9 @@ layout: default
 					<a href="{{ work.image | relative_url }}" class="name has-popup-image">{{ work.title }}</a>
 				</div>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
-			{% if work.type == 'gallery' %}
+			<!-- {% if work.type == 'gallery' %}
 			<div class="box-item {{ work.category_slug }}">
 				<div class="image">
 					<a href="#gallery-{{ work.id | replace: '/', '-' }}" class="has-popup-gallery">
@@ -86,9 +86,9 @@ layout: default
 					<a href="#gallery-1" class="name has-popup-gallery">{{ work.title }}</a>
 				</div>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
-			{% if work.type == 'video' %}
+			<!-- {% if work.type == 'video' %}
 			<div class="box-item {{ work.category_slug }}">
 				<div class="image">
 					<a href="{{ work.video }}" class="has-popup-video">
@@ -107,9 +107,9 @@ layout: default
 					<a href="{{ work.video }}" class="name has-popup-video">{{ work.title }}</a>
 				</div>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
-			{% if work.type == 'link' %}
+			<!-- {% if work.type == 'link' %}
 			<div class="box-item {{ work.category_slug }}">
 				<div class="image">
 					<a href="{{ work.link }}" class="has-popup-link" target="_blank">
@@ -128,9 +128,9 @@ layout: default
 					<a target="_blank" href="{{ work.link }}" class="name has-popup-link">{{ work.title }}</a>
 				</div>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
-			{% if work.type == 'music' %}
+			<!-- {% if work.type == 'music' %}
 			<div class="box-item {{ work.category_slug }}">
 				<div class="image">
 					<a href="{{ work.music }}" class="has-popup-music">
@@ -149,7 +149,7 @@ layout: default
 					<a href="{{ work.music }}" class="name has-popup-music">{{ work.title }}</a>
 				</div>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
 			{% if work.type == 'techno' %}
 			<div class="box-item {{ work.category_slug }}">
