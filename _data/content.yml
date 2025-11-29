@@ -50,7 +50,7 @@ resume:
 
       - year: "Май 2019 - Июль 2021"
         name: "ЦИАН | Senior DevOps Engineer"
-        text: "- Docker, Kubernetes<br>- Nomad, Consul, Terraform, Packer, Vault.<br>- Nginx, Haproxy.<br>- Cassandra, PostgreSQL (Patroni + PoWA), MySQL, MSSQL.<br>- Hadoop v2/v3.<br>- RabbitMQ, Kafka, Redis.<br>- Prometheus, Graphite, Elasticsearch, Kibana.<br>- Grafana, AlertManager, Sentry.<br>- SaltStack, Ansible, Nexus."
+        text: "- Docker, Kubernetes<br>- Nomad, Consul, Terraform, Packer, Vault.<br>- Nginx, Haproxy.<br>- Cassandra, PostgreSQL (Patroni + PoWA), MySQL.<br>- Hadoop v2/v3.<br>- RabbitMQ, Kafka, Redis.<br>- Prometheus, Graphite, Elasticsearch, Kibana.<br>- Grafana, AlertManager, Sentry.<br>- SaltStack, Ansible, Nexus."
 
       - year: "Апрель 2018 - Май 2019"
         name: "CUSTIS | DevOps Team Lead"
