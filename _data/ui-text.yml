@@ -19,6 +19,7 @@ ui_text:
   your_message:   "Ваше сообение"
   send_message:   "Отправить"
   view_project:   "Просмотр"
+  view_vinyl:     "Источник"
   new:            "new"
   search:         "Поиск ..."
   recent_posts:   "Последние статьи"
