@@ -40,9 +40,9 @@ resume:
   experience:
     title: "Опыт"
     items:
-      - year: "2013 - Present"
-        name: "Art Director - Facebook Inc"
-        text: "Collaborate with creative and development teams on the execution of ideas."
+      - year: "Декабрь 2023 - Май 2025"
+        name: "SRE Team Lead"
+        text: "Тех.стек:<br>Kubernetes, Docker/Docker Compose.<br>Terraform, Packer, Ansible.<br>OpenStack, VMWare, Ceph.<br>Gitlab CI, Jenkins.<br>PostgreSQL, Clickhouse, OpenSearch, Redis, RabbitMQ, Cassandra.<br>Victoria Metrics (aka Prometheus), Alert Manager, Grafana, Zabbix, Graphite (Carbon), InfluxDB.<br>Bind, PowerDNS, DNSdist.<br>Вся инфра описана в виде Infrastructure as a Code! Методология Kanban. Инструменты Jira, Confluence."
 
       - year: "2011 - 2012"
         name: "Front-end Developer - Google Inc"
