@@ -4,7 +4,7 @@ category: Pop
 category_slug: a
 type: A
 image: assets/img/vinyl/a-ha/headlines-and-deadlines-the-hits-of-a-ha.jpg
-button_url: https://en.wikipedia.org/wiki/Moby_(album)
+button_url: https://en.wikipedia.org/wiki/Headlines_and_Deadlines:_The_Hits_of_A-ha
 ---
 
 | Треклист | Время |
