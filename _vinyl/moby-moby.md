@@ -1,6 +1,6 @@
 ---
 title: Moby - Moby
-category: Techno
+category: M
 category_slug: f-content
 type: techno
 image: assets/img/vinyl/moby/moby-moby.jpg
