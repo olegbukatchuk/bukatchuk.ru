@@ -8,7 +8,7 @@ button_url: https://en.wikipedia.org/wiki/Moby_(album)
 ---
 
 ### Треклист
-1.	"Drop a Beat"	            4:20
+<!-- 1.	"Drop a Beat"	            4:20
 2.	"Everything"	            4:52
 3.	"Yeah"	                    5:49
 4.	"Electricity"	            3:29
@@ -19,8 +19,22 @@ button_url: https://en.wikipedia.org/wiki/Moby_(album)
 9.	"Have You Seen My Baby?"	4:09
 10.	"Ah Ah"	                    3:46
 11.	"Slight Return"	            4:30
-12.	"Stream"	                3:09
-Total length:	                54:40
+12.	"Stream"	                3:09 -->
+
+| Треклист | Время |
+|---|---:|
+| Drop a Beat | 4:20 |
+| Everything | 4:52 |
+| Yeah | 5:49 |
+| Electricity | 3:29 |
+| Next Is the E | 4:42 |
+| Mercy | 5:44 |
+| Go | 3:37 |
+| Help Me to Believe | 6:33 |
+| Have You Seen My Baby? | 4:09 |
+| Ah Ah | 3:46 |
+| Slight Return | 4:30 |
+| Stream | 3:09 |
 
 ### Описание
 Moby (в Великобритании — The Story So Far) — дебютный студийный альбом американского электронного музыканта Moby, выпущенный в июле 1992 года лейблом Instinct.
