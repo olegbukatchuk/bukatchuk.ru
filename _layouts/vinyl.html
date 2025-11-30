@@ -151,6 +151,44 @@ layout: default
 			</div>
 			{% endif %} -->
 
+			{% if work.type == 'pop' %}
+			<div class="box-item {{ work.category_slug }}">
+				<div class="image">
+					<a href="#popup-{{ work.id | replace: '/', '-' }}" class="has-popup-media">
+						<img src="{{ work.image | relative_url }}" alt="{{ work.title }}" />
+						<span class="info">
+							<span class="centrize full-width">
+								<span class="vertical-center">
+									<span class="ion ion-ios-plus-empty"></span>
+								</span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="desc">
+					<div class="category">{{ work.category }}</div>
+					<a href="#popup-{{ work.id | replace: '/', '-' }}" class="name has-popup-media">{{ work.title }}</a>
+				</div>
+				<div id="popup-{{ work.id | replace: '/', '-' }}" class="popup-box mfp-fade mfp-hide">
+					<div class="content">
+						<div class="image">
+							<img src="{{ work.image | relative_url }}" alt="{{ work.title }}" />
+						</div>
+						<div class="desc">
+							<div class="category">{{ work.category }}</div>
+							<h4>{{ work.title }}</h4>
+							<div class="single-post-text">
+								{{ work.content }}
+							</div>
+							{% if work.button_url != '' %}
+							<a href="{{ work.button_url }}" target="_blank" class="btn" data-text="{{ ui_text.view_vinyl }}">{{ ui_text.view_vinyl }}</a>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+
 			{% if work.type == 'techno' %}
 			<div class="box-item {{ work.category_slug }}">
 				<div class="image">

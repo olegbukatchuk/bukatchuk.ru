@@ -48,6 +48,104 @@ vinyl:
       slug: "box-item"
       active: 1
 
+    - name: "A"
+      slug: "f-content"
+      active: 0
+
+    - name: "B"
+      slug: "f-content"
+      active: 0
+
+    - name: "C"
+      slug: "f-content"
+      active: 0
+
+    - name: "D"
+      slug: "f-content"
+      active: 0
+
+    - name: "E"
+      slug: "f-content"
+      active: 0
+
+    - name: "F"
+      slug: "f-content"
+      active: 0
+
+    - name: "H"
+      slug: "f-content"
+      active: 0
+
+    - name: "I"
+      slug: "f-content"
+      active: 0
+
+    - name: "J"
+      slug: "f-content"
+      active: 0
+
+    - name: "K"
+      slug: "f-content"
+      active: 0
+
+    - name: "L"
+      slug: "f-content"
+      active: 0
+
     - name: "M"
       slug: "f-content"
       active: 0
+
+    - name: "N"
+      slug: "f-content"
+      active: 0
+
+    - name: "O"
+      slug: "f-content"
+      active: 0
+
+    - name: "P"
+      slug: "f-content"
+      active: 0
+
+    - name: "Q"
+      slug: "f-content"
+      active: 0
+
+    - name: "R"
+      slug: "f-content"
+      active: 0
+
+    - name: "S"
+      slug: "f-content"
+      active: 0
+
+    - name: "T"
+      slug: "f-content"
+      active: 0
+
+    - name: "U"
+      slug: "f-content"
+      active: 0
+
+    - name: "V"
+      slug: "f-content"
+      active: 0
+
+    - name: "W"
+      slug: "f-content"
+      active: 0
+
+    - name: "X"
+      slug: "f-content"
+      active: 0
+
+    - name: "Y"
+      slug: "f-content"
+      active: 0
+
+    - name: "Z"
+      slug: "f-content"
+      active: 0
+
+    
