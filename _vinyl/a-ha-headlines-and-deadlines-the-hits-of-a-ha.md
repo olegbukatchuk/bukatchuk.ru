@@ -2,7 +2,7 @@
 title: A-ha - Headlines And Deadlines The Hits of A-ha
 category: Pop
 category_slug: f-content
-type: pop
+type: A
 image: assets/img/vinyl/a-ha/headlines-and-deadlines-the-hits-of-a-ha.jpg
 button_url: https://en.wikipedia.org/wiki/Moby_(album)
 ---
