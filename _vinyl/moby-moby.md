@@ -1,10 +1,8 @@
 ---
 title: Moby - Moby
-category: M
+category: Techno
 category_slug: f-content
-type: techn
-style: techno
-letter: m
+type: techno
 image: assets/img/vinyl/moby/moby-moby.jpg
 button_url: https://en.wikipedia.org/wiki/Moby_(album)
 ---
