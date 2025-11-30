@@ -27,18 +27,12 @@ layout: default
 
 		<div class="filter-menu">
 			<div class="filters">
-				{% for type in types.filters %}
+				{% for category in categories.filters %}
 				<div class="btn-group">
 					<label data-text="{{ category.name }}"{% if category.active == 1 %} class="glitch-effect"{% endif %}>
 						<input type="radio" name="fl_radio" value=".{{ category.slug }}" />{{ category.name }}
 					</label>
 				</div>
-				<!-- {% for category in categories.filters %} -->
-				<!-- <div class="btn-group">
-					<label data-text="{{ category.name }}"{% if category.active == 1 %} class="glitch-effect"{% endif %}>
-						<input type="radio" name="fl_radio" value=".{{ category.slug }}" />{{ category.name }}
-					</label>
-				</div> -->
 				{% endfor %}
 			</div>
 		</div>
