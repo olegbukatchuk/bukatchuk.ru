@@ -7,8 +7,6 @@ image: assets/img/vinyl/moby/moby-moby-01.jpg
 button_url: https://en.wikipedia.org/wiki/Moby_(album)
 ---
 
-Moby (в Великобритании — The Story So Far) — дебютный студийный альбом американского электронного музыканта Moby, выпущенный в июле 1992 года лейблом Instinct.
-
 | Треклист | Время |
 |---|---:|
 | Drop a Beat | 4:20 |
@@ -23,6 +21,8 @@ Moby (в Великобритании — The Story So Far) — дебютный
 | Ah Ah | 3:46 |
 | Slight Return | 4:30 |
 | Stream | 3:09 |
+
+Moby (в Великобритании — The Story So Far) — дебютный студийный альбом американского электронного музыканта Moby, выпущенный в июле 1992 года лейблом Instinct.
 
 Песня, указанная как «Go» в американском и немецком изданиях, на самом деле является укороченной версией «Woodtick Mix».
 
