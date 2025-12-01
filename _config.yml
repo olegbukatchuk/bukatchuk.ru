@@ -59,6 +59,7 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+  - _posts_backup
 
 sass:
   style: compressed
