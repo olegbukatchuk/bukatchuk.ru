@@ -26,15 +26,15 @@ main:
   #   url: "projects/"
   #   button: 0
 
-  # Blog
-  - title: "Блог"
-    url: "blog/"
-    button: 0
+  # # Blog
+  # - title: "Блог"
+  #   url: "blog/"
+  #   button: 0
 
-    # Resume
-  - title: "Резюме"
-    url: "resume/"
-    button: 1
+  #   # Resume
+  # - title: "Резюме"
+  #   url: "resume/"
+  #   button: 1
   
   # # Contacts
   # - title: "Контакты"

@@ -60,6 +60,7 @@ exclude:
   - node_modules/
   - vendor/
   - _posts_backup
+  - _posts
 
 sass:
   style: compressed
