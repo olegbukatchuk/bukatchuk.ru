@@ -340,8 +340,8 @@ excerpt: |
 - Как начать: выбор железа, установка, первые приложения.
 - Рекомендации по первым шагам и типичным ошибкам.
 
-<p style="border:3px; border-style:solid; border-color:#a00000; padding: 1em;">
-Источники:
+
+### Источники
 - An elegant OS for your home server - umbrelOS https://umbrel.com/umbrelos
 - С UmbrelOS я перестал платить за онлайн сервисы! https://www.youtube.com/watch?v=-sGw5seWKxo
 - Umbrel - Personal home cloud and OS for self-hosting https://umbrel.com
@@ -352,5 +352,3 @@ excerpt: |
 - Облачная umbrelOS 1.0 с хостингом на вашем ... https://tproger.ru/news/vywla-umbrelos-1-0--oblachnaya-os-s-hostingom-na-vawem-raspberry-pi
 - UmbrelOS: Ваш идеальный сервер для домашнего ... - ITShaman https://itshaman.ru/os/umbrelos
 - Umbrel App Store https://apps.umbrel.com
-</p>
-
