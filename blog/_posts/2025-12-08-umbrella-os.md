@@ -17,13 +17,7 @@ description: |
 excerpt: |
 ---
 
-# Полное описание UmbrellaOS (umbrelOS)
-
 <span class="firstcharacter">U</span>mbrelOS — это операционная система для домашнего сервера, превращающая Raspberry Pi, мини-ПК или старый компьютер в персональное облако, крипто-узел и платформу для self-hosting. В этой статье — полный обзор: архитектура, приложения, сценарии использования, безопасность и практические примеры настройки.
-
-# Полное руководство по umbrelOS: от установки до продвинутых сценариев
-
----
 
 ## 1. Что такое umbrelOS
 
@@ -32,8 +26,6 @@ excerpt: |
 - Кто разрабатывает: компания Umbrel, фокус на Bitcoin и privacy.
 - Поддерживаемые платформы: Raspberry Pi, x86, Umbrel Home, виртуальные машины.
 - Основные принципы: простота, privacy-first, open-source, extensibility.
-
----
 
 ## 2. Архитектура и компоненты umbrelOS
 
@@ -66,8 +58,6 @@ excerpt: |
 - Поддержка SSD, HDD, внешних дисков, NAS.
 - Файловые системы: ext4, Btrfs.
 - Резервное копирование: встроенные hourly-бэкапы, Rclone, Borg/Restic.
-
----
 
 ## 3. Основные возможности umbrelOS
 
@@ -146,8 +136,6 @@ excerpt: |
 - Прокси и туннели.
 - Инструменты автоматизации: cron, systemd, скрипты, Node-RED.
 
----
-
 ## 4. Umbrel App Store: каталог приложений
 
 ### 4.1. Основные категории
@@ -165,8 +153,6 @@ excerpt: |
 - Установка в один клик.
 - Преднастройки и совместимость.
 - Обновления через панель управления.
-
----
 
 ## 5. Сценарии использования umbrelOS
 
@@ -200,8 +186,6 @@ excerpt: |
 - Состав: Ollama, Open WebUI, RAG-системы.
 - Преимущества: приватность, персональный ИИ.
 
----
-
 ## 6. Установка и развёртывание umbrelOS
 
 ### 6.1. Подготовка железа
@@ -229,8 +213,6 @@ excerpt: |
 - Проброс портов на роутере.
 - Настройка DDNS.
 - Настройка туннелей (Tailscale, Cloudflare Tunnel, inlets).
-
----
 
 ## 7. Настройка ключевых сервисов
 
@@ -265,8 +247,6 @@ excerpt: |
 - Настройка DNS на роутере и устройствах.
 - Настройка списков блокировок, пользовательских правил.
 
----
-
 ## 8. Безопасность и резервное копирование
 
 ### 8.1. Безопасность umbrelOS
@@ -282,8 +262,6 @@ excerpt: |
 - Настройка Rclone для бэкапов в облако.
 - Использование Borg / Restic для шифрованных бэкапов.
 - Восстановление сервера и отдельных данных.
-
----
 
 ## 9. Продвинутые темы
 
@@ -311,8 +289,6 @@ excerpt: |
 - Интеграция с облачными провайдерами (S3, Backblaze, Google Drive).
 - Интеграция с CI/CD и DevOps-инструментами.
 
----
-
 ## 10. Практические примеры
 
 ### 10.1. Настройка домашнего облака с нуля
@@ -334,8 +310,6 @@ excerpt: |
 - Подключение устройств.
 - Создание сценариев и автоматизаций.
 
----
-
 ## 11. Плюсы и минусы umbrelOS
 
 ### 11.1. Преимущества
@@ -353,34 +327,30 @@ excerpt: |
 - Зависимость от стабильного интернета и электропитания.
 - Ограниченная поддержка некоторых niche-приложений.
 
----
-
 ## 12. Будущее umbrelOS
 
 - Планируемые функции: Umbrel Private Cloud, улучшенный App Store, новые категории приложений.
 - Развитие экосистемы: интеграция с новыми протоколами, ИИ, Web3.
 - Поддержка новых платформ и архитектур.
 
----
 
 ## 13. Заключение
 
 - Кому подойдёт umbrelOS: домашним пользователям, энтузиастам, разработчикам, малому бизнесу.
 - Как начать: выбор железа, установка, первые приложения.
 - Рекомендации по первым шагам и типичным ошибкам.
-```
 
 <p style="border:3px; border-style:solid; border-color:#a00000; padding: 1em;">
 Источники:
-[1] An elegant OS for your home server - umbrelOS https://umbrel.com/umbrelos
-[2] С UmbrelOS я перестал платить за онлайн сервисы! https://www.youtube.com/watch?v=-sGw5seWKxo
-[3] Umbrel - Personal home cloud and OS for self-hosting https://umbrel.com
-[4] getumbrel/umbrel: A beautiful home server OS for self- ... https://github.com/getumbrel/umbrel
-[5] Umbrel OS - Заметки разработчика - RWsite https://rwsite.ru/umbrel-os/
-[6] umbrelOS https://itshaman.ru/category/umbrelos/
-[7] Umbrel App Store - Компьютерное приложение для Mac ... https://webcatalog.io/ru/apps/umbrel-app-store
-[8] Облачная umbrelOS 1.0 с хостингом на вашем ... https://tproger.ru/news/vywla-umbrelos-1-0--oblachnaya-os-s-hostingom-na-vawem-raspberry-pi
-[9] UmbrelOS: Ваш идеальный сервер для домашнего ... - ITShaman https://itshaman.ru/os/umbrelos
-[10] Umbrel App Store https://apps.umbrel.com
+- [1] An elegant OS for your home server - umbrelOS https://umbrel.com/umbrelos
+- [2] С UmbrelOS я перестал платить за онлайн сервисы! https://www.youtube.com/watch?v=-sGw5seWKxo
+- [3] Umbrel - Personal home cloud and OS for self-hosting https://umbrel.com
+- [4] getumbrel/umbrel: A beautiful home server OS for self- ... https://github.com/getumbrel/umbrel
+- [5] Umbrel OS - Заметки разработчика - RWsite https://rwsite.ru/umbrel-os/
+- [6] umbrelOS https://itshaman.ru/category/umbrelos/
+- [7] Umbrel App Store - Компьютерное приложение для Mac ... https://webcatalog.io/ru/apps/umbrel-app-store
+- [8] Облачная umbrelOS 1.0 с хостингом на вашем ... https://tproger.ru/news/vywla-umbrelos-1-0--oblachnaya-os-s-hostingom-na-vawem-raspberry-pi
+- [9] UmbrelOS: Ваш идеальный сервер для домашнего ... - ITShaman https://itshaman.ru/os/umbrelos
+- [10] Umbrel App Store https://apps.umbrel.com
 </p>
 
