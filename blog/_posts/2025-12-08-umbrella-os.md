@@ -342,13 +342,13 @@ excerpt: |
 
 
 ### Источники
-- An elegant OS for your home server - umbrelOS https://umbrel.com/umbrelos
-- С UmbrelOS я перестал платить за онлайн сервисы! https://www.youtube.com/watch?v=-sGw5seWKxo
-- Umbrel - Personal home cloud and OS for self-hosting https://umbrel.com
-- getumbrel/umbrel: A beautiful home server OS for self- ... https://github.com/getumbrel/umbrel
-- Umbrel OS - Заметки разработчика - RWsite https://rwsite.ru/umbrel-os/
-- umbrelOS https://itshaman.ru/category/umbrelos/
-- Umbrel App Store - Компьютерное приложение для Mac ... https://webcatalog.io/ru/apps/umbrel-app-store
-- Облачная umbrelOS 1.0 с хостингом на вашем ... https://tproger.ru/news/vywla-umbrelos-1-0--oblachnaya-os-s-hostingom-na-vawem-raspberry-pi
-- UmbrelOS: Ваш идеальный сервер для домашнего ... - ITShaman https://itshaman.ru/os/umbrelos
-- Umbrel App Store https://apps.umbrel.com
+- [An elegant OS for your home server - umbrelOS](https://umbrel.com/umbrelos)
+- [С UmbrelOS я перестал платить за онлайн сервисы!](https://www.youtube.com/watch?v=-sGw5seWKxo)
+- [Umbrel - Personal home cloud and OS for self-hosting](https://umbrel.com)
+- [getumbrel/umbrel: A beautiful home server OS](https://github.com/getumbrel/umbrel)
+- [Umbrel OS - Заметки разработчика](https://rwsite.ru/umbrel-os/)
+- [umbrelOS](https://itshaman.ru/category/umbrelos/)
+- [Umbrel App Store - Компьютерное приложение для Mac](https://webcatalog.io/ru/apps/umbrel-app-store)
+- [Облачная umbrelOS 1.0 с хостингом на вашем](https://tproger.ru/news/vywla-umbrelos-1-0--oblachnaya-os-s-hostingom-na-vawem-raspberry-pi)
+- [UmbrelOS: Ваш идеальный сервер для домашнего ITShaman](https://itshaman.ru/os/umbrelos)
+- [Umbrel App Store](https://apps.umbrel.com)
