@@ -16,9 +16,9 @@ permalink: /about/
 Вы можете меня найти во всех социальных сетях по никнейму **olegbukatchuk**, например на <a href="https://github.com/olegbukatchuk">Github</a>.
 </p>
 
-## Проекты
+<!-- ## Проекты
 
-- [Я наберу](https://yanabe.ru): в разработке...
+- [Я наберу](https://yanabe.ru): в разработке... -->
 
 ## Контакты
 
