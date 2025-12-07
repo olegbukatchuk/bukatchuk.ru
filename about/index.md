@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Обо мне
+title: Об авторе
 description: Олег Букатчук
 permalink: /about/
 ---
@@ -16,16 +16,6 @@ permalink: /about/
 Вы можете меня найти во всех социальных сетях по никнейму **olegbukatchuk**, например на <a href="https://github.com/olegbukatchuk">Github</a>.
 </p>
 
-<!-- ## Проекты
+## Проекты
 
-- [Я наберу](https://yanabe.ru): в разработке... -->
-
-## Контакты
-
-**Олег Букатчук**<br>
-Мск. +7 495 726-10-16<br> 
-Моб. +7 903 726-10-16<br>
-Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
-<!-- [Резюме (PDF)](https://storage.googleapis.com/ljvmiranda/cv.pdf) -->
-
-
+- [Followers.vc](https://followers.vc)
