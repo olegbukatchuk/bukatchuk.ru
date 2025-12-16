@@ -22,4 +22,3 @@ excerpt: |
 В этом видео освещаются 6 принципов: дисциплина, проффесионализм, приоритеты, образование, физическая культура (спорт) и здоровый эгоизм (любовь к себе).
  
 <iframe width="740" height="400" src="https://www.youtube.com/embed/y0s8xTVBEbw?si=MbdXIwu-_Vl1gyXB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
