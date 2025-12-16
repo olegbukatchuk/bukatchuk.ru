@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: "Сергей Бадюк: 6 истин жизни БЕЗ прикрас!"
+title: "Сергей Бадюк: 6 истин жизни без прикрас!"
 date: 2025-12-16
 category: blog
 comments: true
