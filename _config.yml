@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
 timezone: Europe/Moscow
 # Link settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bukatchuk.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bukatchuk.ru" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Social settings
