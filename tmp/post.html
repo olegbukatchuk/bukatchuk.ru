@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Может ли компания претендовать на написанный разработчиком код? — Олег Букатчук</title>
+<meta name="description" content="Есть нюансы, и они настолько важны, что в них стоит разобраться.">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/macro.css">
+</head>
+<body>
+<header class="hdr">
+  <div class="hdr__in">
+    <a href="index.html" class="hdr__logo"><img class="hdr__mark" src="assets/logo.png" alt="" width="22" height="22">bukatchuk</a>
+    <span class="hdr__sep"></span>
+    <span class="hdr__sub">статья</span>
+    <nav class="hdr__nav" id="nav"><a href="index.html">Главная</a><a href="archive.html" class="is-active">Статьи</a><a href="page.html">Об авторе</a><a href="subscribe.html">Рассылка</a></nav>
+    <div class="hdr__right"><a class="hdr__rss" href="/feed.xml">RSS</a></div>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<article class="art">
+  <div class="art__head">
+    <p class="eyebrow"><a href="archive.html">Статьи</a> · Право</p>
+    <h1>Может ли компания претендовать на написанный разработчиком код?</h1>
+    <p class="art__meta">
+      <span>12 июн 2025</span><span>·</span><span>4 мин чтения</span><span>·</span><span class="is-accent">Блог</span><span>·</span><span>Олег Букатчук</span>
+    </p>
+  </div>
+
+  <div class="art__body">
+    <p><span class="firstcharacter">Д</span>ля работников и их работодателей действует, на первый взгляд, довольно простое правило: исключительные (то есть имущественные) права на все результаты интеллектуальной деятельности, которые создаст работник в рамках трудовых обязанностей, принадлежат работодателю — и это общее правило. Разумеется, стороны могут договором предусмотреть иное, но где вы видели это «иное»? Такие правила установлены статьёй 1295 ГК РФ.</p>
+
+    <p>Однако есть нюансы, и они настолько важны, что в них стоит разобраться.</p>
+
+    <h2>Что остаётся за разработчиком</h2>
+
+    <p>За разработчиком в любом случае сохраняются авторские (неимущественные) права — например, право называться автором. Такие права неотчуждаемы, и договором их не отменить.</p>
+
+    <ol>
+      <li>Работодатель должен в установленный срок — для программ для ЭВМ это три года — либо начать использовать результат, либо передать право иному лицу, либо уведомить автора о сохранении результата в тайне.</li>
+      <li>Если он этого не сделал, исключительные права возвращаются работнику.</li>
+      <li>При этом работодатель сохранит право использования на условиях простой неисключительной лицензии — за деньги и на условиях, о которых вы договоритесь отдельно.</li>
+    </ol>
+
+    <div class="callout">
+      <span class="callout__l">Важно</span>
+      <p>Авторское вознаграждение — это не ваша зарплата. Оно не включено в неё и должно быть согласовано и выплачено отдельно: соглашение о выплате вознаграждения гражданско-правовое по природе, а не трудовое.</p>
+    </div>
+
+    <h2>«А был ли мальчик?»</h2>
+
+    <p>Самое важное: не всякая программа, написанная работником, — служебное произведение. Даже если вы штатный разработчик, ваша основная работа — что-то кодить, и вы накодили «для себя» в рабочее время, в офисе и на машине работодателя, совсем не факт, что права принадлежат компании.</p>
+
+    <blockquote>
+      <p>Привет из сериала «Кремниевая долина», где у главного героя чуть не отобрали права на программу за то, что однажды он задеплоил её с рабочей машины.</p>
+    </blockquote>
+
+    <p>Закон оперирует критерием <strong>трудовых обязанностей</strong>. Если написание совершенно конкретной программы в них входило — права принадлежат компании. Если не входило — остаются за разработчиком. Проверить это можно одной командой:</p>
+
+    <pre><code><span class="c"># чьей рукой и с какой машины сделан коммит</span>
+git log --format='%an &lt;%ae&gt; %cd' -1 &lt;commit&gt;
+<span class="g">Oleg Bukatchuk &lt;oleg@bukatchuk.com&gt; Thu Jun 12 21:14:03 2025 +0300</span>
+
+<span class="c"># и что об этом думает трудовой договор</span>
+grep -n <span class="a">"трудовые обязанности"</span> ~/docs/contract.pdf.txt</code></pre>
+
+    <h2>Что с этим делать</h2>
+
+    <p>Держите трудовой договор и должностную инструкцию под рукой и читайте их не в день увольнения. Всё остальное — детали, которые решаются перепиской.</p>
+  </div>
+
+  <div class="art__tags">
+    <div class="tags"><a class="tag" href="tag.html">law</a><a class="tag" href="tag.html">work</a><a class="tag" href="tag.html">devops</a></div>
+  </div>
+
+  <div class="author">
+    <img class="author__ava" src="assets/logo.png" alt="Олег Букатчук" width="64" height="64">
+    <div>
+      <div class="author__n">Олег Букатчук</div>
+      <div class="author__d">DevOps- и SRE-инженер, 19 лет в эксплуатации. Строил отказоустойчивую инфраструктуру для классифайда, e-commerce и госсектора: cian.ru, aliexpress.ru, mos.ru.</div>
+      <div class="author__l"><a href="page.html">Об авторе</a><a href="https://t.me/bukatchuk" target="_blank" rel="noopener">Телеграм</a><a href="https://github.com/olegbukatchuk" target="_blank" rel="noopener">GitHub</a></div>
+    </div>
+  </div>
+
+  <nav class="nextprev">
+    <a href="post.html"><span class="l">← Предыдущая</span><span class="t">Цель саморазвития. Как отдать все кармические долги?</span></a>
+    <a href="post.html"><span class="l">Следующая →</span><span class="t">1000 самых частоупотребляемых слов английского языка</span></a>
+  </nav>
+
+  <div style="max-width:var(--read);margin:2.6rem auto 0;border:var(--border-thin);padding:1.4rem">
+    <p class="eyebrow eyebrow--ink">// Комментарии</p>
+    <p style="font-family:var(--sans);color:#555">Блок комментариев подключается здесь.</p>
+  </div>
+</article>
+
+<section class="sec--line">
+  <div class="wrap">
+    <div class="sub sub--dark">
+      <p class="eyebrow">// Рассылка</p>
+      <h2>Раз в неделю — что сломалось<br>и почему это было видно заранее</h2>
+      <p style="font-family:var(--sans);font-size:1.02rem;line-height:1.6;max-width:56ch;margin-top:1rem;opacity:.85">Разборы аварий, заметки по эксплуатации и то, что не попадает в статьи. Без анонсов вебинаров и без «полезных подборок».</p>
+      <form class="sub__form" onsubmit="return false">
+        <input class="sub__in" type="email" placeholder="почта@пример.ру" aria-label="Электронная почта">
+        <button class="btn btn--primary" type="submit">Подписаться</button>
+      </form>
+      <p class="sub__note">Отписаться можно одним кликом из любого письма. Адрес не передаётся третьим лицам.</p>
+    </div>
+  </div>
+</section>
+<footer class="ft">
+  <div class="ft__in">
+    <div>
+      <h4>Разделы</h4>
+      <p><a href="archive.html">Статьи</a><br><a href="tag.html">Темы</a><br><a href="page.html">Об авторе</a><br><a href="subscribe.html">Рассылка</a></p>
+    </div>
+    <div>
+      <h4>Продукты</h4>
+      <p><a href="https://devops.bukatchuk.ru">Курс DevOps-инженера</a><br><a href="https://oncall.bukatchuk.ru">Дежурство без паники</a><br><a href="https://oncall.bukatchuk.ru/protocol/">Протокол дежурного</a></p>
+    </div>
+    <div>
+      <h4>Где ещё</h4>
+      <p><a href="https://habr.com/ru/articles/1078876/" target="_blank" rel="noopener">Хабр</a><br><a href="https://github.com/olegbukatchuk" target="_blank" rel="noopener">GitHub</a><br><a href="https://t.me/bukatchuk" target="_blank" rel="noopener">Telegram</a><br><a href="/feed.xml">RSS</a></p>
+    </div>
+    <div>
+      <h4>Связаться</h4>
+      <p>По всем вопросам — почта <a href="mailto:oleg@bukatchuk.com">oleg@bukatchuk.com</a> или <a href="https://t.me/bukatchuk" target="_blank" rel="noopener">телеграм</a>.</p>
+    </div>
+  </div>
+  <div class="ft__bottom">
+    <span>© <span id="yr">2026</span> Олег Букатчук</span>
+    <span>19 лет в эксплуатации нагруженных систем</span>
+    <span>Дизайн — Axis Industrial</span>
+  </div>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById('burger'), n=document.getElementById('nav');
+  if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',o)})}
+  var y=document.getElementById('yr'); if(y){y.textContent=new Date().getFullYear()}
+})();
+</script>
+</body>
+</html>

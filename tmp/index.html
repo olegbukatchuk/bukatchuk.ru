@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Олег Букатчук — надёжность и эксплуатация нагруженных систем</title>
+<meta name="description" content="Разборы аварий, заметки по эксплуатации и диагностике инцидентов. Личный блог инженера с 19-летним опытом.">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/macro.css">
+</head>
+<body>
+<header class="hdr">
+  <div class="hdr__in">
+    <a href="index.html" class="hdr__logo"><img class="hdr__mark" src="assets/logo.png" alt="" width="22" height="22">bukatchuk</a>
+    <span class="hdr__sep"></span>
+    <span class="hdr__sub">личный блог</span>
+    <nav class="hdr__nav" id="nav"><a href="index.html" class="is-active">Главная</a><a href="archive.html">Статьи</a><a href="page.html">Об авторе</a><a href="subscribe.html">Рассылка</a></nav>
+    <div class="hdr__right"><a class="hdr__rss" href="/feed.xml">RSS</a></div>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<section class="hero">
+  <div class="hero__in">
+    <p class="eyebrow">// Олег Букатчук · надёжность и эксплуатация</p>
+    <h1>Заметки инженера,<br>который чинил прод<br>девятнадцать лет</h1>
+    <p class="hero__sub">Разборы аварий, эксплуатация нагруженных систем и то, что об этом не пишут в документации. Здесь без «десяти лайфхаков» — только то, что проверено на боевых системах.</p>
+    <div class="hero__meta"><span>113 публикаций</span><span>Первая — 2015 год</span><span>Читают в Хабре и Телеграме</span></div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="ribbon">
+    <div class="ribbon__i"><div class="ribbon__n">19</div><div class="ribbon__l">лет в эксплуатации</div></div>
+    <div class="ribbon__i"><div class="ribbon__n">3</div><div class="ribbon__l">проекта-миллионника</div></div>
+    <div class="ribbon__i"><div class="ribbon__n">10 000</div><div class="ribbon__l">читателей последнего разбора</div></div>
+    <div class="ribbon__i"><div class="ribbon__n">113</div><div class="ribbon__l">публикаций с 2015 года</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div style="display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:baseline;justify-content:space-between;margin-bottom:1.6rem">
+      <h2>Последнее</h2>
+      <a href="archive.html" class="btn btn--ghost">Весь архив →</a>
+    </div>
+    <div class="feed">
+      <a class="card card--pin" href="post.html">
+        <div class="card__date"><b>16 дек</b>2025</div>
+        <div>
+          <h3 class="card__t">Сергей Бадюк: 6 истин жизни без прикрас!</h3>
+          <p class="card__d">Сергей Бадюк один из моих учителей, хоть он и не знает об этом. Ценю его слова и всегда прислушиваюсь к его мыслям...</p>
+          <div class="card__f"><span class="tag tag--safety">Закреплено</span><div class="tags"><span class="tag">sport</span><span class="tag">life</span><span class="tag">health</span><span class="tag">education</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">1 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>12 дек</b>2025</div>
+        <div>
+          <h3 class="card__t">Эффект Розенталя (aka Эффект Пигмалио́на)</h3>
+          <p class="card__d">В 1965 году Розенталь провел эксперимент, который в последствии пытались переписать, потому что он показывал не удобные факты о человеческой психике.</p>
+          <div class="card__f"><div class="tags"><span class="tag">effect</span><span class="tag">psichology</span><span class="tag">words</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">2 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>11 сен</b>2025</div>
+        <div>
+          <h3 class="card__t">Антон Гладков: Слова</h3>
+          <p class="card__d">Потрясающий по своей красоте поток мыслей от Антона касательно важности правильно подобранных слов в нужный момент времени...</p>
+          <div class="card__f"><div class="tags"><span class="tag">sales</span><span class="tag">b2b</span><span class="tag">words</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">1 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>10 сен</b>2025</div>
+        <div>
+          <h3 class="card__t">Антон Гладков: BizDev or Sales?</h3>
+          <p class="card__d">Похоже я становлюсь фанатом Антона! Смотрю его стримы с открытым ртом. Для меня это словно глоток свежевого воздуха в плане инфы по продажам.</p>
+          <div class="card__f"><div class="tags"><span class="tag">sales</span><span class="tag">b2b</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">1 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>10 сен</b>2025</div>
+        <div>
+          <h3 class="card__t">Декодируем строку из формата base64 в Bash</h3>
+          <p class="card__d">Полюбому пригодится в жизни. Люблю такие короткие заметки отвечающие на один вопрос и без воды!</p>
+          <div class="card__f"><div class="tags"><span class="tag">base64</span><span class="tag">bash</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">1 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>9 сен</b>2025</div>
+        <div>
+          <h3 class="card__t">1000 самых частоупотребляемых слов английского языка</h3>
+          <p class="card__d">Спорим, вы знаете их практически все? В этой статье вы найдете 1000 слов на английском, которые употребляются носителями языка чаще всего.</p>
+          <div class="card__f"><div class="tags"><span class="tag">english</span><span class="tag">dictionary</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">42 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>4 сен</b>2025</div>
+        <div>
+          <h3 class="card__t">Антон Гладков: Как преуспеть в B2B продажах и всех уделать сто проц. Изи гайд.</h3>
+          <p class="card__d">Как заметка для самого себя, чтобы потом было на что сослаться в дисскусиях.</p>
+          <div class="card__f"><div class="tags"><span class="tag">sales</span><span class="tag">b2b</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">1 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>12 июн</b>2025</div>
+        <div>
+          <h3 class="card__t">Может ли компания претендовать на написанный разработчиком код?</h3>
+          <p class="card__d">Есть нюансы, и они настолько важны, что в них стоит разобраться.</p>
+          <div class="card__f"><div class="tags"><span class="tag">law</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">2 мин чтения</span></div>
+        </div>
+      </a>
+      <a class="card" href="post.html">
+        <div class="card__date"><b>11 июн</b>2025</div>
+        <div>
+          <h3 class="card__t">Цель саморазвития. Как отдать все кармические долги? Андрей Верба</h3>
+          <p class="card__d">С огромной радостью делюсь с вами этим интервью потрясающего практика йоги. Не помешает пересмотреть несколько раз, чтобы вся информация усвоилась правильно.</p>
+          <div class="card__f"><div class="tags"><span class="tag">yoga</span><span class="tag">youtube</span><span class="tag">video</span></div><span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">1 мин чтения</span></div>
+        </div>
+      </a>
+    </div>
+    <div class="pager">
+      <span class="is-current">1</span><a href="#">2</a><a href="#">3</a><a href="#">…</a><a href="#">13</a><a href="#">Дальше →</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec--line">
+  <div class="wrap">
+    <div class="sub sub--dark">
+      <p class="eyebrow">// Рассылка</p>
+      <h2>Раз в неделю — что сломалось<br>и почему это было видно заранее</h2>
+      <p style="font-family:var(--sans);font-size:1.02rem;line-height:1.6;max-width:56ch;margin-top:1rem;opacity:.85">Разборы аварий, заметки по эксплуатации и то, что не попадает в статьи. Без анонсов вебинаров и без «полезных подборок».</p>
+      <form class="sub__form" onsubmit="return false">
+        <input class="sub__in" type="email" placeholder="почта@пример.ру" aria-label="Электронная почта">
+        <button class="btn btn--primary" type="submit">Подписаться</button>
+      </form>
+      <p class="sub__note">Отписаться можно одним кликом из любого письма. Адрес не передаётся третьим лицам.</p>
+    </div>
+  </div>
+</section>
+<footer class="ft">
+  <div class="ft__in">
+    <div>
+      <h4>Разделы</h4>
+      <p><a href="archive.html">Статьи</a><br><a href="tag.html">Темы</a><br><a href="page.html">Об авторе</a><br><a href="subscribe.html">Рассылка</a></p>
+    </div>
+    <div>
+      <h4>Продукты</h4>
+      <p><a href="https://devops.bukatchuk.ru">Курс DevOps-инженера</a><br><a href="https://oncall.bukatchuk.ru">Дежурство без паники</a><br><a href="https://oncall.bukatchuk.ru/protocol/">Протокол дежурного</a></p>
+    </div>
+    <div>
+      <h4>Где ещё</h4>
+      <p><a href="https://habr.com/ru/articles/1078876/" target="_blank" rel="noopener">Хабр</a><br><a href="https://github.com/olegbukatchuk" target="_blank" rel="noopener">GitHub</a><br><a href="https://t.me/bukatchuk" target="_blank" rel="noopener">Telegram</a><br><a href="/feed.xml">RSS</a></p>
+    </div>
+    <div>
+      <h4>Связаться</h4>
+      <p>По всем вопросам — почта <a href="mailto:oleg@bukatchuk.com">oleg@bukatchuk.com</a> или <a href="https://t.me/bukatchuk" target="_blank" rel="noopener">телеграм</a>.</p>
+    </div>
+  </div>
+  <div class="ft__bottom">
+    <span>© <span id="yr">2026</span> Олег Букатчук</span>
+    <span>19 лет в эксплуатации нагруженных систем</span>
+    <span>Дизайн — Axis Industrial</span>
+  </div>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById('burger'), n=document.getElementById('nav');
+  if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',o)})}
+  var y=document.getElementById('yr'); if(y){y.textContent=new Date().getFullYear()}
+})();
+</script>
+</body>
+</html>
