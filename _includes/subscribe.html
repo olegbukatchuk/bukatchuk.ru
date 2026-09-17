@@ -1,0 +1,15 @@
+{%- comment -%}Блок подписки в конце страниц{%- endcomment -%}
+<section class="sec--line">
+  <div class="wrap">
+    <div class="sub sub--dark">
+      <p class="eyebrow">// Рассылка</p>
+      <h2>{{ site.subscribe.title | default: 'Раз в неделю — что сломалось<br>и почему это было видно заранее' }}</h2>
+      <p style="font-family:var(--sans);font-size:1.02rem;line-height:1.6;max-width:56ch;margin-top:1rem;opacity:.85">{{ site.subscribe.lead }}</p>
+      <form class="sub__form" action="{{ site.subscribe.action }}" method="post" target="_blank">
+        <input class="sub__in" type="email" name="email" placeholder="почта@пример.ру" aria-label="Электронная почта" required>
+        <button class="btn btn--primary" type="submit">Подписаться</button>
+      </form>
+      <p class="sub__note">{{ site.subscribe.note }}</p>
+    </div>
+  </div>
+</section>

@@ -1,27 +1,24 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            &copy; 2025
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-          {% include social.html %}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        По всем вопросам пишите в почту <a href="mailto:{{ site.email }}">{{ site.email }}</a> или <a href="https://t.me/+QR1hWpvlJzY1ODIy">telegram</a>
-      </div>
+{%- assign years = site.time | date: "%Y" | minus: site.career.ops_since -%}
+<footer class="ft">
+  <div class="ft__in">
+    {%- for col in site.footer_columns %}
+    <div>
+      <h4>{{ col.title }}</h4>
+      <p>
+        {%- for l in col.links %}
+        <a href="{{ l.href }}"{% if l.external %} target="_blank" rel="noopener"{% endif %}>{{ l.text }}</a>{% unless forloop.last %}<br>{% endunless %}
+        {%- endfor %}
+      </p>
     </div>
-
+    {%- endfor %}
+    <div>
+      <h4>Связаться</h4>
+      <p>По всем вопросам — почта <a href="mailto:{{ site.email }}">{{ site.email }}</a> или <a href="{{ site.telegram }}" target="_blank" rel="noopener">телеграм</a>.</p>
+    </div>
   </div>
-
+  <div class="ft__bottom">
+    <span>© {{ site.time | date: "%Y" }} {{ site.author.name | default: 'Олег Букатчук' }}</span>
+    <span>{{ years }} {% include years-noun.html n=years %} в эксплуатации нагруженных систем</span>
+    <span>Дизайн — Axis Industrial</span>
+  </div>
 </footer>

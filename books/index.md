@@ -1,34 +1,11 @@
 ---
-layout: page
+layout: archive
 title: Книги
-description: Здесь буду постить книги которые прочитал и могу рекомендовать...
+eyebrow: Книги
+headline: Что прочитал<br>и могу рекомендовать
 permalink: /books/
+collection_name: books
+nav_active: /blog/
+description: Книги, которые прочитал и могу рекомендовать.
+lead: Обзоры прочитанного. Читаю по настроению и остаюсь адептом бумаги.
 ---
-
-Здесь буду постить книги которые прочитал и могу рекомендовать...
-
-{% assign posts_by_year = site.categories.books | group_by_exp:"post", "post.date | date: '%Y'" %}
-
-{% for year in posts_by_year %}
-<h2>{{ year.name }}</h2>
-<ul>
-  {% for post in year.items %}
-    <!-- <li>
-      {{ post.date | date_to_string  | split: " " | slice: 0, 2 | join: " " }} » 
-      {% if post.highlight %}&starf; {% endif %}
-      <a href="{{ post.url }}" title="{{ post.title }}">
-        {{ post.title | truncate: 72 }}
-      </a>
-    </li> -->
-    <li>
-      {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
-      {{ post.date | date: date_format }} »
-      <!-- &verbar; {{ post.category | capitalize }} -->
-      {% if post.highlight %}&starf; {% endif %}
-      <a href="{{ post.url }}" title="{{ post.title }}">
-        {{ post.title | truncate: 72 }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-{% endfor %}

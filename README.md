@@ -1,38 +1,87 @@
-# bukatchuk.com
+# bukatchuk.ru
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b3d2934-2e6c-4bd3-876f-40f9a8655af7/deploy-status)](https://app.netlify.com/sites/ljvmiranda921/deploys)
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+Личный блог Олега Букатчука. Jekyll, публикуется на GitHub Pages.
+Оформление — дизайн-система Axis Industrial, та же, что на страницах продуктов
+[devops.bukatchuk.ru](https://devops.bukatchuk.ru) и [oncall.bukatchuk.ru](https://oncall.bukatchuk.ru).
 
-This is the source code for my [blog](https://bukatchuk.com). It's a
-static website powered by [Jekyll](https://jekyllrb.com/) with site analytics
-done via [plausible.io](https://plausible.io/bukatchuk.com) (private,
-cookie-free and open source).
+## Как добавить статью
 
-## Set-up
+Файл в `blog/_posts/` с именем `ГГГГ-ММ-ДД-адрес.md`:
 
-Make sure that you have [bundler](https://bundler.io/) and
-[Ruby 2.7.0](https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/) in
-your system:
-
-```shell
-sudo apt-get -y ruby ruby-dev
-gem install bundler
+```yaml
+---
+layout: post
+title: "Заголовок статьи"
+date: 2026-09-17
+category: blog          # blog | books | life | projects — подпись берётся из _data/categories.yml
+author: "Олег Букатчук"
+description: |
+  Одно-два предложения. Показываются в ленте, в описании страницы и при пересылке ссылки.
+tags: [devops, инциденты]
+---
 ```
 
-Then, build the dependencies and call `jekyll serve`
+Дальше обычный markdown. Что поддержано в оформлении:
 
-```shell
-git clone https://github.com/olegbukatchuk/bukatchuk.com.git 
-cd bukatchuk.com/
+| Что | Как писать |
+|---|---|
+| Буквица в первом абзаце | `<span class="firstcharacter">Д</span>ля работников…` |
+| Врезка с оранжевой линией | `<div class="callout"><span class="callout__l">Важно</span><p>…</p></div>` |
+| Цитата | обычный `>` |
+| Код с подсветкой | ` ```bash ` |
+| Формулы | `math: true` в front matter |
+| Скрыть статью из ленты | `hidden: true` |
+| Выключить комментарии | `comments: false` |
+
+Врезки из старых постов (инлайновый `style="border…"`) приводятся к общему виду автоматически —
+переписывать сто десять статей не нужно.
+
+## Типы страниц
+
+| Layout | Где используется |
+|---|---|
+| `home` | главная: первый экран, показатели, лента последних статей |
+| `post` | статья |
+| `archive` | `/blog/`, `/books/`, `/life/`, `/projects/` — список по годам |
+| `tags` | `/tags/` — все темы на одной странице |
+| `page` | текстовая страница: `/about/`, `/services/` |
+| `subscribe` | `/subscribe/` — страница рассылки |
+| `default` | каркас плюс 404 |
+
+Макеты, с которых всё собрано, лежат в `tmp/` — это статичный HTML, его можно открыть
+двойным кликом и посмотреть, как задумано.
+
+## Что настраивается в `_config.yml`
+
+- **`career.ops_since`** — год начала работы в эксплуатации. **Стаж нигде не записан текстом:**
+  число лет считается от этой даты, склонение слова «год» — тоже. В 2028 году заголовок сам
+  станет «Двадцать один год», править ничего не нужно. Число берётся так:
+  `{% include years.html %}`, прописью — `{% include years-word.html cap='yes' %}`.
+- `home` — заголовок первого экрана, лид, цифры в ленте показателей, длина ленты статей.
+- `nav`, `footer_columns` — меню и подвал.
+- `subscribe` — тексты блока рассылки и адрес, куда уходит форма.
+- `comments.enabled` + `comments.repo` — комментарии через utteranc.es. **Сейчас выключены:**
+  в старом шаблоне они были привязаны к чужому репозиторию, и комментарии читателей уезжали
+  в чужие issues. Включать — только со своим репозиторием.
+- `plausible` — счётчик. Выключен; в старом конфиге он считал домен `bukatchuk.com`.
+
+## Всё своё
+
+Шрифты (JetBrains Mono, IBM Plex Sans, Space Grotesk) лежат в `assets/fonts/axis/` вместе
+с лицензиями и отдаются с этого же домена: сторонних запросов у шаблона нет ни одного.
+Отдельные статьи подгружают свои библиотеки (plotly, vega) — это их содержимое, не шаблон.
+
+## Локально
+
+```bash
 bundle install
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve
+# http://127.0.0.1:4000
 ```
 
-The page, by default, should be running at [localhost:4000](localhost:4000)
+## Публикация
 
-## Contribute
-
-If you found some errors in spelling/grammar, mistakes in content and the like, then feel
-free to fork this repository and [make a Pull Request!](https://help.github.com/articles/creating-a-pull-request/)
-
-[![licensebuttons by](https://licensebuttons.net/l/by/3.0/88x31.png)](https://creativecommons.org/licenses/by/4.0)
+Пуш в `main` запускает `.github/workflows/jekyll-gh-pages.yml`: сборка через
+`actions/jekyll-build-pages` и публикация через `actions/deploy-pages`.
+Плагины ограничены списком GitHub Pages — поэтому страницы тем собраны без плагинов,
+одной страницей `/tags/` с якорями.

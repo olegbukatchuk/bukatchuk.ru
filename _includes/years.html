@@ -1,0 +1,2 @@
+{%- comment -%}Стаж в эксплуатации: считается от site.career.ops_since{%- endcomment -%}
+{{- site.time | date: "%Y" | minus: site.career.ops_since -}}

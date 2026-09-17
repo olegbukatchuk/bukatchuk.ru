@@ -1,35 +1,57 @@
 ---
 layout: default
 ---
-{%- include reading_time.html content=page.content -%}
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %} 
+<article class="art" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="art__head">
+    <p class="eyebrow"><a href="{{ '/blog/' | relative_url }}">{{ site.data.categories[page.category] | default: "Статьи" }}</a>{% if page.tags.first %} · {{ page.tags.first }}{% endif %}</p>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="art__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>
+      <span>·</span>{% include reading-time.html content=page.content %}
+      {%- if page.category %}<span>·</span><span class="is-accent">{{ site.data.categories[page.category] | default: page.category }}</span>{% endif %}
+      {%- if page.author %}<span>·</span><span itemprop="author">{{ page.author }}</span>{% endif %}
     </p>
-  </header>
+  </div>
 
-  <div class="post-content" itemprop="articleBody">
+  {%- if page.header-img and page.show-header-img %}
+  <img class="art__cover" src="{{ page.header-img | relative_url }}" alt="">
+  {%- endif %}
+
+  <div class="art__body" itemprop="articleBody">
     {{ content }}
   </div>
 
-{% if page.comments != false and jekyll.environment == "production" %}
-  <script src="https://utteranc.es/client.js"
-        repo="ljvmiranda921/comments.ljvmiranda921.github.io"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-  </script>
-{% endif %}
+  {%- if page.tags.size > 0 %}
+  <div class="art__tags">
+    <div class="tags">{% for t in page.tags %}<a class="tag" href="{{ '/tags/' | relative_url }}#{{ t | slugify }}">{{ t }}</a>{% endfor %}</div>
+  </div>
+  {%- endif %}
 
+  <div class="author">
+    <img class="author__ava" src="{{ '/assets/logo.png' | relative_url }}" alt="{{ site.author.name }}" width="64" height="64">
+    <div>
+      <div class="author__n">{{ site.author.name }}</div>
+      <div class="author__d">{{ site.author.bio_short }}</div>
+      <div class="author__l">
+        <a href="{{ '/about/' | relative_url }}">Об авторе</a>
+        <a href="{{ site.telegram }}" target="_blank" rel="noopener">Телеграм</a>
+        <a href="https://github.com/{{ site.social_sites.github }}" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  {%- if page.previous or page.next %}
+  <nav class="nextprev">
+    {%- if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="l">← Предыдущая</span><span class="t">{{ page.previous.title | escape }}</span></a>{% else %}<span></span>{% endif %}
+    {%- if page.next %}<a href="{{ page.next.url | relative_url }}"><span class="l">Следующая →</span><span class="t">{{ page.next.title | escape }}</span></a>{% else %}<span></span>{% endif %}
+  </nav>
+  {%- endif %}
+
+  {%- if site.comments.enabled and page.comments != false %}
+  <div style="max-width:var(--read);margin:2.6rem auto 0">
+    {% include comments.html %}
+  </div>
+  {%- endif %}
 </article>
+
+{% include subscribe.html %}

@@ -1,69 +1,44 @@
 ---
 layout: default
 ---
-
-<style>
-  @media screen and (min-width: 769px) {
-    .column {
-      width: 50%;
-      float: left;
-      max-width: 50%;
-      padding: 5px;
-    }
-
-    .row {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-    }
-  }
-</style>
-
-
-<div class="home">
-
-  <!-- <div class="divider">
-    <div class="left">
-      <a href="https://bukatchuk.com/about/"><img id="profilepic" width="200" height="200" src="assets/avatar.jpg" alt="Profile"></a>
-    </div>
-    <div class="right">
-      <p>Привет! Меня зовут <a class="page-link" href="/about/">Олег Букатчук</a>. Мне, 42. ИТ эксперт с 18 летним опытом. Интересуюсь музыкой на виниле. Читаю по настроению.</p>
-      <p>
-        На текущий момент я закрыл личные проекты и просто ищу то, чем буду заниматься в ближайшие 3-5 лет.
-      </p>
+{%- assign posts = site.posts | where_exp: "p", "p.hidden != true" -%}
+<section class="hero">
+  <div class="hero__in">
+    <p class="eyebrow">// {{ site.author.name }} · {{ site.author.role }}</p>
+    <h1>{{ page.headline | default: site.home.headline }}</h1>
+    <p class="hero__sub">{{ page.lead | default: site.home.lead }}</p>
+    <div class="hero__meta">
+      <span>{{ posts.size }} {% if posts.size == 1 %}публикация{% elsif posts.size >= 2 and posts.size <= 4 %}публикации{% else %}публикаций{% endif %}</span>
+      <span>Первая — {{ posts.last.date | date: "%Y" }} год</span>
+      <span>{{ site.home.meta_third }}</span>
     </div>
   </div>
- 
-  &nbsp;
+</section>
 
-  <hr> -->
-
-  &nbsp;
-  <div class="row">
-    <div style="width:100%;"> <!-- <div class="column" style="width:100%;"> -->
-      <!-- <h2 style="font-size: 1.5em;">Блог</h2> -->
-
-      <ul class="post-list">
-        {% assign mainPosts = site.posts | where: 'type', 'post' %}
-        {% for post in mainPosts limit:10 %}
-        <li>
-          {% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}
-          <span class="post-meta" style="font-size: 0.9em;">{{ post.date | date: date_format }}</span>
-          <!-- &verbar; {{ post.category | capitalize }} -->
-          <h3 style="font-size: 1.2em;"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-          <p style="font-size: 0.9em;">{{ post.description }}</p>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <!-- <div class="column" style="width:100%; float:right;">
-      <h2 style="font-size: 1.5em;">Проекты</h2>
-      <ul class="post-list">
-        {% assign news_content = site.pages | where: "path", "news.md" | first %}
-        {{ news_content.content | markdownify }}
-      </ul>
-    </div> -->
+<div class="wrap">
+  <div class="ribbon">
+    {%- assign years = site.time | date: "%Y" | minus: site.career.ops_since %}
+    <div class="ribbon__i"><div class="ribbon__n">{{ years }}</div><div class="ribbon__l">{% include years-noun.html n=years %} в эксплуатации</div></div>
+    {%- for f in site.home.facts %}
+    <div class="ribbon__i"><div class="ribbon__n">{{ f.n }}</div><div class="ribbon__l">{{ f.l }}</div></div>
+    {%- endfor %}
+    <div class="ribbon__i"><div class="ribbon__n">{{ posts.size }}</div><div class="ribbon__l">публикаций с {{ posts.last.date | date: "%Y" }} года</div></div>
   </div>
-
 </div>
+
+<section>
+  <div class="wrap">
+    <div style="display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:baseline;justify-content:space-between;margin-bottom:1.6rem">
+      <h2>Последнее</h2>
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn--ghost">Весь архив →</a>
+    </div>
+    <div class="feed">
+      {%- assign feed_limit = site.home.limit | default: 9 -%}
+      {%- for post in posts limit: feed_limit %}
+      {% include post-card.html post=post pin=forloop.first %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% include subscribe.html %}

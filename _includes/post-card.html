@@ -1,0 +1,14 @@
+{%- comment -%}Карточка статьи в ленте. include.post — пост, include.pin — закрепить{%- endcomment -%}
+{%- assign p = include.post -%}
+<a class="card{% if include.pin %} card--pin{% endif %}" href="{{ p.url | relative_url }}">
+  <div class="card__date"><b>{{ p.date | date: "%-d" }} {{ p.date | date: "%b" | replace: "Jan","янв" | replace: "Feb","фев" | replace: "Mar","мар" | replace: "Apr","апр" | replace: "May","мая" | replace: "Jun","июн" | replace: "Jul","июл" | replace: "Aug","авг" | replace: "Sep","сен" | replace: "Oct","окт" | replace: "Nov","ноя" | replace: "Dec","дек" }}</b>{{ p.date | date: "%Y" }}</div>
+  <div>
+    <h3 class="card__t">{{ p.title | escape }}</h3>
+    <p class="card__d">{{ p.description | default: p.excerpt | strip_html | normalize_whitespace | truncate: 220 }}</p>
+    <div class="card__f">
+      {%- if include.pin %}<span class="tag tag--safety">Закреплено</span>{% endif %}
+      {%- for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      {%- include reading-time.html content=p.content %}
+    </div>
+  </div>
+</a>

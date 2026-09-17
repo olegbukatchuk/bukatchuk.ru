@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{%- assign all = '' -%}
+{%- for p in site.posts -%}{%- for t in p.tags -%}{%- assign all = all | append: t | append: ',' -%}{%- endfor -%}{%- endfor -%}
+{%- assign tags = all | split: ',' | uniq | sort -%}
+<section class="hero">
+  <div class="hero__in">
+    <p class="eyebrow">// {{ page.eyebrow | default: 'Темы' }}</p>
+    <h1>{{ page.headline | default: page.title | escape }}</h1>
+    {%- if page.lead %}<p class="hero__sub">{{ page.lead }}</p>{% endif %}
+    <div class="hero__meta"><span>{{ tags.size }} тем</span><span>{{ site.posts.size }} публикаций</span></div>
+  </div>
+</section>
+
+<section class="sec--hair">
+  <div class="wrap">
+    <div class="tags">{% for t in tags %}<a class="tag" href="#{{ t | slugify }}">{{ t }}</a>{% endfor %}</div>
+  </div>
+</section>
+
+{%- for t in tags %}
+<section class="sec--hair" style="padding-top:clamp(1.4rem,3vw,2.4rem)">
+  <div class="wrap">
+    <h2 id="{{ t | slugify }}">{{ t }}</h2>
+    <div class="rows" style="margin-top:1rem">
+      {%- for post in site.posts %}{% if post.tags contains t %}
+      {% include post-row.html post=post %}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endfor %}
+
+{% include subscribe.html %}

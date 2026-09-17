@@ -1,0 +1,10 @@
+{%- comment -%}
+  Стаж прописью. include.cap='yes' — с заглавной буквы.
+  Если года нет в _data/numerals.yml, выводится число.
+{%- endcomment -%}
+{%- assign n = site.time | date: "%Y" | minus: site.career.ops_since -%}
+{%- assign w = site.data.numerals[n] -%}
+{%- if w == nil -%}{{ n }}
+{%- elsif include.cap == 'yes' -%}{{ w | capitalize }}
+{%- else -%}{{ w }}
+{%- endif -%}

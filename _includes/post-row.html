@@ -1,0 +1,8 @@
+{%- comment -%}Строка статьи в архиве{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign words = p.content | strip_html | number_of_words -%}
+<a class="row" href="{{ p.url | relative_url }}">
+  <span class="row__d">{{ p.date | date: "%d.%m" }}</span>
+  <span class="row__t">{% if words > 500 %}<span class="row__star">★ </span>{% endif %}{{ p.title | escape }}</span>
+  <span class="row__meta muted" style="font-size:.7rem;letter-spacing:.12em;text-transform:uppercase">{{ words | divided_by: 180 | plus: 1 }} мин</span>
+</a>

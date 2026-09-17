@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{%- if page.collection_name -%}
+  {%- assign posts = site.categories[page.collection_name] -%}
+{%- else -%}
+  {%- assign posts = site.posts -%}
+{%- endif -%}
+{%- assign by_year = posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+<section class="hero">
+  <div class="hero__in">
+    <p class="eyebrow">// {{ page.eyebrow | default: page.title }}</p>
+    {%- assign first_year = posts.last.date | date: "%Y" -%}
+    <h1>{{ page.headline | default: page.title | replace: "[year]", first_year }}</h1>
+    {%- if page.lead %}<p class="hero__sub">{{ page.lead }}</p>{% endif %}
+    <div class="hero__meta">
+      <span>{{ posts.size }} {% if posts.size == 1 %}публикация{% elsif posts.size >= 2 and posts.size <= 4 %}публикации{% else %}публикаций{% endif %}</span>
+      <span>{{ by_year.size }} {% if by_year.size == 1 %}год{% elsif by_year.size >= 2 and by_year.size <= 4 %}года{% else %}лет{% endif %} в архиве</span>
+      <span>★ — длинные разборы</span>
+    </div>
+  </div>
+</section>
+
+{%- if page.content != '' %}
+<section class="sec--hair">
+  <div class="wrap"><div class="page__body">{{ content }}</div></div>
+</section>
+{%- endif %}
+
+<section class="sec--hair" style="padding-bottom:0">
+  <div class="wrap">
+    <p class="eyebrow">// Темы</p>
+    <div class="tags">
+      {%- assign all = '' -%}
+      {%- for p in posts -%}{%- for t in p.tags -%}{%- assign all = all | append: t | append: ',' -%}{%- endfor -%}{%- endfor -%}
+      {%- assign tags = all | split: ',' | uniq | sort -%}
+      {%- for t in tags limit: 18 %}<a class="tag" href="{{ '/tags/' | relative_url }}#{{ t | slugify }}">{{ t }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    {%- for year in by_year %}
+    <div class="year">
+      <div>
+        <div class="year__n">{{ year.name }}</div>
+        <div class="year__c">{{ year.items.size }} {% if year.items.size == 1 %}публикация{% elsif year.items.size >= 2 and year.items.size <= 4 %}публикации{% else %}публикаций{% endif %}</div>
+      </div>
+      <div class="rows">
+        {%- for post in year.items %}
+        {% include post-row.html post=post %}
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+{% include subscribe.html %}

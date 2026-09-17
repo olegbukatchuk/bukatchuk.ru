@@ -1,0 +1,8 @@
+{%- comment -%}Склонение слова «год»: 21 год, 22 года, 25 лет{%- endcomment -%}
+{%- assign n = include.n | plus: 0 -%}
+{%- assign d10 = n | modulo: 10 -%}
+{%- assign d100 = n | modulo: 100 -%}
+{%- if d10 == 1 and d100 != 11 -%}год
+{%- elsif d10 >= 2 and d10 <= 4 and d100 < 12 or d10 >= 2 and d10 <= 4 and d100 > 14 -%}года
+{%- else -%}лет
+{%- endif -%}

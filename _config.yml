@@ -1,79 +1,122 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# ——— Сайт ———
 title: Олег Букатчук
+brand: bukatchuk
+header_sub: личный блог
 email: oleg@bukatchuk.com
-description: > # this means to ignore newlines until "baseurl:"
-  Коллекция статей, заметок и проектов.
+telegram: https://t.me/bukatchuk
+description: >
+  Разборы аварий, эксплуатация нагруженных систем и то, что об этом не пишут
+  в документации.
+lang: ru
 timezone: Europe/Moscow
-# Link settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bukatchuk.ru" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bukatchuk.ru"
+baseurl: ""
 permalink: pretty
 
-# Social settings
+# ——— Автор ———
+author:
+  name: Олег Букатчук
+  role: надёжность и эксплуатация
+  bio_short: >
+    DevOps- и SRE-инженер. Строил отказоустойчивую инфраструктуру для классифайда,
+    e-commerce и госсектора: cian.ru, aliexpress.ru, mos.ru.
+
+# ——— Стаж ———
+# Единственное место, где записан год начала. Число лет считается само:
+# {% include years.html %} — число, {% include years-word.html %} — прописью.
+career:
+  ops_since: 2007
+
+# ——— Главная ———
+home:
+  headline: Заметки инженера,<br>который чинил прод<br>девятнадцать лет
+  lead: >
+    Разборы аварий, эксплуатация нагруженных систем и то, что об этом не пишут
+    в документации. Здесь без «десяти лайфхаков» — только то, что проверено
+    на боевых системах.
+  meta_third: Читают в Хабре и Телеграме
+  limit: 9
+  facts:
+    - n: "3"
+      l: проекта-миллионника
+    - n: "10 000"
+      l: читателей последнего разбора
+
+# ——— Меню ———
+nav:
+  - text: Главная
+    href: /
+  - text: Статьи
+    href: /blog/
+  - text: Темы
+    href: /tags/
+  - text: Об авторе
+    href: /about/
+  - text: Рассылка
+    href: /subscribe/
+
+# ——— Подвал ———
+footer_columns:
+  - title: Разделы
+    links:
+      - { text: Статьи, href: /blog/ }
+      - { text: Темы, href: /tags/ }
+      - { text: Об авторе, href: /about/ }
+      - { text: Рассылка, href: /subscribe/ }
+  - title: Продукты
+    links:
+      - { text: Курс DevOps-инженера, href: "https://devops.bukatchuk.ru", external: true }
+      - { text: Дежурство без паники, href: "https://oncall.bukatchuk.ru", external: true }
+      - { text: Протокол дежурного, href: "https://oncall.bukatchuk.ru/protocol/", external: true }
+  - title: Где ещё
+    links:
+      - { text: Хабр, href: "https://habr.com/ru/articles/1078876/", external: true }
+      - { text: GitHub, href: "https://github.com/olegbukatchuk", external: true }
+      - { text: Telegram, href: "https://t.me/bukatchuk", external: true }
+      - { text: RSS, href: /feed.xml }
+
+# ——— Рассылка ———
+subscribe:
+  title: Раз в неделю — что сломалось<br>и почему это было видно заранее
+  lead: >
+    Разборы аварий, заметки по эксплуатации и то, что не попадает в статьи.
+    Без анонсов вебинаров и без «полезных подборок».
+  note: Отписаться можно одним кликом из любого письма. Адрес не передаётся третьим лицам.
+  action: "https://olegbukatchuk.substack.com/subscribe"
+
+# ——— Комментарии ———
+# utteranc.es складывает комментарии в issues указанного репозитория.
+comments:
+  enabled: false
+  repo: ""
+
+# ——— Аналитика ———
+# plausible: true включает счётчик в production
+plausible: false
+
+# ——— Соцсети ———
 social_sites:
-  instagram: olegbukatchuk
   github: olegbukatchuk
   linkedin: olegbukatchuk
   youtube: "@oleg.bukatchuk"
 
-rss: rss
-
-# Build settings
+# ——— Сборка ———
 markdown: kramdown
-theme: minima
+kramdown:
+  input: GFM
+  parse_block_html: true
+highlighter: rouge
+future: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-# Kramdown settings
-kramdown:
-  input: GFM
-  parse_block_html: true
-
-# Highlighter settings
-highlighter: rouge
-
-# Disqus
-# disqus:
-#  shortname: 
-
-# Google analytics
-# google_analytics: 
-
-# Publish future
-future: false
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-  - about.html
-  - /cv/index.md
-  - /blog/index.md
-  - /projects/index.md
-
-# Include this line so that travis will not explode
-exclude: [vendor]
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - tmp
+  - LICENSE
+  - keybase.txt
+  - frontmatter.json

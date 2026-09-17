@@ -1,0 +1,4 @@
+{%- comment -%}Время чтения: 180 слов в минуту{%- endcomment -%}
+{%- assign words = include.content | strip_html | number_of_words -%}
+{%- assign mins = words | divided_by: 180 | plus: 1 -%}
+<span class="muted" style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">{{ mins }} мин чтения</span>
