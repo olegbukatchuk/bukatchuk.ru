@@ -7,7 +7,6 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Enjoy The Music Podcast #028 на Record Breaks"
-header-img: /assets/png/six-years/header.png
 excerpt: |
     Enjoy The Music Podcast #028 на Record Breaks
 description: |

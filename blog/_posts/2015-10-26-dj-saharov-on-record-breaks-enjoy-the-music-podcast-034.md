@@ -7,7 +7,6 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Enjoy The Music Podcast #034 на Record Breaks"
-header-img: /assets/png/six-years/header.png
 excerpt: |
     Enjoy The Music Podcast #034 на Record Breaks
 description: |
@@ -18,7 +17,7 @@ description: |
 <span class="firstcharacter">П</span>одкаст появился, как личная потребность в миксах, которые мне бы хотелось слушать от начала до конца, не перематывая и не переключая. В какой-то момент меня заметили ребята из Рекорда и пригласили в эфирную сетку. Шоу выходило по пятницам в 21:00.
 </p>
 
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdjsaharovofficial%2Fenjoy-the-music-podcast-034%2F&hide_cover=1" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+<iframe title="Enjoy The Music Podcast #034 на Record Breaks" loading="lazy" width="100%" height="120" src="https://player-widget.mixcloud.com/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdjsaharovofficial%2Fenjoy-the-music-podcast-034%2F&hide_cover=1" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
 <p>Треки использованные в выпуске:</p>
 1. 00:01 Under This Feat. Goldillox - Blow Your Mind (Original Mix)

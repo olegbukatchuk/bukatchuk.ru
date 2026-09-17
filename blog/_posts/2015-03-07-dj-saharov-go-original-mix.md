@@ -7,7 +7,6 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Go (Original Mix)"
-header-img: /assets/png/six-years/header.png
 excerpt: |
     DJ Saharov - Go (Original Mix)
 description: |
@@ -17,4 +16,4 @@ description: |
 <p>
 <span class="firstcharacter">М</span>ой первый релиз! Стиль Breaks.</p>
 <br>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194725934&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<iframe title="DJ Saharov - Go (Original Mix)" loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194725934&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

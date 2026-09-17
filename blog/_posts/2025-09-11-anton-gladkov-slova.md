@@ -7,7 +7,6 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 published: true
-header-img: /assets/png/talk-dlsu/header.png
 tags:
   [
     sales, b2b, words,
@@ -19,7 +18,7 @@ excerpt: |
 
 <span class="firstcharacter">П</span>отрясающий по своей красоте поток мыслей от Антона касательно важности правильно подобранных слов в нужный момент времени. Слушается и смотриться на одном дыхании. С уверенностью могу сказать, что буду пересматривать ещё несколько раз чтобы всё отложилось в уме - "по полочкам".
  
-<iframe width="740" height="400" src="https://www.youtube.com/embed/vZ908VUqXUk?si=wA_bmBsgCsaP19Fy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="740" height="400" src="https://www.youtube.com/embed/vZ908VUqXUk?si=wA_bmBsgCsaP19Fy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 Треклист:
 <ul>

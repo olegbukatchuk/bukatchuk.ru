@@ -8,7 +8,6 @@ comments: true
 author: "Oleg Bukatchuk"
 published: false
 tags: [social, network,]
-header-img: /assets/png/calamancy/header.png
 description: |
     I am excited to introduce calamanCy, an open-source toolkit for constructing natural language processing pipelines for Tagalog.
     Read this blog post to learn more! You can also find calamanCy on Github: https://github.com/ljvmiranda921/calamanCy

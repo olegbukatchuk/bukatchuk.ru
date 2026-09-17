@@ -7,7 +7,6 @@ category: blog
 comments: true
 author: "DJ Saharov - Rythms"
 summary: "DJ Saharov - Rythms"
-header-img: /assets/png/six-years/header.png
 excerpt: |
     DJ Saharov - Rythms
 description: |
@@ -17,7 +16,7 @@ description: |
 <p>
 <span class="firstcharacter">М</span>оя компиляция! Делал, как всегда для себя, чтобы было что послушать в данном жанре! Отборный олдскул 2Stet/UK Garage.</p>
 
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdjsaharovofficial%2Frythms-2-step-compilation%2F&hide_cover=1" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+<iframe title="DJ Saharov - Rythms" loading="lazy" width="100%" height="120" src="https://player-widget.mixcloud.com/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdjsaharovofficial%2Frythms-2-step-compilation%2F&hide_cover=1" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
 <p>Треки использованные в выпуске:</p>
 1. 00:01 Michael Jackson – Can't Let Her Get Away! (Adam Vyt Remix)
