@@ -73,8 +73,9 @@ a.tag:hover{background:var(--ink);color:var(--base);border-color:var(--ink);opac
 .hdr__nav a{position:relative;padding-bottom:2px}
 .hdr__nav a:hover{color:var(--safety)}
 .hdr__nav a.is-active{color:var(--safety);border-bottom:2px solid var(--safety)}
-.hdr__right{display:flex;align-items:center;gap:1rem;margin-left:1.4rem}
-.hdr__rss{font-size:var(--fs-micro);letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--safety)}
+.hdr__right{display:flex;align-items:center;gap:1.6rem;margin-left:1.6rem}
+.hdr__rss{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:inherit;padding-bottom:2px}
+.hdr__rss:hover{color:var(--safety)}
 .burger{display:none;margin-left:auto;background:none;border:0;flex-direction:column;gap:4px;cursor:pointer;padding:.4rem}
 .burger span{width:20px;height:2px;background:var(--ink);display:block}
 
