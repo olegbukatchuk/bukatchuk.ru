@@ -332,15 +332,47 @@
   </div>
   <div class="ft__bottom">
     <span>© <span id="yr">2026</span> Олег Букатчук</span>
-    <span>19 лет в эксплуатации нагруженных систем</span>
+    <span><span class="js-years">19</span> лет в эксплуатации нагруженных систем</span>
     <span>Дизайн — Axis Industrial</span>
   </div>
 </footer>
 <script>
+/* ------------------------------------------------------------------
+   Стаж считается от года начала, а не вписывается руками.
+   В Jekyll это переедет в _config.yml: career.ops_since.
+   ------------------------------------------------------------------ */
+var OPS_SINCE = 2007;   /* год начала работы в эксплуатации */
+
 (function(){
   var b=document.getElementById('burger'), n=document.getElementById('nav');
   if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',o)})}
-  var y=document.getElementById('yr'); if(y){y.textContent=new Date().getFullYear()}
+
+  var now = new Date().getFullYear();
+  var y = document.getElementById('yr'); if(y){ y.textContent = now }
+
+  var years = now - OPS_SINCE;
+  var WORDS = {15:'пятнадцать',16:'шестнадцать',17:'семнадцать',18:'восемнадцать',19:'девятнадцать',
+               20:'двадцать',21:'двадцать один',22:'двадцать два',23:'двадцать три',24:'двадцать четыре',
+               25:'двадцать пять',26:'двадцать шесть',27:'двадцать семь',28:'двадцать восемь',
+               29:'двадцать девять',30:'тридцать'};
+  function cap(t){ return t.charAt(0).toUpperCase() + t.slice(1) }
+  function plural(n, one, few, many){
+    var d10 = n % 10, d100 = n % 100;
+    if (d10 === 1 && d100 !== 11) return one;
+    if (d10 >= 2 && d10 <= 4 && !(d100 >= 12 && d100 <= 14)) return few;
+    return many;
+  }
+  /* число: <span class="js-years">19</span> */
+  [].forEach.call(document.querySelectorAll('.js-years'), function(el){ el.textContent = years });
+  /* прописью: <span class="js-years-word">Девятнадцать</span> */
+  [].forEach.call(document.querySelectorAll('.js-years-word'), function(el){
+    var w = WORDS[years] || String(years);
+    el.textContent = el.dataset.cap === 'no' ? w : cap(w);
+  });
+  /* склонение слова «год»: <span class="js-years-noun">лет</span> */
+  [].forEach.call(document.querySelectorAll('.js-years-noun'), function(el){
+    el.textContent = plural(years, 'год', 'года', 'лет');
+  });
 })();
 </script>
 </body>
