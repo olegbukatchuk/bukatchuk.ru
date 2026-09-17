@@ -463,7 +463,15 @@ pre .a{color:var(--term-amber)}
   background:var(--surface);padding:1.2rem 1.4rem!important;margin:1.8rem 0;border-radius:0!important;
 }
 .art__body .firstcharacter{float:left;font-family:var(--grotesk);font-size:3.6rem;line-height:.82;font-weight:700;padding:.1rem .6rem 0 0;color:var(--safety)}
-.art__body iframe,.art__body video{max-width:100%;border:var(--border-thin);margin:1.6rem 0}
+/* Встраиваемые плееры.
+   box-sizing:content-box — обязателен: глобальный border-box съедал бы
+   высоту рамки из самого плеера (было 120px в атрибуте → 116px содержимого,
+   и плеер обрезался снизу). */
+.art__body iframe,.art__body video{box-sizing:content-box;max-width:100%;border:var(--border-thin);margin:1.6rem 0;display:block}
+.art__body iframe[src*="mixcloud"]{width:100%;height:120px}
+.art__body iframe[src*="soundcloud"]{width:100%;height:166px}
+.art__body iframe[src*="youtube"],.art__body iframe[src*="youtu.be"]{width:100%;height:auto;aspect-ratio:16/9}
+.art__body iframe[src*="itch.io"]{width:100%}
 .art__body table{width:100%;border-collapse:collapse;font-size:.95rem;margin:1.4rem 0}
 .art__body td,.art__body th{border:var(--hair);padding:.6rem .8rem;text-align:left;vertical-align:top}
 .art__body th{background:var(--surface);font-weight:700}

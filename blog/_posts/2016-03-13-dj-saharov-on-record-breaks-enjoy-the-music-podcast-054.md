@@ -18,7 +18,7 @@ description: |
 <span class="firstcharacter">П</span>одкаст появился, как личная потребность в миксах, которые мне бы хотелось слушать от начала до конца, не перематывая и не переключая. В какой-то момент меня заметили ребята из Рекорда и пригласили в эфирную сетку. Шоу выходило по пятницам в 21:00.
 </p>
 
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjsaharovofficial%2Fenjoy-the-music-podcast-054%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdjsaharovofficial%2Fenjoy-the-music-podcast-054%2F&hide_cover=1" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
 <p>Треки использованные в выпуске:</p>
 1. 00:01 A-Trak Feat. Oliver – Disco Nap (Merlyn's Subs In The Disco Edit)

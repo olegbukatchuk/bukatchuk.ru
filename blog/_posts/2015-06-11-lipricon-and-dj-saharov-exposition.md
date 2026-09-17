@@ -17,7 +17,7 @@ description: |
 <p>
 <span class="firstcharacter">С</span>овместрная коллаборация с Lipricon! Антон спасибо тебе за визит в Москву и за всё что мы делали вместе!</p>
 
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjsaharovofficial%2Flipricon-dj-saharov-exposition%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdjsaharovofficial%2Flipricon-dj-saharov-exposition%2F&hide_cover=1" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
 <p>Треки использованные в выпуске:</p>
 1. 00:01 Teddy Killerz Feat. Pat Fulgoni - Higher Ground (Original Mix)
