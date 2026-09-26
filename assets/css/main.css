@@ -509,6 +509,12 @@ pre .a{color:var(--term-amber)}
   background:var(--surface);padding:1.2rem 1.4rem!important;margin:1.8rem 0;border-radius:0!important;
 }
 .art__body .firstcharacter{float:left;font-family:'Plex Dropcap','IBM Plex Sans',var(--sans);font-size:5.8rem;line-height:.8;font-weight:700;-webkit-text-stroke:.055em currentColor;padding:.12rem .75rem 0 .04em;color:var(--safety)}
+/* Буквица в высоту ровно трёх строк: браузер сам подбирает размер для любой заглавной (кириллица и латиница).
+   Работает через ::first-letter абзаца с буквицей; без поддержки (Firefox) остаётся вариант выше на float. */
+@supports ((initial-letter:3) or (-webkit-initial-letter:3)) and selector(:has(a)){
+  .firstcharacter,.art__body .firstcharacter{float:none;font:inherit;letter-spacing:inherit;-webkit-text-stroke:0;padding:0;margin:0;color:inherit}
+  .art__body p:has(>.firstcharacter)::first-letter{-webkit-initial-letter:3;initial-letter:3;font-family:'IBM Plex Sans',var(--sans);font-weight:700;color:var(--safety);-webkit-text-stroke:.3rem currentColor;margin:0 .9rem 0 .2rem}
+}
 /* Встраиваемые плееры.
    box-sizing:content-box — обязателен: глобальный border-box съедал бы
    высоту рамки из самого плеера (было 120px в атрибуте → 116px содержимого,
