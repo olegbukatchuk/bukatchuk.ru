@@ -7,6 +7,7 @@ category: blog
 comments: true
 author: "DJ Saharov - The King Of A Jungle"
 summary: "DJ Saharov - The King Of A Jungle"
+tags: [music, dj, mix, jungle]
 excerpt: |
     DJ Saharov - The King Of A Jungle
 description: |

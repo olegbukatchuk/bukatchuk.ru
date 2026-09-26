@@ -7,6 +7,7 @@ category: blog
 comments: true
 author: "DJ Saharov - Valhalla"
 summary: "DJ Saharov - Valhalla"
+tags: [music, dj, mix, drum and bass]
 excerpt: |
     DJ Saharov - Valhalla
 description: |

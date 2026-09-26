@@ -7,6 +7,7 @@ category: blog
 comments: true
 author: "Lipricon & DJ Saharov"
 summary: "Lipricon & DJ Saharov - Exposition"
+tags: [music, dj, collaboration, lipricon]
 excerpt: |
     Lipricon & DJ Saharov - Exposition
 description: |

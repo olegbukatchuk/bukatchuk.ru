@@ -7,6 +7,7 @@ category: life
 comments: true
 author: "DJ Saharov"
 summary: "Enjoy The Music Podcast #061 на Record Breaks"
+tags: [music, dj, podcast, breaks]
 excerpt: |
     Enjoy The Music Podcast #061 на Record Breaks
 description: |

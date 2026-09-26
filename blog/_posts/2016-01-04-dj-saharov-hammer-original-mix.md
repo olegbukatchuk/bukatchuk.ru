@@ -7,6 +7,7 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Hammer (Original Mix)"
+tags: [music, dj, release, deep house]
 excerpt: |
     DJ Saharov - Hammer (Original Mix)
 description: |

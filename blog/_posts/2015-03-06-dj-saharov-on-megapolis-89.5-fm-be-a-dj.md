@@ -7,6 +7,7 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Выступление на радиостанции Megapolis 89,5 FM"
+tags: [music, dj, radio]
 excerpt: |
     Выступление на радиостанции Megapolis 89,5 FM
 description: |
