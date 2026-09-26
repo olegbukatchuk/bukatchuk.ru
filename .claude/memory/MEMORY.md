@@ -1,0 +1,2 @@
+- [No Claude attribution in commits](feedback_commits_no_claude_attribution.md) — commits/PRs must be authored as the user, no Claude Code mentions or Co-Authored-By lines
+- [No meta notes in blog posts](feedback_blog_no_meta_notes.md) — bukatchuk.ru posts must not contain notes about how Claude worked (what was run, env limits, verification caveats)
