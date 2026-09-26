@@ -367,7 +367,7 @@ a.tag:hover{background:var(--ink);color:var(--base);border-color:var(--ink);opac
 .art__body a{color:var(--safety);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .art__body img{border:var(--border-thin);margin:1.6rem 0}
 .art__body hr{border:0;border-top:var(--border-thin);margin:2.4rem 0}
-.firstcharacter{float:left;font-family:var(--grotesk);font-size:3.6rem;line-height:.82;font-weight:700;padding:.1rem .6rem 0 0;color:var(--safety)}
+.firstcharacter{float:left;font-family:'IBM Plex Sans',var(--sans);font-size:5.2rem;line-height:.8;font-weight:700;-webkit-text-stroke:.055em currentColor;padding:.12rem .75rem 0 .04em;color:var(--safety)}
 blockquote{border-left:6px solid var(--safety);background:var(--surface);padding:1.2rem 1.4rem;margin:1.8rem 0;font-style:normal}
 blockquote p:last-child{margin-bottom:0}
 .callout{border:var(--border-thin);border-left:6px solid var(--safety);background:var(--surface);padding:1.2rem 1.4rem;margin:1.8rem 0}
@@ -465,7 +465,7 @@ pre .a{color:var(--term-amber)}
   border:var(--border-thin)!important;border-left:6px solid var(--safety)!important;
   background:var(--surface);padding:1.2rem 1.4rem!important;margin:1.8rem 0;border-radius:0!important;
 }
-.art__body .firstcharacter{float:left;font-family:var(--grotesk);font-size:3.6rem;line-height:.82;font-weight:700;padding:.1rem .6rem 0 0;color:var(--safety)}
+.art__body .firstcharacter{float:left;font-family:'IBM Plex Sans',var(--sans);font-size:5.2rem;line-height:.8;font-weight:700;-webkit-text-stroke:.055em currentColor;padding:.12rem .75rem 0 .04em;color:var(--safety)}
 /* Встраиваемые плееры.
    box-sizing:content-box — обязателен: глобальный border-box съедал бы
    высоту рамки из самого плеера (было 120px в атрибуте → 116px содержимого,
