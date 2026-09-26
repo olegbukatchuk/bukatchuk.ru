@@ -324,12 +324,14 @@ a.tag:hover{background:var(--ink);color:var(--base);border-color:var(--ink);opac
 
 /* ---------- список статей ---------- */
 .feed{display:grid;gap:0;border-top:var(--border-thin)}
-.card{display:grid;grid-template-columns:132px 1fr;gap:clamp(1rem,3vw,2.6rem);padding:clamp(1.4rem,2.6vw,2.2rem) 0;border-bottom:var(--hair);transition:background .12s}
+.card{position:relative;display:grid;grid-template-columns:132px 1fr;gap:clamp(1rem,3vw,2.6rem);padding:clamp(1.4rem,2.6vw,2.2rem) 0;border-bottom:var(--hair);transition:background .12s}
 .card:hover{background:var(--surface)}
 .card__date{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding-top:.35rem}
 .card__date b{display:block;font-family:var(--grotesk);font-size:1.5rem;letter-spacing:-.02em;color:var(--ink);line-height:1}
 .card__t{font-size:clamp(1.15rem,1.9vw,1.6rem);margin-bottom:.5rem}
 .card:hover .card__t{color:var(--safety)}
+.card__link::after{content:"";position:absolute;inset:0}
+.card .tag{position:relative;z-index:1}
 .card__d{font-family:var(--sans);font-size:1rem;line-height:1.55;color:#444;max-width:68ch}
 .card__f{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin-top:.9rem}
 .card--pin{background:var(--surface);border-left:6px solid var(--safety);padding-left:clamp(1rem,2vw,1.6rem)}
