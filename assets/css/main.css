@@ -408,7 +408,7 @@ a.tag:hover{background:var(--ink);color:var(--base);border-color:var(--ink);opac
 .ticker--reverse .ticker__track{animation-direction:reverse;animation-duration:110s}
 .ticker:hover .ticker__track{animation-play-state:paused}
 .ticker__dup{display:flex}
-.ticker__item{font-family:var(--grotesk);font-weight:700;font-size:var(--fs-h3);text-transform:uppercase;letter-spacing:-.02em;white-space:nowrap;padding:0 2rem;display:flex;align-items:center;gap:2rem}
+.ticker__item{font-family:var(--grotesk);font-weight:700;font-size:clamp(1.4rem,2.5vw,2.5rem);text-transform:uppercase;letter-spacing:-.02em;white-space:nowrap;padding:0 2rem;display:flex;align-items:center;gap:2rem}
 .ticker__item::after{content:"";width:12px;height:12px;background:var(--safety);flex-shrink:0}
 .ticker--safety .ticker__item::after{background:var(--ink)}
 .ticker__item:hover{color:var(--safety)}
