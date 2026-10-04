@@ -9,20 +9,24 @@ sitemap: false
   <div class="nf__in">
     <p class="eyebrow">// Ошибка 404</p>
     <div class="nf__top">
-      <div class="nf__n">404</div>
+      <div>
+        <div class="nf__n">404</div>
+        <h1 class="nf__h">Страница не найдена</h1>
+      </div>
+      <div class="nf__side">
       <pre class="nf__term"><span class="g">$</span> curl -sI bukatchuk.ru<span id="nf-path">/этой-страницы-нет</span> | head -1
 <span class="a">HTTP/2 404</span>
 <span class="g">$</span> grep -c "<span id="nf-path2">/этой-страницы-нет</span>" sitemap.xml
 <span class="a">0</span>
 <span class="g">$</span> curl -sI bukatchuk.ru/ | head -1
 <span class="g">HTTP/2 200</span></pre>
-    </div>
-    <h1 class="nf__h">Страница не найдена</h1>
-    <p class="nf__lead">По этому адресу на сайте ничего нет: в ссылке опечатка или страница переехала. Сам сайт работает: ниже последние статьи, а в архиве — всё с {{ posts.last.date | date: "%Y" }} года.</p>
-    <div class="btns" style="margin-top:2rem">
-      <a class="btn btn--primary" href="{{ '/' | relative_url }}">На главную</a>
-      <a class="btn btn--ghost" href="{{ '/blog/' | relative_url }}">Все статьи</a>
-      <a class="btn btn--ghost" href="{{ '/tags/' | relative_url }}">Темы</a>
+      <p class="nf__lead">По этому адресу на сайте ничего нет: в ссылке опечатка или страница переехала. Сам сайт работает: ниже последние статьи, а в архиве — всё с {{ posts.last.date | date: "%Y" }} года.</p>
+      <div class="btns" style="margin-top:1.6rem">
+        <a class="btn btn--primary" href="{{ '/' | relative_url }}">На главную</a>
+        <a class="btn btn--ghost" href="{{ '/blog/' | relative_url }}">Все статьи</a>
+        <a class="btn btn--ghost" href="{{ '/tags/' | relative_url }}">Темы</a>
+      </div>
+      </div>
     </div>
   </div>
 </section>

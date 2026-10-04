@@ -483,7 +483,7 @@ pre .a{color:var(--term-amber)}
 .nf{padding:var(--sec-y) 0}
 .nf__in{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad-x);width:100%}
 .nf__n{font-family:var(--grotesk);font-size:clamp(5rem,22vw,18rem);font-weight:700;line-height:.8;letter-spacing:-.06em;color:var(--safety)}
-.nf__top{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(1.6rem,4vw,4rem);align-items:end}
+.nf__top{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(1.6rem,4vw,4rem);align-items:start}
 .nf__term{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;box-shadow:var(--shadow-sm)}
 .nf__h{margin-top:clamp(1.8rem,3vw,2.6rem)}
 .nf__lead{font-family:var(--sans);font-size:1.08rem;line-height:1.6;max-width:60ch;margin-top:1rem;color:#444}
