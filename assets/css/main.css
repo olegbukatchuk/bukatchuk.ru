@@ -401,6 +401,21 @@ a.tag:hover{background:var(--ink);color:var(--base);border-color:var(--ink);opac
 @keyframes log-pulse{0%,100%{opacity:1}50%{opacity:.25}}
 @media(prefers-reduced-motion:reduce){.log__track{animation:none}.log__dup{display:none}.log__body{overflow-x:auto;-webkit-mask-image:none;mask-image:none}}
 
+/* ---------- бегущая строка с темами курса ---------- */
+.ticker{background:var(--ink);color:var(--base);border-top:var(--border-thin);border-bottom:var(--border-thin);overflow:hidden;padding:1.2rem 0}
+.ticker--safety{background:var(--safety);color:#fff}
+.ticker__track{display:flex;width:max-content;animation:log-scroll 90s linear infinite}
+.ticker--reverse .ticker__track{animation-direction:reverse;animation-duration:110s}
+.ticker:hover .ticker__track{animation-play-state:paused}
+.ticker__dup{display:flex}
+.ticker__item{font-family:var(--grotesk);font-weight:700;font-size:var(--fs-h3);text-transform:uppercase;letter-spacing:-.02em;white-space:nowrap;padding:0 2rem;display:flex;align-items:center;gap:2rem}
+.ticker__item::after{content:"";width:12px;height:12px;background:var(--safety);flex-shrink:0}
+.ticker--safety .ticker__item::after{background:var(--ink)}
+.ticker__item:hover{color:var(--safety)}
+.ticker--safety .ticker__item:hover{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){.ticker__track{animation:none}.ticker__dup{display:none}.ticker{overflow-x:auto}}
+.feed-head{display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:baseline;justify-content:space-between;margin-bottom:1.6rem}
+
 .feed{display:grid;gap:0;border-top:var(--border-thin)}
 .card{position:relative;display:grid;grid-template-columns:132px 1fr;gap:clamp(1rem,3vw,2.6rem);padding:clamp(1.4rem,2.6vw,2.2rem) 0;border-bottom:var(--hair);transition:background .12s}
 .card:hover{background:var(--surface)}

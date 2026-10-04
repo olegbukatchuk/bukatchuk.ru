@@ -30,16 +30,66 @@ layout: default
 
 {% include log.html %}
 
+{%- comment -%}Три блока по тематике: техника, музыка, всё остальное. Правило — в _config.yml, home.tech_tags{%- endcomment -%}
+{%- assign feed_limit = site.home.limit | default: 3 -%}
+{%- assign music = posts | where_exp: "p", "p.tags contains 'music'" -%}
+{%- assign half = site.home.course.topics.size | plus: 1 | divided_by: 2 -%}
+{%- assign rest = site.home.course.topics.size | minus: half %}
+
 <section>
   <div class="wrap">
-    <div style="display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:baseline;justify-content:space-between;margin-bottom:1.6rem">
-      <h2>Последнее</h2>
+    <div class="feed-head">
+      <h2>Техника</h2>
       <a href="{{ '/blog/' | relative_url }}" class="btn btn--ghost">Весь архив →</a>
     </div>
     <div class="feed">
-      {%- assign feed_limit = site.home.limit | default: 9 -%}
-      {%- for post in posts limit: feed_limit %}
-      {% include post-card.html post=post pin=forloop.first %}
+      {%- assign shown = 0 -%}
+      {%- for post in posts -%}
+        {%- if shown >= feed_limit -%}{%- break -%}{%- endif -%}
+        {%- assign is_tech = false -%}
+        {%- for t in post.tags -%}{%- if site.home.tech_tags contains t -%}{%- assign is_tech = true -%}{%- endif -%}{%- endfor -%}
+        {%- unless is_tech -%}{%- continue -%}{%- endunless %}
+      {% if shown == 0 %}{% include post-card.html post=post pin=true %}{% else %}{% include post-card.html post=post %}{% endif %}
+        {%- assign shown = shown | plus: 1 -%}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% include ticker.html from=0 count=half mod="ticker--safety" %}
+
+<section>
+  <div class="wrap">
+    <div class="feed-head">
+      <h2>Музыка</h2>
+      <a href="{{ '/tags/' | relative_url }}#music" class="btn btn--ghost">Вся музыка →</a>
+    </div>
+    <div class="feed">
+      {%- for post in music limit: feed_limit %}
+      {% include post-card.html post=post %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% include ticker.html from=half count=rest mod="ticker--reverse" %}
+
+<section>
+  <div class="wrap">
+    <div class="feed-head">
+      <h2>Всё остальное</h2>
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn--ghost">Весь архив →</a>
+    </div>
+    <div class="feed">
+      {%- assign shown = 0 -%}
+      {%- for post in posts -%}
+        {%- if shown >= feed_limit -%}{%- break -%}{%- endif -%}
+        {%- if post.tags contains "music" -%}{%- continue -%}{%- endif -%}
+        {%- assign is_tech = false -%}
+        {%- for t in post.tags -%}{%- if site.home.tech_tags contains t -%}{%- assign is_tech = true -%}{%- endif -%}{%- endfor -%}
+        {%- if is_tech -%}{%- continue -%}{%- endif %}
+      {% include post-card.html post=post %}
+        {%- assign shown = shown | plus: 1 -%}
       {%- endfor %}
     </div>
   </div>

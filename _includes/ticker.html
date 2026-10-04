@@ -1,0 +1,14 @@
+{%- comment -%}
+  Бегущая строка с темами курса. include.from — с какой темы начать, include.count — сколько взять,
+  include.mod — модификатор (ticker--safety, ticker--reverse). Список выводится дважды: так прокрутка замыкается без шва.
+{%- endcomment -%}
+{%- assign c = site.home.course -%}
+{%- capture ticker_items -%}
+{%- for t in c.topics limit: include.count offset: include.from -%}
+{%- assign n = forloop.index | plus: include.from -%}
+<a class="ticker__item" href="{{ c.url }}#block-{% if n < 10 %}0{% endif %}{{ n }}" target="_blank" rel="noopener">{{ t }}</a>
+{%- endfor -%}
+{%- endcapture -%}
+<div class="ticker {{ include.mod }}" aria-label="{{ c.title }}: темы программы">
+  <div class="ticker__track">{{ ticker_items }}<span class="ticker__dup" aria-hidden="true">{{ ticker_items }}</span></div>
+</div>
