@@ -53,8 +53,6 @@ nav:
     href: /tags/
   - text: Об авторе
     href: /about/
-  - text: Рассылка
-    href: /subscribe/
 
 # ——— Подвал ———
 footer_columns:
@@ -63,7 +61,6 @@ footer_columns:
       - { text: Статьи, href: /blog/ }
       - { text: Темы, href: /tags/ }
       - { text: Об авторе, href: /about/ }
-      - { text: Рассылка, href: /subscribe/ }
   - title: Продукты
     links:
       - { text: Курс DevOps-инженера, href: "https://devops.bukatchuk.ru", external: true }
@@ -75,15 +72,6 @@ footer_columns:
       - { text: GitHub, href: "https://github.com/olegbukatchuk", external: true }
       - { text: Telegram, href: "https://t.me/bukatchuk", external: true }
       - { text: RSS, href: /feed.xml }
-
-# ——— Рассылка ———
-subscribe:
-  title: Раз в неделю — что сломалось<br>и почему это было видно заранее
-  lead: >
-    Разборы аварий, заметки по эксплуатации и то, что не попадает в статьи.
-    Без анонсов вебинаров и без «полезных подборок».
-  note: Отписаться можно одним кликом из любого письма. Адрес не передаётся третьим лицам.
-  action: "https://olegbukatchuk.substack.com/subscribe"
 
 # ——— Комментарии ———
 # utteranc.es складывает комментарии в issues указанного репозитория.
