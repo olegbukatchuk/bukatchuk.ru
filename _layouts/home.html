@@ -5,7 +5,9 @@ layout: default
 <section class="hero">
   <div class="hero__in">
     <p class="eyebrow">// {{ site.author.name }} · {{ site.author.role }}</p>
-    <h1>{{ page.headline | default: site.home.headline }}</h1>
+    {%- assign hero_years = site.time | date: "%Y" | minus: site.career.ops_since -%}
+    {%- capture hero_years_text %}{% include years-word.html %} {% include years-noun.html n=hero_years %}{% endcapture %}
+    <h1>{{ page.headline | default: site.home.headline | replace: "[years]", hero_years_text }}</h1>
     <p class="hero__sub">{{ page.lead | default: site.home.lead }}</p>
     <div class="hero__meta">
       <span>{{ posts.size }} {% if posts.size == 1 %}публикация{% elsif posts.size >= 2 and posts.size <= 4 %}публикации{% else %}публикаций{% endif %}</span>
