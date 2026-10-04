@@ -1,0 +1,17 @@
+{%- comment -%}
+  Бегущая лента публикаций в виде журнала: дата, тег, заголовок.
+  Каждая дорожка выводится дважды подряд — так прокрутка замыкается без шва.
+{%- endcomment -%}
+{%- assign log_posts = site.posts | where_exp: "p", "p.hidden != true" -%}
+{%- capture log_a %}{% for p in log_posts limit: 12 %}{% include log-entry.html post=p %}{% endfor %}{% endcapture -%}
+{%- capture log_b %}{% for p in log_posts limit: 12 offset: 12 %}{% include log-entry.html post=p %}{% endfor %}{% endcapture -%}
+<div class="log" aria-label="Лента публикаций">
+  <div class="log__head">
+    <div class="log__title">Лента публикаций</div>
+    <div class="log__status">{{ log_posts.size }} публикаций · {{ site.tags.size }} {% include tags-noun.html n=site.tags.size %}</div>
+  </div>
+  <div class="log__body">
+    <div class="log__track">{{ log_a }}<span aria-hidden="true" class="log__dup">{{ log_a }}</span></div>
+    <div class="log__track log__track--reverse">{{ log_b }}<span aria-hidden="true" class="log__dup">{{ log_b }}</span></div>
+  </div>
+</div>

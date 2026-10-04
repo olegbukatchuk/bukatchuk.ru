@@ -1,0 +1,8 @@
+{%- comment -%}Склонение слова «тег»: 1 тег, 2 тега, 5 тегов{%- endcomment -%}
+{%- assign n = include.n | plus: 0 -%}
+{%- assign d10 = n | modulo: 10 -%}
+{%- assign d100 = n | modulo: 100 -%}
+{%- if d10 == 1 and d100 != 11 -%}тег
+{%- elsif d10 >= 2 and d10 <= 4 and d100 < 12 or d10 >= 2 and d10 <= 4 and d100 > 14 -%}тега
+{%- else -%}тегов
+{%- endif -%}

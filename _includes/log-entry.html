@@ -1,0 +1,4 @@
+{%- assign p = include.post -%}
+{%- assign t = p.tags.first | default: p.category | default: "blog" -%}
+{%- assign k = t.size | modulo: 3 -%}
+<a class="log__entry" href="{{ p.url | relative_url }}"><span class="log__time">{{ p.date | date: "%d.%m.%Y" }}</span><span class="log__tag log__tag--{{ k }}">{{ t }}</span><span class="log__msg">{{ p.title | escape }}</span></a>
