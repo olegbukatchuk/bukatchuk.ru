@@ -1,0 +1,71 @@
+---
+layout: default
+---
+{%- assign r = page -%}
+<article class="rel">
+  <div class="rel__top">
+    <img class="rel__cover" src="{{ r.cover | relative_url }}" alt="{{ r.artist | escape }} — {{ r.title | escape }}" width="600" height="600">
+    <div>
+      <p class="eyebrow"><a href="{{ '/vinyl/' | relative_url }}">Винил</a>{% if r.genres.first %} · {{ r.genres.first }}{% endif %}</p>
+      <h1>{{ r.title | escape }}</h1>
+      <p class="rel__artist">{{ r.artist }}</p>
+      <dl class="rel__dl">
+        <dt>Год альбома</dt><dd>{{ r.original_year }}</dd>
+        <dt>Это издание</dt><dd>{{ r.year }}{% if r.country != "" %}, {{ r.country }}{% endif %}</dd>
+        <dt>Лейбл</dt><dd>{{ r.label }}</dd>
+        <dt>Каталожный номер</dt><dd>{{ r.catno }}</dd>
+        <dt>Формат</dt><dd>{{ r.format }}{% if r.weight %}, {{ r.weight }}{% endif %}</dd>
+        {%- if r.color %}<dt>Цвет винила</dt><dd>{{ r.color }}</dd>{% endif %}
+        {%- if r.limited %}<dt>Тираж</dt><dd>{{ r.limited }} экз.</dd>{% endif %}
+        {%- if r.features.size > 0 %}<dt>Особенности</dt><dd>{{ r.features | join: ", " }}</dd>{% endif %}
+        {%- if r.styles.size > 0 %}<dt>Стиль</dt><dd>{{ r.styles | join: ", " }}</dd>{% endif %}
+        <dt>Треков</dt><dd>{{ r.tracklist.size }}</dd>
+      </dl>
+      <div class="btns" style="margin-top:1.6rem">
+        {%- if r.discogs %}<a class="btn btn--primary" href="{{ r.discogs }}" target="_blank" rel="noopener">Discogs →</a>{% endif %}
+        <a class="btn btn--ghost" href="{{ '/vinyl/' | relative_url }}">Вся коллекция</a>
+      </div>
+    </div>
+  </div>
+
+  {%- if content != "" %}
+  {%- assign note = content | strip -%}
+  {%- if note != "" %}<div class="art__body rel__note">{{ content }}</div>{% endif %}
+  {%- endif %}
+
+  <div class="rel__tracks">
+    <p class="eyebrow">// Треклист</p>
+    <div class="rel__sides">
+    {%- assign side = "" -%}
+    {%- for t in r.tracklist -%}
+      {%- assign s = t.pos | slice: 0 -%}
+      {%- if s != side %}
+        {%- unless forloop.first %}</div></div>{% endunless %}
+        <div class="rel__side"><h2>Сторона {{ s }}</h2><div class="rows">
+        {%- assign side = s -%}
+      {%- endif %}
+        <div class="row rel__row"><span class="row__d">{{ t.pos }}</span><span class="row__t">{{ t.title }}{% if t.feat %} <span class="muted">— {{ t.feat | join: ", " }}</span>{% endif %}</span><span class="row__d">{{ t.duration }}</span></div>
+      {%- if forloop.last %}</div></div>{% endif %}
+    {%- endfor %}
+    </div>
+  </div>
+</article>
+
+{%- assign same = site.vinyl | where: "artist", r.artist | sort: "original_year" -%}
+{%- if same.size > 1 %}
+<section class="sec--hair">
+  <div class="wrap">
+    <p class="eyebrow">// {{ r.artist }}</p>
+    <h2>Ещё у этого исполнителя</h2>
+    <div class="vn vn--strip" style="margin-top:1.4rem">
+      {%- for o in same -%}
+      {%- if o.url == r.url %}{% continue %}{% endif %}
+      <a class="vn__i" href="{{ o.url | relative_url }}">
+        <img class="vn__cover" src="{{ o.cover | relative_url }}" alt="{{ o.artist | escape }} — {{ o.title | escape }}" width="600" height="600" loading="lazy">
+        <span class="vn__b"><span class="vn__t">{{ o.title }}</span><span class="vn__m"><span>{{ o.original_year }}</span>{% if o.color %}<span>{{ o.color }}</span>{% endif %}</span></span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

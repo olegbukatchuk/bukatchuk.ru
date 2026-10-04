@@ -84,6 +84,8 @@ nav:
     href: /blog/
   - text: Теги
     href: /tags/
+  - text: Винил
+    href: /vinyl/
   - text: Об авторе
     href: /about/
 
@@ -93,6 +95,7 @@ footer_columns:
     links:
       - { text: Статьи, href: /blog/ }
       - { text: Теги, href: /tags/ }
+      - { text: Винил, href: /vinyl/ }
       - { text: Об авторе, href: /about/ }
   - title: Продукты
     links:
@@ -121,6 +124,13 @@ social_sites:
   github: olegbukatchuk
   linkedin: olegbukatchuk
   youtube: "@oleg.bukatchuk"
+
+# ——— Коллекция винила ———
+# Каждый релиз — файл в _vinyl/, страница /vinyl/имя-файла/
+collections:
+  vinyl:
+    output: true
+    permalink: /vinyl/:name/
 
 # ——— Сборка ———
 markdown: kramdown

@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{%- assign items = site.vinyl | sort: "original_year" -%}
+{%- assign discs = 0 -%}
+{%- for r in items -%}{%- assign discs = discs | plus: r.discs -%}{%- endfor -%}
+{%- assign labels = items | map: "label" | uniq | sort -%}
+{%- assign artists = items | map: "artist" | uniq | sort -%}
+<section class="hero">
+  <div class="hero__in">
+    <p class="eyebrow">// {{ page.eyebrow | default: page.title }}</p>
+    <h1>{{ page.headline | default: page.title | escape }}</h1>
+    {%- if page.lead %}<p class="hero__sub">{{ page.lead }}</p>{% endif %}
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="ribbon">
+    <div class="ribbon__i"><div class="ribbon__n">{{ items.size }}</div><div class="ribbon__l">{% include plural.html n=items.size one="релиз" few="релиза" many="релизов" %}</div></div>
+    <div class="ribbon__i"><div class="ribbon__n">{{ discs }}</div><div class="ribbon__l">{% include plural.html n=discs one="пластинка" few="пластинки" many="пластинок" %}</div></div>
+    <div class="ribbon__i"><div class="ribbon__n">{{ labels.size }}</div><div class="ribbon__l">{% include plural.html n=labels.size one="лейбл" few="лейбла" many="лейблов" %}</div></div>
+    <div class="ribbon__i"><div class="ribbon__n">{{ items.first.original_year }}–{{ items.last.original_year }}</div><div class="ribbon__l">годы выхода альбомов</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="vn-bar">
+      <input class="vn-in" id="vn-q" type="search" placeholder="Исполнитель или название" aria-label="Поиск по коллекции">
+      <select class="vn-in" id="vn-artist" aria-label="Исполнитель">
+        <option value="">Все исполнители</option>
+        {%- for a in artists %}<option>{{ a }}</option>{% endfor %}
+      </select>
+      <select class="vn-in" id="vn-label" aria-label="Лейбл">
+        <option value="">Все лейблы</option>
+        {%- for l in labels %}<option>{{ l }}</option>{% endfor %}
+      </select>
+      <select class="vn-in" id="vn-sort" aria-label="Сортировка">
+        <option value="oy">По году альбома</option>
+        <option value="year">По году издания</option>
+        <option value="title">По названию</option>
+      </select>
+      <div class="vn-view" role="group" aria-label="Вид">
+        <button class="btn btn--ghost is-on" type="button" data-view="grid">Витрина</button>
+        <button class="btn btn--ghost" type="button" data-view="list">Каталог</button>
+      </div>
+    </div>
+
+    <div class="vn" id="vn">
+      {%- for r in items %}
+      <a class="vn__i" href="{{ r.url | relative_url }}" data-artist="{{ r.artist | escape }}" data-title="{{ r.title | escape }}" data-label="{{ r.label | escape }}" data-oy="{{ r.original_year }}" data-year="{{ r.year }}">
+        <img class="vn__cover" src="{{ r.cover | relative_url }}" alt="{{ r.artist | escape }} — {{ r.title | escape }}" width="600" height="600" loading="lazy">
+        <span class="vn__b">
+          <span class="vn__a">{{ r.artist }}</span>
+          <span class="vn__t">{{ r.title }}</span>
+          <span class="vn__m"><span>{{ r.original_year }}</span><span>{{ r.format }}</span>{% if r.color %}<span>{{ r.color }}</span>{% endif %}</span>
+          <span class="vn__x"><span>{{ r.label }}</span><span>{{ r.catno }}</span><span>издание {{ r.year }}</span></span>
+        </span>
+      </a>
+      {%- endfor %}
+    </div>
+    <p class="vn-empty" id="vn-empty" hidden>Ничего не найдено. Попробуйте изменить запрос или сбросить фильтры.</p>
+  </div>
+</section>
+
+<script>
+/* Фильтры, сортировка и переключатель «витрина / каталог» для коллекции. */
+(function () {
+  var box = document.getElementById('vn'), items = [].slice.call(box.children);
+  var q = document.getElementById('vn-q'), fa = document.getElementById('vn-artist'),
+      fl = document.getElementById('vn-label'), so = document.getElementById('vn-sort'),
+      empty = document.getElementById('vn-empty');
+  function apply() {
+    var text = q.value.trim().toLowerCase(), shown = 0;
+    items.forEach(function (el) {
+      var d = el.dataset;
+      var ok = (!text || (d.artist + ' ' + d.title).toLowerCase().indexOf(text) !== -1) &&
+               (!fa.value || d.artist === fa.value) && (!fl.value || d.label === fl.value);
+      el.hidden = !ok; if (ok) { shown++; }
+    });
+    empty.hidden = shown > 0;
+  }
+  function sort() {
+    var k = so.value;
+    items.sort(function (a, b) {
+      if (k === 'title') { return a.dataset.title.localeCompare(b.dataset.title); }
+      return (+a.dataset[k]) - (+b.dataset[k]) || (+a.dataset.oy) - (+b.dataset.oy);
+    }).forEach(function (el) { box.appendChild(el); });
+  }
+  [q, fa, fl].forEach(function (el) { el.addEventListener('input', apply); });
+  so.addEventListener('change', sort);
+
+  var buttons = [].slice.call(document.querySelectorAll('.vn-view .btn'));
+  function view(v) {
+    box.classList.toggle('vn--list', v === 'list');
+    buttons.forEach(function (b) { b.classList.toggle('is-on', b.dataset.view === v); });
+    try { localStorage.setItem('vinyl-view', v); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { view(b.dataset.view); }); });
+  try { if (localStorage.getItem('vinyl-view') === 'list') { view('list'); } } catch (e) {}
+})();
+</script>

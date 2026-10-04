@@ -378,6 +378,52 @@ a.tag:hover{background:var(--ink);color:var(--base);border-color:var(--ink);opac
 @media(max-width:820px){.ribbon{grid-template-columns:repeat(2,1fr)}.ribbon__i{border-bottom:var(--border-thin)}.ribbon__i:nth-child(2n){border-right:0}.ribbon__i:nth-last-child(-n+2){border-bottom:0}}
 
 /* ---------- список статей ---------- */
+/* ---------- коллекция винила ---------- */
+.vn-bar{display:flex;flex-wrap:wrap;gap:.8rem;align-items:stretch;margin-bottom:1.8rem}
+.vn-in{font-family:var(--mono);font-size:.8rem;padding:.8rem 1rem;border:var(--border-thin);background:var(--base);color:var(--ink);border-radius:0;min-width:0}
+#vn-q{flex:1 1 240px}
+.vn-view{display:flex;margin-left:auto}
+.vn-view .btn{padding:.8rem 1.2rem}
+.vn-view .btn + .btn{border-left:0}
+.vn-view .btn.is-on{background:var(--ink);color:var(--base)}
+.vn{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(1rem,2vw,1.8rem)}
+.vn__i{display:block;border:var(--border-thin);background:var(--base);transition:transform .12s,box-shadow .12s}
+.vn__i[hidden]{display:none}
+.vn__i:hover{transform:translate(-3px,-3px);box-shadow:var(--shadow-sm)}
+.vn__cover{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-bottom:var(--border-thin);background:var(--surface)}
+.vn__b{display:block;padding:.9rem 1rem 1rem}
+.vn__a{display:block;font-size:var(--fs-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--safety);font-weight:700}
+.vn__t{display:block;font-family:var(--grotesk);font-weight:700;font-size:var(--fs-h3);letter-spacing:-.02em;line-height:1.15;margin-top:.3rem}
+.vn__m,.vn__x{display:flex;flex-wrap:wrap;gap:.2rem .8rem;font-size:var(--fs-micro);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:.6rem}
+.vn__x{display:none}
+.vn--list{grid-template-columns:1fr;gap:0;border-top:var(--border-thin)}
+.vn--list .vn__i{display:grid;grid-template-columns:64px 1fr;gap:1.2rem;align-items:center;border:0;border-bottom:var(--hair);padding:.7rem clamp(.6rem,1.4vw,1rem)}
+.vn--list .vn__i[hidden]{display:none}
+.vn--list .vn__i:hover{transform:none;box-shadow:none;background:var(--surface)}
+.vn--list .vn__cover{width:64px;border:var(--border-thin)}
+.vn--list .vn__b{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1.6fr);gap:.3rem 1.6rem;align-items:baseline;padding:0}
+.vn--list .vn__a{grid-column:1/-1}
+.vn--list .vn__t{margin-top:0}
+.vn--list .vn__m,.vn--list .vn__x{margin-top:0}
+.vn--list .vn__x{display:flex}
+.vn--strip{grid-template-columns:repeat(6,minmax(0,1fr))}
+.vn-empty{font-family:var(--sans);color:#444;margin-top:1.6rem}
+.rel{max-width:var(--wrap);margin:0 auto;padding:var(--sec-y) var(--pad-x)}
+.rel__top{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(1.6rem,4vw,4rem);align-items:start}
+.rel__cover{display:block;width:100%;border:var(--border-thin);box-shadow:var(--shadow)}
+.rel__artist{font-family:var(--grotesk);font-weight:700;font-size:var(--fs-h3);margin-top:.6rem;color:var(--safety)}
+.rel__dl{display:grid;grid-template-columns:auto 1fr;gap:0 1.6rem;margin-top:1.6rem;border-top:var(--border-thin)}
+.rel__dl dt,.rel__dl dd{padding:.6rem 0;border-bottom:var(--hair)}
+.rel__dl dt{font-size:var(--fs-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);align-self:center}
+.rel__dl dd{font-family:var(--sans);font-size:1.02rem;line-height:1.35}
+.rel__note{margin-top:var(--sec-y)}
+.rel__tracks{margin-top:var(--sec-y)}
+.rel__sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(1.6rem,3vw,2.6rem) clamp(1.6rem,4vw,4rem)}
+.rel__side h2{font-size:var(--fs-h3);padding-bottom:.6rem;border-bottom:var(--border-thin)}
+.rel__row{grid-template-columns:40px 1fr auto}
+@media(max-width:1000px){.vn{grid-template-columns:repeat(3,minmax(0,1fr))}.vn--list{grid-template-columns:1fr}.vn--strip{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){.vn{grid-template-columns:repeat(2,minmax(0,1fr))}.vn--list{grid-template-columns:1fr}.vn--list .vn__b{grid-template-columns:1fr}.vn--strip{grid-template-columns:repeat(3,minmax(0,1fr))}.vn-view{margin-left:0}.rel__top,.rel__sides{grid-template-columns:1fr}}
+
 /* ---------- бегущая лента публикаций ---------- */
 .log{background:var(--term-bg);border-top:2px solid var(--safety);border-bottom:2px solid var(--safety);overflow:hidden;margin-top:var(--sec-y)}
 .log__head{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem var(--pad-x);border-bottom:1px solid rgba(255,255,255,.06);font-size:var(--fs-micro);text-transform:uppercase}

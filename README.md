@@ -36,6 +36,41 @@ tags: [devops, инциденты]
 Врезки из старых постов (инлайновый `style="border…"`) приводятся к общему виду автоматически —
 переписывать сто десять статей не нужно.
 
+## Коллекция винила
+
+Раздел `/vinyl/`. Каждый релиз — файл в `_vinyl/` с именем `исполнитель-название.md`,
+страница получает адрес `/vinyl/имя-файла/`. Обложка лежит в `assets/img/vinyl/` под тем же именем.
+
+```yaml
+---
+layout: release
+artist: "Schiller"
+title: "Sehnsucht"
+year: 2024              # год этого издания
+original_year: 2008     # год выхода альбома
+label: "Universal Music Group"
+catno: "06024 5505657 3"
+country: "Германия"
+format: "2×LP"
+discs: 2                # сколько пластинок, идёт в счётчик раздела
+color: "Red"            # необязательно
+weight: "180 г"         # необязательно
+limited: 1500           # тираж, необязательно
+features: ["лимитированное издание", "ремастер"]
+genres: ["Electronic"]
+styles: ["Downtempo", "Ambient"]
+discogs: "https://www.discogs.com/release/29819818"
+cover: /assets/img/vinyl/schiller-sehnsucht.jpg
+image: /assets/img/vinyl/schiller-sehnsucht.jpg
+tracklist:
+  - {pos: "A1", title: "Willkommen", duration: "1:08"}
+  - {pos: "A3", title: "Denn Wer Liebt", duration: "3:47", feat: ["Anna Maria Mühe"]}
+---
+```
+
+Текст под шапкой — заметка о пластинке, показывается на странице релиза. Пустые поля не выводятся.
+Сторона берётся из первой буквы `pos`. Счётчики, фильтры и список лейблов на общей странице считаются сами.
+
 ## Типы страниц
 
 | Layout | Где используется |
@@ -45,6 +80,8 @@ tags: [devops, инциденты]
 | `archive` | `/blog/`, `/books/`, `/life/`, `/projects/` — список по годам |
 | `tags` | `/tags/` — все теги на одной странице |
 | `page` | текстовая страница: `/about/`, `/services/` |
+| `vinyl` | `/vinyl/` — коллекция винила: витрина и каталог |
+| `release` | страница релиза в коллекции |
 | `default` | каркас плюс 404 |
 
 Макеты, с которых всё собрано, лежат в `tmp/` — это статичный HTML, его можно открыть
