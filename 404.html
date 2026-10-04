@@ -1,0 +1,95 @@
+---
+layout: default
+permalink: /404.html
+title: Страница не найдена
+sitemap: false
+---
+{%- assign posts = site.posts | where_exp: "p", "p.hidden != true" -%}
+<section class="nf">
+  <div class="nf__in">
+    <p class="eyebrow">// Ошибка 404</p>
+    <div class="nf__top">
+      <div class="nf__n">404</div>
+      <pre class="nf__term"><span class="g">$</span> curl -sI bukatchuk.ru<span id="nf-path">/этой-страницы-нет</span> | head -1
+<span class="a">HTTP/2 404</span>
+<span class="g">$</span> grep -c "<span id="nf-path2">/этой-страницы-нет</span>" sitemap.xml
+<span class="a">0</span>
+<span class="g">$</span> curl -sI bukatchuk.ru/ | head -1
+<span class="g">HTTP/2 200</span></pre>
+    </div>
+    <h1 class="nf__h">Страница не найдена</h1>
+    <p class="nf__lead">По этому адресу на сайте ничего нет: в ссылке опечатка или страница переехала. Сам сайт работает: ниже последние статьи, а в архиве — всё с {{ posts.last.date | date: "%Y" }} года.</p>
+    <div class="btns" style="margin-top:2rem">
+      <a class="btn btn--primary" href="{{ '/' | relative_url }}">На главную</a>
+      <a class="btn btn--ghost" href="{{ '/blog/' | relative_url }}">Все статьи</a>
+      <a class="btn btn--ghost" href="{{ '/tags/' | relative_url }}">Темы</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec--hair" id="nf-similar" hidden>
+  <div class="wrap">
+    <p class="eyebrow">// Похожие по адресу</p>
+    <h2>Возможно, вы искали</h2>
+    <div class="rows nf-rows" id="nf-similar-rows" style="margin-top:1.4rem"></div>
+  </div>
+</section>
+
+<section class="sec--hair">
+  <div class="wrap">
+    <p class="eyebrow">// Свежее</p>
+    <h2>Последние статьи</h2>
+    <div class="rows nf-rows" style="margin-top:1.4rem">
+      {%- for p in posts limit: 5 %}
+      <a class="row" href="{{ p.url | relative_url }}">
+        <span class="row__d">{{ p.date | date: "%d.%m.%Y" }}</span>
+        <span class="row__t">{{ p.title | escape }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<script>
+/* Подставляет запрошенный адрес в «терминал» и ищет статьи с похожим адресом. */
+(function () {
+  var path = location.pathname;
+  try { path = decodeURIComponent(path); } catch (e) {}
+  var shown = path.length > 60 ? path.slice(0, 57) + '…' : path;
+  ['nf-path', 'nf-path2'].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) { el.textContent = shown; }
+  });
+
+  var posts = [
+    {%- for p in posts %}
+    {u: {{ p.url | relative_url | jsonify }}, t: {{ p.title | jsonify }}, d: {{ p.date | date: "%d.%m.%Y" | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ];
+  function tokens(s) {
+    return s.toLowerCase().split(/[^a-z0-9а-яё]+/).filter(function (w) {
+      return w.length > 2 && !/^\d+$/.test(w) && w !== 'blog' && w !== 'html';
+    });
+  }
+  var want = tokens(path);
+  if (!want.length) { return; }
+  var found = posts.map(function (p) {
+    var have = tokens(p.u), score = 0;
+    want.forEach(function (w) { if (have.indexOf(w) !== -1) { score++; } });
+    return {p: p, s: score};
+  }).filter(function (x) { return x.s > 0; })
+    .sort(function (a, b) { return b.s - a.s; })
+    .slice(0, 5);
+  if (!found.length) { return; }
+
+  var rows = document.getElementById('nf-similar-rows');
+  found.forEach(function (x) {
+    var a = document.createElement('a'), d = document.createElement('span'), t = document.createElement('span');
+    a.className = 'row'; a.href = x.p.u;
+    d.className = 'row__d'; d.textContent = x.p.d;
+    t.className = 'row__t'; t.textContent = x.p.t;
+    a.appendChild(d); a.appendChild(t); rows.appendChild(a);
+  });
+  document.getElementById('nf-similar').hidden = false;
+})();
+</script>
