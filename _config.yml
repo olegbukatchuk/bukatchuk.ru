@@ -17,6 +17,8 @@ permalink: pretty
 author:
   name: Олег Букатчук
   role: надёжность и эксплуатация
+  # Возраст на странице «Об авторе» считается от этой даты: {% include age.html %}
+  birthday: 1983-08-03
   bio_short: >
     DevOps- и SRE-инженер. Строил отказоустойчивую инфраструктуру для классифайда,
     e-commerce и госсектора: cian.ru, aliexpress.ru, mos.ru.

@@ -1,0 +1,8 @@
+{%- comment -%}Возраст автора: считается от site.author.birthday на день сборки сайта{%- endcomment -%}
+{%- assign now_y = site.time | date: "%Y" | plus: 0 -%}
+{%- assign now_md = site.time | date: "%m%d" | plus: 0 -%}
+{%- assign born_y = site.author.birthday | date: "%Y" | plus: 0 -%}
+{%- assign born_md = site.author.birthday | date: "%m%d" | plus: 0 -%}
+{%- assign age = now_y | minus: born_y -%}
+{%- if now_md < born_md -%}{%- assign age = age | minus: 1 -%}{%- endif -%}
+{{- age -}}
