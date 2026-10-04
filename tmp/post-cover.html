@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Обложка статьи — 1200×630</title>
+<!-- Шаблон обложки статьи. Правится текст и схема, затем снимается PNG 1200×630:
+     см. раздел «Обложка статьи» в .claude/CLAUDE.md. -->
+<style>
+@font-face{font-family:'JetBrains Mono';font-weight:100 800;src:url('../assets/fonts/axis/jetbrains-mono-cyrillic.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'JetBrains Mono';font-weight:100 800;src:url('../assets/fonts/axis/jetbrains-mono-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+2013-2014,U+2018-201D,U+2022,U+2026,U+2192,U+2713}
+@font-face{font-family:'IBM Plex Sans';font-weight:400;src:url('../assets/fonts/axis/ibm-plex-sans-cyrillic.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'IBM Plex Sans';font-weight:400;src:url('../assets/fonts/axis/ibm-plex-sans-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+2013-2014,U+2018-201D,U+2022,U+2026}
+:root{--ink:#0A0A0A;--safety:#FF3E00;--muted:#777;--surface:#F5F5F0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{background:#fff;color:var(--ink);font-family:'JetBrains Mono',monospace;border-top:14px solid var(--safety);padding:44px 72px 40px;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:14px;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.brand img{width:32px;height:32px}
+.brand b{font-size:25px;letter-spacing:-.01em;text-transform:none;color:var(--ink)}
+.brand i{width:1px;height:26px;background:#bbb}
+h1{font-size:92px;font-weight:800;letter-spacing:-.04em;line-height:1;margin-top:38px}
+.lead{font-family:'IBM Plex Sans',sans-serif;font-size:27px;line-height:1.35;color:#222;margin-top:14px}
+.board{display:flex;align-items:stretch;margin-top:40px}
+.col{flex:1;border:2px solid var(--ink);background:#fff;height:140px;display:flex;flex-direction:column}
+.col + .gate + .col{margin-left:0}
+.col__h{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:10px 9px;border-bottom:2px solid var(--ink);background:var(--surface);white-space:nowrap}
+.col__b{flex:1;padding:12px 10px}
+.card{height:60px;border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:9px 8px;display:flex;flex-direction:column;gap:7px}
+.card u{display:block;height:4px;background:var(--ink)}
+.card u:nth-child(2){width:70%}
+.card u:nth-child(3){width:45%}
+.card--on{background:var(--safety);border-color:var(--ink)}
+.card--on u{background:#fff}
+.card--ghost{border-style:dashed;box-shadow:none;opacity:.28}
+.gate{width:30px;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800;color:var(--safety)}
+.foot{margin-top:auto;display:flex;justify-content:space-between;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.foot b{color:var(--safety);font-weight:700}
+</style>
+</head>
+<body>
+  <div class="brand"><img src="../assets/logo.png" alt=""><b>bukatchuk</b><i></i><span>Разбор проекта</span></div>
+
+  <h1>Kaiban</h1>
+  <p class="lead">Канбан-доска, где в каждой колонке сидит ИИ-агент</p>
+
+  <div class="board">
+    <div class="col"><div class="col__h">Продакт</div><div class="col__b"><div class="card"><u></u><u></u><u></u></div></div></div>
+    <div class="gate">✓</div>
+    <div class="col"><div class="col__h">Бизнес-аналитик</div><div class="col__b"><div class="card"><u></u><u></u><u></u></div></div></div>
+    <div class="gate">✓</div>
+    <div class="col"><div class="col__h">Системный аналитик</div><div class="col__b"><div class="card card--on"><u></u><u></u><u></u></div></div></div>
+    <div class="gate">→</div>
+    <div class="col"><div class="col__h">Разработчик</div><div class="col__b"><div class="card card--ghost"><u></u><u></u><u></u></div></div></div>
+    <div class="gate">→</div>
+    <div class="col"><div class="col__h">QA</div><div class="col__b"><div class="card card--ghost"><u></u><u></u><u></u></div></div></div>
+    <div class="gate">→</div>
+    <div class="col"><div class="col__h">Auto QA</div><div class="col__b"><div class="card card--ghost"><u></u><u></u><u></u></div></div></div>
+  </div>
+
+  <div class="foot"><span>6 агентов · апрув между этапами</span><b>bukatchuk.ru</b></div>
+</body>
+</html>

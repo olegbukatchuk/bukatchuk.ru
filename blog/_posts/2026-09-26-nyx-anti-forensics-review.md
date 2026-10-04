@@ -7,7 +7,9 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 summary: "Разбор anti-forensics-скрипта evilsocket/nyx: безопасность, реальное поведение --dry-run и рекомендации для защитников."
-header-img: /assets/png/six-years/header.png
+header-img: /assets/img/posts/2026-09-26-nyx/header.png
+show-header-img: true
+image: /assets/img/posts/2026-09-26-nyx/header.png
 tags: [security, forensics, linux, macos, windows]
 excerpt: |
     Разбор anti-forensics-скрипта evilsocket/nyx: безопасность, реальное поведение --dry-run и рекомендации для защитников.

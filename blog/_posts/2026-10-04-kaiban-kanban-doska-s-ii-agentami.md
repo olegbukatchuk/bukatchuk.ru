@@ -7,7 +7,9 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 summary: "Kaiban: локальная канбан-доска, где каждую колонку ведёт отдельный агент, а между этапами стоит ручной апрув."
-header-img: /assets/png/six-years/header.png
+header-img: /assets/img/posts/2026-10-04-kaiban/header.png
+show-header-img: true
+image: /assets/img/posts/2026-10-04-kaiban/header.png
 tags: [ai, kanban, llm, mcp, docker]
 excerpt: |
     Kaiban: локальная канбан-доска, где каждую колонку ведёт отдельный агент, а между этапами стоит ручной апрув.
