@@ -41,7 +41,7 @@ home:
   # Сколько статей показывать в каждом из трёх блоков главной
   limit: 3
   # Статья попадает в блок «Техника», если у неё есть хотя бы один из этих тегов.
-  # С тегом music — в «Музыку», всё прочее — во «Всё остальное».
+  # С тегом music — в «Музыку», всё прочее — в «Развитие».
   tech_tags: [ai, llm, mcp, docker, kanban, security, forensics, linux, macos, windows, bash, base64, devops, sre, kubernetes, git, python, terraform, ansible]
   # Бегущие строки между блоками: темы программы курса
   course:
