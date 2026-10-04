@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Enjoy The Music Podcast #025 на Record Breaks"
+header-img: /assets/img/posts/2015-08-21-podcast-025/header.png
+show-header-img: true
+image: /assets/img/posts/2015-08-21-podcast-025/header.png
 tags: [music, dj, podcast, breaks]
 excerpt: |
     Enjoy The Music Podcast #025 на Record Breaks

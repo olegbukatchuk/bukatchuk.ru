@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 published: true
+header-img: /assets/img/posts/2025-06-11-andrey-verba/header.png
+show-header-img: true
+image: /assets/img/posts/2025-06-11-andrey-verba/header.png
 tags: [yoga, youtube, video]
 description: |
   С огромной радостью делюсь с вами этим интервью потрясающего практика йоги. Не помешает пересмотреть несколько раз, чтобы вся информация усвоилась правильно.

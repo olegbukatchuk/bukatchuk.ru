@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "Lipricon & DJ Saharov"
 summary: "Lipricon & DJ Saharov - Exposition"
+header-img: /assets/img/posts/2015-06-11-exposition/header.png
+show-header-img: true
+image: /assets/img/posts/2015-06-11-exposition/header.png
 tags: [music, dj, collaboration, lipricon]
 excerpt: |
     Lipricon & DJ Saharov - Exposition

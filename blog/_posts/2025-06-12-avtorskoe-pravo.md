@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 published: true
+header-img: /assets/img/posts/2025-06-12-avtorskoe-pravo/header.png
+show-header-img: true
+image: /assets/img/posts/2025-06-12-avtorskoe-pravo/header.png
 tags:
   [
     law,

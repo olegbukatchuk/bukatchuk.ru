@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Love Is... (Original Mix)"
+header-img: /assets/img/posts/2015-07-09-love-is/header.png
+show-header-img: true
+image: /assets/img/posts/2015-07-09-love-is/header.png
 tags: [music, dj, release, deep house]
 excerpt: |
     DJ Saharov - Love Is... (Original Mix)

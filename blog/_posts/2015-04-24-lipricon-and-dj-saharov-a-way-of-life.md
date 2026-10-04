@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "Lipricon & DJ Saharov"
 summary: "Lipricon & DJ Saharov - A Way Of Life"
+header-img: /assets/img/posts/2015-04-24-a-way-of-life/header.png
+show-header-img: true
+image: /assets/img/posts/2015-04-24-a-way-of-life/header.png
 tags: [music, dj, collaboration, lipricon]
 excerpt: |
     Lipricon & DJ Saharov - A Way Of Life

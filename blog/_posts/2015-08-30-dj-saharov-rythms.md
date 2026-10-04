@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov - Rythms"
 summary: "DJ Saharov - Rythms"
+header-img: /assets/img/posts/2015-08-30-rythms/header.png
+show-header-img: true
+image: /assets/img/posts/2015-08-30-rythms/header.png
 tags: [music, dj, mix, uk garage]
 excerpt: |
     DJ Saharov - Rythms

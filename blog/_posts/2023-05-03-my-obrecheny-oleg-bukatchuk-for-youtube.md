@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 published: true
+header-img: /assets/img/posts/2023-05-03-my-obrecheny/header.png
+show-header-img: true
+image: /assets/img/posts/2023-05-03-my-obrecheny/header.png
 tags: [oleg bukatchuk, youtube, video]
 description: |
   Нашел в личном архиве интервью в подкасте "Мы обречены"!

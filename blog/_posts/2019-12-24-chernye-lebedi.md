@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "Олег Букатчук"
 published: true
+header-img: /assets/img/posts/2019-12-24-chernye-lebedi/header.png
+show-header-img: true
+image: /assets/img/posts/2019-12-24-chernye-lebedi/header.png
 tags:
   [
     black, swan,

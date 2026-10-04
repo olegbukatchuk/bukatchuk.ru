@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Great Tartaria (Original Mix)"
+header-img: /assets/img/posts/2015-07-09-great-tartaria/header.png
+show-header-img: true
+image: /assets/img/posts/2015-07-09-great-tartaria/header.png
 tags: [music, dj, release, breaks]
 excerpt: |
     DJ Saharov - Great Tartaria (Original Mix)

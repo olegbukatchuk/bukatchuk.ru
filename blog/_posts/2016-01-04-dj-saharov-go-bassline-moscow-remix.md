@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Go (Bassline Moscow Remix)"
+header-img: /assets/img/posts/2016-01-04-go-remix/header.png
+show-header-img: true
+image: /assets/img/posts/2016-01-04-go-remix/header.png
 tags: [music, dj, release, remix, deep house]
 excerpt: |
     DJ Saharov - Go (Bassline Moscow Remix)

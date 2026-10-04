@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "Enjoy The Music Podcast #022 на Record Breaks. Гостевой микс от DJ Ronaldo Vetro [Brazil]"
+header-img: /assets/img/posts/2015-08-01-podcast-022/header.png
+show-header-img: true
+image: /assets/img/posts/2015-08-01-podcast-022/header.png
 tags: [music, dj, podcast, breaks]
 excerpt: |
     Enjoy The Music Podcast #022 на Record Breaks. Гостевой микс от DJ Ronaldo Vetro [Brazil]

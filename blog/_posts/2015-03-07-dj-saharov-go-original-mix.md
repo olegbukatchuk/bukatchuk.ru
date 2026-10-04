@@ -7,6 +7,9 @@ category: blog
 comments: true
 author: "DJ Saharov"
 summary: "DJ Saharov - Go (Original Mix)"
+header-img: /assets/img/posts/2015-03-07-go/header.png
+show-header-img: true
+image: /assets/img/posts/2015-03-07-go/header.png
 tags: [music, dj, release, breaks]
 excerpt: |
     DJ Saharov - Go (Original Mix)
