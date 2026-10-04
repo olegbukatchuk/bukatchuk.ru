@@ -49,7 +49,7 @@ nav:
     href: /
   - text: Статьи
     href: /blog/
-  - text: Темы
+  - text: Теги
     href: /tags/
   - text: Об авторе
     href: /about/
@@ -59,7 +59,7 @@ footer_columns:
   - title: Разделы
     links:
       - { text: Статьи, href: /blog/ }
-      - { text: Темы, href: /tags/ }
+      - { text: Теги, href: /tags/ }
       - { text: Об авторе, href: /about/ }
   - title: Продукты
     links:

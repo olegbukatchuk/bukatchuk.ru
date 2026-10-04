@@ -6,10 +6,11 @@ layout: default
 {%- assign tags = all | split: ',' | uniq | sort -%}
 <section class="hero">
   <div class="hero__in">
-    <p class="eyebrow">// {{ page.eyebrow | default: 'Темы' }}</p>
+    <p class="eyebrow">// {{ page.eyebrow | default: 'Теги' }}</p>
     <h1>{{ page.headline | default: page.title | escape }}</h1>
     {%- if page.lead %}<p class="hero__sub">{{ page.lead }}</p>{% endif %}
-    <div class="hero__meta"><span>{{ tags.size }} тем</span><span>{{ site.posts.size }} публикаций</span></div>
+{%- assign t10 = tags.size | modulo: 10 -%}{%- assign t100 = tags.size | modulo: 100 -%}
+    <div class="hero__meta"><span>{{ tags.size }} {% if t10 == 1 and t100 != 11 %}тег{% elsif t10 >= 2 and t10 <= 4 and t100 < 12 or t10 >= 2 and t10 <= 4 and t100 > 14 %}тега{% else %}тегов{% endif %}</span><span>{{ site.posts.size }} публикаций</span></div>
   </div>
 </section>
 
