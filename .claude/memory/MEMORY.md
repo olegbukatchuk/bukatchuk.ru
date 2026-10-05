@@ -5,3 +5,4 @@
 - [No font size changes](feedback_no_font_size_changes.md) — never change font sizes/template visuals on the site without explicit instruction; report wrapping instead
 - [No meta notes in blog posts](feedback_blog_no_meta_notes.md) — bukatchuk.ru posts must not contain notes about how Claude worked (what was run, env limits, verification caveats)
 - [Plain headings in blog posts](feedback_blog_plain_headings.md) — subheadings must describe the section plainly, no catchy/metaphorical titles
+- [Vinyl: search the web when Wikipedia is empty](feedback_vinyl_about_search_web.md) — for «Об альбоме», look for label press releases, interviews, reviews before leaving the field empty
