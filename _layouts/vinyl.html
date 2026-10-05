@@ -25,8 +25,8 @@ layout: default
 
 <section>
   <div class="wrap">
+    <input class="vn-in vn-search" id="vn-q" type="search" placeholder="Поиск: исполнитель или название" aria-label="Поиск по коллекции">
     <div class="vn-bar">
-      <input class="vn-in" id="vn-q" type="search" placeholder="Исполнитель или название" aria-label="Поиск по коллекции">
       <select class="vn-in" id="vn-artist" aria-label="Исполнитель">
         <option value="">Все исполнители</option>
         {%- for a in artists %}<option>{{ a }}</option>{% endfor %}
