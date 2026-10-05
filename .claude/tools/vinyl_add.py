@@ -22,18 +22,21 @@ def get(url,cache):
             d=json.load(r); json.dump(d,open(cache,'w')); time.sleep(2.6); return d
         except Exception as e: time.sleep(25)
     raise SystemExit('fail '+url)
-FEAT={'Limited Edition':'лимитированное издание','Numbered':'нумерованное','Remastered':'ремастер','Reissue':'переиздание','Repress':'допечатка','Mixed':'треки сведены','Partially Mixed':'треки частично сведены','Compilation':'сборник','Record Store Day':'Record Store Day','Picture Disc':'пикчер-диск'}
-COUNTRY={'Germany':'Германия','Europe':'Европа','Worldwide':'весь мир','UK, Europe & US':'Великобритания, Европа и США','USA & Europe':'США и Европа','UK & Europe':'Великобритания и Европа','US':'США','UK':'Великобритания','France':'Франция','Japan':'Япония'}
+FEAT={'Limited Edition':'лимитированное издание','Numbered':'нумерованное','Remastered':'ремастер','Reissue':'переиздание','Repress':'допечатка','Mixed':'треки сведены','Partially Mixed':'треки частично сведены','Compilation':'сборник','Record Store Day':'Record Store Day','Picture Disc':'пикчер-диск','EP':'EP'}
+COUNTRY={'Germany':'Германия','Europe':'Европа','Worldwide':'весь мир','UK, Europe & US':'Великобритания, Европа и США','USA & Europe':'США и Европа','UK & Europe':'Великобритания и Европа','US':'США','UK':'Великобритания','France':'Франция','Japan':'Япония','Russia':'Россия','USA':'США','Netherlands':'Нидерланды','Italy':'Италия'}
+TR=dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя',['a','b','v','g','d','e','e','zh','z','i','y','k','l','m','n','o','p','r','s','t','u','f','h','ts','ch','sh','sch','','y','','e','yu','ya']))
 def slugify(s):
-    s=s.lower().replace('ö','o').replace('ü','u').replace('ä','a').replace('ß','ss')
-    return re.sub(r'[^a-z0-9]+','-',s).strip('-')
+    s=s.lower().replace('ö','o').replace('ü','u').replace('ä','a').replace('ß','ss').replace('é','e').replace('è','e')
+    s=''.join(TR.get(c,c) for c in s)
+    return re.sub(r'[^a-z0-9]+','-',s).strip('-')[:70].strip('-')
 def q(s): return '"'+str(s).replace('\\','\\\\').replace('"','\\"')+'"'
 def clean(n): return re.sub(r'\s*\(\d+\)$','',n).strip()
 made=[]
 for arg in sys.argv[1:]:
     p=arg.split(':'); rid=int(p[0]); oy_override=int(p[1]) if len(p)>1 and p[1] else None; slug_override=p[2] if len(p)>2 else None
     d=get(f"https://api.discogs.com/releases/{rid}",D+f'r_{rid}.json')
-    artist=clean(d['artists'][0]['name']); title=d['title'].strip()
+    artist=', '.join(clean(a['name']) for a in d['artists']); title=d['title'].strip()
+    names={clean(a['name']) for a in d['artists']}
     slug=slug_override or slugify(artist+' '+title)
     vin=[f for f in d['formats'] if f['name']=='Vinyl']
     qty=sum(int(f.get('qty') or 1) for f in vin)
@@ -45,17 +48,19 @@ for arg in sys.argv[1:]:
         if f['name']=='Vinyl' and t:
             if re.search(r'180\s*(gram|gr|g)',t,re.I): weight='180 г'
             c=re.sub(r',?\s*180\s*(gram|gr\.?|g\b)\s*(pressing)?','',t,flags=re.I)
-            c=re.sub(r',?\s*(DMM|Gatefold)','',c); c=c.replace(' Vinyl','').strip(' ,')
+            c=re.sub(r',?\s*(DMM|Gatefold|Cardboard box|Sonopress)','',c,flags=re.I); c=c.replace(' Vinyl','').strip(' ,')
             if c and c not in colors: colors.append(c)
     notes=d.get('notes') or ''
     if not weight and re.search(r'180\s*g',notes,re.I): weight='180 г'
     m=re.search(r'Limited to (\d[\d.,]*) copies',notes); limited=m.group(1).replace('.','').replace(',','') if m else ''
     lab=d['labels'][0]
-    year=(d.get('released') or str(d.get('year')))[:4]
+    year=(d.get('released') or str(d.get('year') or ''))[:4]
+    if not year.isdigit() or year=='0': year=''
     oy=oy_override
     if not oy and d.get('master_id'):
         oy=get(f"https://api.discogs.com/masters/{d['master_id']}",D+f"m_{d['master_id']}.json").get('year')
     oy=oy or year
+    if not year: print('!! год издания на Discogs не указан:',slug)
     tracks=[]
     flat=[]
     for t in d['tracklist']:
@@ -64,7 +69,7 @@ for arg in sys.argv[1:]:
                 st=dict(st); st['title']=t['title'].strip()+': '+st['title'].strip(); flat.append(st)
         elif t.get('type_')=='track': flat.append(t)
     for t in flat:
-        feat=[clean(a['name']) for a in t.get('artists',[]) if clean(a['name'])!=artist]
+        feat=[clean(a['name']) for a in t.get('artists',[]) if clean(a['name']) not in names]
         tracks.append((t.get('position','').strip(),t['title'].strip(),(t.get('duration') or '').strip(),feat))
     img=[i for i in d.get('images',[]) if i['type']=='primary'] or d.get('images',[])
     cover=f'/assets/img/vinyl/{slug}.jpg'
@@ -75,7 +80,12 @@ for arg in sys.argv[1:]:
     if os.path.exists('.'+cover) and not os.path.exists(thumb):
         os.makedirs(os.path.dirname(thumb),exist_ok=True)
         os.system(f'sips -Z 400 -s format jpeg -s formatOptions 78 ".{cover}" --out "{thumb}" >/dev/null 2>&1')
-    fmt=(f'{qty}×LP' if qty>1 else 'LP')
+    descs=[x for f in vin for x in f.get('descriptions',[])]
+    size=next((x for x in ('12"','10"','7"') if x in descs),'LP')
+    fmt=(f'{qty}×{size}' if qty>1 else size)
+    if any(f['name']=='Box Set' for f in d['formats']) and 'бокс' not in feats: feats.append('бокс')
+    speed=next((x.replace(' RPM',' об/мин') for x in descs if 'RPM' in x),'')
+    if size!='LP' and speed: fmt+=', '+speed
     barcode=''
     for i in d.get('identifiers',[]):
         x=re.sub(r'\D','',i.get('value') or '')
@@ -84,6 +94,7 @@ for arg in sys.argv[1:]:
        f'label: {q(clean(lab["name"]))}',f'catno: {q(lab["catno"].strip())}',f'barcode: {q(barcode)}' if barcode else None,f'country: {q(COUNTRY.get(d.get("country"),d.get("country") or ""))}',
        f'format: {q(fmt)}',f'discs: {qty}']
     # на Discogs цвет указывают, только если он не чёрный; пустое поле означает обычный чёрный винил
+    if not colors and any('Picture Disc' in f.get('descriptions',[]) for f in d['formats']): colors=['Picture Disc']
     L.append(f'color: {q(" / ".join(colors) if colors else "Black")}')
     if weight: L.append(f'weight: {q(weight)}')
     if limited: L.append(f'limited: {limited}')

@@ -45,7 +45,7 @@ def front(path):
     fm = src[: src.index("\n---", 3)]
     data = {}
     for key in ("artist", "title", "year", "original_year", "label", "format", "color", "cover"):
-        m = re.search(r"^%s:\s*(.*)$" % key, fm, re.M)
+        m = re.search(r"^%s:[ \t]*(.*)$" % key, fm, re.M)
         if m:
             v = m.group(1).strip()
             if len(v) > 1 and v[0] == '"' and v[-1] == '"':
