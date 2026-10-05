@@ -217,6 +217,7 @@ layout: default
     sel.parentNode.insertBefore(wrap, sel);
     wrap.appendChild(sel); wrap.appendChild(btn); wrap.appendChild(list);
     sel.classList.add('dd__native'); sel.tabIndex = -1; sel.setAttribute('aria-hidden', 'true');
+    sel.style.visibility = 'hidden'; sel.style.pointerEvents = 'none';
     paint();
   }
 

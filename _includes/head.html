@@ -12,7 +12,8 @@
 
   <link rel="preload" href="{{ '/assets/fonts/axis/jetbrains-mono-cyrillic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/assets/fonts/axis/ibm-plex-sans-cyrillic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {%- comment -%}Метка сборки в адресе: после каждой публикации браузер берёт новые стили, а не держит старые в кэше{%- endcomment %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
   <meta property="og:image" content="{{ page.image | default: '/assets/og.png' | absolute_url }}">
   <meta property="og:image:width" content="1200">
