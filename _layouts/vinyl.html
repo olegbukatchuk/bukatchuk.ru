@@ -37,8 +37,10 @@ layout: default
         {%- for l in labels %}<option>{{ l }}</option>{% endfor %}
       </select>
       <select class="vn-in" id="vn-sort" aria-label="Сортировка">
-        <option value="oy">По году альбома</option>
-        <option value="year">По году издания</option>
+        <option value="oy-desc">Год альбома: по убыванию</option>
+        <option value="oy-asc">Год альбома: по возрастанию</option>
+        <option value="year-desc">Год издания: по убыванию</option>
+        <option value="year-asc">Год издания: по возрастанию</option>
         <option value="title">По названию</option>
       </select>
       <div class="vn-view" role="group" aria-label="Вид">
@@ -48,7 +50,9 @@ layout: default
     </div>
 
     <div class="vn" id="vn">
-      {%- for r in items %}
+      {%- comment -%}По умолчанию сначала самые свежие альбомы{%- endcomment -%}
+      {%- assign shown = items | reverse -%}
+      {%- for r in shown %}
       <a class="vn__i" href="{{ r.url | relative_url }}" data-artist="{{ r.artist | escape }}" data-title="{{ r.title | escape }}" data-label="{{ r.label | escape }}" data-oy="{{ r.original_year }}" data-year="{{ r.year }}">
         <img class="vn__cover" src="{{ r.cover | replace: "/assets/img/vinyl/", "/assets/img/vinyl/thumbs/" | relative_url }}" alt="{{ r.artist | escape }} — {{ r.title | escape }}" width="400" height="400" loading="lazy">
         <span class="vn__b">
@@ -127,10 +131,10 @@ layout: default
     }
   }
   function sort() {
-    var k = so.value;
+    var parts = so.value.split('-'), k = parts[0], dir = parts[1] === 'asc' ? 1 : -1;
     items.sort(function (a, b) {
       if (k === 'title') { return a.dataset.title.localeCompare(b.dataset.title); }
-      return (+a.dataset[k]) - (+b.dataset[k]) || (+a.dataset.oy) - (+b.dataset.oy);
+      return dir * ((+a.dataset[k]) - (+b.dataset[k]) || (+a.dataset.oy) - (+b.dataset.oy)) || a.dataset.title.localeCompare(b.dataset.title);
     }).forEach(function (el) { box.appendChild(el); });
   }
   function setView(v) {
@@ -145,7 +149,7 @@ layout: default
     if (q.value.trim()) { p.set('q', q.value.trim()); }
     if (fa.value) { p.set('artist', fa.value); }
     if (fl.value) { p.set('label', fl.value); }
-    if (so.value !== 'oy') { p.set('sort', so.value); }
+    if (so.value !== 'oy-desc') { p.set('sort', so.value); }
     if (state.page > 1) { p.set('page', state.page); }
     var s = p.toString();
     try { history.replaceState(null, '', location.pathname + (s ? '?' + s : '')); } catch (e) {}
@@ -155,7 +159,9 @@ layout: default
     q.value = p.get('q') || '';
     if (p.get('artist')) { fa.value = p.get('artist'); }
     if (p.get('label')) { fl.value = p.get('label'); }
-    if (p.get('sort')) { so.value = p.get('sort'); }
+    var sv = p.get('sort');
+    if (sv === 'oy' || sv === 'year') { sv += '-asc'; }  /* старые ссылки без направления */
+    if (sv) { so.value = sv; if (so.selectedIndex < 0) { so.selectedIndex = 0; } }
     state.page = parseInt(p.get('page'), 10) || 1;
   }
 
@@ -225,7 +231,7 @@ layout: default
   var saved = 'grid';
   try { saved = localStorage.getItem('vinyl-view') || 'grid'; } catch (e) {}
   restore(); setView(saved);
-  if (so.value !== 'oy') { sort(); }
+  if (so.value !== 'oy-desc') { sort(); }
   [fa, fl, so].forEach(dropdown);
   render();
 })();
