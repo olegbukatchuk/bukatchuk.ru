@@ -21,6 +21,10 @@ discogs: "https://www.discogs.com/release/31382390"
 cover: /assets/img/vinyl/schiller-sonne-chill-out-edition.jpg
 image: /assets/img/vinyl/og/schiller-sonne-chill-out-edition.jpg
 description: "Schiller — Sonne (Chill Out Edition): 2×LP, Universal Music Group, 2024."
+about: |
+  Версия альбома Sonne, переработанная в стиле чилаут. Впервые вышла 22 марта 2013 года: в цифровом виде и на синем двойном виниле Island Records тиражом 1000 экземпляров. Одиннадцать из тринадцати треков — версии Chill Out композиций с основного альбома, в их числе инструментальная «Sonne».
+about_source: "https://www.discogs.com/release/4433459"
+about_source_name: "Discogs"
 extra: |
   Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
 tracklist:

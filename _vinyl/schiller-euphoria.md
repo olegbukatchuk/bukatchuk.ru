@@ -20,6 +20,12 @@ discogs: "https://www.discogs.com/release/27607494"
 cover: /assets/img/vinyl/schiller-euphoria.jpg
 image: /assets/img/vinyl/og/schiller-euphoria.jpg
 description: "Schiller — Euphoria: 2×LP, Zukunftsmusik, 2026."
+about: |
+  Студийный альбом Schiller, вышел 16 января 2026 года на Sony Masterworks. Он сразу занял первое место в немецком альбомном чарте — в десятый раз в карьере Кристофера фон Дейлена.
+
+  В записи участвовали Юлия Санина из The Hardkiss, продюсер 8Kays, группа Frida Gold и дрезденский коллектив Karakum. В поддержку альбома объявлен тур Euphoria Arena Tour: с 9 по 16 мая, от Лейпцига до Берлина.
+about_source: "https://www.sonymusic.de/schiller-feiert-mit-euphoria-zehntes-1-album/"
+about_source_name: "Sony Music"
 extra: |
   Конверт-разворот. Первые экземпляры выходили с автографом.
 tracklist:

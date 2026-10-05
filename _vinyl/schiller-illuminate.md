@@ -19,6 +19,12 @@ discogs: "https://www.discogs.com/release/26357846"
 cover: /assets/img/vinyl/schiller-illuminate.jpg
 image: /assets/img/vinyl/og/schiller-illuminate.jpg
 description: "Schiller — Illuminate: 2×LP, Sony Music, 2023."
+about: |
+  Двойной альбом Schiller, вышел 10 марта 2023 года на Nitron / Sony Music. Он стал девятым альбомом проекта, занявшим первое место в Германии.
+
+  Вместе с иранско-курдской певицей Ялдой Аббаси записана композиция «Love and Tears»: в её основе персидская народная мелодия, в аранжировке звучит дутар. На песни «Empire of Light» и «Quiet Love» сняты клипы с украинским творческим коллективом; съёмки прошли в январе в Киеве.
+about_source: "https://www.sonymusic.de/schiller-zum-neunten-mal-auf-platz-1-der-album-charts/"
+about_source_name: "Sony Music"
 extra: |
   Конверт-разворот с печатными внутренними конвертами. В части магазинов и счетов издание значилось как «Illuminate Vol. 1». Выход планировался на 3 марта 2023 года и был перенесён на 10 марта. Пластинки отпечатаны на заводе Optimal Media.
 tracklist:
