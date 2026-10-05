@@ -23,7 +23,7 @@ def get(url,cache):
         except Exception as e: time.sleep(25)
     raise SystemExit('fail '+url)
 FEAT={'Limited Edition':'лимитированное издание','Numbered':'нумерованное','Remastered':'ремастер','Reissue':'переиздание','Repress':'допечатка','Mixed':'треки сведены','Partially Mixed':'треки частично сведены','Compilation':'сборник','Record Store Day':'Record Store Day','Picture Disc':'пикчер-диск','EP':'EP'}
-COUNTRY={'Germany':'Германия','Europe':'Европа','Worldwide':'весь мир','UK, Europe & US':'Великобритания, Европа и США','USA & Europe':'США и Европа','UK & Europe':'Великобритания и Европа','US':'США','UK':'Великобритания','France':'Франция','Japan':'Япония','Russia':'Россия','USSR':'СССР','USA':'США','Spain':'Испания','France & Benelux':'Франция и Бенилюкс','Netherlands':'Нидерланды','Italy':'Италия'}
+COUNTRY={'Germany':'Германия','Europe':'Европа','Worldwide':'весь мир','UK, Europe & US':'Великобритания, Европа и США','USA & Europe':'США и Европа','UK & Europe':'Великобритания и Европа','US':'США','UK':'Великобритания','France':'Франция','Japan':'Япония','Russia':'Россия','USSR':'СССР','USA':'США','Spain':'Испания','France & Benelux':'Франция и Бенилюкс','German Democratic Republic (GDR)':'ГДР','Poland':'Польша','UK & US':'Великобритания и США','Netherlands':'Нидерланды','Italy':'Италия'}
 TR=dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя',['a','b','v','g','d','e','e','zh','z','i','y','k','l','m','n','o','p','r','s','t','u','f','h','ts','ch','sh','sch','','y','','e','yu','ya']))
 def slugify(s):
     s=s.lower().replace('ö','o').replace('ü','u').replace('ä','a').replace('ß','ss').replace('é','e').replace('è','e')
@@ -49,6 +49,7 @@ for arg in sys.argv[1:]:
             if re.search(r'180\s*(gram|gr|g)',t,re.I): weight='180 г'
             c=re.sub(r',?\s*180\s*(gram|gr\.?|g\b)\s*(pressing)?','',t,flags=re.I)
             c=re.sub(r',?\s*(DMM|Double Gatefold|Gatefold|Cardboard box|Sonopress|GZ Pressing|Red Labels|White Labels|\d+(st|nd|rd|th) Anniversary Edition)','',c,flags=re.I); c=c.replace(' Vinyl','').strip(' ,')
+            if re.search(r'labels?\b|anniver|edition',c,re.I): c=''  # пометки про этикетки и издание — не цвет
             if c and c not in colors: colors.append(c)
     notes=d.get('notes') or ''
     if not weight and re.search(r'180\s*g',notes,re.I): weight='180 г'
