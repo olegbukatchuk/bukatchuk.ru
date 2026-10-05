@@ -1,6 +1,6 @@
 ---
 layout: release
-artist: "Various"
+artist: "Stéphane Pompougnac"
 title: "Hôtel Costes Étage 3"
 year: 2015
 original_year: 2000
@@ -16,9 +16,9 @@ features: ["сборник"]
 genres: ["Electronic"]
 styles: ["Disco", "Broken Beat", "Downtempo"]
 discogs: "https://www.discogs.com/release/7570281"
-cover: /assets/img/vinyl/various-hotel-costes-etage-3.jpg
-image: /assets/img/vinyl/og/various-hotel-costes-etage-3.jpg
-description: "Various — Hôtel Costes Étage 3: 2×LP, Pschent, 2015."
+cover: /assets/img/vinyl/stephane-pompougnac-hotel-costes-etage-3.jpg
+image: /assets/img/vinyl/og/stephane-pompougnac-hotel-costes-etage-3.jpg
+description: "Stéphane Pompougnac — Hôtel Costes Étage 3: 2×LP, Pschent, 2015."
 about: |
   Третий выпуск серии сборников парижского отеля Hôtel Costes, сведённый Стефаном Помпуньяком, вышел в октябре 2000 года. Первые два выпуска выходили через Barclay Universal, этот — уже на MSI. Три первых выпуска вместе разошлись тиражом почти в полмиллиона копий.
 
@@ -36,7 +36,7 @@ tracklist:
   - {pos: "B3", title: "Apollo (Adam Goldstone Edit)", feat: ["Cujo"]}
   - {pos: "C1", title: "Cruisin", feat: ["Can 7"]}
   - {pos: "C2", title: "Timeless (Orange Factory Remix)", feat: ["Gazzara", "Elise"]}
-  - {pos: "C3", title: "PNC Aux Portes", feat: ["Stéphane Pompougnac"]}
+  - {pos: "C3", title: "PNC Aux Portes"}
   - {pos: "C4", title: "Cleopatra In New York", feat: ["Nickodemus"]}
   - {pos: "D1", title: "Electrorloge", feat: ["Troublemakers"]}
   - {pos: "D2", title: "Last Tango In Paris", feat: ["Gotan Project"]}
