@@ -49,7 +49,7 @@ layout: default
     <div class="vn" id="vn">
       {%- for r in items %}
       <a class="vn__i" href="{{ r.url | relative_url }}" data-artist="{{ r.artist | escape }}" data-title="{{ r.title | escape }}" data-label="{{ r.label | escape }}" data-oy="{{ r.original_year }}" data-year="{{ r.year }}">
-        <img class="vn__cover" src="{{ r.cover | relative_url }}" alt="{{ r.artist | escape }} — {{ r.title | escape }}" width="600" height="600" loading="lazy">
+        <img class="vn__cover" src="{{ r.cover | replace: "/assets/img/vinyl/", "/assets/img/vinyl/thumbs/" | relative_url }}" alt="{{ r.artist | escape }} — {{ r.title | escape }}" width="400" height="400" loading="lazy">
         <span class="vn__b">
           <span class="vn__a">{{ r.artist }}</span>
           <span class="vn__t">{{ r.title }}</span>
@@ -60,25 +60,66 @@ layout: default
       {%- endfor %}
     </div>
     <p class="vn-empty" id="vn-empty" hidden>Ничего не найдено. Попробуйте изменить запрос или сбросить фильтры.</p>
+    <nav class="vn-pager" id="vn-pager" aria-label="Страницы коллекции" hidden>
+      <span class="vn-pager__info" id="vn-info"></span>
+      <span class="vn-pager__btns" id="vn-pages"></span>
+    </nav>
   </div>
 </section>
 
 <script>
-/* Фильтры, сортировка и переключатель «витрина / каталог» для коллекции. */
+/* Коллекция: фильтры, сортировка, вид «витрина / каталог» и разбивка на страницы.
+   В разметке лежат все релизы, но показывается одна страница; обложки грузятся только у видимых. */
 (function () {
+  var PER = {grid: 24, list: 48};
   var box = document.getElementById('vn'), items = [].slice.call(box.children);
   var q = document.getElementById('vn-q'), fa = document.getElementById('vn-artist'),
       fl = document.getElementById('vn-label'), so = document.getElementById('vn-sort'),
-      empty = document.getElementById('vn-empty');
-  function apply() {
-    var text = q.value.trim().toLowerCase(), shown = 0;
-    items.forEach(function (el) {
-      var d = el.dataset;
-      var ok = (!text || (d.artist + ' ' + d.title).toLowerCase().indexOf(text) !== -1) &&
-               (!fa.value || d.artist === fa.value) && (!fl.value || d.label === fl.value);
-      el.hidden = !ok; if (ok) { shown++; }
-    });
-    empty.hidden = shown > 0;
+      empty = document.getElementById('vn-empty'), pager = document.getElementById('vn-pager'),
+      info = document.getElementById('vn-info'), pages = document.getElementById('vn-pages');
+  var buttons = [].slice.call(document.querySelectorAll('.vn-view .btn'));
+  var state = {view: 'grid', page: 1};
+
+  function matches(el, text) {
+    var d = el.dataset;
+    return (!text || (d.artist + ' ' + d.title).toLowerCase().indexOf(text) !== -1) &&
+           (!fa.value || d.artist === fa.value) && (!fl.value || d.label === fl.value);
+  }
+  function pageButton(label, page, opts) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'btn btn--ghost' + (opts && opts.on ? ' is-on' : '');
+    b.textContent = label;
+    if (opts && opts.off) { b.disabled = true; }
+    else { b.addEventListener('click', function () { state.page = page; render(true); }); }
+    if (opts && opts.title) { b.setAttribute('aria-label', opts.title); }
+    return b;
+  }
+  function render(scroll) {
+    var text = q.value.trim().toLowerCase(), per = PER[state.view];
+    var found = items.filter(function (el) { return matches(el, text); });
+    var total = Math.max(1, Math.ceil(found.length / per));
+    state.page = Math.min(Math.max(1, state.page), total);
+    var from = (state.page - 1) * per, to = Math.min(from + per, found.length);
+    items.forEach(function (el) { el.hidden = true; });
+    found.slice(from, to).forEach(function (el) { el.hidden = false; });
+    empty.hidden = found.length > 0;
+    pager.hidden = found.length === 0;
+    info.textContent = found.length ? (from + 1) + '–' + to + ' из ' + found.length : '';
+    pages.textContent = '';
+    if (total > 1) {
+      pages.appendChild(pageButton('←', state.page - 1, {off: state.page === 1, title: 'Предыдущая страница'}));
+      for (var i = 1; i <= total; i++) {
+        if (i === 1 || i === total || Math.abs(i - state.page) <= 1) {
+          pages.appendChild(pageButton(String(i), i, {on: i === state.page}));
+        } else if (i === 2 || i === total - 1) {
+          var gap = document.createElement('span'); gap.className = 'vn-pager__gap'; gap.textContent = '…';
+          pages.appendChild(gap);
+        }
+      }
+      pages.appendChild(pageButton('→', state.page + 1, {off: state.page === total, title: 'Следующая страница'}));
+    }
+    save();
+    if (scroll) { box.scrollIntoView({block: 'start'}); window.scrollBy(0, -120); }
   }
   function sort() {
     var k = so.value;
@@ -87,16 +128,40 @@ layout: default
       return (+a.dataset[k]) - (+b.dataset[k]) || (+a.dataset.oy) - (+b.dataset.oy);
     }).forEach(function (el) { box.appendChild(el); });
   }
-  [q, fa, fl].forEach(function (el) { el.addEventListener('input', apply); });
-  so.addEventListener('change', sort);
-
-  var buttons = [].slice.call(document.querySelectorAll('.vn-view .btn'));
-  function view(v) {
-    box.classList.toggle('vn--list', v === 'list');
-    buttons.forEach(function (b) { b.classList.toggle('is-on', b.dataset.view === v); });
-    try { localStorage.setItem('vinyl-view', v); } catch (e) {}
+  function setView(v) {
+    state.view = v === 'list' ? 'list' : 'grid';
+    box.classList.toggle('vn--list', state.view === 'list');
+    buttons.forEach(function (b) { b.classList.toggle('is-on', b.dataset.view === state.view); });
+    try { localStorage.setItem('vinyl-view', state.view); } catch (e) {}
   }
-  buttons.forEach(function (b) { b.addEventListener('click', function () { view(b.dataset.view); }); });
-  try { if (localStorage.getItem('vinyl-view') === 'list') { view('list'); } } catch (e) {}
+  /* Состояние хранится в адресе: по кнопке «назад» со страницы релиза открывается то же место. */
+  function save() {
+    var p = new URLSearchParams();
+    if (q.value.trim()) { p.set('q', q.value.trim()); }
+    if (fa.value) { p.set('artist', fa.value); }
+    if (fl.value) { p.set('label', fl.value); }
+    if (so.value !== 'oy') { p.set('sort', so.value); }
+    if (state.page > 1) { p.set('page', state.page); }
+    var s = p.toString();
+    try { history.replaceState(null, '', location.pathname + (s ? '?' + s : '')); } catch (e) {}
+  }
+  function restore() {
+    var p = new URLSearchParams(location.search);
+    q.value = p.get('q') || '';
+    if (p.get('artist')) { fa.value = p.get('artist'); }
+    if (p.get('label')) { fl.value = p.get('label'); }
+    if (p.get('sort')) { so.value = p.get('sort'); }
+    state.page = parseInt(p.get('page'), 10) || 1;
+  }
+
+  [q, fa, fl].forEach(function (el) { el.addEventListener('input', function () { state.page = 1; render(); }); });
+  so.addEventListener('change', function () { sort(); state.page = 1; render(); });
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setView(b.dataset.view); state.page = 1; render(); }); });
+
+  var saved = 'grid';
+  try { saved = localStorage.getItem('vinyl-view') || 'grid'; } catch (e) {}
+  restore(); setView(saved);
+  if (so.value !== 'oy') { sort(); }
+  render();
 })();
 </script>
