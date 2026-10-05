@@ -33,6 +33,26 @@ layout: default
   {%- if note != "" %}<div class="art__body rel__note">{{ content }}</div>{% endif %}
   {%- endif %}
 
+  {%- if r.about or r.edition %}
+  <div class="rel__story">
+    <p class="eyebrow">// История</p>
+    <div class="rel__sides">
+      {%- if r.about %}
+      <div class="rel__side"><h2>Об альбоме</h2>
+        <div class="rel__text">{{ r.about | markdownify }}</div>
+        {%- if r.about_source %}<p class="rel__src">Источник: <a href="{{ r.about_source }}" target="_blank" rel="noopener">{{ r.about_source_name | default: "ссылка" }}</a></p>{% endif %}
+      </div>
+      {%- endif %}
+      {%- if r.edition %}
+      <div class="rel__side"><h2>Об издании</h2>
+        <div class="rel__text">{{ r.edition | markdownify }}</div>
+        {%- if r.discogs %}<p class="rel__src">Источник: <a href="{{ r.discogs }}" target="_blank" rel="noopener">Discogs</a></p>{% endif %}
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+  {%- endif %}
+
   <div class="rel__tracks">
     <p class="eyebrow">// Треклист</p>
     <div class="rel__sides">
