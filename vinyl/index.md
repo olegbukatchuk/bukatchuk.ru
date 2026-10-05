@@ -5,6 +5,7 @@ eyebrow: Коллекция
 headline: Винил
 permalink: /vinyl/
 nav_active: /vinyl/
+image: /assets/img/vinyl/og/index.jpg
 description: Коллекция виниловых пластинок Олега Букатчука — издания, лейблы, треклисты.
 lead: >
   Пластинки, которые стоят на полке. У каждой — издание, лейбл, каталожный номер и треклист по сторонам.

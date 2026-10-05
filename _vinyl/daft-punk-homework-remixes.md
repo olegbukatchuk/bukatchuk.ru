@@ -15,7 +15,7 @@ genres: ["Electronic"]
 styles: ["House"]
 discogs: "https://www.discogs.com/release/24819191"
 cover: /assets/img/vinyl/daft-punk-homework-remixes.jpg
-image: /assets/img/vinyl/daft-punk-homework-remixes.jpg
+image: /assets/img/vinyl/og/daft-punk-homework-remixes.jpg
 description: "Daft Punk — \"Homework\" Remixes: 2×LP, Soma Quality Recordings, 2022."
 tracklist:
   - {pos: "A1", title: "Around The World (I:Cube Remix)", duration: "6:18"}

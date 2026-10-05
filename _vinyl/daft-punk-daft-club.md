@@ -16,7 +16,7 @@ genres: ["Electronic", "Hip Hop"]
 styles: ["House", "Electro"]
 discogs: "https://www.discogs.com/release/24460565"
 cover: /assets/img/vinyl/daft-punk-daft-club.jpg
-image: /assets/img/vinyl/daft-punk-daft-club.jpg
+image: /assets/img/vinyl/og/daft-punk-daft-club.jpg
 description: "Daft Punk — Daft Club: 2×LP, ADA, 2022."
 tracklist:
   - {pos: "A1", title: "Ouverture"}

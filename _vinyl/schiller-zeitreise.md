@@ -17,7 +17,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Downtempo", "Synth-pop", "Trance"]
 discogs: "https://www.discogs.com/release/36894838"
 cover: /assets/img/vinyl/schiller-zeitreise.jpg
-image: /assets/img/vinyl/schiller-zeitreise.jpg
+image: /assets/img/vinyl/og/schiller-zeitreise.jpg
 description: "Schiller — Zeitreise: 2×LP, Island Records, 2026."
 tracklist:
   - {pos: "A1", title: "Denn Wer Liebt", duration: "4:29", feat: ["Anna Maria Mühe"]}

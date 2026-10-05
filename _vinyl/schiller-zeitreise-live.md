@@ -17,7 +17,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Downtempo", "Synth-pop"]
 discogs: "https://www.discogs.com/release/36894952"
 cover: /assets/img/vinyl/schiller-zeitreise-live.jpg
-image: /assets/img/vinyl/schiller-zeitreise-live.jpg
+image: /assets/img/vinyl/og/schiller-zeitreise-live.jpg
 description: "Schiller — Zeitreise Live: 2×LP, Island Records, 2026."
 tracklist:
   - {pos: "A1", title: "Zeitreise I", duration: "2:12"}

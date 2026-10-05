@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Synth-pop", "Downtempo"]
 discogs: "https://www.discogs.com/release/33547221"
 cover: /assets/img/vinyl/schiller-future-purple.jpg
-image: /assets/img/vinyl/schiller-future-purple.jpg
+image: /assets/img/vinyl/og/schiller-future-purple.jpg
 description: "Schiller — Future: 2×LP, Universal Music Group, 2025."
 tracklist:
   - {pos: "A1", title: "The Future I"}

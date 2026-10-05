@@ -15,7 +15,7 @@ genres: ["Electronic"]
 styles: ["House", "Abstract", "Electro", "Experimental"]
 discogs: "https://www.discogs.com/release/24455669"
 cover: /assets/img/vinyl/daft-punk-human-after-all.jpg
-image: /assets/img/vinyl/daft-punk-human-after-all.jpg
+image: /assets/img/vinyl/og/daft-punk-human-after-all.jpg
 description: "Daft Punk — Human After All: 2×LP, ADA, 2022."
 tracklist:
   - {pos: "A1", title: "Human After All", duration: "5:20"}

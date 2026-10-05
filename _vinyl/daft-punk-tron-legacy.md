@@ -15,7 +15,7 @@ genres: ["Electronic", "Classical", "Stage & Screen"]
 styles: ["Soundtrack", "House", "Neo-Romantic", "Contemporary"]
 discogs: "https://www.discogs.com/release/23363363"
 cover: /assets/img/vinyl/daft-punk-tron-legacy.jpg
-image: /assets/img/vinyl/daft-punk-tron-legacy.jpg
+image: /assets/img/vinyl/og/daft-punk-tron-legacy.jpg
 description: "Daft Punk — TRON: Legacy (Vinyl Edition Motion Picture Soundtrack): 2×LP, Walt Disney Records, 2022."
 tracklist:
   - {pos: "A1", title: "Overture", duration: "2:28"}

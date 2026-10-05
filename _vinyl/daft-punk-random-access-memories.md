@@ -15,7 +15,7 @@ genres: ["Electronic", "Funk / Soul", "Pop"]
 styles: ["Disco", "Funk", "Synth-pop", "Electro", "French House"]
 discogs: "https://www.discogs.com/release/4570366"
 cover: /assets/img/vinyl/daft-punk-random-access-memories.jpg
-image: /assets/img/vinyl/daft-punk-random-access-memories.jpg
+image: /assets/img/vinyl/og/daft-punk-random-access-memories.jpg
 description: "Daft Punk — Random Access Memories: 2×LP, Columbia, 2013."
 tracklist:
   - {pos: "A1", title: "Give Life Back To Music", duration: "4:35"}

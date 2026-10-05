@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Electro", "Downtempo", "Synth-pop"]
 discogs: "https://www.discogs.com/release/17354746"
 cover: /assets/img/vinyl/schiller-summer-in-berlin.jpg
-image: /assets/img/vinyl/schiller-summer-in-berlin.jpg
+image: /assets/img/vinyl/og/schiller-summer-in-berlin.jpg
 description: "Schiller — Summer In Berlin: 2×LP, Sony Music, 2021."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:32"}

@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Downtempo", "Synth-pop", "Trance"]
 discogs: "https://www.discogs.com/release/27607050"
 cover: /assets/img/vinyl/schiller-weltreise.jpg
-image: /assets/img/vinyl/schiller-weltreise.jpg
+image: /assets/img/vinyl/og/schiller-weltreise.jpg
 description: "Schiller — Weltreise: 2×LP, Universal Music Group, 2023."
 tracklist:
   - {pos: "A1", title: "Der Anfang", duration: "1:44"}

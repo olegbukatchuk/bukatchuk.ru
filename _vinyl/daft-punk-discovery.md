@@ -15,7 +15,7 @@ genres: ["Electronic"]
 styles: ["Disco", "House", "Electro", "French House"]
 discogs: "https://www.discogs.com/release/26031499"
 cover: /assets/img/vinyl/daft-punk-discovery.jpg
-image: /assets/img/vinyl/daft-punk-discovery.jpg
+image: /assets/img/vinyl/og/daft-punk-discovery.jpg
 description: "Daft Punk — Discovery: 2×LP, ADA, 2022."
 tracklist:
   - {pos: "A1", title: "One More Time"}

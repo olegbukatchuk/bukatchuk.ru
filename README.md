@@ -60,8 +60,8 @@ features: ["лимитированное издание", "ремастер"]
 genres: ["Electronic"]
 styles: ["Downtempo", "Ambient"]
 discogs: "https://www.discogs.com/release/29819818"
-cover: /assets/img/vinyl/schiller-sehnsucht.jpg
-image: /assets/img/vinyl/schiller-sehnsucht.jpg
+cover: /assets/img/vinyl/schiller-sehnsucht.jpg       # обложка на странице
+image: /assets/img/vinyl/og/schiller-sehnsucht.jpg    # превью ссылки, 1200×630
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:08"}
   - {pos: "A3", title: "Denn Wer Liebt", duration: "3:47", feat: ["Anna Maria Mühe"]}

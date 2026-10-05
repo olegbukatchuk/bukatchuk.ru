@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Synth-pop", "Downtempo"]
 discogs: "https://www.discogs.com/release/31382972"
 cover: /assets/img/vinyl/schiller-sonne.jpg
-image: /assets/img/vinyl/schiller-sonne.jpg
+image: /assets/img/vinyl/og/schiller-sonne.jpg
 description: "Schiller — Sonne: 2×LP, Universal Music Group, 2024."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:15"}

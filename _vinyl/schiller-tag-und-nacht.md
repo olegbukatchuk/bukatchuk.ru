@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Trance", "Downtempo", "Ambient"]
 discogs: "https://www.discogs.com/release/29820109"
 cover: /assets/img/vinyl/schiller-tag-und-nacht.jpg
-image: /assets/img/vinyl/schiller-tag-und-nacht.jpg
+image: /assets/img/vinyl/og/schiller-tag-und-nacht.jpg
 description: "Schiller — Tag Und Nacht: 2×LP, Universal Music Group, 2024."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:10"}

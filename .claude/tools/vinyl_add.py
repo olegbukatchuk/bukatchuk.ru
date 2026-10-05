@@ -6,7 +6,8 @@
 
 Номер издания — из адреса https://www.discogs.com/release/<release_id>. Адрес вида /master/<id> не подходит:
 у альбома много изданий, нужно выбрать конкретное. Скрипт создаёт _vinyl/<имя>.md, скачивает обложку
-в assets/img/vinyl/ и делает уменьшенную копию в assets/img/vinyl/thumbs/ (нужен sips, macOS).
+в assets/img/vinyl/, делает уменьшенную копию в assets/img/vinyl/thumbs/ и превью ссылки
+в assets/img/vinyl/og/ (нужны sips и Google Chrome, macOS).
 Ответы Discogs кэшируются во временной папке. После запуска файл нужно просмотреть глазами.
 """
 import json,re,os,sys,urllib.request,time,tempfile
@@ -28,6 +29,7 @@ def slugify(s):
     return re.sub(r'[^a-z0-9]+','-',s).strip('-')
 def q(s): return '"'+str(s).replace('\\','\\\\').replace('"','\\"')+'"'
 def clean(n): return re.sub(r'\s*\(\d+\)$','',n).strip()
+made=[]
 for arg in sys.argv[1:]:
     p=arg.split(':'); rid=int(p[0]); oy_override=int(p[1]) if len(p)>1 and p[1] else None; slug_override=p[2] if len(p)>2 else None
     d=get(f"https://api.discogs.com/releases/{rid}",D+f'r_{rid}.json')
@@ -95,3 +97,8 @@ for arg in sys.argv[1:]:
     L.append('---'); L.append('')
     open(f'_vinyl/{slug}.md','w',encoding='utf-8').write('\n'.join(L))
     print(slug,'|',fmt,'|',' / '.join(colors) or '-','|',weight or '-','|',limited or '-','|',d.get('country'),'|',oy,'→',year,'|',clean(lab['name']),lab['catno'],'|',len(tracks),'tr | first',tracks[0][:3] if tracks else '','| cover',os.path.getsize('.'+cover) if os.path.exists('.'+cover) else 'NONE')
+    made.append(slug)
+
+# превью ссылок 1200×630 для новых релизов и общей страницы
+if made:
+    os.system('python3 "'+os.path.join(os.path.dirname(os.path.abspath(__file__)),'vinyl_og.py')+'" '+' '.join(made))

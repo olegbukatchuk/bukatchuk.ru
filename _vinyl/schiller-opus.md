@@ -18,7 +18,7 @@ genres: ["Electronic", "Classical"]
 styles: ["Ambient", "Classical", "Downtempo"]
 discogs: "https://www.discogs.com/release/32553501"
 cover: /assets/img/vinyl/schiller-opus.jpg
-image: /assets/img/vinyl/schiller-opus.jpg
+image: /assets/img/vinyl/og/schiller-opus.jpg
 description: "Schiller — Opus: 2×LP, Panorama, 2024."
 tracklist:
   - {pos: "A1", title: "Opus: Exposition", duration: "3:38"}

@@ -18,7 +18,7 @@ genres: ["Electronic", "Classical", "Stage & Screen"]
 styles: ["Ambient", "Classical", "Downtempo"]
 discogs: "https://www.discogs.com/release/32553318"
 cover: /assets/img/vinyl/schiller-symphonia.jpg
-image: /assets/img/vinyl/schiller-symphonia.jpg
+image: /assets/img/vinyl/og/schiller-symphonia.jpg
 description: "Schiller — Symphonia: 2×LP, Panorama, 2024."
 tracklist:
   - {pos: "A1", title: "Tune In", duration: "0:33"}

@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Downtempo", "Ambient", "Synth-pop"]
 discogs: "https://www.discogs.com/release/29820304"
 cover: /assets/img/vinyl/schiller-atemlos.jpg
-image: /assets/img/vinyl/schiller-atemlos.jpg
+image: /assets/img/vinyl/og/schiller-atemlos.jpg
 description: "Schiller — Atemlos: 2×LP, Universal Music GmbH, 2024."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:08"}

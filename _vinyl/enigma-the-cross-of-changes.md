@@ -14,7 +14,7 @@ genres: ["Electronic"]
 styles: ["New Age", "Downtempo", "Ambient"]
 discogs: "https://www.discogs.com/release/1039995"
 cover: /assets/img/vinyl/enigma-the-cross-of-changes.jpg
-image: /assets/img/vinyl/enigma-the-cross-of-changes.jpg
+image: /assets/img/vinyl/og/enigma-the-cross-of-changes.jpg
 description: "Enigma — The Cross Of Changes: LP, Virgin, 1993."
 tracklist:
   - {pos: "A1", title: "Second Chapter", duration: "2:16"}

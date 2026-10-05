@@ -18,7 +18,7 @@ genres: ["Electronic", "Stage & Screen"]
 styles: ["Downtempo", "Ambient", "Synth-pop"]
 discogs: "https://www.discogs.com/release/27607215"
 cover: /assets/img/vinyl/schiller-live-erleben.jpg
-image: /assets/img/vinyl/schiller-live-erleben.jpg
+image: /assets/img/vinyl/og/schiller-live-erleben.jpg
 description: "Schiller — Live ErLeben: 2×LP, Universal Music Group, 2023."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:14"}

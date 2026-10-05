@@ -15,7 +15,7 @@ genres: ["Electronic", "Stage & Screen"]
 styles: ["Soundtrack", "Electro", "Electro House", "Progressive House", "Tech House", "Score"]
 discogs: "https://www.discogs.com/release/23363414"
 cover: /assets/img/vinyl/daft-punk-tron-legacy-reconfigured.jpg
-image: /assets/img/vinyl/daft-punk-tron-legacy-reconfigured.jpg
+image: /assets/img/vinyl/og/daft-punk-tron-legacy-reconfigured.jpg
 description: "Daft Punk — TRON: Legacy Reconfigured: 2×LP, Walt Disney Records, 2022."
 tracklist:
   - {pos: "A1", title: "Derezzed (Remixed By The Glitch Mob)", duration: "4:22", feat: ["The Glitch Mob"]}

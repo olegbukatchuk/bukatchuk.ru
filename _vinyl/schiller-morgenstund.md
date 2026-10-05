@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Downtempo", "Ambient", "Synth-pop"]
 discogs: "https://www.discogs.com/release/13328472"
 cover: /assets/img/vinyl/schiller-morgenstund.jpg
-image: /assets/img/vinyl/schiller-morgenstund.jpg
+image: /assets/img/vinyl/og/schiller-morgenstund.jpg
 description: "Schiller — Morgenstund: 2×LP, Sony Music, 2019."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:40"}

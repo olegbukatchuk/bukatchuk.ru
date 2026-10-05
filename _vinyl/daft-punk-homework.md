@@ -15,7 +15,7 @@ genres: ["Electronic"]
 styles: ["House", "Techno", "Disco", "Electro", "French House"]
 discogs: "https://www.discogs.com/release/22988906"
 cover: /assets/img/vinyl/daft-punk-homework.jpg
-image: /assets/img/vinyl/daft-punk-homework.jpg
+image: /assets/img/vinyl/og/daft-punk-homework.jpg
 description: "Daft Punk — Homework: 2×LP, Soma Quality Recordings, 2022."
 tracklist:
   - {pos: "A1", title: "Daftendirekt", duration: "2:44"}

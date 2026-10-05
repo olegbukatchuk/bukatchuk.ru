@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Downtempo"]
 discogs: "https://www.discogs.com/release/31382390"
 cover: /assets/img/vinyl/schiller-sonne-chill-out-edition.jpg
-image: /assets/img/vinyl/schiller-sonne-chill-out-edition.jpg
+image: /assets/img/vinyl/og/schiller-sonne-chill-out-edition.jpg
 description: "Schiller — Sonne (Chill Out Edition): 2×LP, Universal Music Group, 2024."
 tracklist:
   - {pos: "A1", title: "Sonne (Instrumental - Chill Out Version)", duration: "5:22"}

@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Trance", "Ambient", "Downtempo"]
 discogs: "https://www.discogs.com/release/27607353"
 cover: /assets/img/vinyl/schiller-zeitgeist.jpg
-image: /assets/img/vinyl/schiller-zeitgeist.jpg
+image: /assets/img/vinyl/og/schiller-zeitgeist.jpg
 description: "Schiller — Zeitgeist: 2×LP, Universal Music Group, 2023."
 tracklist:
   - {pos: "A1", title: "Der Anfang", duration: "1:34"}

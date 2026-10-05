@@ -15,7 +15,7 @@ genres: ["Electronic"]
 styles: ["House", "French House"]
 discogs: "https://www.discogs.com/release/24455792"
 cover: /assets/img/vinyl/daft-punk-alive-2007.jpg
-image: /assets/img/vinyl/daft-punk-alive-2007.jpg
+image: /assets/img/vinyl/og/daft-punk-alive-2007.jpg
 description: "Daft Punk — Alive 2007: 2×LP, ADA, 2022."
 tracklist:
   - {pos: "A1a", title: "Robot Rock"}

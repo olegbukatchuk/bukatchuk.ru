@@ -17,7 +17,7 @@ genres: ["Electronic", "Classical"]
 styles: ["Ambient", "Downtempo", "Classical", "Electro"]
 discogs: "https://www.discogs.com/release/20962426"
 cover: /assets/img/vinyl/schiller-epic.jpg
-image: /assets/img/vinyl/schiller-epic.jpg
+image: /assets/img/vinyl/og/schiller-epic.jpg
 description: "Schiller — Epic: 2×LP, Sony Classical, 2021."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:34"}

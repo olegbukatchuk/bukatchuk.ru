@@ -15,7 +15,7 @@ genres: ["Electronic", "Funk / Soul"]
 styles: ["Disco", "Funk", "Synth-pop", "Electro"]
 discogs: "https://www.discogs.com/release/28924120"
 cover: /assets/img/vinyl/daft-punk-random-access-memories-drumless-edition.jpg
-image: /assets/img/vinyl/daft-punk-random-access-memories-drumless-edition.jpg
+image: /assets/img/vinyl/og/daft-punk-random-access-memories-drumless-edition.jpg
 description: "Daft Punk — Random Access Memories (Drumless Edition): 2×LP, Columbia, 2023."
 tracklist:
   - {pos: "A1", title: "Give Life Back To Music", duration: "4:35"}

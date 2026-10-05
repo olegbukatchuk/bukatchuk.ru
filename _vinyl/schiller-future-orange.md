@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Ambient", "Downtempo", "Synth-pop"]
 discogs: "https://www.discogs.com/release/33550650"
 cover: /assets/img/vinyl/schiller-future-orange.jpg
-image: /assets/img/vinyl/schiller-future-orange.jpg
+image: /assets/img/vinyl/og/schiller-future-orange.jpg
 description: "Schiller — Future: 2×LP, Universal Music Group, 2025."
 tracklist:
   - {pos: "A1", title: "Willkommen"}

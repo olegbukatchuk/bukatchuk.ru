@@ -16,7 +16,7 @@ genres: ["Electronic"]
 styles: ["Electro", "Downtempo", "Ambient"]
 discogs: "https://www.discogs.com/release/26357846"
 cover: /assets/img/vinyl/schiller-illuminate.jpg
-image: /assets/img/vinyl/schiller-illuminate.jpg
+image: /assets/img/vinyl/og/schiller-illuminate.jpg
 description: "Schiller — Illuminate: 2×LP, Sony Music, 2023."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:59"}

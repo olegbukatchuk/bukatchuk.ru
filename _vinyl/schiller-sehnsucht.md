@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Downtempo", "Ambient", "Synth-pop"]
 discogs: "https://www.discogs.com/release/29819818"
 cover: /assets/img/vinyl/schiller-sehnsucht.jpg
-image: /assets/img/vinyl/schiller-sehnsucht.jpg
+image: /assets/img/vinyl/og/schiller-sehnsucht.jpg
 description: "Schiller — Sehnsucht: 2×LP, Universal Music Group, 2024."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:08"}

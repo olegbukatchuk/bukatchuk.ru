@@ -18,7 +18,7 @@ genres: ["Electronic"]
 styles: ["Trance", "Downtempo", "Ambient", "Synth-pop"]
 discogs: "https://www.discogs.com/release/27606954"
 cover: /assets/img/vinyl/schiller-leben.jpg
-image: /assets/img/vinyl/schiller-leben.jpg
+image: /assets/img/vinyl/og/schiller-leben.jpg
 description: "Schiller — Leben: 2×LP, Universal Music Group, 2023."
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:11"}

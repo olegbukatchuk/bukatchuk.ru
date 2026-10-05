@@ -14,7 +14,7 @@ genres: ["Electronic"]
 styles: ["Abstract", "Ambient"]
 discogs: "https://www.discogs.com/release/3286272"
 cover: /assets/img/vinyl/enigma-mcmxc-a-d.jpg
-image: /assets/img/vinyl/enigma-mcmxc-a-d.jpg
+image: /assets/img/vinyl/og/enigma-mcmxc-a-d.jpg
 description: "Enigma — MCMXC a.D.: LP, Virgin, 1990."
 tracklist:
   - {pos: "A1", title: "The Voice Of Enigma"}
