@@ -414,7 +414,7 @@ select.vn-in{-webkit-appearance:none;appearance:none;padding-right:2.6rem;cursor
 .vn-pager__info{font-size:var(--fs-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
 .vn-pager__btns{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;justify-content:center}
 .vn-pager .btn{padding:.7rem 1rem;min-width:2.8rem;text-align:center}
-.vn-pager .btn.is-on{background:var(--safety);border-color:var(--safety);color:#fff}
+.vn-pager .btn.is-on{background:var(--safety);color:#fff}
 .vn-pager .btn:disabled{opacity:.3;cursor:default;transform:none;box-shadow:none}
 .vn-pager__gap{padding:0 .3rem;color:var(--muted)}
 .rel{max-width:var(--wrap);margin:0 auto;padding:var(--sec-y) var(--pad-x)}
