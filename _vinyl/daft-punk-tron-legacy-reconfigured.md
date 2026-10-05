@@ -18,6 +18,12 @@ discogs: "https://www.discogs.com/release/23363414"
 cover: /assets/img/vinyl/daft-punk-tron-legacy-reconfigured.jpg
 image: /assets/img/vinyl/og/daft-punk-tron-legacy-reconfigured.jpg
 description: "Daft Punk — TRON: Legacy Reconfigured: 2×LP, Walt Disney Records, 2022."
+about: |
+  Альбом ремиксов на музыку Daft Punk из фильма «Трон: Наследие», вышел на Walt Disney Records 5 апреля 2011 года. Ремиксы сделали электронные музыканты того времени. Альбом занял первое место в чарте Billboard Dance/Electronic; критики приняли его неоднозначно.
+about_source: "https://en.wikipedia.org/wiki/Tron:_Legacy_Reconfigured"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, в комплекте двусторонний вкладыш размером с пластинку. Оригинальная музыка к фильму записана в лондонской студии Air Lyndhurst, мастеринг сделан в Bernie Grundman Mastering в Голливуде. Пластинки отпечатаны на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Derezzed (Remixed By The Glitch Mob)", duration: "4:22", feat: ["The Glitch Mob"]}
   - {pos: "A2", title: "Fall (Remixed By M83 Vs. Big Black Delta)", duration: "3:54", feat: ["M83", "Big Black Delta"]}

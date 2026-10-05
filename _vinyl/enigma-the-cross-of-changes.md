@@ -17,6 +17,14 @@ discogs: "https://www.discogs.com/release/1039995"
 cover: /assets/img/vinyl/enigma-the-cross-of-changes.jpg
 image: /assets/img/vinyl/og/enigma-the-cross-of-changes.jpg
 description: "Enigma — The Cross Of Changes: LP, Virgin, 1993."
+about: |
+  Второй студийный альбом Enigma, вышел 6 декабря 1993 года на Virgin, в США — на Charisma. После успеха MCMXC a.D. Михаэль Крету записал его в своей студии A.R.T. на Ибице. В альбоме использованы семплы Vangelis, U2, Genesis и Black Sabbath.
+
+  В Великобритании альбом дебютировал на первом месте, в США поднялся до девятого места Billboard 200 и разошёлся тиражом больше двух миллионов. В 1994 году с него вышли четыре сингла, среди них «Return to Innocence».
+about_source: "https://en.wikipedia.org/wiki/The_Cross_of_Changes"
+about_source_name: "Wikipedia"
+extra: |
+  В треке A2 использованы семплы «Habebe» и «A Survivor's Tale» Энн Дадли и Джаза Коулмана, монгольское пение из «Alsyn Gazryn Zereglee» в исполнении Адилбиш Нергуй, хор из «Гибели богов» Вагнера и переговоры NASA из «Mare Tranquillitatis» Vangelis.
 tracklist:
   - {pos: "A1", title: "Second Chapter", duration: "2:16"}
   - {pos: "A2", title: "The Eyes Of Truth", duration: "7:13"}

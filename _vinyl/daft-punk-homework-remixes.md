@@ -18,6 +18,12 @@ discogs: "https://www.discogs.com/release/24819191"
 cover: /assets/img/vinyl/daft-punk-homework-remixes.jpg
 image: /assets/img/vinyl/og/daft-punk-homework-remixes.jpg
 description: "Daft Punk — \"Homework\" Remixes: 2×LP, Soma Quality Recordings, 2022."
+about: |
+  Альбом ремиксов Daft Punk, вышел 22 февраля 2022 года к 25-летию альбома Homework. В него вошли ремиксы DJ Sneak, Masters at Work, Тодда Терри, Motorbass, Slam и Иэна Пули. В чарте Billboard Dance/Electronic Albums он поднялся до 17-го места.
+about_source: "https://en.wikipedia.org/wiki/Homework_(Remixes)"
+about_source_name: "Wikipedia"
+extra: |
+  Мастеринг и нарезка лакового диска сделаны в Translab, пластинки отпечатаны на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Around The World (I:Cube Remix)", duration: "6:18"}
   - {pos: "A2", title: "Revolution 909 (Roger Sanchez & Junior Sanchez Remix)", duration: "8:56"}

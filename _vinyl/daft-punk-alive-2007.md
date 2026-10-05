@@ -18,6 +18,12 @@ discogs: "https://www.discogs.com/release/24455792"
 cover: /assets/img/vinyl/daft-punk-alive-2007.jpg
 image: /assets/img/vinyl/og/daft-punk-alive-2007.jpg
 description: "Daft Punk — Alive 2007: 2×LP, ADA, 2022."
+about: |
+  Второй концертный альбом Daft Punk, вышел 19 ноября 2007 года на Virgin. Это запись выступления 14 июня 2007 года на парижской арене Palais Omnisports de Paris-Bercy во время тура Alive. Концертная версия «Harder, Better, Faster, Stronger» вышла синглом. В 2009 году альбом получил «Грэмми» как лучший электронный и танцевальный альбом.
+about_source: "https://en.wikipedia.org/wiki/Alive_2007"
+about_source_name: "Wikipedia"
+extra: |
+  Пластинки отпечатаны на заводе Record Industry.
 tracklist:
   - {pos: "A1a", title: "Robot Rock"}
   - {pos: "A1b", title: "Oh Yeah"}

@@ -21,6 +21,12 @@ discogs: "https://www.discogs.com/release/29820109"
 cover: /assets/img/vinyl/schiller-tag-und-nacht.jpg
 image: /assets/img/vinyl/og/schiller-tag-und-nacht.jpg
 description: "Schiller — Tag Und Nacht: 2×LP, Universal Music Group, 2024."
+about: |
+  Четвёртый студийный альбом Schiller. В записи участвовали Мойя Бреннан, Майк Олдфилд и Ким Сандерс. Сингл «Die Nacht… Du bist nicht allein» с вокалом Томаса Д в 2005 году поднялся до 24-го места в Германии, «Der Tag… Du bist erwacht» в 2006-м — до 43-го.
+about_source: "https://en.wikipedia.org/wiki/Tag_und_Nacht_(album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:10"}
   - {pos: "A2", title: "Nachtflug", duration: "5:56"}

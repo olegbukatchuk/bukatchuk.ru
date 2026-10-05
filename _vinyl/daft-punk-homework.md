@@ -18,6 +18,14 @@ discogs: "https://www.discogs.com/release/22988906"
 cover: /assets/img/vinyl/daft-punk-homework.jpg
 image: /assets/img/vinyl/og/daft-punk-homework.jpg
 description: "Daft Punk — Homework: 2×LP, Soma Quality Recordings, 2022."
+about: |
+  Дебютный альбом французского дуэта Daft Punk, вышел 20 января 1997 года на Virgin и Soma Quality Recordings. Дуэт собирался выпускать треки отдельными синглами, но материала набралось на альбом. Название отсылает к тому, что запись сделана в домашней студии.
+
+  Альбом попал в чарты 14 стран: третье место во Франции, восьмое в Великобритании. К февралю 2001 года было продано больше двух миллионов копий. Альбом привлёк мировое внимание к французскому хаусу.
+about_source: "https://en.wikipedia.org/wiki/Homework_(Daft_Punk_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот с тиснёным логотипом Daft Punk на лицевой стороне, внутренние конверты с цветной печатью. Трек A1 записан вживую на вечеринке клуба Fuse в Генте 10 ноября 1995 года. Лаковый диск нарезан в Translab, пластинки отпечатаны на заводе MPO.
 tracklist:
   - {pos: "A1", title: "Daftendirekt", duration: "2:44"}
   - {pos: "A2", title: "WDPK 83.7 FM", duration: "0:28"}

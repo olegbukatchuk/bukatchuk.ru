@@ -18,6 +18,14 @@ discogs: "https://www.discogs.com/release/24455669"
 cover: /assets/img/vinyl/daft-punk-human-after-all.jpg
 image: /assets/img/vinyl/og/daft-punk-human-after-all.jpg
 description: "Daft Punk — Human After All: 2×LP, ADA, 2022."
+about: |
+  Третий студийный альбом Daft Punk, вышел 14 марта 2005 года на Virgin. Записан за шесть недель; звук минималистичнее и импровизационнее, чем на Discovery, с более тяжёлыми гитарами и электроникой. Критики приняли альбом неоднозначно и упрекали его в однообразии.
+
+  Альбом занял первое место в чарте Billboard Dance/Electronic Albums и был номинирован на «Грэмми» 2006 года. Синглы «Robot Rock» и «Technologic» попали в чарты нескольких стран.
+about_source: "https://en.wikipedia.org/wiki/Human_After_All"
+about_source_name: "Wikipedia"
+extra: |
+  Глянцевый конверт-разворот с печатными внутренними конвертами. Мастеринг сделан в The Exchange, лаковый диск нарезан в Translab, пластинки отпечатаны на заводе Record Industry.
 tracklist:
   - {pos: "A1", title: "Human After All", duration: "5:20"}
   - {pos: "A2", title: "The Prime Time Of Your Life", duration: "4:23"}

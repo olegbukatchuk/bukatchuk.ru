@@ -20,6 +20,10 @@ discogs: "https://www.discogs.com/release/20962426"
 cover: /assets/img/vinyl/schiller-epic.jpg
 image: /assets/img/vinyl/og/schiller-epic.jpg
 description: "Schiller — Epic: 2×LP, Sony Classical, 2021."
+extra: |
+  Конверт-разворот с печатными внутренними конвертами, на плёнке наклейка. Первая тысяча экземпляров, заказанных в официальном магазине Schiller, шла с карточкой с автографом.
+
+  Треки B1, B2 и B4 даны в особых версиях для винила: они отличаются длительностью, началом и концовкой. Трек «White Nights» в цифровых изданиях называется «White Nights (Don't Let Me Go)». Оркестр записан в венской студии Synchron Stage, мастеринг сделан в NHB Studios в Гамбурге.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:34"}
   - {pos: "A2", title: "Do You See The Light?", duration: "6:11"}

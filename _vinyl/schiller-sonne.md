@@ -21,6 +21,14 @@ discogs: "https://www.discogs.com/release/31382972"
 cover: /assets/img/vinyl/schiller-sonne.jpg
 image: /assets/img/vinyl/og/schiller-sonne.jpg
 description: "Schiller — Sonne: 2×LP, Universal Music Group, 2024."
+about: |
+  Седьмой студийный альбом Schiller, вышел 5 октября 2012 года; за пределами Германии издавался как Sun. В записи участвовали Адам Янг из Owl City, Андреа Корр из The Corrs, Кейт Хавневик и группа Paper Aeroplanes. В 2016 году альбом получил в Германии золотой статус.
+about_source: "https://en.wikipedia.org/wiki/Sonne_(album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
+
+  Треки A1–A3 сведены между собой, как и A4–A5; остальные идут отдельно. Запись велась в шестнадцати городах — среди них Берлин, Москва, Санкт-Петербург, Осло, Лондон и Санта-Моника.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:15"}
   - {pos: "A2", title: "Solaris", duration: "3:56"}

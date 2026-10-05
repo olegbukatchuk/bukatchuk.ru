@@ -24,7 +24,7 @@ about: |
 
   Альбом вошёл в первую десятку чартов в десяти странах и больше пяти лет держался в Billboard 200; в США он четырежды платиновый. Синглами вышли «Sadeness (Part I)», «Mea Culpa (Part II)», «Principles of Lust» и «The Rivers of Belief».
 about_source: "https://en.wikipedia.org/wiki/MCMXC_a.D."
-about_source_name: "Википедия"
+about_source_name: "Wikipedia"
 extra: |
   Пластинка отпечатана на заводе Sonopress: на этикетке стороны B выдавлен знак басового ключа, по нему завод и определяется.
 

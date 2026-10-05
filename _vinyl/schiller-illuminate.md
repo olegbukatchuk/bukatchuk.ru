@@ -19,6 +19,8 @@ discogs: "https://www.discogs.com/release/26357846"
 cover: /assets/img/vinyl/schiller-illuminate.jpg
 image: /assets/img/vinyl/og/schiller-illuminate.jpg
 description: "Schiller — Illuminate: 2×LP, Sony Music, 2023."
+extra: |
+  Конверт-разворот с печатными внутренними конвертами. В части магазинов и счетов издание значилось как «Illuminate Vol. 1». Выход планировался на 3 марта 2023 года и был перенесён на 10 марта. Пластинки отпечатаны на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:59"}
   - {pos: "A2", title: "Empire Of Light", duration: "8:53"}

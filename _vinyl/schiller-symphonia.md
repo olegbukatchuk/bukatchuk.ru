@@ -21,6 +21,14 @@ discogs: "https://www.discogs.com/release/32553318"
 cover: /assets/img/vinyl/schiller-symphonia.jpg
 image: /assets/img/vinyl/og/schiller-symphonia.jpg
 description: "Schiller — Symphonia: 2×LP, Panorama, 2024."
+about: |
+  Концертный альбом Schiller, вышел 17 октября 2014 года. Это запись концерта «Schiller meets Classic» с оркестром Berlin Symphonic Pop Orchestra из 60 музыкантов на берлинской площади Жандарменмаркт, в рамках Classic Open Air 2014. Поют Мидж Юр, Jaël Malli, Eva Mali и Der Graf из Unheilig.
+
+  Здесь впервые прозвучала композиция «Berlin, Berlin», которая исполнялась и записывалась только вживую. В первую неделю альбом занял четвёртое место в Германии.
+about_source: "https://en.wikipedia.org/wiki/Symphonia_(Schiller_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media. Обе пластинки играют на 33 ⅓ оборота.
 tracklist:
   - {pos: "A1", title: "Tune In", duration: "0:33"}
   - {pos: "A2", title: "Ein Schöner Tag", duration: "5:32", feat: ["Eva Mali"]}

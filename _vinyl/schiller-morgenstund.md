@@ -21,6 +21,12 @@ discogs: "https://www.discogs.com/release/13328472"
 cover: /assets/img/vinyl/schiller-morgenstund.jpg
 image: /assets/img/vinyl/og/schiller-morgenstund.jpg
 description: "Schiller — Morgenstund: 2×LP, Sony Music, 2019."
+about: |
+  Десятый студийный альбом Schiller, вышел 22 марта 2019 года. В записи участвовали Нена, Триша Мактиг, Ялда Аббаси, Ребекка Фергюсон, Джорджо Мородер, Ян Блумквист и группа Tangerine Dream. Альбом создавался в 2017–2018 годах; выход планировался на осень 2018-го и был перенесён на весну.
+about_source: "https://en.wikipedia.org/wiki/Morgenstund"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот с печатными внутренними конвертами. На конверте опечатка: в треке B3 имя певицы Ялды Аббаси напечатано как «Yalda Abbas». Пластинки изготовлены на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:40"}
   - {pos: "A2", title: "Harmonia", duration: "6:09"}

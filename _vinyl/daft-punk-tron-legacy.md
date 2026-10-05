@@ -18,6 +18,14 @@ discogs: "https://www.discogs.com/release/23363363"
 cover: /assets/img/vinyl/daft-punk-tron-legacy.jpg
 image: /assets/img/vinyl/og/daft-punk-tron-legacy.jpg
 description: "Daft Punk — TRON: Legacy (Vinyl Edition Motion Picture Soundtrack): 2×LP, Walt Disney Records, 2022."
+about: |
+  Саундтрек к фильму «Трон: Наследие» 2010 года и первая работа Daft Punk для кино. Музыку написали и спродюсировали Тома Бангальтер и Ги-Мануэль де Омем-Кристо, оркестровку сделал Джозеф Трапанезе, дирижировал Гэвин Гринуэй.
+
+  Альбом вышел на Walt Disney Records 3 декабря 2010 года, дебютировал на десятом месте Billboard 200 и поднялся до четвёртого. В США он платиновый; саундтрек номинировался на «Грэмми».
+about_source: "https://en.wikipedia.org/wiki/Tron:_Legacy_(soundtrack)"
+about_source_name: "Wikipedia"
+extra: |
+  В комплекте печатный вкладыш со списком участников записи и сопроводительным текстом. Пластинки отпечатаны на заводе GZ Media.
 tracklist:
   - {pos: "A1", title: "Overture", duration: "2:28"}
   - {pos: "A2", title: "The Grid", duration: "1:36"}

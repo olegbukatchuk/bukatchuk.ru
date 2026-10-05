@@ -18,6 +18,14 @@ discogs: "https://www.discogs.com/release/26031499"
 cover: /assets/img/vinyl/daft-punk-discovery.jpg
 image: /assets/img/vinyl/og/daft-punk-discovery.jpg
 description: "Daft Punk — Discovery: 2×LP, ADA, 2022."
+about: |
+  Второй студийный альбом Daft Punk, вышел 12 марта 2001 года на Virgin. Записан в 1998–2000 годах в парижском доме Тома Бангальтера. После чикагского хауса дебютного альбома дуэт ушёл к звучанию, вдохновлённому диско, гаражным хаусом и R&B. В записи участвовали Romanthony, Тодд Эдвардс и DJ Sneak.
+
+  Вместе с Лэйдзи Мацумото дуэт сделал аниме-фильм «Interstella 5555», для которого альбом стал саундтреком. Перед выходом Discovery музыканты начали появляться в костюмах роботов.
+about_source: "https://en.wikipedia.org/wiki/Discovery_(Daft_Punk_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот и внутренние конверты с глянцевой печатью. Лаковый диск нарезан в Translab.
 tracklist:
   - {pos: "A1", title: "One More Time"}
   - {pos: "A2", title: "Aerodynamic"}

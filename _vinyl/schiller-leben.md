@@ -21,6 +21,14 @@ discogs: "https://www.discogs.com/release/27606954"
 cover: /assets/img/vinyl/schiller-leben.jpg
 image: /assets/img/vinyl/og/schiller-leben.jpg
 description: "Schiller — Leben: 2×LP, Universal Music Group, 2023."
+about: |
+  Третий студийный альбом Кристофера фон Дейлена под именем Schiller. В записи участвовали Сара Брайтман, Майя Сабан, Петер Хеппнер и Ким Сандерс. В композиции «The Smile» с Сарой Брайтман звучат персидские ударные — даф и томбак. В 2016 году альбом получил в Германии платиновый статус.
+about_source: "https://en.wikipedia.org/wiki/Leben_(Schiller_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
+
+  В конце трека B3 есть дефект записи: резкий обрыв и пауза меньше секунды. Треки B3 и C1 — телевизионные версии, но на конверте это не отмечено.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:11"}
   - {pos: "A2", title: "Sommerregen", duration: "3:54"}

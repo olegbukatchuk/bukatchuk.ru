@@ -77,7 +77,7 @@ about: |                # «Об альбоме»: когда вышел, кто
 
   Второй абзац.
 about_source: "https://en.wikipedia.org/wiki/…"
-about_source_name: "Википедия"
+about_source_name: "Wikipedia"
 extra: |                # «Дополнительная информация»: что есть у этого издания сверх свойств
   Текст.
 ```

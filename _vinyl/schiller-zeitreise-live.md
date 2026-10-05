@@ -13,6 +13,7 @@ format: "2×LP"
 discs: 2
 color: "Blue Transparent"
 weight: "180 г"
+limited: 1000
 features: ["лимитированное издание", "треки сведены", "нумерованное", "переиздание"]
 genres: ["Electronic"]
 styles: ["Ambient", "Downtempo", "Synth-pop"]
@@ -20,6 +21,12 @@ discogs: "https://www.discogs.com/release/36894952"
 cover: /assets/img/vinyl/schiller-zeitreise-live.jpg
 image: /assets/img/vinyl/og/schiller-zeitreise-live.jpg
 description: "Schiller — Zeitreise Live: 2×LP, Island Records, 2026."
+about: |
+  Восьмой концертный альбом Schiller. Записан 14 октября 2016 года на берлинской Mercedes-Benz Arena, во время тура после выхода альбома Future. Вышел 16 декабря 2016 года одновременно со сборником Zeitreise; концерт издан также на Blu-ray и DVD.
+about_source: "https://de.wikipedia.org/wiki/Zeitreise_Live"
+about_source_name: "Wikipedia"
+extra: |
+  На наклейке издание названо «Exklusive Limitierte und Nummerierte 2LP Gatefold Edition auf farbiger 180g Vinyl». Конверт-разворот, в комплекте подписанный арт-принт. Сведение сделано в студии The Mixfarm.
 tracklist:
   - {pos: "A1", title: "Zeitreise I", duration: "2:12"}
   - {pos: "A2", title: "Schwerelos", duration: "5:33"}

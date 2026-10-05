@@ -18,6 +18,12 @@ discogs: "https://www.discogs.com/release/28924120"
 cover: /assets/img/vinyl/daft-punk-random-access-memories-drumless-edition.jpg
 image: /assets/img/vinyl/og/daft-punk-random-access-memories-drumless-edition.jpg
 description: "Daft Punk — Random Access Memories (Drumless Edition): 2×LP, Columbia, 2023."
+about: |
+  Версия альбома Random Access Memories без ударных: те же тринадцать треков, из которых убраны барабаны. Вышла 17 ноября 2023 года. Критики приняли переиздание сдержанно.
+about_source: "https://en.wikipedia.org/wiki/Random_Access_Memories"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот с тиснением на лицевой стороне. Лаковый диск нарезан в Translab, пластинки отпечатаны на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Give Life Back To Music", duration: "4:35"}
   - {pos: "A2", title: "The Game Of Love", duration: "5:22"}

@@ -21,6 +21,12 @@ discogs: "https://www.discogs.com/release/27607215"
 cover: /assets/img/vinyl/schiller-live-erleben.jpg
 image: /assets/img/vinyl/og/schiller-live-erleben.jpg
 description: "Schiller — Live ErLeben: 2×LP, Universal Music Group, 2023."
+about: |
+  Первый концертный альбом Schiller. Записан 22 апреля 2004 года в зале Philipshalle в Дюссельдорфе, во время тура Er-Leben. В него вошли концертные версии композиций с альбома Leben 2003 года. Концерт выходил и на DVD. В 2016 году альбом получил в Германии золотой статус.
+about_source: "https://en.wikipedia.org/wiki/Live_Erleben"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:14"}
   - {pos: "A2", title: "Schiller", duration: "6:07"}

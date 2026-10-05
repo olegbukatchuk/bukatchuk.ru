@@ -21,6 +21,12 @@ discogs: "https://www.discogs.com/release/27607353"
 cover: /assets/img/vinyl/schiller-zeitgeist.jpg
 image: /assets/img/vinyl/og/schiller-zeitgeist.jpg
 description: "Schiller — Zeitgeist: 2×LP, Universal Music Group, 2023."
+about: |
+  Дебютный альбом немецкого электронного проекта Schiller. В него вошли синглы «Das Glockenspiel», «Liebesschmerz» и «Ruhe» — все три попали в первую тридцатку немецкого чарта синглов. Сам альбом тоже вошёл в первую тридцатку немецкого альбомного чарта.
+about_source: "https://en.wikipedia.org/wiki/Zeitgeist_(Schiller_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Der Anfang", duration: "1:34"}
   - {pos: "A2", title: "Glück Und Erfüllung", duration: "5:15"}

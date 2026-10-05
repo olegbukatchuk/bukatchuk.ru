@@ -18,6 +18,16 @@ discogs: "https://www.discogs.com/release/4570366"
 cover: /assets/img/vinyl/daft-punk-random-access-memories.jpg
 image: /assets/img/vinyl/og/daft-punk-random-access-memories.jpg
 description: "Daft Punk — Random Access Memories: 2×LP, Columbia, 2013."
+about: |
+  Четвёртый и последний студийный альбом Daft Punk, вышел 17 мая 2013 года на Columbia. Это посвящение американской музыке конца семидесятых и начала восьмидесятых. Запись шла с 2008 по 2012 год в студиях Калифорнии, Нью-Йорка и Парижа. Дуэт пригласил сессионных музыкантов и ограничил электронику драм-машинами, модульным синтезатором и вокодерами.
+
+  В записи участвовали Джорджо Мородер, Найл Роджерс, Фаррелл Уильямс, Джулиан Касабланкас, Пол Уильямс и другие. Это единственный альбом Daft Punk, возглавивший Billboard 200. На «Грэмми» 2014 года он победил в нескольких категориях, включая «Альбом года».
+about_source: "https://en.wikipedia.org/wiki/Random_Access_Memories"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот с восьмистраничным буклетом формата 12 дюймов: полный список участников записи и тексты всех песен. В комплекте купон на скачивание альбома в MP3. Мастеринг сделан в Gateway Mastering, пластинки отпечатаны на заводе Optimal Media.
+
+  В континентальной Европе и Ирландии альбом вышел 17 мая 2013 года, в Великобритании — 20 мая, в США — 21 мая.
 tracklist:
   - {pos: "A1", title: "Give Life Back To Music", duration: "4:35"}
   - {pos: "A2", title: "The Game Of Love", duration: "5:22"}

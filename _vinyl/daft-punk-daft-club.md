@@ -19,6 +19,12 @@ discogs: "https://www.discogs.com/release/24460565"
 cover: /assets/img/vinyl/daft-punk-daft-club.jpg
 image: /assets/img/vinyl/og/daft-punk-daft-club.jpg
 description: "Daft Punk — Daft Club: 2×LP, ADA, 2022."
+about: |
+  Первый альбом ремиксов Daft Punk, вышел 1 декабря 2003 года на Virgin. В него вошли ремиксы на треки со второго альбома, Discovery, и один — с дебютного Homework. Критики приняли альбом сдержанно: ремиксы часто считали слабее оригиналов.
+about_source: "https://en.wikipedia.org/wiki/Daft_Club"
+about_source_name: "Wikipedia"
+extra: |
+  Одинарный конверт, пластинки в белых бумажных конвертах с полиэтиленовым вкладышем. Отпечатано во Франции на заводе MPO, лаковый диск нарезан в Translab.
 tracklist:
   - {pos: "A1", title: "Ouverture"}
   - {pos: "A2", title: "Aerodynamic (Daft Punk Remix)"}

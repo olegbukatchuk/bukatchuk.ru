@@ -21,6 +21,14 @@ discogs: "https://www.discogs.com/release/29820304"
 cover: /assets/img/vinyl/schiller-atemlos.jpg
 image: /assets/img/vinyl/og/schiller-atemlos.jpg
 description: "Schiller — Atemlos: 2×LP, Universal Music GmbH, 2024."
+about: |
+  Шестой студийный альбом Schiller, вышел 12 марта 2010 года; за пределами Германии издавался как Breathless. Альбом вдохновлён месячным плаванием фон Дейлена на исследовательском судне Polarstern.
+
+  Среди участников записи — Мидж Юр, Анггун, Ленка, Кейт Хавневик, Яки Либецайт и Ким Сандерс. Первым синглом стала «Try» с Надией Али. В 2016 году альбом получил в Германии платиновый статус.
+about_source: "https://en.wikipedia.org/wiki/Atemlos"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media. Все треки идут отдельно и в полной длительности, без сведения в непрерывный микс.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:08"}
   - {pos: "A2", title: "Tiefblau", duration: "5:00"}

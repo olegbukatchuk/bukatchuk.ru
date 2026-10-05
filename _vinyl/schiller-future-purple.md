@@ -21,6 +21,16 @@ discogs: "https://www.discogs.com/release/33547221"
 cover: /assets/img/vinyl/schiller-future-purple.jpg
 image: /assets/img/vinyl/og/schiller-future-purple.jpg
 description: "Schiller — Future: 2×LP, Universal Music Group, 2025."
+about: |
+  Девятый студийный альбом Schiller, вышел 26 февраля 2016 года. Это первый студийный альбом проекта с английским названием. В записи участвовали Kêta, Arlissa, Эмма Хьюитт, Саму Хабер, Кристина Скаббия и другие; текст «For You» написала Шэрон Стоун.
+
+  Звук холоднее и жёстче прежних работ, с уклоном в синти-поп вместо эмбиента. В первую неделю альбом занял первое место в Германии — в пятый раз для Schiller.
+about_source: "https://en.wikipedia.org/wiki/Future_(Schiller_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
+
+  На виниле альбом выпущен двумя отдельными двойниками с разным набором треков; второй — на оранжевом виниле. Большая часть материала записана и сведена в студии Mojave в долине Коачелла, часть — в Pico Studio в Лос-Анджелесе.
 tracklist:
   - {pos: "A1", title: "The Future I"}
   - {pos: "A2", title: "The Future II", feat: ["Kéta"]}

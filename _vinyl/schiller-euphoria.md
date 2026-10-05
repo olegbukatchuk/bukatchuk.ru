@@ -20,6 +20,8 @@ discogs: "https://www.discogs.com/release/27607494"
 cover: /assets/img/vinyl/schiller-euphoria.jpg
 image: /assets/img/vinyl/og/schiller-euphoria.jpg
 description: "Schiller — Euphoria: 2×LP, Zukunftsmusik, 2026."
+extra: |
+  Конверт-разворот. Первые экземпляры выходили с автографом.
 tracklist:
   - {pos: "A1", title: "Prolog: Willkommen"}
   - {pos: "A2", title: "Euphorie"}

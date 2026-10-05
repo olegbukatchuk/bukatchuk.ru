@@ -13,6 +13,7 @@ format: "2×LP"
 discs: 2
 color: "Cremeweiss"
 weight: "180 г"
+limited: 1500
 features: ["лимитированное издание", "нумерованное", "переиздание", "ремастер"]
 genres: ["Electronic"]
 styles: ["Ambient", "Downtempo", "Synth-pop", "Trance"]
@@ -20,6 +21,12 @@ discogs: "https://www.discogs.com/release/36894838"
 cover: /assets/img/vinyl/schiller-zeitreise.jpg
 image: /assets/img/vinyl/og/schiller-zeitreise.jpg
 description: "Schiller — Zeitreise: 2×LP, Island Records, 2026."
+about: |
+  Первый сборник лучших композиций Schiller, полное название — «Zeitreise — Das Beste von Schiller». В него вошли 35 композиций со всех студийных альбомов, кроме Opus, и две вступительные. Сборник вышел 16 декабря 2016 года одновременно с концертным альбомом Zeitreise Live.
+about_source: "https://de.wikipedia.org/wiki/Zeitreise_(Schiller-Album)"
+about_source_name: "Wikipedia"
+extra: |
+  На наклейке издание названо «Exklusive Limitierte und Nummerierte 2LP Gatefold Edition auf farbiger 180g Vinyl». Конверт-разворот, в комплекте подписанный арт-принт.
 tracklist:
   - {pos: "A1", title: "Denn Wer Liebt", duration: "4:29", feat: ["Anna Maria Mühe"]}
   - {pos: "A2", title: "Sonnenuhr", duration: "5:46"}

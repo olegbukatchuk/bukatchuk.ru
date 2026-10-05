@@ -21,6 +21,14 @@ discogs: "https://www.discogs.com/release/27607050"
 cover: /assets/img/vinyl/schiller-weltreise.jpg
 image: /assets/img/vinyl/og/schiller-weltreise.jpg
 description: "Schiller — Weltreise: 2×LP, Universal Music Group, 2023."
+about: |
+  Второй студийный альбом Schiller — проекта Кристофера фон Дейлена и Мирко фон Шлиффена. За пределами Германии выходил под названием Voyage. Альбом неожиданно стал хитом и четыре недели подряд держался на первом месте немецкого чарта.
+
+  Вокал записали Ким Сандерс и Петер Хеппнер, текст читают актёры Отто Зандер, Беньямин Фёльц и Франциска Пигулла. Альбом выходил и на DVD — с фильмом-путешествием, снятым под эту музыку. В 2016 году он получил в Германии платиновый статус.
+about_source: "https://en.wikipedia.org/wiki/Weltreise"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Der Anfang", duration: "1:44"}
   - {pos: "A2", title: "Distance", duration: "6:56", feat: ["Kim Sanders"]}

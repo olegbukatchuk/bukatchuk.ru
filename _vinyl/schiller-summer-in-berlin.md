@@ -21,6 +21,12 @@ discogs: "https://www.discogs.com/release/17354746"
 cover: /assets/img/vinyl/schiller-summer-in-berlin.jpg
 image: /assets/img/vinyl/og/schiller-summer-in-berlin.jpg
 description: "Schiller — Summer In Berlin: 2×LP, Sony Music, 2021."
+about: |
+  Одиннадцатый студийный альбом Schiller, вышел 12 февраля 2021 года. В записи участвовали Триша Мактиг, Джанет Девлин, Квешнинг из Tangerine Dream и группа Alphaville. На обложке — золотая статуя Виктории с берлинской Колонны победы на фиолетовом фоне.
+about_source: "https://en.wikipedia.org/wiki/Summer_in_Berlin_(album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот с печатными внутренними конвертами, на плёнке наклейка. Стороны A и B — студийная часть «Summer in Berlin», стороны C и D — концертная запись «Live in Berlin». Пластинки отпечатаны на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "0:32"}
   - {pos: "A2", title: "Der Klang Der Stadt", duration: "19:42"}

@@ -21,6 +21,16 @@ discogs: "https://www.discogs.com/release/32553501"
 cover: /assets/img/vinyl/schiller-opus.jpg
 image: /assets/img/vinyl/og/schiller-opus.jpg
 description: "Schiller — Opus: 2×LP, Panorama, 2024."
+about: |
+  Восьмой студийный альбом Schiller, вышел 30 августа 2013 года. В записи участвовали оперная певица Анна Нетребко, пианистка Элен Гримо и гобоист Альбрехт Майер. Это первый релиз лейбла Panorama, созданного Deutsche Grammophon.
+
+  В первую неделю альбом занял первое место в Германии, шестое в Швейцарии и десятое в Австрии; для Schiller это четвёртый альбом на вершине немецкого чарта. В декабре 2013 года он получил в Германии золотой статус.
+about_source: "https://en.wikipedia.org/wiki/Opus_(Schiller_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
+
+  Партия Элен Гримо записана в студии Kaufman Astoria в Нью-Йорке, Анны Нетребко — в зале Дворжака пражского Рудольфинума, Альбрехта Майера — в берлинской студии b-sharp. Мастеринг сделан в NHB Studios в Гамбурге.
 tracklist:
   - {pos: "A1", title: "Opus: Exposition", duration: "3:38"}
   - {pos: "A2", title: "Desert Empire", duration: "4:54"}

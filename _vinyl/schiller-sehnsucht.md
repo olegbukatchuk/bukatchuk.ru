@@ -21,6 +21,12 @@ discogs: "https://www.discogs.com/release/29819818"
 cover: /assets/img/vinyl/schiller-sehnsucht.jpg
 image: /assets/img/vinyl/og/schiller-sehnsucht.jpg
 description: "Schiller — Sehnsucht: 2×LP, Universal Music Group, 2024."
+about: |
+  Пятый студийный альбом Schiller, вышел 22 февраля 2008 года; в Великобритании издавался под названием Desire. В записи участвовали Ксавьер Найду, Jaël, Ким Сандерс и Клаус Шульце. Альбом вышел в четырёх вариантах: тройное издание Super Deluxe, двойное Deluxe, стандартное и двойной винил.
+about_source: "https://en.wikipedia.org/wiki/Sehnsucht_(Schiller_album)"
+about_source_name: "Wikipedia"
+extra: |
+  Конверт-разворот, на плёнке наклейка. Номер экземпляра вписан от руки. Пластинки изготовлены на заводе Optimal Media.
 tracklist:
   - {pos: "A1", title: "Willkommen", duration: "1:08"}
   - {pos: "A2", title: "Herzschlag", duration: "4:22"}
