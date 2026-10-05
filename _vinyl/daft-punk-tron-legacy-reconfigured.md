@@ -11,6 +11,7 @@ barcode: "050087502560"
 country: "Европа"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["переиздание", "допечатка"]
 genres: ["Electronic", "Stage & Screen"]
 styles: ["Soundtrack", "Electro", "Electro House", "Progressive House", "Tech House", "Score"]

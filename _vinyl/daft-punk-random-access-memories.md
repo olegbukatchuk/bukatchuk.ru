@@ -11,6 +11,7 @@ barcode: "888837168618"
 country: "Великобритания, Европа и США"
 format: "2×LP"
 discs: 2
+color: "Black"
 weight: "180 г"
 genres: ["Electronic", "Funk / Soul", "Pop"]
 styles: ["Disco", "Funk", "Synth-pop", "Electro", "French House"]

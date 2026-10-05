@@ -11,6 +11,7 @@ barcode: "0190296611964"
 country: "весь мир"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["треки сведены", "переиздание", "допечатка"]
 genres: ["Electronic"]
 styles: ["House", "French House"]

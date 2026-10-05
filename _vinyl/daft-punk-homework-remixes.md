@@ -11,6 +11,7 @@ barcode: "5054197177897"
 country: "Европа"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["сборник", "лимитированное издание"]
 genres: ["Electronic"]
 styles: ["House"]

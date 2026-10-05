@@ -11,6 +11,7 @@ barcode: "0190296611926"
 country: "весь мир"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["переиздание"]
 genres: ["Electronic"]
 styles: ["House", "Techno", "Disco", "Electro", "French House"]

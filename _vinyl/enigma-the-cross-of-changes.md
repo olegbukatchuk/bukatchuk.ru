@@ -11,6 +11,7 @@ barcode: "724383923618"
 country: "Великобритания и Европа"
 format: "LP"
 discs: 1
+color: "Black"
 genres: ["Electronic"]
 styles: ["New Age", "Downtempo", "Ambient"]
 discogs: "https://www.discogs.com/release/1039995"

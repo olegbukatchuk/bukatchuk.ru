@@ -83,7 +83,8 @@ for arg in sys.argv[1:]:
     L=['---','layout: release',f'artist: {q(artist)}',f'title: {q(title)}',f'year: {year}',f'original_year: {oy}',f'released: {d.get("released") or year}',
        f'label: {q(clean(lab["name"]))}',f'catno: {q(lab["catno"].strip())}',f'barcode: {q(barcode)}' if barcode else None,f'country: {q(COUNTRY.get(d.get("country"),d.get("country") or ""))}',
        f'format: {q(fmt)}',f'discs: {qty}']
-    if colors: L.append(f'color: {q(" / ".join(colors))}')
+    # на Discogs цвет указывают, только если он не чёрный; пустое поле означает обычный чёрный винил
+    L.append(f'color: {q(" / ".join(colors) if colors else "Black")}')
     if weight: L.append(f'weight: {q(weight)}')
     if limited: L.append(f'limited: {limited}')
     if feats: L.append('features: ['+', '.join(q(x) for x in feats)+']')

@@ -11,6 +11,7 @@ barcode: "5012981122218"
 country: "Европа"
 format: "LP"
 discs: 1
+color: "Black"
 genres: ["Electronic"]
 styles: ["Abstract", "Ambient"]
 discogs: "https://www.discogs.com/release/3286272"

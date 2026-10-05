@@ -11,6 +11,7 @@ barcode: "0050087502577"
 country: "Европа"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["сборник", "переиздание"]
 genres: ["Electronic", "Classical", "Stage & Screen"]
 styles: ["Soundtrack", "House", "Neo-Romantic", "Contemporary"]

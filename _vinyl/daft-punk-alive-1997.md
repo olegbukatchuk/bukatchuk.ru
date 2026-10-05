@@ -11,6 +11,7 @@ barcode: "0190296618116"
 country: "Европа"
 format: "LP"
 discs: 1
+color: "Black"
 weight: "180 г"
 features: ["переиздание"]
 genres: ["Electronic"]

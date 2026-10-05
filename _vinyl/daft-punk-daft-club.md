@@ -11,6 +11,7 @@ barcode: "0190296611865"
 country: "весь мир"
 format: "2×LP"
 discs: 2
+color: "Black"
 weight: "180 г"
 features: ["сборник", "переиздание"]
 genres: ["Electronic", "Hip Hop"]

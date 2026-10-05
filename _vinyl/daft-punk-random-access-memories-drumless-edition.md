@@ -11,6 +11,7 @@ barcode: "196588083310"
 country: "весь мир"
 format: "2×LP"
 discs: 2
+color: "Black"
 weight: "180 г"
 genres: ["Electronic", "Funk / Soul"]
 styles: ["Disco", "Funk", "Synth-pop", "Electro"]

@@ -11,6 +11,7 @@ barcode: "0190296617164"
 country: "Европа"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["переиздание"]
 genres: ["Electronic"]
 styles: ["Disco", "House", "Electro", "French House"]

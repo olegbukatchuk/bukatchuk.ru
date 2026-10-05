@@ -11,6 +11,7 @@ barcode: "0190296611902"
 country: "весь мир"
 format: "2×LP"
 discs: 2
+color: "Black"
 features: ["переиздание", "допечатка"]
 genres: ["Electronic"]
 styles: ["House", "Abstract", "Electro", "Experimental"]
