@@ -1,3 +1,7 @@
-- [No Claude attribution in commits](feedback_commits_no_claude_attribution.md) — commits/PRs must be authored as the user, no Claude Code mentions or Co-Authored-By lines
-- [No meta notes in blog posts](feedback_blog_no_meta_notes.md) — bukatchuk.ru posts must not contain notes about how Claude worked (what was run, env limits, verification caveats)
 - [Blog posts need tags](feedback_blog_posts_need_tags.md) — every bukatchuk.ru post must have 3-5 lowercase English front-matter tags, reuse existing ones
+- [Commit and push without asking](feedback_commit_push_without_asking.md) — after a requested change is done and built, commit+push as the owner right away
+- [Informal address](user_informal_address.md) — address the owner as «ты» in chat
+- [No Claude attribution in commits](feedback_commits_no_claude_attribution.md) — commits/PRs must be authored as the user, no Claude Code mentions or Co-Authored-By lines
+- [No font size changes](feedback_no_font_size_changes.md) — never change font sizes/template visuals on the site without explicit instruction; report wrapping instead
+- [No meta notes in blog posts](feedback_blog_no_meta_notes.md) — bukatchuk.ru posts must not contain notes about how Claude worked (what was run, env limits, verification caveats)
+- [Plain headings in blog posts](feedback_blog_plain_headings.md) — subheadings must describe the section plainly, no catchy/metaphorical titles
