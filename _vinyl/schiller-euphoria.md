@@ -7,6 +7,7 @@ original_year: 2026
 released: 2026-01-16
 label: "Zukunftsmusik"
 catno: "19802926881"
+barcode: "198029268812"
 country: "Европа"
 format: "2×LP"
 discs: 2

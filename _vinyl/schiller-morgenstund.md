@@ -7,6 +7,7 @@ original_year: 2019
 released: 2019-03-22
 label: "Sony Music"
 catno: "19075854021"
+barcode: "190758540214"
 country: "Германия"
 format: "2×LP"
 discs: 2

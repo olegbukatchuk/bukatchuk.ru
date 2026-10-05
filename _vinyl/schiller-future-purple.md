@@ -7,6 +7,7 @@ original_year: 2016
 released: 2025-03-28
 label: "Universal Music Group"
 catno: "06024 4898105 9"
+barcode: "0602448981059"
 country: "Германия"
 format: "2×LP"
 discs: 2

@@ -7,6 +7,7 @@ original_year: 2011
 released: 2022-05-27
 label: "Walt Disney Records"
 catno: "00050087502560"
+barcode: "050087502560"
 country: "Европа"
 format: "2×LP"
 discs: 2

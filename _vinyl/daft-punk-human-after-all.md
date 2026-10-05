@@ -7,6 +7,7 @@ original_year: 2005
 released: 2022-09-09
 label: "ADA"
 catno: "0190296611902"
+barcode: "0190296611902"
 country: "весь мир"
 format: "2×LP"
 discs: 2

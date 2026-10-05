@@ -7,6 +7,7 @@ original_year: 2004
 released: 2023-07-07
 label: "Universal Music Group"
 catno: "06024 5505651 1"
+barcode: "0602455056511"
 country: "Германия"
 format: "2×LP"
 discs: 2

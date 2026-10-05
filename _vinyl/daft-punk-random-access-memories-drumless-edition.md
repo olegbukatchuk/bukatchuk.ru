@@ -7,6 +7,7 @@ original_year: 2023
 released: 2023-11-17
 label: "Columbia"
 catno: "19658808331"
+barcode: "196588083310"
 country: "весь мир"
 format: "2×LP"
 discs: 2

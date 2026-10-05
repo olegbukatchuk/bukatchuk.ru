@@ -7,6 +7,7 @@ original_year: 2021
 released: 2021-11-12
 label: "Sony Classical"
 catno: "19439882241"
+barcode: "194398822419"
 country: "Германия"
 format: "2×LP"
 discs: 2

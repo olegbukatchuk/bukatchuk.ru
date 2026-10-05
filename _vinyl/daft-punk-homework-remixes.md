@@ -7,6 +7,7 @@ original_year: 2022
 released: 2022
 label: "Soma Quality Recordings"
 catno: "5054197177897"
+barcode: "5054197177897"
 country: "Европа"
 format: "2×LP"
 discs: 2

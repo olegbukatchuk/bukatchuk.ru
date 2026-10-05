@@ -7,6 +7,7 @@ original_year: 2014
 released: 2024-12-13
 label: "Panorama"
 catno: "00289 4864269 4"
+barcode: "0028948642694"
 country: "Германия"
 format: "2×LP"
 discs: 2

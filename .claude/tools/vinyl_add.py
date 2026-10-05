@@ -76,8 +76,12 @@ for arg in sys.argv[1:]:
         os.makedirs(os.path.dirname(thumb),exist_ok=True)
         os.system(f'sips -Z 400 -s format jpeg -s formatOptions 78 ".{cover}" --out "{thumb}" >/dev/null 2>&1')
     fmt=(f'{qty}×LP' if qty>1 else 'LP')
+    barcode=''
+    for i in d.get('identifiers',[]):
+        x=re.sub(r'\D','',i.get('value') or '')
+        if i.get('type')=='Barcode' and len(x) in (12,13): barcode=x; break
     L=['---','layout: release',f'artist: {q(artist)}',f'title: {q(title)}',f'year: {year}',f'original_year: {oy}',f'released: {d.get("released") or year}',
-       f'label: {q(clean(lab["name"]))}',f'catno: {q(lab["catno"].strip())}',f'country: {q(COUNTRY.get(d.get("country"),d.get("country") or ""))}',
+       f'label: {q(clean(lab["name"]))}',f'catno: {q(lab["catno"].strip())}',f'barcode: {q(barcode)}' if barcode else None,f'country: {q(COUNTRY.get(d.get("country"),d.get("country") or ""))}',
        f'format: {q(fmt)}',f'discs: {qty}']
     if colors: L.append(f'color: {q(" / ".join(colors))}')
     if weight: L.append(f'weight: {q(weight)}')
@@ -95,6 +99,7 @@ for arg in sys.argv[1:]:
         if feat: row+=', feat: ['+', '.join(q(x) for x in feat)+']'
         L.append(row+'}')
     L.append('---'); L.append('')
+    L=[x for x in L if x is not None]
     open(f'_vinyl/{slug}.md','w',encoding='utf-8').write('\n'.join(L))
     print(slug,'|',fmt,'|',' / '.join(colors) or '-','|',weight or '-','|',limited or '-','|',d.get('country'),'|',oy,'→',year,'|',clean(lab['name']),lab['catno'],'|',len(tracks),'tr | first',tracks[0][:3] if tracks else '','| cover',os.path.getsize('.'+cover) if os.path.exists('.'+cover) else 'NONE')
     made.append(slug)

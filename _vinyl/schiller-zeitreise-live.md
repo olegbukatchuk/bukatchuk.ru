@@ -7,6 +7,7 @@ original_year: 2016
 released: 2026-03-27
 label: "Island Records"
 catno: "06024 4898089 2"
+barcode: "0602448980892"
 country: "Германия"
 format: "2×LP"
 discs: 2

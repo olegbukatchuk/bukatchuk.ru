@@ -7,6 +7,7 @@ original_year: 2010
 released: 2024-02-16
 label: "Universal Music GmbH"
 catno: "06024 5500054 5"
+barcode: "0602455000545"
 country: "Германия"
 format: "2×LP"
 discs: 2

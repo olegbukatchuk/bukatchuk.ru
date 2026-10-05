@@ -7,6 +7,7 @@ original_year: 2013
 released: 2013-05-17
 label: "Columbia"
 catno: "88883716861"
+barcode: "888837168618"
 country: "Великобритания, Европа и США"
 format: "2×LP"
 discs: 2

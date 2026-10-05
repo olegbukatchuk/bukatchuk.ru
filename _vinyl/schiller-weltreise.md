@@ -7,6 +7,7 @@ original_year: 2001
 released: 2023-07-07
 label: "Universal Music Group"
 catno: "06024 5505277 3"
+barcode: "0602455052773"
 country: "Германия"
 format: "2×LP"
 discs: 2

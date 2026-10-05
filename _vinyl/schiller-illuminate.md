@@ -7,6 +7,7 @@ original_year: 2023
 released: 2023-03-10
 label: "Sony Music"
 catno: "19658782871"
+barcode: "196587828714"
 country: "Германия"
 format: "2×LP"
 discs: 2

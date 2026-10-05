@@ -7,6 +7,7 @@ original_year: 2001
 released: 2022-04-29
 label: "ADA"
 catno: "0190296618116"
+barcode: "0190296618116"
 country: "Европа"
 format: "LP"
 discs: 1

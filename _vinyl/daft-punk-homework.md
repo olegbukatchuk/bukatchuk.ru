@@ -7,6 +7,7 @@ original_year: 1996
 released: 2022-05-00
 label: "Soma Quality Recordings"
 catno: "0190296611926"
+barcode: "0190296611926"
 country: "весь мир"
 format: "2×LP"
 discs: 2

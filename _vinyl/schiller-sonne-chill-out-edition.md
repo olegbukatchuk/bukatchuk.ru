@@ -7,6 +7,7 @@ original_year: 2013
 released: 2024-08-02
 label: "Universal Music Group"
 catno: "06024 4898111 0"
+barcode: "0602448981110"
 country: "Германия"
 format: "2×LP"
 discs: 2

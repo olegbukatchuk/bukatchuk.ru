@@ -426,9 +426,8 @@ select.vn-in{-webkit-appearance:none;appearance:none;padding-right:2.6rem;cursor
 .rel__dl dt{font-size:var(--fs-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);align-self:center}
 .rel__dl dd{font-family:var(--sans);font-size:1.02rem;line-height:1.35}
 .rel__note{margin-top:var(--sec-y)}
-.rel__tracks,.rel__story{margin-top:var(--sec-y)}
-.rel__text{font-family:var(--sans);font-size:1.02rem;line-height:1.6;color:#1a1a1a;margin-top:1rem}
-.rel__text p{margin:0 0 1rem}
+.rel__tracks{margin-top:var(--sec-y)}
+.rel__story.art__body{margin-top:var(--sec-y)}
 .rel__src{font-size:var(--fs-micro);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .rel__src a{color:var(--safety);font-weight:700}
 .rel__sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(1.6rem,3vw,2.6rem) clamp(1.6rem,4vw,4rem)}

@@ -7,6 +7,7 @@ original_year: 1999
 released: 2023-07-07
 label: "Universal Music Group"
 catno: "06024 5505273 5"
+barcode: "0602455052735"
 country: "Германия"
 format: "2×LP"
 discs: 2

@@ -14,6 +14,7 @@ layout: default
         <dt>Это издание</dt><dd>{{ r.year }}{% if r.country != "" %}, {{ r.country }}{% endif %}</dd>
         <dt>Лейбл</dt><dd>{{ r.label }}</dd>
         <dt>Каталожный номер</dt><dd>{{ r.catno }}</dd>
+        {%- if r.barcode %}<dt>Штрихкод</dt><dd>{{ r.barcode }}</dd>{% endif %}
         <dt>Формат</dt><dd>{{ r.format }}{% if r.weight %}, {{ r.weight }}{% endif %}</dd>
         {%- if r.color %}<dt>Цвет винила</dt><dd>{{ r.color }}</dd>{% endif %}
         {%- if r.limited %}<dt>Тираж</dt><dd>{{ r.limited }} экз.</dd>{% endif %}
@@ -33,26 +34,6 @@ layout: default
   {%- if note != "" %}<div class="art__body rel__note">{{ content }}</div>{% endif %}
   {%- endif %}
 
-  {%- if r.about or r.edition %}
-  <div class="rel__story">
-    <p class="eyebrow">// История</p>
-    <div class="rel__sides">
-      {%- if r.about %}
-      <div class="rel__side"><h2>Об альбоме</h2>
-        <div class="rel__text">{{ r.about | markdownify }}</div>
-        {%- if r.about_source %}<p class="rel__src">Источник: <a href="{{ r.about_source }}" target="_blank" rel="noopener">{{ r.about_source_name | default: "ссылка" }}</a></p>{% endif %}
-      </div>
-      {%- endif %}
-      {%- if r.edition %}
-      <div class="rel__side"><h2>Об издании</h2>
-        <div class="rel__text">{{ r.edition | markdownify }}</div>
-        {%- if r.discogs %}<p class="rel__src">Источник: <a href="{{ r.discogs }}" target="_blank" rel="noopener">Discogs</a></p>{% endif %}
-      </div>
-      {%- endif %}
-    </div>
-  </div>
-  {%- endif %}
-
   <div class="rel__tracks">
     <p class="eyebrow">// Треклист</p>
     <div class="rel__sides">
@@ -69,6 +50,25 @@ layout: default
     {%- endfor %}
     </div>
   </div>
+  {%- if r.about or r.extra %}
+  <div class="rel__story art__body">
+    <p class="eyebrow">// История</p>
+    {%- assign lead = r.about | default: r.extra -%}
+    {%- assign cap = lead | slice: 0 -%}
+    {%- assign tail = lead | slice: 1, 100000 -%}
+    {%- capture lead_md %}<span class="firstcharacter">{{ cap }}</span>{{ tail }}{% endcapture %}
+    {%- if r.about %}
+    <h2>Об альбоме</h2>
+    {{ lead_md | markdownify }}
+    {%- if r.about_source %}<p class="rel__src">Источник: <a href="{{ r.about_source }}" target="_blank" rel="noopener">{{ r.about_source_name | default: "ссылка" }}</a></p>{% endif %}
+    {%- endif %}
+    {%- if r.extra %}
+    <h2>Дополнительная информация</h2>
+    {% if r.about %}{{ r.extra | markdownify }}{% else %}{{ lead_md | markdownify }}{% endif %}
+    {%- if r.discogs %}<p class="rel__src">Источник: <a href="{{ r.discogs }}" target="_blank" rel="noopener">Discogs</a></p>{% endif %}
+    {%- endif %}
+  </div>
+  {%- endif %}
 </article>
 
 {%- assign same = site.vinyl | where: "artist", r.artist | sort: "original_year" -%}

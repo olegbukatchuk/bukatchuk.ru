@@ -7,6 +7,7 @@ original_year: 2010
 released: 2022-05-27
 label: "Walt Disney Records"
 catno: "0050087502577"
+barcode: "0050087502577"
 country: "Европа"
 format: "2×LP"
 discs: 2

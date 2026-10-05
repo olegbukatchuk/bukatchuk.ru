@@ -7,6 +7,7 @@ original_year: 1993
 released: 1993-12-06
 label: "Virgin"
 catno: "LPVIR 20"
+barcode: "724383923618"
 country: "Великобритания и Европа"
 format: "LP"
 discs: 1
