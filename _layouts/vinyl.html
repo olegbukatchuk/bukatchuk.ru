@@ -54,7 +54,7 @@ layout: default
           <span class="vn__a">{{ r.artist }}</span>
           <span class="vn__t">{{ r.title }}</span>
           <span class="vn__m"><span>{{ r.original_year }}</span><span>{{ r.format }}</span>{% if r.color %}<span>{{ r.color }}</span>{% endif %}</span>
-          <span class="vn__x"><span>{{ r.label }}</span>{% if r.barcode %}<span>штрихкод {{ r.barcode }}</span>{% endif %}<span>издание {{ r.year }}</span></span>
+          <span class="vn__x"><span>{{ r.label }}</span>{% if r.barcode %}<span>{{ r.barcode }}</span>{% endif %}<span>издание {{ r.year }}</span></span>
         </span>
       </a>
       {%- endfor %}
