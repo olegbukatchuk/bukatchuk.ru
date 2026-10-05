@@ -2,23 +2,20 @@
 layout: release
 artist: "Enigma"
 title: "The Cross Of Changes"
-year: 2018
+year: 1993
 original_year: 1993
-released: 2018-05-04
-label: "Universal Music Group"
-catno: "573 723 7"
-country: "Европа"
+released: 1993-12-06
+label: "Virgin"
+catno: "LPVIR 20"
+country: "Великобритания и Европа"
 format: "LP"
 discs: 1
-color: "Yellow Translucent"
-weight: "180 г"
-features: ["лимитированное издание", "переиздание", "ремастер"]
 genres: ["Electronic"]
 styles: ["New Age", "Downtempo", "Ambient"]
-discogs: "https://www.discogs.com/release/11899980"
+discogs: "https://www.discogs.com/release/1039995"
 cover: /assets/img/vinyl/enigma-the-cross-of-changes.jpg
 image: /assets/img/vinyl/enigma-the-cross-of-changes.jpg
-description: "Enigma — The Cross Of Changes: LP, Universal Music Group, 2018."
+description: "Enigma — The Cross Of Changes: LP, Virgin, 1993."
 tracklist:
   - {pos: "A1", title: "Second Chapter", duration: "2:16"}
   - {pos: "A2", title: "The Eyes Of Truth", duration: "7:13"}
