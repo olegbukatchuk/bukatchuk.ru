@@ -2,9 +2,8 @@
 layout: release
 artist: "Bożena Retman, Roman Retman"
 title: "Do You Speak English? (A Course Of Spoken English For Beginners)"
-year: 
-original_year: 
-released: 
+year: 1970
+original_year: 1970
 label: "Polskie Nagrania Muza"
 catno: "L 0253"
 country: "Польша"
@@ -16,13 +15,13 @@ styles: ["Education"]
 discogs: "https://www.discogs.com/release/2116678"
 cover: /assets/img/vinyl/retman-do-you-speak-english.jpg
 image: /assets/img/vinyl/og/retman-do-you-speak-english.jpg
-description: "Bożena Retman, Roman Retman — Do You Speak English? (A Course Of Spoken English For Beginners): 4×10\", Polskie Nagrania Muza."
+description: "Bożena Retman, Roman Retman — Do You Speak English? (A Course Of Spoken English For Beginners): 4×10\", Polskie Nagrania Muza, 1970."
 about: |
   Курс разговорного английского для начинающих на четырёх десятидюймовых пластинках польской фирмы Polskie Nagrania Muza. Авторы — Божена и Роман Ретманы. Курс состоит из двадцати пяти уроков.
 about_source: "https://www.discogs.com/release/2116678"
 about_source_name: "Discogs"
 extra: |
-  Год выпуска на Discogs не указан. Запись монофоническая.
+  Запись монофоническая. На Discogs год выпуска этого издания не указан; 1970 год поставлен по экземпляру из коллекции.
 tracklist:
   - {pos: "A1", title: "Урок № 1"}
   - {pos: "A2", title: "Урок № 2"}
