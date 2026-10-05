@@ -10,7 +10,7 @@ layout: default
       <h1>{{ r.title | escape }}</h1>
       <p class="rel__artist">{{ r.artist }}</p>
       <dl class="rel__dl">
-        <dt>Год альбома</dt><dd>{{ r.original_year }}</dd>
+        {%- if r.original_year %}<dt>Год альбома</dt><dd>{{ r.original_year }}</dd>{% endif %}
         <dt>Это издание</dt><dd>{% if r.year %}{{ r.year }}{% if r.country != "" %}, {% endif %}{% else %}год не указан{% if r.country != "" %}, {% endif %}{% endif %}{{ r.country }}</dd>
         <dt>Лейбл</dt><dd>{{ r.label }}</dd>
         {%- if r.catno and r.catno != "" %}<dt>Каталожный номер</dt><dd>{{ r.catno }}</dd>{% endif %}

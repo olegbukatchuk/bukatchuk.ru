@@ -19,7 +19,8 @@ layout: default
     <div class="ribbon__i"><div class="ribbon__n">{{ items.size }}</div><div class="ribbon__l">{% include plural.html n=items.size one="релиз" few="релиза" many="релизов" %}</div></div>
     <div class="ribbon__i"><div class="ribbon__n">{{ discs }}</div><div class="ribbon__l">{% include plural.html n=discs one="пластинка" few="пластинки" many="пластинок" %}</div></div>
     <div class="ribbon__i"><div class="ribbon__n">{{ labels.size }}</div><div class="ribbon__l">{% include plural.html n=labels.size one="лейбл" few="лейбла" many="лейблов" %}</div></div>
-    <div class="ribbon__i"><div class="ribbon__n">{{ items.first.original_year }}–{{ items.last.original_year }}</div><div class="ribbon__l">годы выхода альбомов</div></div>
+    <div class="ribbon__i">{%- assign dated = items | where_exp: "r", "r.original_year" -%}
+    <div class="ribbon__n">{{ dated.first.original_year }}–{{ dated.last.original_year }}</div><div class="ribbon__l">годы выхода альбомов</div></div>
   </div>
 </div>
 
@@ -53,7 +54,7 @@ layout: default
         <span class="vn__b">
           <span class="vn__a">{{ r.artist }}</span>
           <span class="vn__t">{{ r.title }}</span>
-          <span class="vn__m"><span>{{ r.original_year }}</span><span>{{ r.format }}</span>{% if r.color %}<span>{{ r.color }}</span>{% endif %}</span>
+          <span class="vn__m">{% if r.original_year %}<span>{{ r.original_year }}</span>{% endif %}<span>{{ r.format }}</span>{% if r.color %}<span>{{ r.color }}</span>{% endif %}</span>
           <span class="vn__x"><span>{{ r.label }}</span>{% if r.barcode %}<span>{{ r.barcode }}</span>{% endif %}{% if r.year %}<span>{{ r.year }}</span>{% endif %}</span>
         </span>
       </a>
