@@ -21,9 +21,11 @@ cover: /assets/img/vinyl/kraftwerk-remixes.jpg
 image: /assets/img/vinyl/og/kraftwerk-remixes.jpg
 description: "Kraftwerk — Remixes: 3×LP, Kling Klang, 2022."
 about: |
-  Сборник ремиксов Kraftwerk. В цифровом виде он вышел 21 декабря 2020 года; на компакт-диске и виниле появился позже, когда группа отмечала концертами своё пятидесятилетие.
-about_source: "https://en.wikipedia.org/wiki/Kraftwerk"
-about_source_name: "Wikipedia"
+  Сборник из девятнадцати официальных ремиксов Kraftwerk, взятых с двенадцатидюймовых синглов, CD-синглов и цифровых релизов 1991–2021 годов. Среди авторов ремиксов — Франсуа Кеворкян, Уильям Орбит, Этьен де Креси, Orbital, Underground Resistance, DJ Rolando и Hot Chip. На стриминговых площадках сборник появился в декабре 2020 года, на виниле и компакт-дисках вышел 25 марта 2022-го.
+
+  Открывает его «Non Stop»: в 1980-х это была тридцатисекундная заставка, записанная для MTV, а в 2020 году группа развернула её в восьмиминутный трек.
+about_source: "https://www.classicpopmag.com/news/kraftwerk-remixes/"
+about_source_name: "Classic Pop"
 extra: |
   Конверт с широким корешком, внутренние конверты матовые. Имена авторов ремиксов на издании не указаны. Трек F1 — сокращённая версия «Tour De France 2003 (Étape 2)». Лаковый диск нарезан в Alchemy Mastering, пластинки отпечатаны на заводе Optimal Media.
 tracklist:

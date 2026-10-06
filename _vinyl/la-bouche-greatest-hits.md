@@ -26,7 +26,7 @@ about: |
 about_source: "https://en.wikipedia.org/wiki/La_Bouche"
 about_source_name: "Wikipedia"
 extra: |
-  В комплекте вкладыш со списком участников записи.
+  Первое издание сборника на виниле. В комплекте вкладыш со списком участников записи.
 tracklist:
   - {pos: "A1", title: "Sweet Dreams"}
   - {pos: "A2", title: "Be My Lover"}

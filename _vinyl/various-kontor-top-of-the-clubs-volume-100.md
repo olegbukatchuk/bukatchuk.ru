@@ -20,9 +20,9 @@ cover: /assets/img/vinyl/various-kontor-top-of-the-clubs-volume-100.jpg
 image: /assets/img/vinyl/og/various-kontor-top-of-the-clubs-volume-100.jpg
 description: "Various — Kontor - Top Of The Clubs Volume 100: 4×LP, Kontor Records, 2024."
 about: |
-  Сотый выпуск серии танцевальных сборников Kontor Top Of The Clubs гамбургского лейбла Kontor Records. Лейбл основан в 1996 году, серия выходит с 1998-го, и её выпуски регулярно попадают в первую тройку немецкого чарта сборников. На четырёх пластинках 26 треков.
-about_source: "https://de.wikipedia.org/wiki/Kontor_Records"
-about_source_name: "Wikipedia"
+  Сотый выпуск серии танцевальных сборников Kontor Top Of The Clubs гамбургского лейбла Kontor Records, вышел 13 сентября 2024 года. Серия выходит с 1998 года. Этот выпуск — последний на физических носителях: дальше серия продолжается только в цифровом виде. На четырёх пластинках 26 треков в расширенных и клубных версиях, среди исполнителей — Calvin Harris, ATB, Faithless, Eric Prydz и Darude.
+about_source: "https://www.fazemag.de/top-of-the-clubs-kontor-feiert-die-100-ausgabe/"
+about_source_name: "FAZEmag"
 extra: |
   Конверт-разворот, тираж ограничен. Пластинки отпечатаны на заводе Optimal Media.
 tracklist:
