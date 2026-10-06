@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: "Dashi PPT: навык для ИИ-агента, который собирает презентацию из документа"
+title: "Dashi PPT: skill для ИИ-агента, который собирает презентацию из документа"
 date: 2026-10-06
 category: blog
 comments: true
