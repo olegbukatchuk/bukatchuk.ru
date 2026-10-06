@@ -25,5 +25,5 @@ extra: |
   Пластинка отпечатана в Англии.
 tracklist:
   - {pos: "A", title: "Glimpse Of Perfection"}
-  - {pos: "AA", title: "Gonna Get Ya"}
+  - {pos: "B", title: "Gonna Get Ya"}
 ---
