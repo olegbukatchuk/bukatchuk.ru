@@ -49,7 +49,7 @@ for arg in sys.argv[1:]:
             if re.search(r'180\s*(gram|gr|g)',t,re.I): weight='180 г'
             c=re.sub(r',?\s*180\s*(gram|gr\.?|g\b)\s*(pressing)?','',t,flags=re.I)
             c=re.sub(r',?\s*(DMM|Double Gatefold|Gatefold|Cardboard box|Sonopress|GZ Pressing|Red Labels|White Labels|\d+(st|nd|rd|th) Anniversary Edition)','',c,flags=re.I); c=c.replace(' Vinyl','').strip(' ,')
-            if re.search(r'labels?\b|anniver|edition|pressing|poster|cover',c,re.I): c=''  # пометки про этикетки и издание — не цвет
+            if re.search(r'labels?\b|anniver|edition|pressing|poster|cover|version|sleeve|zoetrope',c,re.I): c=''  # пометки про этикетки и издание — не цвет
             if c and c not in colors: colors.append(c)
     notes=d.get('notes') or ''
     if not weight and re.search(r'180\s*g',notes,re.I): weight='180 г'
@@ -70,6 +70,7 @@ for arg in sys.argv[1:]:
                 st=dict(st); st['title']=t['title'].strip()+': '+st['title'].strip(); flat.append(st)
         elif t.get('type_')=='track': flat.append(t)
     for t in flat:
+        if re.match(r'(CD|DVD)',(t.get('position') or '').strip(),re.I): continue  # треки с приложенного диска — не винил
         feat=[clean(a['name']) for a in t.get('artists',[]) if clean(a['name']) not in names]
         tracks.append((t.get('position','').strip(),t['title'].strip(),(t.get('duration') or '').strip(),feat))
     img=[i for i in d.get('images',[]) if i['type']=='primary'] or d.get('images',[])
