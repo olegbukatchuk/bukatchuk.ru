@@ -25,3 +25,4 @@ lead: >
 ## Проекты
 
 - [Followers.vc](https://followers.vc)
+- [50 вопросов DevOps-инженеру](https://github.com/olegbukatchuk/50-questions-to-devops) — открытый список вопросов с ответами для собеседований DevOps-инженеров и администраторов Unix. [Обзор в блоге](/blog/2026/10/09/50-voprosov-devops-inzheneru/).
