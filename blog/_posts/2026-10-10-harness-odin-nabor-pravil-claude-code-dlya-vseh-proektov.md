@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: "harness: один набор правил Claude Code для всех проектов и серверов"
+title: "Harness: один набор правил Claude Code для всех проектов и серверов"
 date: 2026-10-10
 category: blog
 comments: true
